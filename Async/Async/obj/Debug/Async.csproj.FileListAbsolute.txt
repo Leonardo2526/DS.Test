@@ -1,0 +1,7 @@
+C:\Users\d.saraev.GCM\source\repos\DS_Test\Async\Async\bin\Debug\Async.exe.config
+C:\Users\d.saraev.GCM\source\repos\DS_Test\Async\Async\bin\Debug\Async.exe
+C:\Users\d.saraev.GCM\source\repos\DS_Test\Async\Async\bin\Debug\Async.pdb
+C:\Users\d.saraev.GCM\source\repos\DS_Test\Async\Async\obj\Debug\Async.csprojAssemblyReference.cache
+C:\Users\d.saraev.GCM\source\repos\DS_Test\Async\Async\obj\Debug\Async.csproj.CoreCompileInputs.cache
+C:\Users\d.saraev.GCM\source\repos\DS_Test\Async\Async\obj\Debug\Async.exe
+C:\Users\d.saraev.GCM\source\repos\DS_Test\Async\Async\obj\Debug\Async.pdb
