@@ -1,0 +1,15 @@
+D:\Repository\DS_Test\DS.Civil3D.RibbonTest\DS.Civil3D.RibbonTest\bin\Debug\DS.Civil3D.RibbonTest.dll
+D:\Repository\DS_Test\DS.Civil3D.RibbonTest\DS.Civil3D.RibbonTest\bin\Debug\DS.Civil3D.RibbonTest.pdb
+D:\Repository\DS_Test\DS.Civil3D.RibbonTest\DS.Civil3D.RibbonTest\bin\Debug\AcCui.dll
+D:\Repository\DS_Test\DS.Civil3D.RibbonTest\DS.Civil3D.RibbonTest\obj\Debug\DS.Civil3D.RibbonTest.csprojAssemblyReference.cache
+D:\Repository\DS_Test\DS.Civil3D.RibbonTest\DS.Civil3D.RibbonTest\obj\Debug\UserControl1.g.cs
+D:\Repository\DS_Test\DS.Civil3D.RibbonTest\DS.Civil3D.RibbonTest\obj\Debug\DS.Civil3D.RibbonTest_MarkupCompile.cache
+D:\Repository\DS_Test\DS.Civil3D.RibbonTest\DS.Civil3D.RibbonTest\obj\Debug\DS.Civil3D.RibbonTest_MarkupCompile.lref
+D:\Repository\DS_Test\DS.Civil3D.RibbonTest\DS.Civil3D.RibbonTest\obj\Debug\UserControl1.baml
+D:\Repository\DS_Test\DS.Civil3D.RibbonTest\DS.Civil3D.RibbonTest\obj\Debug\DS.Civil3D.RibbonTest.g.resources
+D:\Repository\DS_Test\DS.Civil3D.RibbonTest\DS.Civil3D.RibbonTest\obj\Debug\DS.Civil3D.RibbonTest.csproj.CoreCompileInputs.cache
+D:\Repository\DS_Test\DS.Civil3D.RibbonTest\DS.Civil3D.RibbonTest\obj\Debug\DS.Civil3D.RibbonTest.csproj.CopyComplete
+D:\Repository\DS_Test\DS.Civil3D.RibbonTest\DS.Civil3D.RibbonTest\obj\Debug\DS.Civil3D.RibbonTest.dll
+D:\Repository\DS_Test\DS.Civil3D.RibbonTest\DS.Civil3D.RibbonTest\obj\Debug\DS.Civil3D.RibbonTest.pdb
+D:\Repository\DS_Test\DS.Civil3D.RibbonTest\DS.Civil3D.RibbonTest\bin\Debug\AdWindows.dll
+D:\Repository\DS_Test\DS.Civil3D.RibbonTest\DS.Civil3D.RibbonTest\bin\Debug\ru-RU\AdWindows.resources.dll
