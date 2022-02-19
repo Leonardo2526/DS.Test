@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForCycleTest", "ForCycleTes
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropertiesTest", "PropertiesTest\PropertiesTest.csproj", "{D16F6108-0867-4B89-A7F9-768F68113A92}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Autofac", "Autofac\Autofac.csproj", "{C9DF9A6E-9E7E-4339-888E-CB432C585843}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{D16F6108-0867-4B89-A7F9-768F68113A92}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D16F6108-0867-4B89-A7F9-768F68113A92}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D16F6108-0867-4B89-A7F9-768F68113A92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9DF9A6E-9E7E-4339-888E-CB432C585843}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9DF9A6E-9E7E-4339-888E-CB432C585843}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9DF9A6E-9E7E-4339-888E-CB432C585843}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9DF9A6E-9E7E-4339-888E-CB432C585843}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
