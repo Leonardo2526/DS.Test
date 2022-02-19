@@ -1,0 +1,7 @@
+E:\Repository\DS.Test\PropertiesTest\bin\Release\PropertiesTest.exe.config
+E:\Repository\DS.Test\PropertiesTest\bin\Release\PropertiesTest.exe
+E:\Repository\DS.Test\PropertiesTest\bin\Release\PropertiesTest.pdb
+E:\Repository\DS.Test\PropertiesTest\obj\Release\PropertiesTest.csproj.AssemblyReference.cache
+E:\Repository\DS.Test\PropertiesTest\obj\Release\PropertiesTest.csproj.CoreCompileInputs.cache
+E:\Repository\DS.Test\PropertiesTest\obj\Release\PropertiesTest.exe
+E:\Repository\DS.Test\PropertiesTest\obj\Release\PropertiesTest.pdb

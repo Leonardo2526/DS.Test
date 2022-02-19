@@ -1,7 +1,9 @@
-﻿namespace CollectionTest
+﻿using System.Collections.Generic;
+
+namespace CollectionTest
 {
     interface IApplication
     {
-        void Run();
+        List<int> Run();
     }
 }

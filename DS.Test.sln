@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutofacTest", "Autofac\Auto
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionTest", "CollectionTest\CollectionTest.csproj", "{D3C665FA-A685-49EB-827F-A40F73DFFD43}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benchmark", "Benchmark\Benchmark.csproj", "{38C0D7AC-EE96-427A-A23A-D7850761F48A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{D3C665FA-A685-49EB-827F-A40F73DFFD43}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D3C665FA-A685-49EB-827F-A40F73DFFD43}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D3C665FA-A685-49EB-827F-A40F73DFFD43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38C0D7AC-EE96-427A-A23A-D7850761F48A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38C0D7AC-EE96-427A-A23A-D7850761F48A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38C0D7AC-EE96-427A-A23A-D7850761F48A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38C0D7AC-EE96-427A-A23A-D7850761F48A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -15,9 +15,9 @@ namespace CollectionTest
             _collectionCreator = collectionCreator;
         }
 
-        public void Run()
+        public List<int> Run()
         {
-            _collectionCreator.Create();
+            return _collectionCreator.GetValues();
         }
     }
 }

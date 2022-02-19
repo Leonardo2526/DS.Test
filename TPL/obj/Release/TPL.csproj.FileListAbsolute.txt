@@ -1,0 +1,7 @@
+E:\Repository\DS.Test\TPL\bin\Release\ConsoleApp5.exe.config
+E:\Repository\DS.Test\TPL\bin\Release\ConsoleApp5.exe
+E:\Repository\DS.Test\TPL\bin\Release\ConsoleApp5.pdb
+E:\Repository\DS.Test\TPL\obj\Release\TPL.csproj.AssemblyReference.cache
+E:\Repository\DS.Test\TPL\obj\Release\TPL.csproj.CoreCompileInputs.cache
+E:\Repository\DS.Test\TPL\obj\Release\ConsoleApp5.exe
+E:\Repository\DS.Test\TPL\obj\Release\ConsoleApp5.pdb

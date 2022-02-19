@@ -1,0 +1,7 @@
+E:\Repository\DS.Test\ForCycleTest\bin\Release\ForCycleTest.exe.config
+E:\Repository\DS.Test\ForCycleTest\bin\Release\ForCycleTest.exe
+E:\Repository\DS.Test\ForCycleTest\bin\Release\ForCycleTest.pdb
+E:\Repository\DS.Test\ForCycleTest\obj\Release\ForCycleTest.csproj.AssemblyReference.cache
+E:\Repository\DS.Test\ForCycleTest\obj\Release\ForCycleTest.csproj.CoreCompileInputs.cache
+E:\Repository\DS.Test\ForCycleTest\obj\Release\ForCycleTest.exe
+E:\Repository\DS.Test\ForCycleTest\obj\Release\ForCycleTest.pdb
