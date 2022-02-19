@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AutofacTest
 {
-    public class Message : IMessage
+    class Message : IMessage
     {
         public void HelloMessage()
         {

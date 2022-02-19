@@ -5,3 +5,10 @@ C:\Users\d.saraev.GCM\source\repos\DS_Test\Async\Async\obj\Debug\Async.csprojAss
 C:\Users\d.saraev.GCM\source\repos\DS_Test\Async\Async\obj\Debug\Async.csproj.CoreCompileInputs.cache
 C:\Users\d.saraev.GCM\source\repos\DS_Test\Async\Async\obj\Debug\Async.exe
 C:\Users\d.saraev.GCM\source\repos\DS_Test\Async\Async\obj\Debug\Async.pdb
+E:\Repository\DS.Test\Async\Async\bin\Debug\Async.exe.config
+E:\Repository\DS.Test\Async\Async\bin\Debug\Async.exe
+E:\Repository\DS.Test\Async\Async\bin\Debug\Async.pdb
+E:\Repository\DS.Test\Async\Async\obj\Debug\Async.csproj.AssemblyReference.cache
+E:\Repository\DS.Test\Async\Async\obj\Debug\Async.csproj.CoreCompileInputs.cache
+E:\Repository\DS.Test\Async\Async\obj\Debug\Async.exe
+E:\Repository\DS.Test\Async\Async\obj\Debug\Async.pdb

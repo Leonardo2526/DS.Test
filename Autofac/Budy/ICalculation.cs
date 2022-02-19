@@ -1,6 +1,6 @@
 ﻿namespace AutofacTest
 {
-    public interface ICalculation
+    interface ICalculation
     {
         void GetSum();
     }

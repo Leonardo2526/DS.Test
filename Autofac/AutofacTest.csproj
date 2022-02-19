@@ -69,14 +69,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Application.cs" />
-    <Compile Include="Calculation.cs" />
+    <Compile Include="Budy\Calculation.cs" />
     <Compile Include="ContainerConfig.cs" />
     <Compile Include="IApplication.cs" />
-    <Compile Include="ICalculation.cs" />
-    <Compile Include="IMessage.cs" />
-    <Compile Include="IPrint.cs" />
-    <Compile Include="Message.cs" />
-    <Compile Include="Print.cs" />
+    <Compile Include="Budy\ICalculation.cs" />
+    <Compile Include="Budy\IMessage.cs" />
+    <Compile Include="Budy\Message.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

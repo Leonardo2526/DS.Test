@@ -5,18 +5,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AutofacTest
+namespace CollectionTest
 {
     static class ContainerConfig
     {
         public static IContainer Configure()
         {
             var builder = new ContainerBuilder();
-
             builder.RegisterType<Application>().As<IApplication>();
 
-            builder.RegisterType<Message>().As<IMessage>();
-            builder.RegisterType<Calculation>().As<ICalculation>();
+            builder.RegisterType<ListCollectionCreator>().As<ICollectionCreator>();
 
             return builder.Build();
         }

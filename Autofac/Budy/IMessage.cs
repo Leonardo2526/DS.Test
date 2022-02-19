@@ -1,6 +1,6 @@
 ﻿namespace AutofacTest
 {
-    public interface IMessage
+    interface IMessage
     {
         void HelloMessage();
     }

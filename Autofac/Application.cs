@@ -6,33 +6,21 @@ using System.Threading.Tasks;
 
 namespace AutofacTest
 {
-    public class Application1 : IApplication
+    class Application : IApplication
     {
         IMessage _message;
+        ICalculation _calculation;
 
-        public Application1(IMessage message)
+        public Application(IMessage message, ICalculation calculation)
         {
             _message = message;
+            _calculation = calculation;
         }
 
-        public void RunApp()
+        public void Run()
         {
             _message.HelloMessage();
-        }
-    }
-
-    public class Application : IApplication
-    {
-        IPrint _print;
-
-        public Application(IPrint print)
-        {
-            _print = print;
-        }
-
-        public void RunApp()
-        {
-            _print.Run();
+            _calculation.GetSum();
         }
     }
 }

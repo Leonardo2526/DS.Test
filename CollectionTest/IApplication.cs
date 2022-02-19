@@ -1,4 +1,4 @@
-﻿namespace AutofacTest
+﻿namespace CollectionTest
 {
     interface IApplication
     {

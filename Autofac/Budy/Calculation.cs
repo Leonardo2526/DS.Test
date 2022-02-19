@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AutofacTest
 {
-    public class Calculation : ICalculation
+    class Calculation : ICalculation
     {
         public void GetSum()
         {
