@@ -73,6 +73,7 @@
   <ItemGroup>
     <Compile Include="Application.cs" />
     <Compile Include="Collections\IntArrayCollection.cs" />
+    <Compile Include="Collections\ListRemover.cs" />
     <Compile Include="Collections\QueueCollection.cs" />
     <Compile Include="Print.cs" />
     <Compile Include="Collections\StringListCollection.cs" />
