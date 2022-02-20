@@ -13,10 +13,10 @@ namespace CollectionTest
             using (var scope = container.BeginLifetimeScope())
             {
                 var app = scope.Resolve<IApplication>();
+        }
                 return app.Run();
             }
 
-        }
 
         static void Main(string[] args)
         {

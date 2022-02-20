@@ -1,0 +1,6 @@
+E:\Repository\DS.Test\MathTest\bin\Debug\MathTest.exe.config
+E:\Repository\DS.Test\MathTest\bin\Debug\MathTest.exe
+E:\Repository\DS.Test\MathTest\bin\Debug\MathTest.pdb
+E:\Repository\DS.Test\MathTest\obj\Debug\MathTest.csproj.CoreCompileInputs.cache
+E:\Repository\DS.Test\MathTest\obj\Debug\MathTest.exe
+E:\Repository\DS.Test\MathTest\obj\Debug\MathTest.pdb
