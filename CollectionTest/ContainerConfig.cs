@@ -19,7 +19,8 @@ namespace CollectionTest
             //builder.RegisterType<IntArrayCollection>().As<ICollectionCreator>();
             //builder.RegisterType<StringNuberListCollection>().As<ICollectionCreator>();
             //builder.RegisterType<StringListCollection>().As<ICollectionCreator>();
-            builder.RegisterType<QueueCollection>().As<ICollectionCreator>();
+            //builder.RegisterType<QueueCollection>().As<ICollectionCreator>();
+            builder.RegisterType<ListRemover>().As<ICollectionCreator>();
 
             return builder.Build();
         }
