@@ -6,6 +6,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using BenchmarkDotNet.Attributes;
 using CollectionTest;
+using CollectionTest.Collections;
 
 namespace Benchmark
 {

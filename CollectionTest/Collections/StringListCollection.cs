@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CollectionTest
+namespace CollectionTest.Collections
 {
     class StringListCollection : ICollectionCreator
     {

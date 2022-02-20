@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace CollectionTest
+namespace CollectionTest.Collections
 {
     public class IntListCollection : ICollectionCreator
     {
