@@ -2,21 +2,19 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using BenchmarkDotNet.Attributes;
 using CollectionTest;
 
 namespace Benchmark
 {
-
     [MemoryDiagnoser]
     [RankColumn]
     public class MyBenchmark
     {
-      
-
-        //[Benchmark] 
-        //public void BenchmarkCollectionTest() 
+        //[Benchmark]
+        //public void BenchmarkCollectionTest()
         //{
         //    CollectionTest.Program.Run();
         //}
@@ -26,7 +24,6 @@ namespace Benchmark
         {
             IntArrayCollection intArrayCollection = new IntArrayCollection();
             List<int> list = intArrayCollection.GetValues();
-            c1 = list.Count;
             //Console.WriteLine(list.Count);
         }
 
@@ -38,8 +35,6 @@ namespace Benchmark
             //Console.WriteLine(list.Count);
         }
 
-        //[Params(c1)]
-        //public static int c1;
 
     }
 }
