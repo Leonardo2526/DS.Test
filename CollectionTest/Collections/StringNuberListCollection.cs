@@ -20,6 +20,7 @@ namespace CollectionTest
             for (int i = 0; i < 2000000; i++)
             {
                 int c = list.BinarySearch($"{i}");
+                //int c = list.IndexOf($"{i}");
                 if (c > 0)
                     outlist.Add(c);
             }

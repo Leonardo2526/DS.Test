@@ -15,7 +15,8 @@ namespace CollectionTest
             builder.RegisterType<Application>().As<IApplication>();
 
             //builder.RegisterType<IntListCollection>().As<ICollectionCreator>();
-            builder.RegisterType<StringNuberListCollection>().As<ICollectionCreator>();
+            builder.RegisterType<IntArrayCollection>().As<ICollectionCreator>();
+            //builder.RegisterType<StringNuberListCollection>().As<ICollectionCreator>();
             //builder.RegisterType<StringListCollection>().As<ICollectionCreator>();
 
             return builder.Build();

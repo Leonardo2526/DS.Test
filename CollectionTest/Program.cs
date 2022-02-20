@@ -22,8 +22,8 @@ namespace CollectionTest
         {
             List<int> outlist = Run();
 
-            Console.WriteLine("List: ");
-            Print.PrintIndexAndValues(outlist);
+            //Console.WriteLine("List: ");
+            //Print.PrintIndexAndValues(outlist);
 
 
             Console.WriteLine("\nList count: " + outlist.Count);

@@ -15,16 +15,31 @@ namespace Benchmark
     {
       
 
-        [Benchmark] 
-        public void BenchmarkCollectionTest() 
+        //[Benchmark] 
+        //public void BenchmarkCollectionTest() 
+        //{
+        //    CollectionTest.Program.Run();
+        //}
+
+        [Benchmark]
+        public void IntArrayCollectionTest()
         {
-            CollectionTest.Program.Run();
+            IntArrayCollection intArrayCollection = new IntArrayCollection();
+            List<int> list = intArrayCollection.GetValues();
+            c1 = list.Count;
+            //Console.WriteLine(list.Count);
         }
 
-        //[Benchmark]
-        //public void TestBenchmark2()
-        //{
-        //    //test.Test2();
-        //}
+        [Benchmark]
+        public void IntListCollectionTest()
+        {
+            IntListCollection intListCollection = new IntListCollection();
+            List<int> list = intListCollection.GetValues();
+            //Console.WriteLine(list.Count);
+        }
+
+        //[Params(c1)]
+        //public static int c1;
+
     }
 }

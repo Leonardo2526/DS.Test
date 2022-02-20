@@ -262,14 +262,14 @@ E:\Repository\DS.Test\Benchmark\bin\Release\System.Security.Principal.Windows.dl
 E:\Repository\DS.Test\Benchmark\bin\Release\System.Text.Encoding.CodePages.dll
 E:\Repository\DS.Test\Benchmark\bin\Release\System.Threading.Tasks.Extensions.dll
 E:\Repository\DS.Test\Benchmark\bin\Release\System.ValueTuple.dll
-E:\Repository\DS.Test\Benchmark\bin\Release\CollectionTest.dll
 E:\Repository\DS.Test\Benchmark\bin\Release\Autofac.dll
 E:\Repository\DS.Test\Benchmark\bin\Release\Microsoft.Bcl.AsyncInterfaces.dll
 E:\Repository\DS.Test\Benchmark\bin\Release\System.Diagnostics.DiagnosticSource.dll
 E:\Repository\DS.Test\Benchmark\bin\Release\CollectionTest.pdb
-E:\Repository\DS.Test\Benchmark\bin\Release\CollectionTest.dll.config
 E:\Repository\DS.Test\Benchmark\bin\Release\Autofac.pdb
 E:\Repository\DS.Test\Benchmark\bin\Release\Autofac.xml
 E:\Repository\DS.Test\Benchmark\bin\Release\Microsoft.Bcl.AsyncInterfaces.xml
 E:\Repository\DS.Test\Benchmark\bin\Release\System.Diagnostics.DiagnosticSource.xml
 E:\Repository\DS.Test\Benchmark\obj\Release\Benchmark.csproj.CopyComplete
+E:\Repository\DS.Test\Benchmark\bin\Release\CollectionTest.exe
+E:\Repository\DS.Test\Benchmark\bin\Release\CollectionTest.exe.config
