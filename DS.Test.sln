@@ -21,6 +21,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benchmark", "Benchmark\Benc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathTest", "MathTest\MathTest.csproj", "{2C78B8CA-95C7-4DFE-8473-C393EDB66200}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistanceBetweenSegments", "DistanceBetweenSegments\DistanceBetweenSegments.csproj", "{34AAC8CF-5DD4-433B-BE6D-AB89466CB599}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest", "UnitTest\UnitTest.csproj", "{A51482D2-ADBB-438D-BCDD-E9DBA123D6AA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +67,14 @@ Global
 		{2C78B8CA-95C7-4DFE-8473-C393EDB66200}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C78B8CA-95C7-4DFE-8473-C393EDB66200}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C78B8CA-95C7-4DFE-8473-C393EDB66200}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34AAC8CF-5DD4-433B-BE6D-AB89466CB599}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34AAC8CF-5DD4-433B-BE6D-AB89466CB599}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34AAC8CF-5DD4-433B-BE6D-AB89466CB599}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34AAC8CF-5DD4-433B-BE6D-AB89466CB599}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A51482D2-ADBB-438D-BCDD-E9DBA123D6AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A51482D2-ADBB-438D-BCDD-E9DBA123D6AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A51482D2-ADBB-438D-BCDD-E9DBA123D6AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A51482D2-ADBB-438D-BCDD-E9DBA123D6AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

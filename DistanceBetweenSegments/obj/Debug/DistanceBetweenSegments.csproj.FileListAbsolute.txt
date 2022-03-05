@@ -1,0 +1,6 @@
+D:\Repository\DS.Test\DistanceBetweenSegments\bin\Debug\DistanceBetweenSegments.exe.config
+D:\Repository\DS.Test\DistanceBetweenSegments\bin\Debug\DistanceBetweenSegments.exe
+D:\Repository\DS.Test\DistanceBetweenSegments\bin\Debug\DistanceBetweenSegments.pdb
+D:\Repository\DS.Test\DistanceBetweenSegments\obj\Debug\DistanceBetweenSegments.csproj.CoreCompileInputs.cache
+D:\Repository\DS.Test\DistanceBetweenSegments\obj\Debug\DistanceBetweenSegments.exe
+D:\Repository\DS.Test\DistanceBetweenSegments\obj\Debug\DistanceBetweenSegments.pdb

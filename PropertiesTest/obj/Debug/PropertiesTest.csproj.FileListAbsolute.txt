@@ -5,3 +5,10 @@ E:\Repository\ConsoleApp1\PropertiesTest\obj\Debug\PropertiesTest.csproj.Assembl
 E:\Repository\ConsoleApp1\PropertiesTest\obj\Debug\PropertiesTest.csproj.CoreCompileInputs.cache
 E:\Repository\ConsoleApp1\PropertiesTest\obj\Debug\PropertiesTest.exe
 E:\Repository\ConsoleApp1\PropertiesTest\obj\Debug\PropertiesTest.pdb
+D:\Repository\DS.Test\PropertiesTest\bin\Debug\PropertiesTest.exe.config
+D:\Repository\DS.Test\PropertiesTest\bin\Debug\PropertiesTest.exe
+D:\Repository\DS.Test\PropertiesTest\bin\Debug\PropertiesTest.pdb
+D:\Repository\DS.Test\PropertiesTest\obj\Debug\PropertiesTest.csproj.AssemblyReference.cache
+D:\Repository\DS.Test\PropertiesTest\obj\Debug\PropertiesTest.csproj.CoreCompileInputs.cache
+D:\Repository\DS.Test\PropertiesTest\obj\Debug\PropertiesTest.exe
+D:\Repository\DS.Test\PropertiesTest\obj\Debug\PropertiesTest.pdb

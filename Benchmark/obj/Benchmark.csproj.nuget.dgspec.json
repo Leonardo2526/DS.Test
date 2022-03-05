@@ -1,21 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Repository\\DS.Test\\Benchmark\\Benchmark.csproj": {}
+    "D:\\Repository\\DS.Test\\Benchmark\\Benchmark.csproj": {}
   },
   "projects": {
-    "E:\\Repository\\DS.Test\\Benchmark\\Benchmark.csproj": {
+    "D:\\Repository\\DS.Test\\Benchmark\\Benchmark.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Repository\\DS.Test\\Benchmark\\Benchmark.csproj",
+        "projectUniqueName": "D:\\Repository\\DS.Test\\Benchmark\\Benchmark.csproj",
         "projectName": "Benchmark",
-        "projectPath": "E:\\Repository\\DS.Test\\Benchmark\\Benchmark.csproj",
-        "packagesPath": "C:\\Users\\Сараев Даниил\\.nuget\\packages\\",
-        "outputPath": "E:\\Repository\\DS.Test\\Benchmark\\obj\\",
+        "projectPath": "D:\\Repository\\DS.Test\\Benchmark\\Benchmark.csproj",
+        "packagesPath": "C:\\Users\\leona\\.nuget\\packages\\",
+        "outputPath": "D:\\Repository\\DS.Test\\Benchmark\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [
-          "C:\\Users\\Сараев Даниил\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\leona\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
         "frameworks": {
           "net48": {
             "projectReferences": {
-              "E:\\Repository\\DS.Test\\CollectionTest\\CollectionTest.csproj": {
-                "projectPath": "E:\\Repository\\DS.Test\\CollectionTest\\CollectionTest.csproj"
+              "D:\\Repository\\DS.Test\\CollectionTest\\CollectionTest.csproj": {
+                "projectPath": "D:\\Repository\\DS.Test\\CollectionTest\\CollectionTest.csproj"
               }
             }
           }
@@ -57,16 +57,11 @@
         }
       }
     },
-    "E:\\Repository\\DS.Test\\CollectionTest\\CollectionTest.csproj": {
+    "D:\\Repository\\DS.Test\\CollectionTest\\CollectionTest.csproj": {
       "restore": {
-        "projectUniqueName": "E:\\Repository\\DS.Test\\CollectionTest\\CollectionTest.csproj",
+        "projectUniqueName": "D:\\Repository\\DS.Test\\CollectionTest\\CollectionTest.csproj",
         "projectName": "CollectionTest",
-        "projectPath": "E:\\Repository\\DS.Test\\CollectionTest\\CollectionTest.csproj",
-        "frameworks": {
-          "net48": {
-            "projectReferences": {}
-          }
-        }
+        "projectPath": "D:\\Repository\\DS.Test\\CollectionTest\\CollectionTest.csproj"
       },
       "frameworks": {
         "net48": {}
