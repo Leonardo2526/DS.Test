@@ -58,7 +58,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Sumtest.cs" />
+    <Compile Include="StringLineTest.cs" />
+    <Compile Include="StringLine.cs" />
+    <Compile Include="SumFactTest.cs" />
     <Compile Include="Sum.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
