@@ -18,7 +18,6 @@ namespace CollectionTest
             }
         }
 
-
         static void Main(string[] args)
         {
             List<int> outlist = Run();
