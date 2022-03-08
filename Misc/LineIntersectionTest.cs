@@ -7,15 +7,21 @@ using System.Threading.Tasks;
 
 namespace Misc
 {
-    class LineIntersectionTest
+    static class LineIntersectionTest
     {
-        public void RunTest()
+        public static void RunTest()
         {
             var list1 = new List<int>
         { 1,2,3,4,5};
 
             var list2 = new List<int>
         { 0,2,9};
+
+            //    var list1 = new List<string>
+            //{ "A", "B", "C"};
+
+            //    var list2 = new List<string>
+            //{ "A", "D", "C"};
 
             var intersections = ListIntersection.GetIntersections(list1, list2);
 

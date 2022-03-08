@@ -10,8 +10,8 @@ namespace Misc
     {
         static void Main(string[] args)
         {
-
-            LoopBackward.RunLoop();
+            LineIntersectionTest.RunTest();
+            //LoopBackward.RunLoop();
             Console.ReadLine();
         }
     }
