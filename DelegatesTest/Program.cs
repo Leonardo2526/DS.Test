@@ -8,7 +8,6 @@ namespace DelegatesTest
 {
     class Program
     {
-        delegate void Message();
 
         static void Main(string[] args)
         {
@@ -16,10 +15,19 @@ namespace DelegatesTest
             //RunMultiiple();
             //ParameterDelegates.Run();
             //GenericDelegate.Run();
-            ReturnDelegate.Run();
+            //ReturnDelegate.Run();
+
+
+            //LambdaTest.SumCalc();
+            //LambdaTest.AddRemoveExp();
+            //LambdaTest.LamdaArg();
+
+            EventsTest.Run();
+
             Console.ReadLine();
         }
 
+        delegate void Message();
         static void Run()
         {
 

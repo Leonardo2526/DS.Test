@@ -46,7 +46,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EventsTest.cs" />
     <Compile Include="GenericDelegate.cs" />
+    <Compile Include="LambdaTest.cs" />
     <Compile Include="ParameterDelegates.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
