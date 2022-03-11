@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Misc
 {
@@ -10,9 +6,19 @@ namespace Misc
     {
         static void Main(string[] args)
         {
-            LineIntersectionTest.RunTest();
+            //LineIntersectionTest.RunTest();
             //LoopBackward.RunLoop();
+            string? line = null;
+            GetString(line);
             Console.ReadLine();
+        }
+
+        private static void GetString(string? line)
+        {
+            if (line is not null)
+            {
+                Console.WriteLine(line.ToLower());
+            }
         }
     }
 }
