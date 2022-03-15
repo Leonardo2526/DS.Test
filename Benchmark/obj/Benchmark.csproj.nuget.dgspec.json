@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Repository\\DS.Test\\Benchmark\\Benchmark.csproj": {}
+    "E:\\Repository\\DS.WindowsApp.Tests\\Benchmark\\Benchmark.csproj": {}
   },
   "projects": {
-    "E:\\Repository\\DS.Test\\Benchmark\\Benchmark.csproj": {
+    "E:\\Repository\\DS.WindowsApp.Tests\\Benchmark\\Benchmark.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Repository\\DS.Test\\Benchmark\\Benchmark.csproj",
+        "projectUniqueName": "E:\\Repository\\DS.WindowsApp.Tests\\Benchmark\\Benchmark.csproj",
         "projectName": "Benchmark",
-        "projectPath": "E:\\Repository\\DS.Test\\Benchmark\\Benchmark.csproj",
+        "projectPath": "E:\\Repository\\DS.WindowsApp.Tests\\Benchmark\\Benchmark.csproj",
         "packagesPath": "C:\\Users\\Сараев Даниил\\.nuget\\packages\\",
-        "outputPath": "E:\\Repository\\DS.Test\\Benchmark\\obj\\",
+        "outputPath": "E:\\Repository\\DS.WindowsApp.Tests\\Benchmark\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [
@@ -28,8 +28,8 @@
         "frameworks": {
           "net48": {
             "projectReferences": {
-              "E:\\Repository\\DS.Test\\CollectionTest\\CollectionTest.csproj": {
-                "projectPath": "E:\\Repository\\DS.Test\\CollectionTest\\CollectionTest.csproj"
+              "E:\\Repository\\DS.WindowsApp.Tests\\CollectionTest\\CollectionTest.csproj": {
+                "projectPath": "E:\\Repository\\DS.WindowsApp.Tests\\CollectionTest\\CollectionTest.csproj"
               }
             }
           }
@@ -57,11 +57,11 @@
         }
       }
     },
-    "E:\\Repository\\DS.Test\\CollectionTest\\CollectionTest.csproj": {
+    "E:\\Repository\\DS.WindowsApp.Tests\\CollectionTest\\CollectionTest.csproj": {
       "restore": {
-        "projectUniqueName": "E:\\Repository\\DS.Test\\CollectionTest\\CollectionTest.csproj",
+        "projectUniqueName": "E:\\Repository\\DS.WindowsApp.Tests\\CollectionTest\\CollectionTest.csproj",
         "projectName": "CollectionTest",
-        "projectPath": "E:\\Repository\\DS.Test\\CollectionTest\\CollectionTest.csproj",
+        "projectPath": "E:\\Repository\\DS.WindowsApp.Tests\\CollectionTest\\CollectionTest.csproj",
         "frameworks": {
           "net48": {
             "projectReferences": {}

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "A7chQ0Rlz1mM5dki8UhxUo5lPvjJh9ATXIt34c13oCEQqKSFGvbH/riOjN2MskAGLjRamGztixhkzeqwiE4IHQ==",
+  "dgSpecHash": "Z6G8yMWU433Io3KUw/Kh4YvDvz0rJrLetr5Jl5y9Ms/xd7llpjM8ygWm3P67wt/E7eVCLpcQBtRbAC0TJV0jJw==",
   "success": true,
-  "projectFilePath": "E:\\Repository\\DS.Test\\Benchmark\\Benchmark.csproj",
+  "projectFilePath": "E:\\Repository\\DS.WindowsApp.Tests\\Benchmark\\Benchmark.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Сараев Даниил\\.nuget\\packages\\benchmarkdotnet\\0.13.1\\benchmarkdotnet.0.13.1.nupkg.sha512",
     "C:\\Users\\Сараев Даниил\\.nuget\\packages\\benchmarkdotnet.annotations\\0.13.1\\benchmarkdotnet.annotations.0.13.1.nupkg.sha512",

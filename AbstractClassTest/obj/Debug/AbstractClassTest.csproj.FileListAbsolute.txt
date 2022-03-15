@@ -1,0 +1,7 @@
+E:\Repository\DS.WindowsApp.Tests\AbstractClassTest\bin\Debug\AbstractClassTest.exe.config
+E:\Repository\DS.WindowsApp.Tests\AbstractClassTest\bin\Debug\AbstractClassTest.exe
+E:\Repository\DS.WindowsApp.Tests\AbstractClassTest\bin\Debug\AbstractClassTest.pdb
+E:\Repository\DS.WindowsApp.Tests\AbstractClassTest\obj\Debug\AbstractClassTest.csproj.AssemblyReference.cache
+E:\Repository\DS.WindowsApp.Tests\AbstractClassTest\obj\Debug\AbstractClassTest.csproj.CoreCompileInputs.cache
+E:\Repository\DS.WindowsApp.Tests\AbstractClassTest\obj\Debug\AbstractClassTest.exe
+E:\Repository\DS.WindowsApp.Tests\AbstractClassTest\obj\Debug\AbstractClassTest.pdb

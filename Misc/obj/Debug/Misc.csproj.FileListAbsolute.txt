@@ -17,3 +17,12 @@ D:\Repository\DS.Test\Misc\obj\Debug\Misc.csproj.CoreCompileInputs.cache
 D:\Repository\DS.Test\Misc\obj\Debug\Misc.csproj.CopyComplete
 D:\Repository\DS.Test\Misc\obj\Debug\Misc.exe
 D:\Repository\DS.Test\Misc\obj\Debug\Misc.pdb
+E:\Repository\DS.WindowsApp.Tests\Misc\bin\Debug\Misc.exe.config
+E:\Repository\DS.WindowsApp.Tests\Misc\bin\Debug\Misc.exe
+E:\Repository\DS.WindowsApp.Tests\Misc\bin\Debug\Misc.pdb
+E:\Repository\DS.WindowsApp.Tests\Misc\bin\Debug\DS.MainUtils.pdb
+E:\Repository\DS.WindowsApp.Tests\Misc\obj\Debug\Misc.csproj.AssemblyReference.cache
+E:\Repository\DS.WindowsApp.Tests\Misc\obj\Debug\Misc.csproj.CoreCompileInputs.cache
+E:\Repository\DS.WindowsApp.Tests\Misc\obj\Debug\Misc.csproj.CopyComplete
+E:\Repository\DS.WindowsApp.Tests\Misc\obj\Debug\Misc.exe
+E:\Repository\DS.WindowsApp.Tests\Misc\obj\Debug\Misc.pdb
