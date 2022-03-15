@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace AbstractClassTest
 {
-    internal abstract class ParentClass<T>
+    internal abstract class ParentClass1<T>
     {
-        public ParentClass() { }
+        public ParentClass1() { }
 
-        public abstract List<T> ModelGroup { get; set; }
+        public abstract List<T> ModelGroup { get; abstract set; }
 
         public abstract void CreateModel();
     }

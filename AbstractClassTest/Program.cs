@@ -10,7 +10,7 @@ namespace AbstractClassTest
     {
         static void Main(string[] args)
         {
-            ChildClass childClass = new ChildClass(10 ,20);
+            ChildClass1 childClass = new ChildClass1(10 ,20);
 
             foreach (var item in childClass.ModelGroup)
             {
