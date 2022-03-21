@@ -24,5 +24,10 @@ namespace ListTest
             List1 = List2;
         }
 
+
+        public static void ChangeList()
+        {
+            List2.Add(0);
+        }
     }
 }

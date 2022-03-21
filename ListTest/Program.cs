@@ -11,7 +11,18 @@ namespace ListTest
         static void Main(string[] args)
         {
             Test1.EqualLists();
+            ListOutput();
 
+            Console.WriteLine();
+
+            Test1.ChangeList();
+            ListOutput();
+
+            Console.ReadLine();
+        }
+
+        static void ListOutput()
+        {
             Console.WriteLine("List1");
             foreach (var item in Test1.List1)
             {
@@ -24,8 +35,6 @@ namespace ListTest
             {
                 Console.WriteLine(item);
             }
-
-            Console.ReadLine();
         }
     }
 }
