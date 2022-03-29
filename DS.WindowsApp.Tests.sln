@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractClassTest", "Abstra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListTest", "ListTest\ListTest.csproj", "{A683FFD3-DB1A-4252-B292-F40E28F99DF3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DS.ConsoleApp.BypassType", "DS.ConsoleApp.BypassType\DS.ConsoleApp.BypassType.csproj", "{24322A0D-D4BE-4D32-9855-9664BA61408A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{A683FFD3-DB1A-4252-B292-F40E28F99DF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A683FFD3-DB1A-4252-B292-F40E28F99DF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A683FFD3-DB1A-4252-B292-F40E28F99DF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24322A0D-D4BE-4D32-9855-9664BA61408A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24322A0D-D4BE-4D32-9855-9664BA61408A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24322A0D-D4BE-4D32-9855-9664BA61408A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24322A0D-D4BE-4D32-9855-9664BA61408A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

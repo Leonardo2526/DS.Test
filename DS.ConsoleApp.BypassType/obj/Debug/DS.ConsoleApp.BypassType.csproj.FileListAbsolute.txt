@@ -1,0 +1,7 @@
+D:\Repository\DS.Test\DS.ConsoleApp.BypassType\bin\Debug\DS.ConsoleApp.BypassType.exe.config
+D:\Repository\DS.Test\DS.ConsoleApp.BypassType\bin\Debug\DS.ConsoleApp.BypassType.exe
+D:\Repository\DS.Test\DS.ConsoleApp.BypassType\bin\Debug\DS.ConsoleApp.BypassType.pdb
+D:\Repository\DS.Test\DS.ConsoleApp.BypassType\obj\Debug\DS.ConsoleApp.BypassType.csproj.AssemblyReference.cache
+D:\Repository\DS.Test\DS.ConsoleApp.BypassType\obj\Debug\DS.ConsoleApp.BypassType.csproj.CoreCompileInputs.cache
+D:\Repository\DS.Test\DS.ConsoleApp.BypassType\obj\Debug\DS.ConsoleApp.BypassType.exe
+D:\Repository\DS.Test\DS.ConsoleApp.BypassType\obj\Debug\DS.ConsoleApp.BypassType.pdb
