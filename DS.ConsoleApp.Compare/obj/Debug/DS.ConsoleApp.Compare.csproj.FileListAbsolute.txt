@@ -1,0 +1,7 @@
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.Compare\bin\Debug\DS.ConsoleApp.Compare.exe.config
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.Compare\bin\Debug\DS.ConsoleApp.Compare.exe
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.Compare\bin\Debug\DS.ConsoleApp.Compare.pdb
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.Compare\obj\Debug\DS.ConsoleApp.Compare.csproj.AssemblyReference.cache
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.Compare\obj\Debug\DS.ConsoleApp.Compare.csproj.CoreCompileInputs.cache
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.Compare\obj\Debug\DS.ConsoleApp.Compare.exe
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.Compare\obj\Debug\DS.ConsoleApp.Compare.pdb
