@@ -16,9 +16,7 @@ namespace DS.ConsoleApp.Compare
             Console.WriteLine(Math.Round(A2));
 
             double B1 = 0.01;
-
-            double B1 = 2;
-            ;
+            
             Console.WriteLine(A1.CompareTo(B1));
             Console.WriteLine(A2.CompareTo(B1));
             Console.WriteLine(A3.CompareTo(B1));
