@@ -48,6 +48,12 @@
   <ItemGroup>
     <Compile Include="35537194-Creational.Builder.StepwiseBuilder.Program.cs" />
     <Compile Include="8193320-Creational.Builder.BuilderFacets.cs" />
+    <Compile Include="Collision\Collision.cs" />
+    <Compile Include="Collision\CollisionBuilder.cs" />
+    <Compile Include="Collision\BypassModel.cs" />
+    <Compile Include="Collision\CollisionModel.cs" />
+    <Compile Include="Collision\BypassModelBuilder.cs" />
+    <Compile Include="Collision\CollisionModelBuilder.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
