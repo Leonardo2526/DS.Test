@@ -13,8 +13,8 @@ namespace Builder
         static void Main(string[] args)
         {
             //RunCarBuilder();
-            RunPersonBuilder();
-         
+            //RunPersonBuilder();
+            RunCollisionBuilder();
 
             Console.ReadLine();
         }
@@ -43,6 +43,19 @@ namespace Builder
            .Build();
             Console.WriteLine(car.Type);
             Console.WriteLine(car.WheelSize);
+        }
+
+        private static void RunCollisionBuilder()
+        {
+            var collisionBuilder = new CollisionBuilder();
+
+            Collision collision = collisionBuilder.GetCollisionModel()
+                .NameOf("new collision model");
+            collision = collisionBuilder.GetBypassModel().
+                NameOf("new bypass model");
+
+            Console.WriteLine(collision.CollisionModel.NameCollision);
+            Console.WriteLine(collision.BypassModel.NameBypass);
         }
 
 
