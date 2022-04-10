@@ -12,3 +12,10 @@ D:\Repository\DS.Test\TPL\obj\Debug\TPL.csproj.AssemblyReference.cache
 D:\Repository\DS.Test\TPL\obj\Debug\TPL.csproj.CoreCompileInputs.cache
 D:\Repository\DS.Test\TPL\obj\Debug\ConsoleApp5.exe
 D:\Repository\DS.Test\TPL\obj\Debug\ConsoleApp5.pdb
+D:\Repository\DS.WindowsApp.Tests\TPL\bin\Debug\ConsoleApp5.exe.config
+D:\Repository\DS.WindowsApp.Tests\TPL\bin\Debug\ConsoleApp5.exe
+D:\Repository\DS.WindowsApp.Tests\TPL\bin\Debug\ConsoleApp5.pdb
+D:\Repository\DS.WindowsApp.Tests\TPL\obj\Debug\TPL.csproj.AssemblyReference.cache
+D:\Repository\DS.WindowsApp.Tests\TPL\obj\Debug\TPL.csproj.CoreCompileInputs.cache
+D:\Repository\DS.WindowsApp.Tests\TPL\obj\Debug\ConsoleApp5.exe
+D:\Repository\DS.WindowsApp.Tests\TPL\obj\Debug\ConsoleApp5.pdb

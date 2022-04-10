@@ -12,3 +12,10 @@ D:\Repository\DS.Test\PropertiesTest\obj\Debug\PropertiesTest.csproj.AssemblyRef
 D:\Repository\DS.Test\PropertiesTest\obj\Debug\PropertiesTest.csproj.CoreCompileInputs.cache
 D:\Repository\DS.Test\PropertiesTest\obj\Debug\PropertiesTest.exe
 D:\Repository\DS.Test\PropertiesTest\obj\Debug\PropertiesTest.pdb
+D:\Repository\DS.WindowsApp.Tests\PropertiesTest\bin\Debug\PropertiesTest.exe.config
+D:\Repository\DS.WindowsApp.Tests\PropertiesTest\bin\Debug\PropertiesTest.exe
+D:\Repository\DS.WindowsApp.Tests\PropertiesTest\bin\Debug\PropertiesTest.pdb
+D:\Repository\DS.WindowsApp.Tests\PropertiesTest\obj\Debug\PropertiesTest.csproj.AssemblyReference.cache
+D:\Repository\DS.WindowsApp.Tests\PropertiesTest\obj\Debug\PropertiesTest.csproj.CoreCompileInputs.cache
+D:\Repository\DS.WindowsApp.Tests\PropertiesTest\obj\Debug\PropertiesTest.exe
+D:\Repository\DS.WindowsApp.Tests\PropertiesTest\obj\Debug\PropertiesTest.pdb
