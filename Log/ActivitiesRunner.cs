@@ -4,6 +4,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
 
 namespace Tracing
 {
@@ -17,7 +18,7 @@ namespace Tracing
         }
 
         public void Run()
-        {
+        {    
             this.Activity.Create();
             this.Activity.TS.Close();
         }
