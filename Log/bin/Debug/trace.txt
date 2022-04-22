@@ -1,0 +1,30 @@
+TraceSource Error: 1 : Error message.
+TraceSource Critical: 3 : Critical message.
+TraceSource Error: 1 : Error message.
+TraceSource Critical: 3 : Critical message.
+TraceSource Error: 1 : Error message.
+TraceSource Critical: 3 : Critical message.
+TraceSource Error: 1 : Error message.
+TraceSource Critical: 3 : Critical message.
+TraceSource Error: 1 : Error message.
+TraceSource Critical: 3 : Critical message.
+TraceSource Error: 1 : Error message.
+TraceSource Warning: 2 : Warning message.
+TraceSource Critical: 3 : Critical message.
+TraceSource Information: 0 : Informational message.
+TraceSource Error: 1 : Error message.
+TraceSource Warning: 2 : Warning message.
+TraceSource Critical: 3 : Critical message.
+TraceSource Information: 0 : Informational message.
+TraceSource Error: 1 : Error message. - 
+TraceSource Warning: 2 : Warning message.
+TraceSource Critical: 3 : Critical message.
+TraceSource Information: 0 : Informational message.
+TraceSource Error: 1 : Error message. - test message
+TraceSource Warning: 2 : Warning message.
+TraceSource Critical: 3 : Critical message.
+TraceSource Information: 0 : Informational message.
+TraceSource Error: 1 : Error message.- test message
+TraceSource Warning: 2 : Warning message.
+TraceSource Critical: 3 : Critical message.
+TraceSource Information: 0 : Informational message.

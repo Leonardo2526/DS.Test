@@ -14,12 +14,16 @@ namespace Tracing
 
         static void Main(string[] args)
         {
+
+            string message = "- test message";
+
             //var activity1 = new Activity1("TraceSourceApp1");
-            var activity2 = new Activity2("TraceSourceApp1");
+            var activity2 = new Activity2("TraceSource", message);
 
             ActivitiesRunner activities = new ActivitiesRunner(activity2);
             //activities.Run();
-            activities.RunWithFilter();
+            //activities.RunWithFilter();
+            activities.RunWithNewListener();
 
             //activities = new ActivitiesRunner(activity2);
             //activities.Run();
