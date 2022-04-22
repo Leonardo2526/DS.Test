@@ -10,3 +10,9 @@ D:\Repository\DS.Test\MathTest\bin\Debug\MathTest.pdb
 D:\Repository\DS.Test\MathTest\obj\Debug\MathTest.csproj.CoreCompileInputs.cache
 D:\Repository\DS.Test\MathTest\obj\Debug\MathTest.exe
 D:\Repository\DS.Test\MathTest\obj\Debug\MathTest.pdb
+D:\Repository\DS.WindowsApp.Tests\MathTest\bin\Debug\MathTest.exe.config
+D:\Repository\DS.WindowsApp.Tests\MathTest\bin\Debug\MathTest.exe
+D:\Repository\DS.WindowsApp.Tests\MathTest\bin\Debug\MathTest.pdb
+D:\Repository\DS.WindowsApp.Tests\MathTest\obj\Debug\MathTest.csproj.CoreCompileInputs.cache
+D:\Repository\DS.WindowsApp.Tests\MathTest\obj\Debug\MathTest.exe
+D:\Repository\DS.WindowsApp.Tests\MathTest\obj\Debug\MathTest.pdb

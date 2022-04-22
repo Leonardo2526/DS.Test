@@ -12,3 +12,10 @@ D:\Repository\DS.Test\DoubleToIntTest\obj\Debug\DoubleToIntTest.csproj.AssemblyR
 D:\Repository\DS.Test\DoubleToIntTest\obj\Debug\DoubleToIntTest.csproj.CoreCompileInputs.cache
 D:\Repository\DS.Test\DoubleToIntTest\obj\Debug\DoubleToIntTest.exe
 D:\Repository\DS.Test\DoubleToIntTest\obj\Debug\DoubleToIntTest.pdb
+D:\Repository\DS.WindowsApp.Tests\DoubleToIntTest\bin\Debug\DoubleToIntTest.exe.config
+D:\Repository\DS.WindowsApp.Tests\DoubleToIntTest\bin\Debug\DoubleToIntTest.exe
+D:\Repository\DS.WindowsApp.Tests\DoubleToIntTest\bin\Debug\DoubleToIntTest.pdb
+D:\Repository\DS.WindowsApp.Tests\DoubleToIntTest\obj\Debug\DoubleToIntTest.csproj.AssemblyReference.cache
+D:\Repository\DS.WindowsApp.Tests\DoubleToIntTest\obj\Debug\DoubleToIntTest.csproj.CoreCompileInputs.cache
+D:\Repository\DS.WindowsApp.Tests\DoubleToIntTest\obj\Debug\DoubleToIntTest.exe
+D:\Repository\DS.WindowsApp.Tests\DoubleToIntTest\obj\Debug\DoubleToIntTest.pdb

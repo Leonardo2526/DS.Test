@@ -10,3 +10,10 @@ D:\Repository\DS.Test\ForCycleTest\bin\Debug\ForCycleTest.pdb
 D:\Repository\DS.Test\ForCycleTest\obj\Debug\ForCycleTest.csproj.CoreCompileInputs.cache
 D:\Repository\DS.Test\ForCycleTest\obj\Debug\ForCycleTest.exe
 D:\Repository\DS.Test\ForCycleTest\obj\Debug\ForCycleTest.pdb
+D:\Repository\DS.WindowsApp.Tests\ForCycleTest\bin\Debug\ForCycleTest.exe.config
+D:\Repository\DS.WindowsApp.Tests\ForCycleTest\bin\Debug\ForCycleTest.exe
+D:\Repository\DS.WindowsApp.Tests\ForCycleTest\bin\Debug\ForCycleTest.pdb
+D:\Repository\DS.WindowsApp.Tests\ForCycleTest\obj\Debug\ForCycleTest.csproj.AssemblyReference.cache
+D:\Repository\DS.WindowsApp.Tests\ForCycleTest\obj\Debug\ForCycleTest.csproj.CoreCompileInputs.cache
+D:\Repository\DS.WindowsApp.Tests\ForCycleTest\obj\Debug\ForCycleTest.exe
+D:\Repository\DS.WindowsApp.Tests\ForCycleTest\obj\Debug\ForCycleTest.pdb
