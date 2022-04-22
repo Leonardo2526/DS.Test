@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Diagnostics;
+using System.IO;
+using System.Text;
 
 namespace Tracing
 {
@@ -35,23 +37,29 @@ namespace Tracing
 
         public void RunWithNewListener()
         {
-            Activity.TS.Listeners.Clear();
 
-            string dirName = @"%USERPROFILE%\Desktop\trace.txt";
+            Activity.TS.Listeners.Clear();
+            string dirName = @"%USERPROFILE%\Desktop\trace.log";
             string expDirName = Environment.ExpandEnvironmentVariables(dirName);
 
-            var textListener = new TextWriterTraceListener(expDirName);
+            StreamWriter sw = new StreamWriter(expDirName, false, Encoding.UTF8);
+
+            var textListener = new TextWriterTraceListener(sw, "name");
+            //var textListener = new TextWriterTraceListener(expDirName);
             //var textListener = new TextWriterTraceListener(@"e:\Repository\DS.WindowsApp.Tests\Log\bin\Debug\trace.txt");
             var consoleListener = new ConsoleTraceListener();
 
             consoleListener.Name = "TraceConsoleListener";
             textListener.Name = "TraceWriterListener";
 
-            //Activity.TS.Switch = new SourceSwitch("VerboseSwitch", "Verbose");
-            Activity.TS.Switch = new SourceSwitch("ErrorSwitch", "Error");
+            textListener.Write("newMes - ");
+            consoleListener.WriteLine("NewLine");
+
+            Activity.TS.Switch = new SourceSwitch("VerboseSwitch", "Verbose");
+            //Activity.TS.Switch = new SourceSwitch("ErrorSwitch", "Error");
+
             Activity.TS.Listeners.Add(textListener);
             Activity.TS.Listeners.Add(consoleListener);
-
             // Write output to the file.
             //Trace.Write("Test output ");
 
