@@ -12,3 +12,10 @@ D:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.BypassType\obj\Debug\DS.ConsoleA
 D:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.BypassType\obj\Debug\DS.ConsoleApp.BypassType.csproj.CoreCompileInputs.cache
 D:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.BypassType\obj\Debug\DS.ConsoleApp.BypassType.exe
 D:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.BypassType\obj\Debug\DS.ConsoleApp.BypassType.pdb
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.BypassType\bin\Debug\DS.ConsoleApp.BypassType.exe.config
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.BypassType\bin\Debug\DS.ConsoleApp.BypassType.exe
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.BypassType\bin\Debug\DS.ConsoleApp.BypassType.pdb
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.BypassType\obj\Debug\DS.ConsoleApp.BypassType.csproj.AssemblyReference.cache
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.BypassType\obj\Debug\DS.ConsoleApp.BypassType.csproj.CoreCompileInputs.cache
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.BypassType\obj\Debug\DS.ConsoleApp.BypassType.exe
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.BypassType\obj\Debug\DS.ConsoleApp.BypassType.pdb

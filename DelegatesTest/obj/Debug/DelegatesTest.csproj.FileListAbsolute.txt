@@ -12,3 +12,10 @@ D:\Repository\DS.WindowsApp.Tests\DelegatesTest\obj\Debug\DelegatesTest.csproj.A
 D:\Repository\DS.WindowsApp.Tests\DelegatesTest\obj\Debug\DelegatesTest.csproj.CoreCompileInputs.cache
 D:\Repository\DS.WindowsApp.Tests\DelegatesTest\obj\Debug\DelegatesTest.exe
 D:\Repository\DS.WindowsApp.Tests\DelegatesTest\obj\Debug\DelegatesTest.pdb
+E:\Repository\DS.WindowsApp.Tests\DelegatesTest\bin\Debug\DelegatesTest.exe.config
+E:\Repository\DS.WindowsApp.Tests\DelegatesTest\bin\Debug\DelegatesTest.exe
+E:\Repository\DS.WindowsApp.Tests\DelegatesTest\bin\Debug\DelegatesTest.pdb
+E:\Repository\DS.WindowsApp.Tests\DelegatesTest\obj\Debug\DelegatesTest.csproj.AssemblyReference.cache
+E:\Repository\DS.WindowsApp.Tests\DelegatesTest\obj\Debug\DelegatesTest.csproj.CoreCompileInputs.cache
+E:\Repository\DS.WindowsApp.Tests\DelegatesTest\obj\Debug\DelegatesTest.exe
+E:\Repository\DS.WindowsApp.Tests\DelegatesTest\obj\Debug\DelegatesTest.pdb

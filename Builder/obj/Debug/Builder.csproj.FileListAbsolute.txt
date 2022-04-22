@@ -5,3 +5,10 @@ D:\Repository\DS.WindowsApp.Tests\Builder\bin\Debug\Builder.exe
 D:\Repository\DS.WindowsApp.Tests\Builder\bin\Debug\Builder.pdb
 D:\Repository\DS.WindowsApp.Tests\Builder\obj\Debug\Builder.exe
 D:\Repository\DS.WindowsApp.Tests\Builder\obj\Debug\Builder.pdb
+E:\Repository\DS.WindowsApp.Tests\Builder\bin\Debug\Builder.exe.config
+E:\Repository\DS.WindowsApp.Tests\Builder\bin\Debug\Builder.exe
+E:\Repository\DS.WindowsApp.Tests\Builder\bin\Debug\Builder.pdb
+E:\Repository\DS.WindowsApp.Tests\Builder\obj\Debug\Builder.csproj.AssemblyReference.cache
+E:\Repository\DS.WindowsApp.Tests\Builder\obj\Debug\Builder.csproj.CoreCompileInputs.cache
+E:\Repository\DS.WindowsApp.Tests\Builder\obj\Debug\Builder.exe
+E:\Repository\DS.WindowsApp.Tests\Builder\obj\Debug\Builder.pdb
