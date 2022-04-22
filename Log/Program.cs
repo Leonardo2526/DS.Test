@@ -14,14 +14,15 @@ namespace Tracing
 
         static void Main(string[] args)
         {
-            var activity1 = new Activity1("TraceSourceApp1");
-            var activity2 = new Activity1("TraceSourceApp2");
+            //var activity1 = new Activity1("TraceSourceApp1");
+            var activity2 = new Activity2("TraceSourceApp1");
 
-            ActivitiesRunner activities = new ActivitiesRunner(activity1);
-            activities.Run();
+            ActivitiesRunner activities = new ActivitiesRunner(activity2);
+            //activities.Run();
+            activities.RunWithFilter();
 
-            activities = new ActivitiesRunner(activity2);
-            activities.Run();
+            //activities = new ActivitiesRunner(activity2);
+            //activities.Run();
 
             Console.WriteLine();
 

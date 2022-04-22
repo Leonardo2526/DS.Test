@@ -22,5 +22,20 @@ namespace Tracing
             this.Activity.Create();
             this.Activity.TS.Close();
         }
+
+        public void RunWithFilter()
+        {
+            //save the original settings from the configuration file.  
+            EventTypeFilter configFilter =
+               (EventTypeFilter)Activity.TS.Listeners["ConsoleListener"].Filter;
+
+            // Then create a new event type filter that ensures
+            // critical messages will be written.  
+            Activity.TS.Listeners["ConsoleListener"].Filter =  
+                new EventTypeFilter(SourceLevels.Error);  
+
+            this.Activity.Create();
+            this.Activity.TS.Close();
+        }
     }
 }

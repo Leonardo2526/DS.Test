@@ -47,6 +47,7 @@
     <Compile Include="AbstractActivity.cs" />
     <Compile Include="ActivitiesRunner.cs" />
     <Compile Include="Activity1.cs" />
+    <Compile Include="Activity2.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
