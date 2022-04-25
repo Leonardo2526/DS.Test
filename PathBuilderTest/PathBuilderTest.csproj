@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D3D2B971-AA8C-40B3-A7C8-0814F66BFE14}</ProjectGuid>
+    <ProjectGuid>{C0397E25-722A-4597-870F-6DBF020AB453}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Tracing</RootNamespace>
-    <AssemblyName>Tracing</AssemblyName>
+    <RootNamespace>PathBuilderTest</RootNamespace>
+    <AssemblyName>PathBuilderTest</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,10 +33,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DS.MainUtils">
-      <HintPath>..\..\DS.CommonLib.Utils\DS.MainUtils\bin\Debug\DS.MainUtils.dll</HintPath>
-    </Reference>
-    <Reference Include="PresentationFramework" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -47,10 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AbstractActivity.cs" />
-    <Compile Include="ActivitiesRunner.cs" />
-    <Compile Include="Activity1.cs" />
-    <Compile Include="Activity2.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

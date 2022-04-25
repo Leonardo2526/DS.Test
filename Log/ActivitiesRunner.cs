@@ -2,6 +2,7 @@
 using System.Diagnostics;
 using System.IO;
 using System.Text;
+using DS.MainUtils.PathUtils;
 
 namespace Tracing
 {
@@ -39,7 +40,10 @@ namespace Tracing
         {
 
             Activity.TS.Listeners.Clear();
-            string dirName = @"%USERPROFILE%\Desktop\trace.log";
+
+            PathBuilder pathBuilder = new PathBuilder("", "", PathBuilder.DirOption.Default);
+            string dirName = pathBuilder.GetPath();
+
             string expDirName = Environment.ExpandEnvironmentVariables(dirName);
 
             StreamWriter sw = new StreamWriter(expDirName, false, Encoding.UTF8);

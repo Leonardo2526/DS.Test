@@ -5,3 +5,6 @@ E:\Repository\DS.WindowsApp.Tests\Log\bin\Debug\Tracing.pdb
 E:\Repository\DS.WindowsApp.Tests\Log\obj\Debug\Tracing.csproj.AssemblyReference.cache
 E:\Repository\DS.WindowsApp.Tests\Log\obj\Debug\Tracing.exe
 E:\Repository\DS.WindowsApp.Tests\Log\obj\Debug\Tracing.pdb
+E:\Repository\DS.WindowsApp.Tests\Log\bin\Debug\DS.MainUtils.dll
+E:\Repository\DS.WindowsApp.Tests\Log\bin\Debug\DS.MainUtils.pdb
+E:\Repository\DS.WindowsApp.Tests\Log\obj\Debug\Tracing.csproj.CopyComplete
