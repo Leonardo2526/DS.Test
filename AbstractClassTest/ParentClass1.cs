@@ -10,7 +10,7 @@ namespace AbstractClassTest
     {
         public ParentClass1() { }
 
-        public abstract List<T> ModelGroup { get; abstract set; }
+        public abstract List<T> ModelGroup { get; set; }
 
         public abstract void CreateModel();
     }

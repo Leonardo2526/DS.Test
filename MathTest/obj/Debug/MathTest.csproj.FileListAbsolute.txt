@@ -16,3 +16,9 @@ D:\Repository\DS.WindowsApp.Tests\MathTest\bin\Debug\MathTest.pdb
 D:\Repository\DS.WindowsApp.Tests\MathTest\obj\Debug\MathTest.csproj.CoreCompileInputs.cache
 D:\Repository\DS.WindowsApp.Tests\MathTest\obj\Debug\MathTest.exe
 D:\Repository\DS.WindowsApp.Tests\MathTest\obj\Debug\MathTest.pdb
+E:\Repository\DS.WindowsApp.Tests\MathTest\bin\Debug\MathTest.exe.config
+E:\Repository\DS.WindowsApp.Tests\MathTest\bin\Debug\MathTest.exe
+E:\Repository\DS.WindowsApp.Tests\MathTest\bin\Debug\MathTest.pdb
+E:\Repository\DS.WindowsApp.Tests\MathTest\obj\Debug\MathTest.csproj.CoreCompileInputs.cache
+E:\Repository\DS.WindowsApp.Tests\MathTest\obj\Debug\MathTest.exe
+E:\Repository\DS.WindowsApp.Tests\MathTest\obj\Debug\MathTest.pdb

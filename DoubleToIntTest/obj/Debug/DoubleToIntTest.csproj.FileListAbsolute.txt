@@ -19,3 +19,9 @@ D:\Repository\DS.WindowsApp.Tests\DoubleToIntTest\obj\Debug\DoubleToIntTest.cspr
 D:\Repository\DS.WindowsApp.Tests\DoubleToIntTest\obj\Debug\DoubleToIntTest.csproj.CoreCompileInputs.cache
 D:\Repository\DS.WindowsApp.Tests\DoubleToIntTest\obj\Debug\DoubleToIntTest.exe
 D:\Repository\DS.WindowsApp.Tests\DoubleToIntTest\obj\Debug\DoubleToIntTest.pdb
+E:\Repository\DS.WindowsApp.Tests\DoubleToIntTest\bin\Debug\DoubleToIntTest.exe.config
+E:\Repository\DS.WindowsApp.Tests\DoubleToIntTest\bin\Debug\DoubleToIntTest.exe
+E:\Repository\DS.WindowsApp.Tests\DoubleToIntTest\bin\Debug\DoubleToIntTest.pdb
+E:\Repository\DS.WindowsApp.Tests\DoubleToIntTest\obj\Debug\DoubleToIntTest.csproj.CoreCompileInputs.cache
+E:\Repository\DS.WindowsApp.Tests\DoubleToIntTest\obj\Debug\DoubleToIntTest.exe
+E:\Repository\DS.WindowsApp.Tests\DoubleToIntTest\obj\Debug\DoubleToIntTest.pdb
