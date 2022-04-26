@@ -7,7 +7,6 @@ D:\Repository\DS.Test\DistanceBetweenSegments\obj\Debug\DistanceBetweenSegments.
 E:\Repository\DS.WindowsApp.Tests\DistanceBetweenSegments\bin\Debug\DistanceBetweenSegments.exe.config
 E:\Repository\DS.WindowsApp.Tests\DistanceBetweenSegments\bin\Debug\DistanceBetweenSegments.exe
 E:\Repository\DS.WindowsApp.Tests\DistanceBetweenSegments\bin\Debug\DistanceBetweenSegments.pdb
-E:\Repository\DS.WindowsApp.Tests\DistanceBetweenSegments\obj\Debug\DistanceBetweenSegments.csproj.AssemblyReference.cache
 E:\Repository\DS.WindowsApp.Tests\DistanceBetweenSegments\obj\Debug\DistanceBetweenSegments.csproj.CoreCompileInputs.cache
 E:\Repository\DS.WindowsApp.Tests\DistanceBetweenSegments\obj\Debug\DistanceBetweenSegments.exe
 E:\Repository\DS.WindowsApp.Tests\DistanceBetweenSegments\obj\Debug\DistanceBetweenSegments.pdb

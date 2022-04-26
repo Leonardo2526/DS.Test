@@ -18,7 +18,7 @@ namespace AbstractClassTest
             CreateModel();
         }
 
-        public override List<int> ModelGroup { get; private set; } = new List<int>();
+        public override List<int> ModelGroup { get; set; } = new List<int>();
 
         public override void CreateModel()
         {

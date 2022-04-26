@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 
 namespace Tracing
 {
-    class Activity1 : AbstractActivity
+    class Activity1 : ActivityBuilder
     {
         public Activity1(string traceSourceName) : base(traceSourceName)
         { }
 
-        public override AbstractActivity Create()
+        public override ActivityBuilder Build()
         {
             TS.TraceEvent(TraceEventType.Error, 1,
                "Error message.");

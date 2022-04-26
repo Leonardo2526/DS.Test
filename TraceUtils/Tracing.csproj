@@ -32,9 +32,15 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="DS.MainUtils">
       <HintPath>..\..\DS.CommonLib.Utils\DS.MainUtils\bin\Debug\DS.MainUtils.dll</HintPath>
+    </Reference>
+    <Reference Include="DS.TraceUtils">
+      <HintPath>..\..\DS.CommonLib.Utils\DS.TraceUtils\bin\Debug\DS.TraceUtils.dll</HintPath>
     </Reference>
     <Reference Include="PresentationFramework" />
     <Reference Include="System" />
@@ -47,7 +53,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AbstractActivity.cs" />
+    <Compile Include="ActivityBuilder.cs" />
     <Compile Include="ActivitiesRunner.cs" />
     <Compile Include="Activity1.cs" />
     <Compile Include="Activity2.cs" />

@@ -2,16 +2,16 @@
 
 namespace Tracing
 {
-    abstract class AbstractActivity
+    abstract class ActivityBuilder
     {
-        public AbstractActivity(string traceSourceName)
+        public ActivityBuilder(string traceSourceName)
         {
             TS = new TraceSource(traceSourceName);
         }
 
         public TraceSource TS { get; protected set; }
 
-        public abstract AbstractActivity Create();
+        public abstract ActivityBuilder Build();
       
     }
 }

@@ -2,22 +2,22 @@
 using System.Diagnostics;
 using System.IO;
 using System.Text;
-using DS.MainUtils.PathUtils;
+using DS.MainUtils;
 
 namespace Tracing
 {
     class ActivitiesRunner
     {
-        private AbstractActivity Activity;
+        private ActivityBuilder Activity;
 
-        public ActivitiesRunner(AbstractActivity activity)
+        public ActivitiesRunner(ActivityBuilder activity)
         {
             this.Activity = activity;
         }
 
         public void Run()
         {    
-            this.Activity.Create();
+            this.Activity.Build();
             this.Activity.TS.Close();
         }
 
@@ -32,7 +32,7 @@ namespace Tracing
             Activity.TS.Listeners["WriteListener"].Filter =  
                 new EventTypeFilter(SourceLevels.Error);  
 
-            this.Activity.Create();
+            this.Activity.Build();
             this.Activity.TS.Close();
         }
 
@@ -41,7 +41,7 @@ namespace Tracing
 
             Activity.TS.Listeners.Clear();
 
-            PathBuilder pathBuilder = new PathBuilder("", "", PathBuilder.DirOption.Default);
+            DirPathBuilder pathBuilder = new DirPathBuilder();
             string dirName = pathBuilder.GetPath();
 
             string expDirName = Environment.ExpandEnvironmentVariables(dirName);
@@ -71,7 +71,7 @@ namespace Tracing
             //Trace.Flush();
 
 
-            this.Activity.Create();
+            this.Activity.Build();
             this.Activity.TS.Close();
         }
     }
