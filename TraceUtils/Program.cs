@@ -66,11 +66,10 @@ new System.Diagnostics.TraceSwitch("SwitchOne", "The first switch");
         {
 
             LogBuilder logBuilder = new LogBuilder();
-            logBuilder.ClearLog();
 
             logBuilder.AddMessage("new error message", TraceEventType.Error);
-            logBuilder.AddMessage("new warning message", TraceEventType.Warning);
             logBuilder.AddMessage("new text");
+            logBuilder.AddMessage("new warning message", TraceEventType.Warning);
 
             //DirPathBuilder pathBuilder = new DirPathBuilder("NewLogFile", "", DirPathBuilder.DirOption.Desktop);
         }
