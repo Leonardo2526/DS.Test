@@ -19,3 +19,9 @@ D:\Repository\DS.WindowsApp.Tests\PropertiesTest\obj\Debug\PropertiesTest.csproj
 D:\Repository\DS.WindowsApp.Tests\PropertiesTest\obj\Debug\PropertiesTest.csproj.CoreCompileInputs.cache
 D:\Repository\DS.WindowsApp.Tests\PropertiesTest\obj\Debug\PropertiesTest.exe
 D:\Repository\DS.WindowsApp.Tests\PropertiesTest\obj\Debug\PropertiesTest.pdb
+E:\Repository\DS.WindowsApp.Tests\PropertiesTest\bin\Debug\PropertiesTest.exe.config
+E:\Repository\DS.WindowsApp.Tests\PropertiesTest\bin\Debug\PropertiesTest.exe
+E:\Repository\DS.WindowsApp.Tests\PropertiesTest\bin\Debug\PropertiesTest.pdb
+E:\Repository\DS.WindowsApp.Tests\PropertiesTest\obj\Debug\PropertiesTest.csproj.CoreCompileInputs.cache
+E:\Repository\DS.WindowsApp.Tests\PropertiesTest\obj\Debug\PropertiesTest.exe
+E:\Repository\DS.WindowsApp.Tests\PropertiesTest\obj\Debug\PropertiesTest.pdb

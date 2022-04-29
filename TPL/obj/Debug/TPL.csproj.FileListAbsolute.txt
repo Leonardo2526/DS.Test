@@ -19,3 +19,9 @@ D:\Repository\DS.WindowsApp.Tests\TPL\obj\Debug\TPL.csproj.AssemblyReference.cac
 D:\Repository\DS.WindowsApp.Tests\TPL\obj\Debug\TPL.csproj.CoreCompileInputs.cache
 D:\Repository\DS.WindowsApp.Tests\TPL\obj\Debug\ConsoleApp5.exe
 D:\Repository\DS.WindowsApp.Tests\TPL\obj\Debug\ConsoleApp5.pdb
+E:\Repository\DS.WindowsApp.Tests\TPL\bin\Debug\ConsoleApp5.exe.config
+E:\Repository\DS.WindowsApp.Tests\TPL\bin\Debug\ConsoleApp5.exe
+E:\Repository\DS.WindowsApp.Tests\TPL\bin\Debug\ConsoleApp5.pdb
+E:\Repository\DS.WindowsApp.Tests\TPL\obj\Debug\TPL.csproj.CoreCompileInputs.cache
+E:\Repository\DS.WindowsApp.Tests\TPL\obj\Debug\ConsoleApp5.exe
+E:\Repository\DS.WindowsApp.Tests\TPL\obj\Debug\ConsoleApp5.pdb

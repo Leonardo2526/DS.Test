@@ -1,7 +1,6 @@
 E:\Repository\DS.WindowsApp.Tests\ListTest\bin\Debug\ListTest.exe.config
 E:\Repository\DS.WindowsApp.Tests\ListTest\bin\Debug\ListTest.exe
 E:\Repository\DS.WindowsApp.Tests\ListTest\bin\Debug\ListTest.pdb
-E:\Repository\DS.WindowsApp.Tests\ListTest\obj\Debug\ListTest.csproj.AssemblyReference.cache
 E:\Repository\DS.WindowsApp.Tests\ListTest\obj\Debug\ListTest.csproj.CoreCompileInputs.cache
 E:\Repository\DS.WindowsApp.Tests\ListTest\obj\Debug\ListTest.exe
 E:\Repository\DS.WindowsApp.Tests\ListTest\obj\Debug\ListTest.pdb

@@ -17,3 +17,9 @@ D:\Repository\DS.WindowsApp.Tests\ForCycleTest\obj\Debug\ForCycleTest.csproj.Ass
 D:\Repository\DS.WindowsApp.Tests\ForCycleTest\obj\Debug\ForCycleTest.csproj.CoreCompileInputs.cache
 D:\Repository\DS.WindowsApp.Tests\ForCycleTest\obj\Debug\ForCycleTest.exe
 D:\Repository\DS.WindowsApp.Tests\ForCycleTest\obj\Debug\ForCycleTest.pdb
+E:\Repository\DS.WindowsApp.Tests\ForCycleTest\bin\Debug\ForCycleTest.exe.config
+E:\Repository\DS.WindowsApp.Tests\ForCycleTest\bin\Debug\ForCycleTest.exe
+E:\Repository\DS.WindowsApp.Tests\ForCycleTest\bin\Debug\ForCycleTest.pdb
+E:\Repository\DS.WindowsApp.Tests\ForCycleTest\obj\Debug\ForCycleTest.csproj.CoreCompileInputs.cache
+E:\Repository\DS.WindowsApp.Tests\ForCycleTest\obj\Debug\ForCycleTest.exe
+E:\Repository\DS.WindowsApp.Tests\ForCycleTest\obj\Debug\ForCycleTest.pdb

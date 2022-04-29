@@ -6,10 +6,9 @@ namespace Misc
     {
         static void Main(string[] args)
         {
-            //LineIntersectionTest.RunTest();
-            //LoopBackward.RunLoop();
-            string? line = null;
-            GetString(line);
+            double d = 2.1287624;
+            double dRoung = Math.Round(d, 1);
+            Console.WriteLine(dRoung);
             Console.ReadLine();
         }
 

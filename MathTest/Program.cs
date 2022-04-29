@@ -11,6 +11,14 @@ namespace MathTest
         static void Main(string[] args)
         {
 
+
+            Console.WriteLine(CompareTest());
+            Console.ReadLine();
+        }
+
+
+        static void test1()
+        {
             double a = 2.31480572365012;
             double b = 2.3142359862349058;
 
@@ -20,8 +28,15 @@ namespace MathTest
                 Console.WriteLine("'a' and 'b' are equal.");
             else
                 Console.WriteLine("'a' and 'b' are unequal.");
+        }
 
-            Console.ReadLine();
+        static int CompareTest()
+        {
+            int c = 3;
+            double d = 2;
+
+                return d.CompareTo(c);
+           
         }
     }
 }
