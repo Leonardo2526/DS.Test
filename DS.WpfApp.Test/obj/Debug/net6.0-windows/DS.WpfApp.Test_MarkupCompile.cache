@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-e:\Repository\DS.WindowsApp.Tests\DS.WpfApp.Test\obj\Debug\net6.0-windows\
+E:\Repository\DS.WindowsApp.Tests\DS.WpfApp.Test\obj\Debug\net6.0-windows\
 DS.WpfApp.Test
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-e:\Repository\DS.WindowsApp.Tests\DS.WpfApp.Test\App.xaml
-1-1351704627
+E:\Repository\DS.WindowsApp.Tests\DS.WpfApp.Test\App.xaml
+3-280962735
 
-6664558835
+10-1637388347
 2181925499170
-Views\ShellView.xaml;
+Views\FirstChildView.xaml;Views\SecondChildView.xaml;Views\ShellView.xaml;
 
 False
 

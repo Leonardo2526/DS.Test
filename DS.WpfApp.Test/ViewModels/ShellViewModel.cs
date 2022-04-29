@@ -1,9 +1,13 @@
 ﻿using Caliburn.Micro;
 using DS.WpfApp.Test.Models;
+using System;
+using System.Threading;
+using System.Threading.Tasks;
 
 namespace DS.WpfApp.Test.ViewModels
 {
-    public class ShellViewModel : Screen
+    //public class ShellViewModel : Screen
+    public class ShellViewModel : Conductor<object>
     {
         private string _firstName = "Tim";
         private PersonModel _selectedPerson;
@@ -25,7 +29,7 @@ namespace DS.WpfApp.Test.ViewModels
             set
             {
                 _firstName = value;
-                //NotifyOfPropertyChange();
+                NotifyOfPropertyChange();
                 NotifyOfPropertyChange(() => FullName);
             }
         }
@@ -38,7 +42,7 @@ namespace DS.WpfApp.Test.ViewModels
                 _lastName = value;
                 //NotifyOfPropertyChange();
 
-                //NotifyOfPropertyChange(() => LastName);
+                NotifyOfPropertyChange(() => LastName);
                 NotifyOfPropertyChange(() => FullName);
             }
         }
@@ -64,6 +68,28 @@ namespace DS.WpfApp.Test.ViewModels
                 _selectedPerson = value;
                 NotifyOfPropertyChange(() => SelectedPerson);
             }
+        }
+
+        public bool CanClearText(string firstName, string lastName)
+        {
+            return !String.IsNullOrWhiteSpace(firstName) || !String.IsNullOrWhiteSpace(lastName);
+        }
+
+        public void ClearText(string firstName, string lastName)
+        {
+            FirstName = "";
+            LastName = "";
+        }
+
+
+        public void LoadPage1()
+        {
+            ActivateItemAsync(new FirstChildViewModel());
+        }
+
+        public void LoadPage2()
+        {            
+            ActivateItemAsync(new SecondChildViewModel());
         }
     }
 }

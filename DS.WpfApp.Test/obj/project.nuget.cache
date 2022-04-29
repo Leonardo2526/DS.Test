@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tJ0mUvMsom2V3DyG5OgVCNkilJNcKKTN/AXs2HmtcTrRJ9K7y0Cpl1XvZo7L94NBu/MRm36CA9ud7amUH6TxJQ==",
+  "dgSpecHash": "I/nCF3LAwoEbZFq+B86om/+kQuy2QBKQ07NotDjhVOiluJ5at5D46XDy9Z3vxasXCejRL5Wy7Bc0siVpRG+skg==",
   "success": true,
-  "projectFilePath": "e:\\Repository\\DS.WindowsApp.Tests\\DS.WpfApp.Test\\DS.WpfApp.Test.csproj",
+  "projectFilePath": "E:\\Repository\\DS.WindowsApp.Tests\\DS.WpfApp.Test\\DS.WpfApp.Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Сараев Даниил\\.nuget\\packages\\caliburn.micro\\4.0.173\\caliburn.micro.4.0.173.nupkg.sha512",
     "C:\\Users\\Сараев Даниил\\.nuget\\packages\\caliburn.micro.core\\4.0.173\\caliburn.micro.core.4.0.173.nupkg.sha512",

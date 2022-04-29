@@ -22,6 +22,7 @@
             <RowDefinition Height="auto"/>
             <RowDefinition Height="auto"/>
             <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
             <RowDefinition Height="*"/>
             <RowDefinition Height="20"/>
         </Grid.RowDefinitions>
@@ -38,5 +39,19 @@
                   SelectedItem="{Binding Path=SelectedPerson, Mode=OneWayToSource}"
                   DisplayMemberPath="FirstName"/>
         <TextBlock Grid.Row="3" Grid.Column="2" x:Name="SelectedPerson_LastName"/>
+
+        <!-- row4 -->
+        <Button x:Name="ClearText" Grid.Row="4" Grid.Column="1">ClearNames</Button>
+
+        <!-- row5 -->
+        <Button x:Name="LoadPage1" Grid.Row="5" Grid.Column="1">Load First Page</Button>
+        <Button x:Name="LoadPage2" Grid.Row="5" Grid.Column="2">Load Second Page</Button>
+        
+        
+        <!-- row6 -->
+        <ContentControl Grid.Row="6" Grid.Column="1" Grid.ColumnSpan="5"
+                        x:Name="ActiveItem"/>
+        
+
     </Grid>
 </Window>

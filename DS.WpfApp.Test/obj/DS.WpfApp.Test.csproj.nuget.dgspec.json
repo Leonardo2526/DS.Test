@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "e:\\Repository\\DS.WindowsApp.Tests\\DS.WpfApp.Test\\DS.WpfApp.Test.csproj": {}
+    "E:\\Repository\\DS.WindowsApp.Tests\\DS.WpfApp.Test\\DS.WpfApp.Test.csproj": {}
   },
   "projects": {
-    "e:\\Repository\\DS.WindowsApp.Tests\\DS.WpfApp.Test\\DS.WpfApp.Test.csproj": {
+    "E:\\Repository\\DS.WindowsApp.Tests\\DS.WpfApp.Test\\DS.WpfApp.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "e:\\Repository\\DS.WindowsApp.Tests\\DS.WpfApp.Test\\DS.WpfApp.Test.csproj",
+        "projectUniqueName": "E:\\Repository\\DS.WindowsApp.Tests\\DS.WpfApp.Test\\DS.WpfApp.Test.csproj",
         "projectName": "DS.WpfApp.Test",
-        "projectPath": "e:\\Repository\\DS.WindowsApp.Tests\\DS.WpfApp.Test\\DS.WpfApp.Test.csproj",
+        "projectPath": "E:\\Repository\\DS.WindowsApp.Tests\\DS.WpfApp.Test\\DS.WpfApp.Test.csproj",
         "packagesPath": "C:\\Users\\Сараев Даниил\\.nuget\\packages\\",
-        "outputPath": "e:\\Repository\\DS.WindowsApp.Tests\\DS.WpfApp.Test\\obj\\",
+        "outputPath": "E:\\Repository\\DS.WindowsApp.Tests\\DS.WpfApp.Test\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Сараев Даниил\\AppData\\Roaming\\NuGet\\NuGet.Config",

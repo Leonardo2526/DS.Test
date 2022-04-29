@@ -14,6 +14,7 @@ namespace DS.WpfApp.Test
         public Bootstrapper()
         {
             Initialize();
+
         }
         protected override void OnStartup(object sender, StartupEventArgs e)
         {

@@ -70,3 +70,7 @@ e:\Repository\DS.WindowsApp.Tests\DS.WpfApp.Test\obj\Debug\net6.0-windows\Genera
 e:\Repository\DS.WindowsApp.Tests\DS.WpfApp.Test\obj\Debug\net6.0-windows\App.baml
 e:\Repository\DS.WindowsApp.Tests\DS.WpfApp.Test\obj\Debug\net6.0-windows\Views\ShellView.baml
 e:\Repository\DS.WindowsApp.Tests\DS.WpfApp.Test\obj\Debug\net6.0-windows\DS.WpfApp.Test.csproj.CopyComplete
+E:\Repository\DS.WindowsApp.Tests\DS.WpfApp.Test\obj\Debug\net6.0-windows\Views\FirstChildView.g.cs
+E:\Repository\DS.WindowsApp.Tests\DS.WpfApp.Test\obj\Debug\net6.0-windows\Views\SecondChildView.g.cs
+E:\Repository\DS.WindowsApp.Tests\DS.WpfApp.Test\obj\Debug\net6.0-windows\Views\FirstChildView.baml
+E:\Repository\DS.WindowsApp.Tests\DS.WpfApp.Test\obj\Debug\net6.0-windows\Views\SecondChildView.baml
