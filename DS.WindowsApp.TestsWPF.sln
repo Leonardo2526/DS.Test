@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DS.WpfApp.Phones.Resources"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DS.WpfApp.ProgressBar", "WPF\DS.WpfApp.ProgressBar\DS.WpfApp.ProgressBar.csproj", "{CBA7FEA7-6155-4796-A00F-15449720F4CA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DS.WpfApp.Phones.MVVM", "WPF\DS.WpfApp.Phones.MVVM\DS.WpfApp.Phones.MVVM.csproj", "{550FCAC2-1ECA-49E0-8EA0-08296A10B07E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{CBA7FEA7-6155-4796-A00F-15449720F4CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CBA7FEA7-6155-4796-A00F-15449720F4CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CBA7FEA7-6155-4796-A00F-15449720F4CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{550FCAC2-1ECA-49E0-8EA0-08296A10B07E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{550FCAC2-1ECA-49E0-8EA0-08296A10B07E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{550FCAC2-1ECA-49E0-8EA0-08296A10B07E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{550FCAC2-1ECA-49E0-8EA0-08296A10B07E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
