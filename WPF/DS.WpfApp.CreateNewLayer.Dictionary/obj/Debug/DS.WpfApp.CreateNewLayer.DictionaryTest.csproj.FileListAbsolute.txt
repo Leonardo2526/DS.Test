@@ -1,0 +1,17 @@
+D:\Reposotory\DS.WindowsApp.Tests\DS.WpfApp.CreateNewLayer.Dictionary\WpfApp1\bin\Debug\WpfApp1.exe.config
+D:\Reposotory\DS.WindowsApp.Tests\DS.WpfApp.CreateNewLayer.Dictionary\WpfApp1\bin\Debug\WpfApp1.exe
+D:\Reposotory\DS.WindowsApp.Tests\DS.WpfApp.CreateNewLayer.Dictionary\WpfApp1\bin\Debug\WpfApp1.pdb
+D:\Reposotory\DS.WindowsApp.Tests\DS.WpfApp.CreateNewLayer.Dictionary\WpfApp1\obj\Debug\DS.WpfApp.CreateNewLayer.DictionaryTest.csproj.AssemblyReference.cache
+D:\Reposotory\DS.WindowsApp.Tests\DS.WpfApp.CreateNewLayer.Dictionary\WpfApp1\obj\Debug\DS.WpfApp.CreateNewLayer.DictionaryTest.csproj.SuggestedBindingRedirects.cache
+D:\Reposotory\DS.WindowsApp.Tests\DS.WpfApp.CreateNewLayer.Dictionary\WpfApp1\obj\Debug\Dictionary1.baml
+D:\Reposotory\DS.WindowsApp.Tests\DS.WpfApp.CreateNewLayer.Dictionary\WpfApp1\obj\Debug\MainWindow.g.cs
+D:\Reposotory\DS.WindowsApp.Tests\DS.WpfApp.CreateNewLayer.Dictionary\WpfApp1\obj\Debug\App.g.cs
+D:\Reposotory\DS.WindowsApp.Tests\DS.WpfApp.CreateNewLayer.Dictionary\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+D:\Reposotory\DS.WindowsApp.Tests\DS.WpfApp.CreateNewLayer.Dictionary\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+D:\Reposotory\DS.WindowsApp.Tests\DS.WpfApp.CreateNewLayer.Dictionary\WpfApp1\obj\Debug\MainWindow.baml
+D:\Reposotory\DS.WindowsApp.Tests\DS.WpfApp.CreateNewLayer.Dictionary\WpfApp1\obj\Debug\WpfApp1.g.resources
+D:\Reposotory\DS.WindowsApp.Tests\DS.WpfApp.CreateNewLayer.Dictionary\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+D:\Reposotory\DS.WindowsApp.Tests\DS.WpfApp.CreateNewLayer.Dictionary\WpfApp1\obj\Debug\DS.WpfApp.CreateNewLayer.DictionaryTest.csproj.GenerateResource.cache
+D:\Reposotory\DS.WindowsApp.Tests\DS.WpfApp.CreateNewLayer.Dictionary\WpfApp1\obj\Debug\DS.WpfApp.CreateNewLayer.DictionaryTest.csproj.CoreCompileInputs.cache
+D:\Reposotory\DS.WindowsApp.Tests\DS.WpfApp.CreateNewLayer.Dictionary\WpfApp1\obj\Debug\WpfApp1.exe
+D:\Reposotory\DS.WindowsApp.Tests\DS.WpfApp.CreateNewLayer.Dictionary\WpfApp1\obj\Debug\WpfApp1.pdb
