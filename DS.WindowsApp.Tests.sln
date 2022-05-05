@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31112.23
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Async", "Async\Async\Async.csproj", "{BFDAD8FE-4130-4D5D-82AC-AAAC0D497D69}"
 EndProject
@@ -44,6 +44,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator\Decorator.csproj", "{6ADC0C90-550A-45AF-B27C-A48858D6F71A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tracing", "TraceUtils\Tracing.csproj", "{D3D2B971-AA8C-40B3-A7C8-0814F66BFE14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DS.ConsoleApp.Regex", "DS.ConsoleApp.Regex\DS.ConsoleApp.Regex.csproj", "{936148B2-6C4C-4141-9F1F-2AF550DCA9CF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -131,6 +133,10 @@ Global
 		{D3D2B971-AA8C-40B3-A7C8-0814F66BFE14}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D3D2B971-AA8C-40B3-A7C8-0814F66BFE14}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D3D2B971-AA8C-40B3-A7C8-0814F66BFE14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{936148B2-6C4C-4141-9F1F-2AF550DCA9CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{936148B2-6C4C-4141-9F1F-2AF550DCA9CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{936148B2-6C4C-4141-9F1F-2AF550DCA9CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{936148B2-6C4C-4141-9F1F-2AF550DCA9CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "DS.WpfApp.PersonValidation2/1.0.0": {
+        "dependencies": {
+          "DS.MainUtils": "1.0.0.0"
+        },
+        "runtime": {
+          "DS.WpfApp.PersonValidation2.dll": {}
+        }
+      },
+      "DS.MainUtils/1.0.0.0": {
+        "runtime": {
+          "DS.MainUtils.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DS.WpfApp.PersonValidation2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DS.MainUtils/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
