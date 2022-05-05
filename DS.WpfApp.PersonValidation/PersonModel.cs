@@ -1,10 +1,6 @@
 ﻿using System;
 using System.ComponentModel;
-using System.Globalization;
-using System.Linq.Expressions;
-using System.Runtime.CompilerServices;
 using System.Windows;
-using System.Windows.Controls;
 
 namespace DS.WpfApp.PersonValidation
 {
@@ -32,6 +28,11 @@ namespace DS.WpfApp.PersonValidation
                         if ((Age < 0) || (Age > 100))
                         {
                             error = "Возраст должен быть больше 0 и меньше 100";
+                            MessageBox.Show(error);
+                        }
+                        if (Age.GetType() != typeof(int))
+                        {
+                            error = "Неверный тип данных";
                         }
                         break;
                     case "Name":
@@ -40,6 +41,11 @@ namespace DS.WpfApp.PersonValidation
                     case "Position":
                         //Обработка ошибок для свойства Position
                         break;
+                }
+
+                if (error != String.Empty)
+                {
+                    MessageBox.Show(error);
                 }
                 return error;
             }
