@@ -11,7 +11,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DS.WpfApp.Phones.Resources"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DS.WpfApp.ProgressBar", "WPF\DS.WpfApp.ProgressBar\DS.WpfApp.ProgressBar.csproj", "{CBA7FEA7-6155-4796-A00F-15449720F4CA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DS.WpfApp.Phones.MVVM", "WPF\DS.WpfApp.Phones.MVVM\DS.WpfApp.Phones.MVVM.csproj", "{550FCAC2-1ECA-49E0-8EA0-08296A10B07E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DS.WpfApp.Phones.MVVM", "WPF\DS.WpfApp.Phones.MVVM\DS.WpfApp.Phones.MVVM.csproj", "{550FCAC2-1ECA-49E0-8EA0-08296A10B07E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DS.WpfApp.PersonValidation", "DS.WpfApp.PersonValidation\DS.WpfApp.PersonValidation.csproj", "{FB3D2227-7C0D-4CF2-B623-C52BC3F639CB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{550FCAC2-1ECA-49E0-8EA0-08296A10B07E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{550FCAC2-1ECA-49E0-8EA0-08296A10B07E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{550FCAC2-1ECA-49E0-8EA0-08296A10B07E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB3D2227-7C0D-4CF2-B623-C52BC3F639CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB3D2227-7C0D-4CF2-B623-C52BC3F639CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB3D2227-7C0D-4CF2-B623-C52BC3F639CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB3D2227-7C0D-4CF2-B623-C52BC3F639CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

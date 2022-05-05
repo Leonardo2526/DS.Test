@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-D:\Reposotory\DS.WindowsApp.Tests\DS.WpfApp.Test.WPF.MVVMWithCalibrium\obj\Debug\net6.0-windows\
+E:\Repository\DS.WindowsApp.Tests\WPF\DS.WpfApp.MVVMTest.Calibrium\obj\Debug\net6.0-windows\
 DS.WpfApp.MVVMTest.Calibrium
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-D:\Reposotory\DS.WindowsApp.Tests\DS.WpfApp.Test.WPF.MVVMWithCalibrium\App.xaml
+E:\Repository\DS.WindowsApp.Tests\WPF\DS.WpfApp.MVVMTest.Calibrium\App.xaml
 3-280962735
 
 10-1637388347
-2181010603451
+2181925499170
 Views\FirstChildView.xaml;Views\SecondChildView.xaml;Views\ShellView.xaml;
 
 False

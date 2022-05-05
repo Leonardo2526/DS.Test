@@ -8,19 +8,19 @@
     "net6.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {}
+    "C:\\Users\\Сараев Даниил\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Reposotory\\DS.WindowsApp.Tests\\WPF\\DS.WpfApp.Phones.MVVM\\DS.WpfApp.Phones.MVVM.csproj",
+      "projectUniqueName": "E:\\Repository\\DS.WindowsApp.Tests\\WPF\\DS.WpfApp.Phones.MVVM\\DS.WpfApp.Phones.MVVM.csproj",
       "projectName": "DS.WpfApp.Phones.MVVM",
-      "projectPath": "D:\\Reposotory\\DS.WindowsApp.Tests\\WPF\\DS.WpfApp.Phones.MVVM\\DS.WpfApp.Phones.MVVM.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "D:\\Reposotory\\DS.WindowsApp.Tests\\WPF\\DS.WpfApp.Phones.MVVM\\obj\\",
+      "projectPath": "E:\\Repository\\DS.WindowsApp.Tests\\WPF\\DS.WpfApp.Phones.MVVM\\DS.WpfApp.Phones.MVVM.csproj",
+      "packagesPath": "C:\\Users\\Сараев Даниил\\.nuget\\packages\\",
+      "outputPath": "E:\\Repository\\DS.WindowsApp.Tests\\WPF\\DS.WpfApp.Phones.MVVM\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Сараев Даниил\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

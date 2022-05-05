@@ -53,7 +53,7 @@ namespace DS.WpfApp.Phones.MVVM.View {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/DS.WpfApp.Phones.MVVM;V1.0.0.0;component/view/usercontrol2.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/DS.WpfApp.Phones.MVVM;component/view/usercontrol2.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\View\UserControl2.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
