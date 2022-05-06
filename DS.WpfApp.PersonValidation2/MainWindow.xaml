@@ -10,6 +10,9 @@
         <ControlTemplate x:Key="validationErrorTemplate">
             <DockPanel>
                 <StackPanel Orientation="Horizontal" DockPanel.Dock="Top">
+                    <Border BorderBrush="Red"  BorderThickness="2">
+                        <AdornedElementPlaceholder />
+                    </Border>
                     <Grid Width="12" Height="12">
                         <Ellipse Width="12" Height="12" 
                                  Fill="Red" HorizontalAlignment="Center"  VerticalAlignment="Center">                            
