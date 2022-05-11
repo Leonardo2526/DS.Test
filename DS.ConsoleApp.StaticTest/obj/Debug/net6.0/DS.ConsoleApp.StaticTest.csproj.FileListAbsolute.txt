@@ -1,0 +1,15 @@
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.StaticTest\bin\Debug\net6.0\DS.ConsoleApp.StaticTest.exe
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.StaticTest\bin\Debug\net6.0\DS.ConsoleApp.StaticTest.deps.json
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.StaticTest\bin\Debug\net6.0\DS.ConsoleApp.StaticTest.runtimeconfig.json
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.StaticTest\bin\Debug\net6.0\DS.ConsoleApp.StaticTest.dll
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.StaticTest\bin\Debug\net6.0\DS.ConsoleApp.StaticTest.pdb
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.StaticTest\obj\Debug\net6.0\DS.ConsoleApp.StaticTest.csproj.AssemblyReference.cache
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.StaticTest\obj\Debug\net6.0\DS.ConsoleApp.StaticTest.GeneratedMSBuildEditorConfig.editorconfig
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.StaticTest\obj\Debug\net6.0\DS.ConsoleApp.StaticTest.AssemblyInfoInputs.cache
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.StaticTest\obj\Debug\net6.0\DS.ConsoleApp.StaticTest.AssemblyInfo.cs
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.StaticTest\obj\Debug\net6.0\DS.ConsoleApp.StaticTest.csproj.CoreCompileInputs.cache
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.StaticTest\obj\Debug\net6.0\DS.ConsoleApp.StaticTest.dll
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.StaticTest\obj\Debug\net6.0\refint\DS.ConsoleApp.StaticTest.dll
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.StaticTest\obj\Debug\net6.0\DS.ConsoleApp.StaticTest.pdb
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.StaticTest\obj\Debug\net6.0\DS.ConsoleApp.StaticTest.genruntimeconfig.cache
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.StaticTest\obj\Debug\net6.0\ref\DS.ConsoleApp.StaticTest.dll

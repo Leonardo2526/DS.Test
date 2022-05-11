@@ -45,7 +45,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator\Deco
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tracing", "TraceUtils\Tracing.csproj", "{D3D2B971-AA8C-40B3-A7C8-0814F66BFE14}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DS.ConsoleApp.Regex", "DS.ConsoleApp.Regex\DS.ConsoleApp.Regex.csproj", "{936148B2-6C4C-4141-9F1F-2AF550DCA9CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DS.ConsoleApp.Regex", "DS.ConsoleApp.Regex\DS.ConsoleApp.Regex.csproj", "{936148B2-6C4C-4141-9F1F-2AF550DCA9CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DS.ConsoleApp.StaticTest", "DS.ConsoleApp.StaticTest\DS.ConsoleApp.StaticTest.csproj", "{16D295CF-D3CC-4AE7-8F3C-F7BCCF67EE11}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -137,6 +139,10 @@ Global
 		{936148B2-6C4C-4141-9F1F-2AF550DCA9CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{936148B2-6C4C-4141-9F1F-2AF550DCA9CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{936148B2-6C4C-4141-9F1F-2AF550DCA9CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16D295CF-D3CC-4AE7-8F3C-F7BCCF67EE11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16D295CF-D3CC-4AE7-8F3C-F7BCCF67EE11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16D295CF-D3CC-4AE7-8F3C-F7BCCF67EE11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16D295CF-D3CC-4AE7-8F3C-F7BCCF67EE11}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
