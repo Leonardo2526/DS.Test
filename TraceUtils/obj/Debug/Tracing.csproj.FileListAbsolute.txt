@@ -20,3 +20,4 @@ E:\Repository\DS.WindowsApp.Tests\TraceUtils\obj\Debug\Tracing.exe
 E:\Repository\DS.WindowsApp.Tests\TraceUtils\obj\Debug\Tracing.pdb
 E:\Repository\DS.WindowsApp.Tests\TraceUtils\obj\Debug\Tracing.csproj.AssemblyReference.cache
 E:\Repository\DS.WindowsApp.Tests\TraceUtils\bin\Debug\Tracing.exe.config
+E:\Repository\DS.WindowsApp.Tests\TraceUtils\obj\Debug\Tracing.csproj.SuggestedBindingRedirects.cache
