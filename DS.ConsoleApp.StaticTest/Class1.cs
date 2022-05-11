@@ -8,7 +8,7 @@ namespace DS.ConsoleApp.StaticTest
 {
     internal class Class1
     {
-        public int MyProperty { get; set; }
+        public static int MyProperty { get; set; }
 
         public void Operation()
         {  
