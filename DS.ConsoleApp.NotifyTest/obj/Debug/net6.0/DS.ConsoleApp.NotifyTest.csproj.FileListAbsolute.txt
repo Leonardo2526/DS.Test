@@ -1,0 +1,15 @@
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.NotifyTest\bin\Debug\net6.0\DS.ConsoleApp.NotifyTest.exe
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.NotifyTest\bin\Debug\net6.0\DS.ConsoleApp.NotifyTest.deps.json
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.NotifyTest\bin\Debug\net6.0\DS.ConsoleApp.NotifyTest.runtimeconfig.json
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.NotifyTest\bin\Debug\net6.0\DS.ConsoleApp.NotifyTest.dll
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.NotifyTest\bin\Debug\net6.0\DS.ConsoleApp.NotifyTest.pdb
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.NotifyTest\obj\Debug\net6.0\DS.ConsoleApp.NotifyTest.csproj.AssemblyReference.cache
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.NotifyTest\obj\Debug\net6.0\DS.ConsoleApp.NotifyTest.GeneratedMSBuildEditorConfig.editorconfig
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.NotifyTest\obj\Debug\net6.0\DS.ConsoleApp.NotifyTest.AssemblyInfoInputs.cache
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.NotifyTest\obj\Debug\net6.0\DS.ConsoleApp.NotifyTest.AssemblyInfo.cs
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.NotifyTest\obj\Debug\net6.0\DS.ConsoleApp.NotifyTest.csproj.CoreCompileInputs.cache
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.NotifyTest\obj\Debug\net6.0\DS.ConsoleApp.NotifyTest.dll
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.NotifyTest\obj\Debug\net6.0\refint\DS.ConsoleApp.NotifyTest.dll
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.NotifyTest\obj\Debug\net6.0\DS.ConsoleApp.NotifyTest.pdb
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.NotifyTest\obj\Debug\net6.0\DS.ConsoleApp.NotifyTest.genruntimeconfig.cache
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.NotifyTest\obj\Debug\net6.0\ref\DS.ConsoleApp.NotifyTest.dll

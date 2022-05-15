@@ -65,7 +65,7 @@ new System.Diagnostics.TraceSwitch("SwitchOne", "The first switch");
         static void TestLib()
         {
 
-            DirPathBuilder errorPathBuilder = new DirPathBuilder("ErrorLogFile", "", DirPathBuilder.DirOption.Desktop);
+            DirPathBuilder errorPathBuilder = new DirPathBuilder("ErrorLogFile", "");
             LogBuilder errorlogBuilder = new LogBuilder(errorPathBuilder, SourceLevels.Error);
 
             DirPathBuilder infoPathBuilder = new DirPathBuilder("InfoLogFile", "", DirPathBuilder.DirOption.Desktop);
