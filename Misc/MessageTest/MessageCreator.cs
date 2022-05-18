@@ -1,0 +1,16 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Misc.MessageTest
+{
+    internal abstract class MessageCreator
+    {
+        public List<Message> CreatedMessages { get; set; } = new List<Message>();
+
+        //Factory methos
+        public abstract Message Create(string text, string subType);
+    }
+}

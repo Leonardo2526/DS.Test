@@ -34,3 +34,4 @@ D:\Repository\DS.WindowsApp.Tests\Misc\obj\Debug\Misc.csproj.CoreCompileInputs.c
 D:\Repository\DS.WindowsApp.Tests\Misc\obj\Debug\Misc.csproj.CopyComplete
 D:\Repository\DS.WindowsApp.Tests\Misc\obj\Debug\Misc.exe
 D:\Repository\DS.WindowsApp.Tests\Misc\obj\Debug\Misc.pdb
+E:\Repository\DS.WindowsApp.Tests\Misc\obj\Debug\Misc.csproj.SuggestedBindingRedirects.cache
