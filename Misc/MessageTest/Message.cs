@@ -11,7 +11,7 @@ namespace Misc.MessageTest
     {
         public TraceEventType TraceEventType;
         public string Text;
-        public string SubType;
+        public SubType SubType;
         public int Id;
 
         public Message(string text, int id)

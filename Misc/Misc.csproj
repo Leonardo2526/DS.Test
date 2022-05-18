@@ -53,6 +53,7 @@
     <Compile Include="LoopBackward.cs" />
     <Compile Include="MessageStringCreator.cs" />
     <Compile Include="MessageTest\AbstractFactory.cs" />
+    <Compile Include="MessageTest\Collision.cs" />
     <Compile Include="MessageTest\Enums.cs" />
     <Compile Include="MessageTest\Message.cs" />
     <Compile Include="MessageTest\MessageCreator.cs" />

@@ -25,3 +25,5 @@ E:\Repository\DS.WindowsApp.Tests\TPL\bin\Debug\ConsoleApp5.pdb
 E:\Repository\DS.WindowsApp.Tests\TPL\obj\Debug\TPL.csproj.CoreCompileInputs.cache
 E:\Repository\DS.WindowsApp.Tests\TPL\obj\Debug\ConsoleApp5.exe
 E:\Repository\DS.WindowsApp.Tests\TPL\obj\Debug\ConsoleApp5.pdb
+E:\Repository\DS.WindowsApp.Tests\TPL\obj\Debug\TPL.csproj.AssemblyReference.cache
+E:\Repository\DS.WindowsApp.Tests\TPL\obj\Debug\TPL.csproj.SuggestedBindingRedirects.cache

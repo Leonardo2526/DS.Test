@@ -98,3 +98,4 @@ E:\Repository\DS.WindowsApp.Tests\CollectionTest\obj\Debug\CollectionTest.csproj
 E:\Repository\DS.WindowsApp.Tests\CollectionTest\obj\Debug\CollectionTest.csproj.CopyComplete
 E:\Repository\DS.WindowsApp.Tests\CollectionTest\obj\Debug\CollectionTest.exe
 E:\Repository\DS.WindowsApp.Tests\CollectionTest\obj\Debug\CollectionTest.pdb
+E:\Repository\DS.WindowsApp.Tests\CollectionTest\obj\Debug\CollectionTest.csproj.SuggestedBindingRedirects.cache

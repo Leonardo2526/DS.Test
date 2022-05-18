@@ -49,3 +49,4 @@ D:\Repository\DS.WindowsApp.Tests\UnitTest\obj\Debug\UnitTest.csproj.CoreCompile
 D:\Repository\DS.WindowsApp.Tests\UnitTest\obj\Debug\UnitTest.csproj.CopyComplete
 D:\Repository\DS.WindowsApp.Tests\UnitTest\obj\Debug\UnitTest.dll
 D:\Repository\DS.WindowsApp.Tests\UnitTest\obj\Debug\UnitTest.pdb
+E:\Repository\DS.WindowsApp.Tests\UnitTest\obj\Debug\UnitTest.csproj.SuggestedBindingRedirects.cache

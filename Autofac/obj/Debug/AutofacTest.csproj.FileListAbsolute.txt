@@ -93,3 +93,5 @@ E:\Repository\DS.WindowsApp.Tests\Autofac\obj\Debug\AutofacTest.csproj.CoreCompi
 E:\Repository\DS.WindowsApp.Tests\Autofac\obj\Debug\AutofacTest.csproj.CopyComplete
 E:\Repository\DS.WindowsApp.Tests\Autofac\obj\Debug\Autofac.exe
 E:\Repository\DS.WindowsApp.Tests\Autofac\obj\Debug\Autofac.pdb
+E:\Repository\DS.WindowsApp.Tests\Autofac\obj\Debug\AutofacTest.csproj.AssemblyReference.cache
+E:\Repository\DS.WindowsApp.Tests\Autofac\obj\Debug\AutofacTest.csproj.SuggestedBindingRedirects.cache

@@ -18,3 +18,5 @@ E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.BypassType\bin\Debug\DS.ConsoleA
 E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.BypassType\obj\Debug\DS.ConsoleApp.BypassType.csproj.CoreCompileInputs.cache
 E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.BypassType\obj\Debug\DS.ConsoleApp.BypassType.exe
 E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.BypassType\obj\Debug\DS.ConsoleApp.BypassType.pdb
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.BypassType\obj\Debug\DS.ConsoleApp.BypassType.csproj.AssemblyReference.cache
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.BypassType\obj\Debug\DS.ConsoleApp.BypassType.csproj.SuggestedBindingRedirects.cache

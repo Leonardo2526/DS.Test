@@ -6,12 +6,15 @@ using System.Threading.Tasks;
 
 namespace Misc.MessageTest
 {
-    enum WarningSubType
+    enum SubType
     {
         General, 
         LinesIntersecion, 
         NotValidElements, 
         ConnectedElements, 
-        DistanceBetweenPoints
+        DistanceBetweenPoints,
+        SystemConnection,
+        BuildCollision,
+        BypassPointsCreation
     }
 }

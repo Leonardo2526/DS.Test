@@ -9,7 +9,7 @@ namespace Misc.MessageTest
 {
     internal class WarningMessage : Message
     {
-        public WarningMessage(string subType, string text, int id) : 
+        public WarningMessage(SubType subType, string text, int id) : 
             base(text, id)
         {
             SubType = subType;

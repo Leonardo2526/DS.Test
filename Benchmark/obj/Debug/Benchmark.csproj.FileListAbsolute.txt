@@ -433,3 +433,4 @@ D:\Repository\DS.WindowsApp.Tests\Benchmark\obj\Debug\Benchmark.csproj.CoreCompi
 D:\Repository\DS.WindowsApp.Tests\Benchmark\obj\Debug\Benchmark.csproj.CopyComplete
 D:\Repository\DS.WindowsApp.Tests\Benchmark\obj\Debug\Benchmark.exe
 D:\Repository\DS.WindowsApp.Tests\Benchmark\obj\Debug\Benchmark.pdb
+E:\Repository\DS.WindowsApp.Tests\Benchmark\obj\Debug\Benchmark.csproj.SuggestedBindingRedirects.cache

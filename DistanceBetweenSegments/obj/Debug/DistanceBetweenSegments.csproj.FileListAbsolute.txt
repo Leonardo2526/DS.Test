@@ -17,3 +17,5 @@ D:\Repository\DS.WindowsApp.Tests\DistanceBetweenSegments\obj\Debug\DistanceBetw
 D:\Repository\DS.WindowsApp.Tests\DistanceBetweenSegments\obj\Debug\DistanceBetweenSegments.csproj.CoreCompileInputs.cache
 D:\Repository\DS.WindowsApp.Tests\DistanceBetweenSegments\obj\Debug\DistanceBetweenSegments.exe
 D:\Repository\DS.WindowsApp.Tests\DistanceBetweenSegments\obj\Debug\DistanceBetweenSegments.pdb
+E:\Repository\DS.WindowsApp.Tests\DistanceBetweenSegments\obj\Debug\DistanceBetweenSegments.csproj.AssemblyReference.cache
+E:\Repository\DS.WindowsApp.Tests\DistanceBetweenSegments\obj\Debug\DistanceBetweenSegments.csproj.SuggestedBindingRedirects.cache

@@ -23,3 +23,5 @@ E:\Repository\DS.WindowsApp.Tests\ForCycleTest\bin\Debug\ForCycleTest.pdb
 E:\Repository\DS.WindowsApp.Tests\ForCycleTest\obj\Debug\ForCycleTest.csproj.CoreCompileInputs.cache
 E:\Repository\DS.WindowsApp.Tests\ForCycleTest\obj\Debug\ForCycleTest.exe
 E:\Repository\DS.WindowsApp.Tests\ForCycleTest\obj\Debug\ForCycleTest.pdb
+E:\Repository\DS.WindowsApp.Tests\ForCycleTest\obj\Debug\ForCycleTest.csproj.AssemblyReference.cache
+E:\Repository\DS.WindowsApp.Tests\ForCycleTest\obj\Debug\ForCycleTest.csproj.SuggestedBindingRedirects.cache
