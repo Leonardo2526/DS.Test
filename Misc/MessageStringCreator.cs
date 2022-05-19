@@ -16,29 +16,33 @@ namespace Misc
             this._MessageCreator = messageCreator;
         }
 
-      public string Create(Message message, Collision collision)
+      public string Create(Message message, ClsnInfo collision)
         {
             return $"{_MessageCreator.EventType} {message.Id}: " +
-                $"Collision {collision.Id} ({collision.MECCurve1Id}, {collision.MECCurve2Id}) - " +
+                $"Collision {collision.ClsnNumber} (Id1 = {collision.MECCurve1Id}, Id2 = {collision.MECCurve2Id}) - " +
                 $"{message.SubType} {_MessageCreator.EventType.ToString().ToLower()}. {message.Text}\n";
         }
 
-        public string CreateAccount()
+        public string CreateAccount(MessageCreator messageCreator)
         {
-
-            string subTypes = null;
+            string subTypes = "\n\n";
+            int count = messageCreator.Messages.Count;
+            subTypes += $"Total {messageCreator.EventType.ToString().ToLower()}s count: {count}\n";
 
             foreach (KeyValuePair<SubType, int> item in _MessageCreator.SubTypesCounter)
             {
-                subTypes += "   " + item.Key + " - " + item.Value + "\n";
+                if (item.Value != 0)
+                { 
+                    subTypes += "   " + item.Key + " - " + item.Value + "\n";
+                }
+
             }
 
-
-            return $"\n{_MessageCreator.EventType} types count: \n" + subTypes;
+            return subTypes;
         }
 
 
-        public string CreateResume(Message message, Collision collision)
+        public string CreateResume(Message message, ClsnInfo collision)
         {
             string isres = null;
 
@@ -51,7 +55,8 @@ namespace Misc
                 isres = "Unresolved";
             }
 
-            return $"Collision {collision.Id} ({collision.MECCurve1Id}, {collision.MECCurve2Id}) - {isres} {message.Text}\n";
+            return $"Collision {collision.ClsnNumber} (Id1 = {collision.MECCurve1Id}, Id2 =  {collision.MECCurve2Id}) " +
+                $"- {isres} {message.Text}\n";
         }
 
         public string CreateResumeAccount(List<MessageCreator> messageCreators)

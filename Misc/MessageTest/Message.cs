@@ -12,9 +12,9 @@ namespace Misc.MessageTest
         public string Text;
         public int Id;
         public SubType SubType;
-        public Collision Collision;
+        public ClsnInfo Collision;
 
-        public Message(string text, int id, SubType subType, Collision collision)
+        public Message(string text, int id, SubType subType, ClsnInfo collision)
         {
             Text = text;
             Id = id;
@@ -22,7 +22,7 @@ namespace Misc.MessageTest
             Collision = collision;
         }
 
-        public Message(string text, int id, Collision collision)
+        public Message(string text, int id, ClsnInfo collision)
         {
             Text = text;
             Id = id;

@@ -11,7 +11,7 @@ namespace Misc.MessageTest
     {
         public List<MessageCreator> MessageCreators { get; private set; } = new List<MessageCreator>();
 
-        public void AddMessage(string textMessage, TraceEventType traceEventType, SubType subType, Collision collision)
+        public void AddMessage(string textMessage, TraceEventType traceEventType, SubType subType, ClsnInfo collision)
         {
             MessageCreator messageCreator = GetCreator(traceEventType);
             MessageCreator containsMessageCreator = IsCreatorsContainsCreator(messageCreator);
@@ -27,7 +27,7 @@ namespace Misc.MessageTest
             }
         }
 
-        public void AddResumeMessage(string textMessage, Collision collision)
+        public void AddResumeMessage(string textMessage, ClsnInfo collision)
         {
             ResumeMessageCreator messageCreator = new ResumeMessageCreator();
             ResumeMessageCreator containsMessageCreator = (ResumeMessageCreator)IsCreatorsContainsCreator(messageCreator);

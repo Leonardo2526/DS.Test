@@ -11,11 +11,7 @@ namespace Misc.MessageTest
     {
         public static void Output()
         {
-            Collision collision = new Collision();
-            collision.Id = 0;
-            collision.MECCurve1Id = 11;
-            collision.MECCurve2Id = 12;
-
+            ClsnInfo collision = new ClsnInfo(0, 11, 12);
 
             MessageModel messageModel = new MessageModel();
             string textMessage;
@@ -42,14 +38,15 @@ namespace Misc.MessageTest
 
             //Resume mes
             textMessage = "New resume message1";
+            collision = new ClsnInfo(1, 1178, 154742) { IsResolved = false };
             messageModel.AddResumeMessage(textMessage, collision);
 
-
+            collision = new ClsnInfo(2, 1178, 154742) { IsResolved = true};
             textMessage = "New resume message2";
             messageModel.AddResumeMessage(textMessage, collision);
 
             textMessage = "New resume message3";
-            collision.IsResolved = true;
+            collision = new ClsnInfo(3, 1178, 154742) { IsResolved = true };
             messageModel.AddResumeMessage("", collision);
 
 

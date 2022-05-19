@@ -1,14 +1,11 @@
 ﻿TS Warning: 2 : 
 
-Warning 1: Collision 0 (11, 12) - General warning. New Warning message2
+Warning 1: Collision 0 (Id1 = 11, Id2 = 12) - General warning. New Warning message1
+Warning 2: Collision 0 (Id1 = 11, Id2 = 12) - General warning. New Warning message2
+Warning 3: Collision 0 (Id1 = 11, Id2 = 12) - SystemConnection warning. New Warning message3
 
-Warning types count: 
-   General - 1
-   LinesIntersecion - 0
-   NotValidElements - 0
-   ConnectedElements - 0
-   DistanceBetweenPoints - 0
-   SystemConnection - 0
-   BuildCollision - 0
-   BypassPointsCreation - 0
+
+Total warnings count: 3
+   General - 2
+   SystemConnection - 1
 

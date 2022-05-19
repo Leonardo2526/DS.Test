@@ -1,14 +1,15 @@
 ﻿TS Resume: 10 : 
 
-Collision 0 (11, 12) - Unresolved New resume message1
-Collision 0 (11, 12) - Unresolved New resume message2
-Collision 0 (11, 12) - Resolved 
+Collision 1 (Id1 = 1178, Id2 =  154742) - Unresolved New resume message1
+Collision 2 (Id1 = 1178, Id2 =  154742) - Resolved New resume message2
+Collision 3 (Id1 = 1178, Id2 =  154742) - Resolved 
 
 
 Total collisions count: 3
-   Resolved collisions: 1
-   Unresolved collisions: 2
+   Resolved collisions: 2
+   Unresolved collisions: 1
 
 
-Total warnings count: 1
+Total warnings count: 3
+Total errors count: 2
 

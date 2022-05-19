@@ -81,7 +81,7 @@ namespace Misc
                     messages += messageStringCreator.Create(message, message.Collision);
                 }
 
-                string account = messageStringCreator.CreateAccount();
+                string account = messageStringCreator.CreateAccount(messageCreator);
 
                 LogBuilder logBuilder = GetBuilder(messageCreator);
                 logBuilder.AddMessage(messages + account, messageCreator.EventType);

@@ -1,15 +1,10 @@
 ﻿TS Error: 1 : 
 
-Error 1: Collision 0 (11, 12) - BuildCollision error. New Error message1
-Error 2: Collision 0 (11, 12) - General error. New Error message2
+Error 1: Collision 0 (Id1 = 11, Id2 = 12) - BuildCollision error. New Error message1
+Error 2: Collision 0 (Id1 = 11, Id2 = 12) - General error. New Error message2
 
-Error types count: 
+
+Total errors count: 2
    General - 1
-   LinesIntersecion - 0
-   NotValidElements - 0
-   ConnectedElements - 0
-   DistanceBetweenPoints - 0
-   SystemConnection - 0
    BuildCollision - 1
-   BypassPointsCreation - 0
 

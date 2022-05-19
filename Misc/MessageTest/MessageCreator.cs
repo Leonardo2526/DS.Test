@@ -24,7 +24,7 @@ namespace Misc.MessageTest
         public abstract TraceEventType EventType { get; set; }
 
         //Factory method
-        public Message CreateMessage(string text, SubType subType, Collision collision)
+        public Message CreateMessage(string text, SubType subType, ClsnInfo collision)
         {
             Message message = new Message(text, Messages.Count + 1, subType, collision);
             Messages.Add(message);
