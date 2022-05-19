@@ -58,7 +58,7 @@ namespace Misc
             {
                 MessageStringCreator messageStringCreator = new MessageStringCreator(messageCreator);
 
-                string messages = null;
+                string messages = "\n\n";
                 foreach (var message in messageCreator.Messages)
                 {
                     messages += messageStringCreator.Create(message, message.Collision);
@@ -66,8 +66,7 @@ namespace Misc
 
                 LogBuilder logBuilder = GetBuilder(messageCreator);
 
-                logBuilder.AddMessage(messages, messageCreator.EventType);
-                logBuilder.AddMessage(messageStringCreator.Resume());
+                logBuilder.AddMessage(messages + messageStringCreator.Resume(), messageCreator.EventType);
             }
         }
 

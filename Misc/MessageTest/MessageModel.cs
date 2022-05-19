@@ -25,26 +25,6 @@ namespace Misc.MessageTest
             {
                 containsMessageCreator.CreateMessage(textMessage, subType, collision);
             }
-
-           
-
-           
-          
-            //Type type = messageCreator.GetType();
-            //MessageCreators.OfType<string>();
-
-            //if (!MessageCreators.OfType<typeof(messageCreator)>().Any())
-            //{
-            //    MessageCreators.Add(messageCreator);
-            //}
-
-            //foreach (var creator in MessageCreators)
-            //{
-            //    if(creator.GetType().Name == messageCreator.GetType().Name)
-            //    {
-            //        messageCreator.Create(textMessage, subType, collision);
-            //    }  
-            //}      
         }
 
         private MessageCreator GetCreator(TraceEventType traceEventType)
