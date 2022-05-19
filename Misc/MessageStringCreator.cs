@@ -7,27 +7,33 @@ using System.Threading.Tasks;
 
 namespace Misc
 {
-    internal static class MessageStringCreator
+    internal class MessageStringCreator
     {
-      public static string Create(Message message, Collision collision)
+        private MessageCreator _MessageCreator;
+        public MessageStringCreator(MessageCreator messageCreator)
         {
-            return $"{message.TraceEventType} {message.Id}: " +
-                $"Collision {collision.Id} ({collision.MECCurve1Id}, {collision.MECCurve2Id}) - " +
-                $"{message.SubType} warning. {message.Text}\n";
+            this._MessageCreator = messageCreator;
         }
 
-        public static string ResumeWarnings(MessageCreator messageCreator)
+      public string Create(Message message, Collision collision)
+        {
+            return $"{_MessageCreator.EventType} {message.Id}: " +
+                $"Collision {collision.Id} ({collision.MECCurve1Id}, {collision.MECCurve2Id}) - " +
+                $"{message.SubType} {_MessageCreator.EventType}. {message.Text}\n";
+        }
+
+        public string Resume()
         {
 
             string subTypes = null;
 
-            foreach (KeyValuePair<SubType, int> item in messageCreator.SubTypes)
+            foreach (KeyValuePair<SubType, int> item in _MessageCreator.SubTypesCounter)
             {
                 subTypes += "   " + item.Key + " - " + item.Value + "\n";
             }
 
 
-            return $"\nWarning types count: \n" + subTypes;
+            return $"\n{_MessageCreator.EventType} types count: \n" + subTypes;
         }
     }
 }

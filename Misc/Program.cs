@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using Misc.MessageTest;
+using System.Diagnostics;
 
 namespace Misc
 {
@@ -14,28 +15,31 @@ namespace Misc
             collision.MECCurve1Id = 11;
             collision.MECCurve2Id = 12;
 
-            //Create list of message creators
-            List<MessageCreator> messageCreators = new List<MessageCreator>();
-            messageCreators.Add(new WarningMessageCreator());
+
+            MessageModel messageModel = new MessageModel();
 
 
-            string message = "New Warning message1";
-            WarningMessage warningMessage = (WarningMessage)messageCreators.First().Create(message, SubType.General);
-            string str = MessageStringCreator.Create(warningMessage, collision);
-
-            message = "New Warning message10";
-            warningMessage = (WarningMessage)messageCreators.First().Create(message, SubType.General);
-            str += MessageStringCreator.Create(warningMessage, collision);
-
-            message = "New Warning message2";
-            warningMessage = (WarningMessage)messageCreators.First().Create(message, SubType.ConnectedElements);
-            str += MessageStringCreator.Create(warningMessage, collision);
+            string textMessage = "New Warning message1";
+            messageModel.AddMessage(textMessage, TraceEventType.Warning, SubType.General, collision);
 
 
+            textMessage = "New Warning message2";
+            messageModel.AddMessage(textMessage, TraceEventType.Warning, SubType.General, collision);
 
-            str += MessageStringCreator.ResumeWarnings(messageCreators.First());
 
-            Console.WriteLine(str);
+            textMessage = "New Warning message3";
+            messageModel.AddMessage(textMessage, TraceEventType.Warning, SubType.SystemConnection, collision);
+
+            textMessage = "New Error message1";
+            messageModel.AddMessage(textMessage, TraceEventType.Error, SubType.BuildCollision, collision);
+
+            textMessage = "New Error message2";
+            messageModel.AddMessage(textMessage, TraceEventType.Error, SubType.General, collision);
+
+            Log log = new Log();
+            log.Create(messageModel);
+
+            Console.WriteLine("Log created!");
             Console.ReadLine();
         }
 

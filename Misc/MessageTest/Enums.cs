@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Misc.MessageTest
 {
-    enum SubType
+    public enum SubType
     {
         General, 
         LinesIntersecion, 

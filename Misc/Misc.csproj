@@ -36,8 +36,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DS.MainUtils">
-      <HintPath>..\..\DS.Utils\DS.MainUtils\bin\Release\DS.MainUtils.dll</HintPath>
+    <Reference Include="DS.MainUtils, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\DS.CommonLib.Utils\DS.MainUtils\bin\Debug\DS.MainUtils.dll</HintPath>
+    </Reference>
+    <Reference Include="DS.TraceUtils">
+      <HintPath>..\..\DS.CommonLib.Utils\DS.TraceUtils\bin\Debug\DS.TraceUtils.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -49,6 +53,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Log.cs" />
     <Compile Include="LineIntersectionTest.cs" />
     <Compile Include="LoopBackward.cs" />
     <Compile Include="MessageStringCreator.cs" />
@@ -57,7 +62,8 @@
     <Compile Include="MessageTest\Enums.cs" />
     <Compile Include="MessageTest\Message.cs" />
     <Compile Include="MessageTest\MessageCreator.cs" />
-    <Compile Include="MessageTest\WarningMessage.cs" />
+    <Compile Include="MessageTest\MessageModel.cs" />
+    <Compile Include="MessageTest\ErrorMessageCreator.cs" />
     <Compile Include="MessageTest\WarningMessageCreator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

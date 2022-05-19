@@ -15,6 +15,5 @@ namespace Misc.MessageTest
             SubType = subType;
             TraceEventType = TraceEventType.Warning;
         }
-
     }
 }

@@ -7,17 +7,19 @@ using System.Threading.Tasks;
 
 namespace Misc.MessageTest
 {
-    internal abstract class Message
+    public struct Message
     {
-        public TraceEventType TraceEventType;
         public string Text;
-        public SubType SubType;
         public int Id;
+        public SubType SubType;
+        public Collision Collision;
 
-        public Message(string text, int id)
+        public Message(string text, int id, SubType subType, Collision collision)
         {
             Text = text;
             Id = id;
+            SubType = subType;
+            Collision = collision;
         }
     }
 
