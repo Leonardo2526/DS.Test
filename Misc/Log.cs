@@ -85,6 +85,7 @@ namespace Misc
                     logBuilder = WarningLogBuilder;
                     break;
                 case TraceEventType.Information:
+                    logBuilder = InfoLogBuilder;
                     break;
                 case TraceEventType.Verbose:
                     break;
