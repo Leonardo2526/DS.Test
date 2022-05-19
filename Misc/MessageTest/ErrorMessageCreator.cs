@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace Misc.MessageTest
 {
-    internal class WarningMessageCreator : MessageCreator
+    internal class ErrorMessageCreator : MessageCreator
     {
-        public override TraceEventType EventType { get; set; } = TraceEventType.Warning;
+        public override TraceEventType EventType { get; set; } = TraceEventType.Error;
 
     }
 }
