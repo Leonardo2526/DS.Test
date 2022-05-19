@@ -66,6 +66,7 @@
     <Compile Include="MessageTest\MessagedOutput.cs" />
     <Compile Include="MessageTest\MessageModel.cs" />
     <Compile Include="MessageTest\ErrorMessageCreator.cs" />
+    <Compile Include="MessageTest\ResumeMessageCreator.cs" />
     <Compile Include="MessageTest\WarningMessageCreator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

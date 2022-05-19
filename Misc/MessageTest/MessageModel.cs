@@ -27,6 +27,22 @@ namespace Misc.MessageTest
             }
         }
 
+        public void AddResumeMessage(string textMessage, Collision collision)
+        {
+            ResumeMessageCreator messageCreator = new ResumeMessageCreator();
+            ResumeMessageCreator containsMessageCreator = (ResumeMessageCreator)IsCreatorsContainsCreator(messageCreator);
+
+            if (containsMessageCreator is null)
+            {
+                MessageCreators.Add(messageCreator);
+                messageCreator.CreateResumeMessage(textMessage, collision);
+            }
+            else
+            {
+                containsMessageCreator.CreateResumeMessage(textMessage, collision);
+            }
+        }
+
         private MessageCreator GetCreator(TraceEventType traceEventType)
         {
             MessageCreator messageCreator = null;
@@ -42,6 +58,7 @@ namespace Misc.MessageTest
                     messageCreator = new WarningMessageCreator();
                     break;
                 case TraceEventType.Information:
+                    messageCreator = new InfoMessageCreator();
                     break;
                 case TraceEventType.Verbose:
                     break;

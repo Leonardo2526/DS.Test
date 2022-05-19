@@ -29,20 +29,26 @@ namespace Misc
 
             InfoPathBuilder = new DirPathBuilder(_InfoLogName, "");
             InfoLogBuilder = new LogBuilder(InfoPathBuilder, SourceLevels.Information);
+
+            ResumePathBuilder = new DirPathBuilder(_ResumeLogName, "");
+            ResumeLogBuilder = new LogBuilder(ResumePathBuilder, SourceLevels.All);
         }
 
         public static LogBuilder ErrorLogBuilder { get; private set; }
         public static LogBuilder WarningLogBuilder { get; private set; }
         public static LogBuilder InfoLogBuilder { get; private set; }
+        public static LogBuilder ResumeLogBuilder { get; private set; }
 
         public static DirPathBuilder ErrorPathBuilder { get; private set; }
         public static DirPathBuilder WarningPathBuilder { get; private set; }
         public static DirPathBuilder InfoPathBuilder { get; private set; }
+        public static DirPathBuilder ResumePathBuilder { get; private set; }
 
 
         private static string _ErrorsLogName = "MEPAC_Errors";
         private static string _WarningsLogName = "MEPAC_Warnings";
         private static string _InfoLogName = "MEPAC_Info";
+        private static string _ResumeLogName = "MEPAC_Resume";
 
         public static void AddMessageToAllBuilders(string message, TraceEventType traceEventType)
         {
@@ -53,10 +59,21 @@ namespace Misc
 
         public void Create(MessageModel messageModel)
         {
+            CreateOrdinary(messageModel);
+            CreateResume(messageModel);
+        }
 
+
+        private void CreateOrdinary(MessageModel messageModel)
+        {
             foreach (MessageCreator messageCreator in messageModel.MessageCreators)
             {
-                MessageStringCreator messageStringCreator = new MessageStringCreator(messageCreator);
+                if (messageCreator.EventType == TraceEventType.Resume)
+                {
+                    continue;
+                }
+
+                    MessageStringCreator messageStringCreator = new MessageStringCreator(messageCreator);
 
                 string messages = "\n\n";
                 foreach (var message in messageCreator.Messages)
@@ -64,11 +81,38 @@ namespace Misc
                     messages += messageStringCreator.Create(message, message.Collision);
                 }
 
-                LogBuilder logBuilder = GetBuilder(messageCreator);
+                string account = messageStringCreator.CreateAccount();
 
-                logBuilder.AddMessage(messages + messageStringCreator.Resume(), messageCreator.EventType);
+                LogBuilder logBuilder = GetBuilder(messageCreator);
+                logBuilder.AddMessage(messages + account, messageCreator.EventType);
             }
         }
+
+
+        private void CreateResume(MessageModel messageModel)
+        {
+            foreach (MessageCreator messageCreator in messageModel.MessageCreators)
+            {
+                if (messageCreator.EventType != TraceEventType.Resume)
+                {
+                    continue;
+                }
+
+                MessageStringCreator messageStringCreator = new MessageStringCreator(messageCreator);
+
+                string messages = "\n\n";
+                foreach (var message in messageCreator.Messages)
+                {
+                    messages += messageStringCreator.CreateResume(message, message.Collision);
+                }
+
+                string account = messageStringCreator.CreateResumeAccount(messageModel.MessageCreators);
+
+                LogBuilder logBuilder = GetBuilder(messageCreator);
+                logBuilder.AddMessage(messages + account, messageCreator.EventType);
+            }
+        }
+
 
         private LogBuilder GetBuilder(MessageCreator messageCreator)
         {
@@ -96,6 +140,7 @@ namespace Misc
                 case TraceEventType.Suspend:
                     break;
                 case TraceEventType.Resume:
+                    logBuilder = ResumeLogBuilder;
                     break;
                 case TraceEventType.Transfer:
                     break;

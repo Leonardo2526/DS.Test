@@ -1,7 +1,7 @@
 ﻿TS Error: 1 : 
 
-Error 1: Collision 0 (11, 12) - BuildCollision Error. New Error message1
-Error 2: Collision 0 (11, 12) - General Error. New Error message2
+Error 1: Collision 0 (11, 12) - BuildCollision error. New Error message1
+Error 2: Collision 0 (11, 12) - General error. New Error message2
 
 Error types count: 
    General - 1

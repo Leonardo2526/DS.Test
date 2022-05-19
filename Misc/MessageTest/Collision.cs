@@ -11,5 +11,6 @@ namespace Misc.MessageTest
         public int Id;
         public int MECCurve1Id;
         public int MECCurve2Id;
+        public bool IsResolved;
     }
 }

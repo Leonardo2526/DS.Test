@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Misc.MessageTest
 {
-    public struct Message
+    public class Message
     {
         public string Text;
         public int Id;
@@ -19,6 +19,13 @@ namespace Misc.MessageTest
             Text = text;
             Id = id;
             SubType = subType;
+            Collision = collision;
+        }
+
+        public Message(string text, int id, Collision collision)
+        {
+            Text = text;
+            Id = id;
             Collision = collision;
         }
     }
