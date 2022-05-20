@@ -53,21 +53,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Log.cs" />
+    <Compile Include="MessageTest\Creators\MessageStringCreator.cs" />
+    <Compile Include="MessageTest\Creators\MessageCreator.cs" />
+    <Compile Include="MessageTest\Log.cs" />
     <Compile Include="LineIntersectionTest.cs" />
     <Compile Include="LoopBackward.cs" />
-    <Compile Include="MessageStringCreator.cs" />
-    <Compile Include="MessageTest\AbstractFactory.cs" />
-    <Compile Include="MessageTest\Collision.cs" />
+    <Compile Include="MessageTest\ClsnInfo.cs" />
     <Compile Include="MessageTest\Enums.cs" />
-    <Compile Include="MessageTest\InfoMessageCreator.cs" />
     <Compile Include="MessageTest\Message.cs" />
-    <Compile Include="MessageTest\MessageCreator.cs" />
     <Compile Include="MessageTest\MessagedOutput.cs" />
-    <Compile Include="MessageTest\MessageModel.cs" />
-    <Compile Include="MessageTest\ErrorMessageCreator.cs" />
-    <Compile Include="MessageTest\ResumeMessageCreator.cs" />
-    <Compile Include="MessageTest\WarningMessageCreator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

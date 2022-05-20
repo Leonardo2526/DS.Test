@@ -9,24 +9,24 @@ namespace Misc.MessageTest
 {
     public class Message
     {
-        public string Text;
-        public int Id;
-        public SubType SubType;
-        public ClsnInfo Collision;
+        public string Text { get; }
+        public TraceEventType TraceEventType { get; }
+        public ClsnInfo ClsnInfo { get; }
+        public SubType SubType { get; }
 
-        public Message(string text, int id, SubType subType, ClsnInfo collision)
+        public Message(string text, TraceEventType traceEventType, ClsnInfo collision, SubType subType)
         {
             Text = text;
-            Id = id;
             SubType = subType;
-            Collision = collision;
+            ClsnInfo = collision;
+            TraceEventType = traceEventType;
         }
 
-        public Message(string text, int id, ClsnInfo collision)
+        public Message(string text, TraceEventType traceEventType, ClsnInfo collision)
         {
             Text = text;
-            Id = id;
-            Collision = collision;
+            ClsnInfo = collision;
+            TraceEventType = traceEventType;
         }
     }
 
