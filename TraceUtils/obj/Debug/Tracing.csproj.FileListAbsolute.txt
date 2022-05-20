@@ -21,3 +21,16 @@ E:\Repository\DS.WindowsApp.Tests\TraceUtils\obj\Debug\Tracing.pdb
 E:\Repository\DS.WindowsApp.Tests\TraceUtils\obj\Debug\Tracing.csproj.AssemblyReference.cache
 E:\Repository\DS.WindowsApp.Tests\TraceUtils\bin\Debug\Tracing.exe.config
 E:\Repository\DS.WindowsApp.Tests\TraceUtils\obj\Debug\Tracing.csproj.SuggestedBindingRedirects.cache
+D:\Reposotory\DS.WindowsApp.Tests\TraceUtils\bin\Debug\Tracing.exe.config
+D:\Reposotory\DS.WindowsApp.Tests\TraceUtils\bin\Debug\Tracing.exe
+D:\Reposotory\DS.WindowsApp.Tests\TraceUtils\bin\Debug\Tracing.pdb
+D:\Reposotory\DS.WindowsApp.Tests\TraceUtils\bin\Debug\DS.MainUtils.dll
+D:\Reposotory\DS.WindowsApp.Tests\TraceUtils\bin\Debug\DS.TraceUtils.dll
+D:\Reposotory\DS.WindowsApp.Tests\TraceUtils\bin\Debug\DS.MainUtils.pdb
+D:\Reposotory\DS.WindowsApp.Tests\TraceUtils\bin\Debug\DS.TraceUtils.pdb
+D:\Reposotory\DS.WindowsApp.Tests\TraceUtils\obj\Debug\Tracing.csproj.AssemblyReference.cache
+D:\Reposotory\DS.WindowsApp.Tests\TraceUtils\obj\Debug\Tracing.csproj.SuggestedBindingRedirects.cache
+D:\Reposotory\DS.WindowsApp.Tests\TraceUtils\obj\Debug\Tracing.csproj.CoreCompileInputs.cache
+D:\Reposotory\DS.WindowsApp.Tests\TraceUtils\obj\Debug\Tracing.csproj.CopyComplete
+D:\Reposotory\DS.WindowsApp.Tests\TraceUtils\obj\Debug\Tracing.exe
+D:\Reposotory\DS.WindowsApp.Tests\TraceUtils\obj\Debug\Tracing.pdb

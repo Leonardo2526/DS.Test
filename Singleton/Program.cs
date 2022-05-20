@@ -1,4 +1,5 @@
 ﻿using SingletonPattern;
+using System;
 
 var single1 = Singleton.GetInstance();
 single1.Name = "newName";

@@ -19,3 +19,11 @@ D:\Repository\DS.WindowsApp.Tests\DistanceBetweenSegments\obj\Debug\DistanceBetw
 D:\Repository\DS.WindowsApp.Tests\DistanceBetweenSegments\obj\Debug\DistanceBetweenSegments.pdb
 E:\Repository\DS.WindowsApp.Tests\DistanceBetweenSegments\obj\Debug\DistanceBetweenSegments.csproj.AssemblyReference.cache
 E:\Repository\DS.WindowsApp.Tests\DistanceBetweenSegments\obj\Debug\DistanceBetweenSegments.csproj.SuggestedBindingRedirects.cache
+D:\Reposotory\DS.WindowsApp.Tests\DistanceBetweenSegments\bin\Debug\DistanceBetweenSegments.exe.config
+D:\Reposotory\DS.WindowsApp.Tests\DistanceBetweenSegments\bin\Debug\DistanceBetweenSegments.exe
+D:\Reposotory\DS.WindowsApp.Tests\DistanceBetweenSegments\bin\Debug\DistanceBetweenSegments.pdb
+D:\Reposotory\DS.WindowsApp.Tests\DistanceBetweenSegments\obj\Debug\DistanceBetweenSegments.csproj.AssemblyReference.cache
+D:\Reposotory\DS.WindowsApp.Tests\DistanceBetweenSegments\obj\Debug\DistanceBetweenSegments.csproj.SuggestedBindingRedirects.cache
+D:\Reposotory\DS.WindowsApp.Tests\DistanceBetweenSegments\obj\Debug\DistanceBetweenSegments.csproj.CoreCompileInputs.cache
+D:\Reposotory\DS.WindowsApp.Tests\DistanceBetweenSegments\obj\Debug\DistanceBetweenSegments.exe
+D:\Reposotory\DS.WindowsApp.Tests\DistanceBetweenSegments\obj\Debug\DistanceBetweenSegments.pdb

@@ -51,7 +51,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DS.ConsoleApp.StaticTest", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DS.ConsoleApp.NotifyTest", "DS.ConsoleApp.NotifyTest\DS.ConsoleApp.NotifyTest.csproj", "{6FE5FDBD-5AC3-48CC-86FE-C6AD5477C9A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonPattern", "Singleton\SingletonPattern.csproj", "{7B683C71-5574-4CC9-8BFC-86F134AC4AC9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingletonPattern", "Singleton\SingletonPattern.csproj", "{7B683C71-5574-4CC9-8BFC-86F134AC4AC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "TestProject1\TestProject1.csproj", "{82686036-7652-4AF7-9B1E-3E8C5566AA82}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -155,6 +157,10 @@ Global
 		{7B683C71-5574-4CC9-8BFC-86F134AC4AC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B683C71-5574-4CC9-8BFC-86F134AC4AC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B683C71-5574-4CC9-8BFC-86F134AC4AC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82686036-7652-4AF7-9B1E-3E8C5566AA82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82686036-7652-4AF7-9B1E-3E8C5566AA82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82686036-7652-4AF7-9B1E-3E8C5566AA82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82686036-7652-4AF7-9B1E-3E8C5566AA82}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
