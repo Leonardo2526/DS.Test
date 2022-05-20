@@ -1,17 +1,8 @@
-﻿using DS.MainUtils.Strings;
-using DS.MainUtils;
+﻿using DS.MainUtils;
 
 
 var value = "60";
-//if (value.IsDevisible(10))
-if (value.IsInt())
-{
-    Console.WriteLine($"{value} is valid.");
-}
-else
-{
-    Console.WriteLine($"{value} is not valid.");
-}
+
 
 Console.ReadLine();
 
