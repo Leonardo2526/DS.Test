@@ -1,22 +1,16 @@
-﻿using System;
+﻿using DS.MainUtils;
+using DS.TraceUtils;
+using Misc.MessageTest;
+using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace Misc
-{
-    using DS.MainUtils;
-    using DS.TraceUtils;
-    using Misc.MessageTest;
-    using System;
-    using System.Collections.Generic;
-    using System.Diagnostics;
-    using System.Linq;
-    using System.Text;
-    using System.Threading.Tasks;
-
-
+{ 
     public class Log
     {
         public Log()
@@ -32,7 +26,11 @@ namespace Misc
 
             ResumePathBuilder = new DirPathBuilder(_ResumeLogName, "");
             ResumeLogBuilder = new LogBuilder(ResumePathBuilder, SourceLevels.All);
+
+            _MessagesByEvTypes = SortByEventTypes();
         }
+
+        private Dictionary<TraceEventType, List<Message>> _MessagesByEvTypes;
 
         public static LogBuilder ErrorLogBuilder { get; private set; }
         public static LogBuilder WarningLogBuilder { get; private set; }
@@ -57,68 +55,69 @@ namespace Misc
             InfoLogBuilder.AddMessage(message, traceEventType);
         }
 
-        public void Create(MessageModel messageModel)
+        public void Create()
         {
-            CreateOrdinary(messageModel);
-            CreateResume(messageModel);
+            CreateOrdinary();
+            CreateResume();
         }
 
-
-        private void CreateOrdinary(MessageModel messageModel)
+        private Dictionary<TraceEventType, List<Message>> SortByEventTypes()
         {
-            foreach (MessageCreator messageCreator in messageModel.MessageCreators)
+            Dictionary<TraceEventType, List<Message>> messagesByEvTypes = new Dictionary<TraceEventType, List<Message>>();
+
+            foreach (var message in MessageCreator.Messages)
             {
-                if (messageCreator.EventType == TraceEventType.Resume)
+                TraceEventType evtype = message.TraceEventType;
+                if (!messagesByEvTypes.Keys.Contains(evtype))
+                {
+                    messagesByEvTypes.Add(evtype, new List<Message>() { message });
+                }
+                else
+                {
+                    messagesByEvTypes[evtype].Add(message);
+                }
+            }
+
+            return messagesByEvTypes;
+        }
+
+        private void CreateOrdinary()
+        {
+            foreach (var item in _MessagesByEvTypes)
+            {
+                if (item.Key == TraceEventType.Resume)
                 {
                     continue;
                 }
+                var messageStringCreator = new MessageStringCreator(item);
+                string messages = messageStringCreator.Create();
+                string account = messageStringCreator.CreateAccount();
 
-                    MessageStringCreator messageStringCreator = new MessageStringCreator(messageCreator);
-
-                string messages = "\n\n";
-                foreach (var message in messageCreator.Messages)
-                {
-                    messages += messageStringCreator.Create(message, message.Collision);
-                }
-
-                string account = messageStringCreator.CreateAccount(messageCreator);
-
-                LogBuilder logBuilder = GetBuilder(messageCreator);
-                logBuilder.AddMessage(messages + account, messageCreator.EventType);
+                LogBuilder logBuilder = GetBuilder(item.Key);
+                logBuilder.AddMessage(messages + account, item.Key);
             }
         }
 
 
-        private void CreateResume(MessageModel messageModel)
+        private void CreateResume()
         {
-            foreach (MessageCreator messageCreator in messageModel.MessageCreators)
-            {
-                if (messageCreator.EventType != TraceEventType.Resume)
-                {
-                    continue;
-                }
+            KeyValuePair<TraceEventType, List<Message>> resume =
+                _MessagesByEvTypes.Where(p => p.Key == TraceEventType.Resume).ToList().First();
 
-                MessageStringCreator messageStringCreator = new MessageStringCreator(messageCreator);
 
-                string messages = "\n\n";
-                foreach (var message in messageCreator.Messages)
-                {
-                    messages += messageStringCreator.CreateResume(message, message.Collision);
-                }
+            var messageStringCreator = new MessageStringCreator(resume);
+            string messages = messageStringCreator.CreateResume();
+            string account = messageStringCreator.CreateResumeAccount(resume, _MessagesByEvTypes);
 
-                string account = messageStringCreator.CreateResumeAccount(messageModel.MessageCreators);
-
-                LogBuilder logBuilder = GetBuilder(messageCreator);
-                logBuilder.AddMessage(messages + account, messageCreator.EventType);
-            }
+            LogBuilder logBuilder = ResumeLogBuilder;
+            logBuilder.AddMessage(messages + account, resume.Key);
         }
 
-
-        private LogBuilder GetBuilder(MessageCreator messageCreator)
+        private LogBuilder GetBuilder(TraceEventType traceEventType)
         {
             LogBuilder logBuilder = null;
 
-            switch (messageCreator.EventType)
+            switch (traceEventType)
             {
                 case TraceEventType.Critical:
                     break;
