@@ -39,3 +39,16 @@ E:\Repository\DS.WindowsApp.Tests\Misc\bin\Debug\DS.MainUtils.dll
 E:\Repository\DS.WindowsApp.Tests\Misc\bin\Debug\DS.TraceUtils.dll
 E:\Repository\DS.WindowsApp.Tests\Misc\bin\Debug\DS.MainUtils.pdb
 E:\Repository\DS.WindowsApp.Tests\Misc\bin\Debug\DS.TraceUtils.pdb
+D:\Reposotory\DS.WindowsApp.Tests\Misc\bin\Debug\Misc.exe.config
+D:\Reposotory\DS.WindowsApp.Tests\Misc\bin\Debug\Misc.exe
+D:\Reposotory\DS.WindowsApp.Tests\Misc\bin\Debug\Misc.pdb
+D:\Reposotory\DS.WindowsApp.Tests\Misc\bin\Debug\DS.MainUtils.dll
+D:\Reposotory\DS.WindowsApp.Tests\Misc\bin\Debug\DS.TraceUtils.dll
+D:\Reposotory\DS.WindowsApp.Tests\Misc\bin\Debug\DS.MainUtils.pdb
+D:\Reposotory\DS.WindowsApp.Tests\Misc\bin\Debug\DS.TraceUtils.pdb
+D:\Reposotory\DS.WindowsApp.Tests\Misc\obj\Debug\Misc.csproj.AssemblyReference.cache
+D:\Reposotory\DS.WindowsApp.Tests\Misc\obj\Debug\Misc.csproj.SuggestedBindingRedirects.cache
+D:\Reposotory\DS.WindowsApp.Tests\Misc\obj\Debug\Misc.csproj.CoreCompileInputs.cache
+D:\Reposotory\DS.WindowsApp.Tests\Misc\obj\Debug\Misc.csproj.CopyComplete
+D:\Reposotory\DS.WindowsApp.Tests\Misc\obj\Debug\Misc.exe
+D:\Reposotory\DS.WindowsApp.Tests\Misc\obj\Debug\Misc.pdb

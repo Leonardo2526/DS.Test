@@ -22,3 +22,11 @@ E:\Repository\DS.WindowsApp.Tests\MathTest\bin\Debug\MathTest.pdb
 E:\Repository\DS.WindowsApp.Tests\MathTest\obj\Debug\MathTest.csproj.CoreCompileInputs.cache
 E:\Repository\DS.WindowsApp.Tests\MathTest\obj\Debug\MathTest.exe
 E:\Repository\DS.WindowsApp.Tests\MathTest\obj\Debug\MathTest.pdb
+D:\Reposotory\DS.WindowsApp.Tests\MathTest\bin\Debug\MathTest.exe.config
+D:\Reposotory\DS.WindowsApp.Tests\MathTest\bin\Debug\MathTest.exe
+D:\Reposotory\DS.WindowsApp.Tests\MathTest\bin\Debug\MathTest.pdb
+D:\Reposotory\DS.WindowsApp.Tests\MathTest\obj\Debug\MathTest.csproj.AssemblyReference.cache
+D:\Reposotory\DS.WindowsApp.Tests\MathTest\obj\Debug\MathTest.csproj.SuggestedBindingRedirects.cache
+D:\Reposotory\DS.WindowsApp.Tests\MathTest\obj\Debug\MathTest.csproj.CoreCompileInputs.cache
+D:\Reposotory\DS.WindowsApp.Tests\MathTest\obj\Debug\MathTest.exe
+D:\Reposotory\DS.WindowsApp.Tests\MathTest\obj\Debug\MathTest.pdb

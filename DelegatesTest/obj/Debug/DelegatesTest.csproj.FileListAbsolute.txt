@@ -20,3 +20,11 @@ E:\Repository\DS.WindowsApp.Tests\DelegatesTest\obj\Debug\DelegatesTest.exe
 E:\Repository\DS.WindowsApp.Tests\DelegatesTest\obj\Debug\DelegatesTest.pdb
 E:\Repository\DS.WindowsApp.Tests\DelegatesTest\obj\Debug\DelegatesTest.csproj.AssemblyReference.cache
 E:\Repository\DS.WindowsApp.Tests\DelegatesTest\obj\Debug\DelegatesTest.csproj.SuggestedBindingRedirects.cache
+D:\Reposotory\DS.WindowsApp.Tests\DelegatesTest\bin\Debug\DelegatesTest.exe.config
+D:\Reposotory\DS.WindowsApp.Tests\DelegatesTest\bin\Debug\DelegatesTest.exe
+D:\Reposotory\DS.WindowsApp.Tests\DelegatesTest\bin\Debug\DelegatesTest.pdb
+D:\Reposotory\DS.WindowsApp.Tests\DelegatesTest\obj\Debug\DelegatesTest.csproj.AssemblyReference.cache
+D:\Reposotory\DS.WindowsApp.Tests\DelegatesTest\obj\Debug\DelegatesTest.csproj.SuggestedBindingRedirects.cache
+D:\Reposotory\DS.WindowsApp.Tests\DelegatesTest\obj\Debug\DelegatesTest.csproj.CoreCompileInputs.cache
+D:\Reposotory\DS.WindowsApp.Tests\DelegatesTest\obj\Debug\DelegatesTest.exe
+D:\Reposotory\DS.WindowsApp.Tests\DelegatesTest\obj\Debug\DelegatesTest.pdb

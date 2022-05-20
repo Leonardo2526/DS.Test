@@ -1,0 +1,15 @@
+D:\Reposotory\DS.WindowsApp.Tests\DS.ConsoleApp.TestingObjects\bin\Debug\net6.0\DS.ConsoleApp.TestingObjects.exe
+D:\Reposotory\DS.WindowsApp.Tests\DS.ConsoleApp.TestingObjects\bin\Debug\net6.0\DS.ConsoleApp.TestingObjects.deps.json
+D:\Reposotory\DS.WindowsApp.Tests\DS.ConsoleApp.TestingObjects\bin\Debug\net6.0\DS.ConsoleApp.TestingObjects.runtimeconfig.json
+D:\Reposotory\DS.WindowsApp.Tests\DS.ConsoleApp.TestingObjects\bin\Debug\net6.0\DS.ConsoleApp.TestingObjects.dll
+D:\Reposotory\DS.WindowsApp.Tests\DS.ConsoleApp.TestingObjects\bin\Debug\net6.0\DS.ConsoleApp.TestingObjects.pdb
+D:\Reposotory\DS.WindowsApp.Tests\DS.ConsoleApp.TestingObjects\obj\Debug\net6.0\DS.ConsoleApp.TestingObjects.csproj.AssemblyReference.cache
+D:\Reposotory\DS.WindowsApp.Tests\DS.ConsoleApp.TestingObjects\obj\Debug\net6.0\DS.ConsoleApp.TestingObjects.GeneratedMSBuildEditorConfig.editorconfig
+D:\Reposotory\DS.WindowsApp.Tests\DS.ConsoleApp.TestingObjects\obj\Debug\net6.0\DS.ConsoleApp.TestingObjects.AssemblyInfoInputs.cache
+D:\Reposotory\DS.WindowsApp.Tests\DS.ConsoleApp.TestingObjects\obj\Debug\net6.0\DS.ConsoleApp.TestingObjects.AssemblyInfo.cs
+D:\Reposotory\DS.WindowsApp.Tests\DS.ConsoleApp.TestingObjects\obj\Debug\net6.0\DS.ConsoleApp.TestingObjects.csproj.CoreCompileInputs.cache
+D:\Reposotory\DS.WindowsApp.Tests\DS.ConsoleApp.TestingObjects\obj\Debug\net6.0\DS.ConsoleApp.TestingObjects.dll
+D:\Reposotory\DS.WindowsApp.Tests\DS.ConsoleApp.TestingObjects\obj\Debug\net6.0\refint\DS.ConsoleApp.TestingObjects.dll
+D:\Reposotory\DS.WindowsApp.Tests\DS.ConsoleApp.TestingObjects\obj\Debug\net6.0\DS.ConsoleApp.TestingObjects.pdb
+D:\Reposotory\DS.WindowsApp.Tests\DS.ConsoleApp.TestingObjects\obj\Debug\net6.0\DS.ConsoleApp.TestingObjects.genruntimeconfig.cache
+D:\Reposotory\DS.WindowsApp.Tests\DS.ConsoleApp.TestingObjects\obj\Debug\net6.0\ref\DS.ConsoleApp.TestingObjects.dll

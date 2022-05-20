@@ -1,15 +1,16 @@
-﻿using Xunit;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace SingletonPattern
 {
+    [TestClass]
     public class Tests
     {
-        [Fact]
+        [TestMethod]
         public void IsSingletonTest()
         {
             var db = Singleton.Instance;
             var db2 = Singleton.Instance;
-            Assert.True(db2.Equals(db));
+            Assert.AreEqual(db, db2);
         }
     }
 }
