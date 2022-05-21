@@ -72,3 +72,7 @@ D:\Reposotory\DS.WindowsApp.Tests\UnitTest\obj\Debug\UnitTest.csproj.CoreCompile
 D:\Reposotory\DS.WindowsApp.Tests\UnitTest\obj\Debug\UnitTest.csproj.CopyComplete
 D:\Reposotory\DS.WindowsApp.Tests\UnitTest\obj\Debug\UnitTest.dll
 D:\Reposotory\DS.WindowsApp.Tests\UnitTest\obj\Debug\UnitTest.pdb
+E:\Repository\DS.WindowsApp.Tests\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+E:\Repository\DS.WindowsApp.Tests\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+E:\Repository\DS.WindowsApp.Tests\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+E:\Repository\DS.WindowsApp.Tests\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
