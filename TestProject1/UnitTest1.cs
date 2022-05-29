@@ -48,5 +48,40 @@ namespace TestProject1
         {
             yield return new object[] { new List<int>() { 1 } };
         }
+
+        [DynamicData(nameof(TestMethodInput))]
+        [DataTestMethod]
+        public void ListTest(List<string> list)
+        {
+            Assert.AreEqual(2, list.Count);
+        }
+
+        public static IEnumerable<object[]> TestMethodInput
+        {
+            get
+            {
+                return new[]
+                {
+                    new object[] { new List<string> { "one" } },
+                    new object[] { new List<string> { "one", "two" } },
+                    new object[] { new List<string> { "one", "two", "three" }}
+                 };
+            }
+        }
+
+        [DataTestMethod]
+        [DynamicData(nameof(GetData), DynamicDataSourceType.Method)]
+        public void Test_Add_DynamicData_Method(int a, int b, int expected)
+        {
+            var actual = a + b;
+            Assert.AreEqual(expected, actual);
+        }
+
+        public static IEnumerable<object[]> GetData()
+        {
+            yield return new object[] { 1, 1, 2 };
+            yield return new object[] { 12, 30, 42 };
+            yield return new object[] { 14, 1, 15 };
+        }
     }
 }
