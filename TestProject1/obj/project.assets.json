@@ -1670,6 +1670,16 @@
         "runtime": {
           "bin/placeholder/DS.ConsoleApp.TestingObjects.dll": {}
         }
+      },
+      "DS.ConsoleApp.XYZTest/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/DS.ConsoleApp.XYZTest.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DS.ConsoleApp.XYZTest.dll": {}
+        }
       }
     }
   },
@@ -6208,11 +6218,17 @@
       "type": "project",
       "path": "../DS.ConsoleApp.TestingObjects/DS.ConsoleApp.TestingObjects.csproj",
       "msbuildProject": "../DS.ConsoleApp.TestingObjects/DS.ConsoleApp.TestingObjects.csproj"
+    },
+    "DS.ConsoleApp.XYZTest/1.0.0": {
+      "type": "project",
+      "path": "../DS.ConsoleApp.XYZTest/DS.ConsoleApp.XYZTest.csproj",
+      "msbuildProject": "../DS.ConsoleApp.XYZTest/DS.ConsoleApp.XYZTest.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "DS.ConsoleApp.TestingObjects >= 1.0.0",
+      "DS.ConsoleApp.XYZTest >= 1.0.0",
       "MSTest.TestAdapter >= 2.2.7",
       "MSTest.TestFramework >= 2.2.7",
       "Microsoft.NET.Test.Sdk >= 16.11.0",
@@ -6248,6 +6264,9 @@
           "projectReferences": {
             "E:\\Repository\\DS.WindowsApp.Tests\\DS.ConsoleApp.TestingObjects\\DS.ConsoleApp.TestingObjects.csproj": {
               "projectPath": "E:\\Repository\\DS.WindowsApp.Tests\\DS.ConsoleApp.TestingObjects\\DS.ConsoleApp.TestingObjects.csproj"
+            },
+            "E:\\Repository\\DS.WindowsApp.Tests\\DS.ConsoleApp.XYZTest\\DS.ConsoleApp.XYZTest.csproj": {
+              "projectPath": "E:\\Repository\\DS.WindowsApp.Tests\\DS.ConsoleApp.XYZTest\\DS.ConsoleApp.XYZTest.csproj"
             }
           }
         }
