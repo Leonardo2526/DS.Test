@@ -13,14 +13,14 @@ namespace DS.TestProject.VS
     {
         [DataTestMethod]
         [DynamicData(nameof(GetTestData1), DynamicDataSourceType.Method)]
-        public void SumTests(IEnumerable<double> list1)
+        public void XYZOrientationTest(XYZ vector1, XYZ vector2, XYZ vector3)
         {
-            //XYZOperation.Is3DOrientationEqualToOrigin(list1.GetEnumerator());
+            XYZOperation.Is3DOrientationEqualToOrigin(vector1, vector2, vector2);
         }
 
         public static IEnumerable<object[]> GetTestData1()
         {
-            yield return new object[] { new double[1, 0, 0], new double[0, 1, 0], new double[0, 0, 1]};
+            yield return new object[] { new XYZ[1, 0, 0], new XYZ[0, 1, 0], new XYZ[0, 0, 1]};
         }
       
     }
