@@ -57,9 +57,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DS.TestProject.VS", "TestPr
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{D1DB7CB8-9F77-4E35-801F-4B67C854CCFB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DS.ConsoleApp.TestingObjects", "DS.ConsoleApp.TestingObjects\DS.ConsoleApp.TestingObjects.csproj", "{0433B65C-D516-473C-9818-ED77B74E231F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DS.ConsoleApp.TestingObjects", "DS.ConsoleApp.TestingObjects\DS.ConsoleApp.TestingObjects.csproj", "{0433B65C-D516-473C-9818-ED77B74E231F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DS.ConsoleApp.TestingObjectsTests", "DS.ConsoleApp.TestingObjectsTests\DS.ConsoleApp.TestingObjectsTests.csproj", "{064ABE05-15BA-4924-B2BC-D5F561CB64A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DS.ConsoleApp.TestingObjectsTests", "DS.ConsoleApp.TestingObjectsTests\DS.ConsoleApp.TestingObjectsTests.csproj", "{064ABE05-15BA-4924-B2BC-D5F561CB64A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DS.ConsoleApp.XYZTest", "DS.ConsoleApp.XYZTest\DS.ConsoleApp.XYZTest.csproj", "{B7D303A3-8294-410A-B6B9-73E07911AC48}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -175,6 +177,10 @@ Global
 		{064ABE05-15BA-4924-B2BC-D5F561CB64A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{064ABE05-15BA-4924-B2BC-D5F561CB64A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{064ABE05-15BA-4924-B2BC-D5F561CB64A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7D303A3-8294-410A-B6B9-73E07911AC48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7D303A3-8294-410A-B6B9-73E07911AC48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7D303A3-8294-410A-B6B9-73E07911AC48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7D303A3-8294-410A-B6B9-73E07911AC48}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
