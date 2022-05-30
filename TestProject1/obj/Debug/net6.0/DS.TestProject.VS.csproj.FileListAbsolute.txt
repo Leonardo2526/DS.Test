@@ -206,3 +206,10 @@ E:\Repository\DS.WindowsApp.Tests\TestProject1\bin\Debug\net6.0\DS.ConsoleApp.Te
 E:\Repository\DS.WindowsApp.Tests\TestProject1\obj\Debug\net6.0\DS.TestProject.VS.csproj.CopyComplete
 E:\Repository\DS.WindowsApp.Tests\TestProject1\obj\Debug\net6.0\DS.TestProject.VS.genruntimeconfig.cache
 E:\Repository\DS.WindowsApp.Tests\TestProject1\obj\Debug\net6.0\ref\DS.TestProject.VS.dll
+D:\Reposotory\DS.WindowsApp.Tests\TestProject1\bin\Debug\net6.0\DS.ConsoleApp.XYZTest.deps.json
+D:\Reposotory\DS.WindowsApp.Tests\TestProject1\bin\Debug\net6.0\DS.ConsoleApp.XYZTest.runtimeconfig.json
+D:\Reposotory\DS.WindowsApp.Tests\TestProject1\bin\Debug\net6.0\DS.ConsoleApp.XYZTest.exe
+D:\Reposotory\DS.WindowsApp.Tests\TestProject1\bin\Debug\net6.0\DS.ConsoleApp.XYZTest.dll
+D:\Reposotory\DS.WindowsApp.Tests\TestProject1\bin\Debug\net6.0\DS.MainUtils.dll
+D:\Reposotory\DS.WindowsApp.Tests\TestProject1\bin\Debug\net6.0\DS.ConsoleApp.XYZTest.pdb
+D:\Reposotory\DS.WindowsApp.Tests\TestProject1\bin\Debug\net6.0\DS.MainUtils.pdb

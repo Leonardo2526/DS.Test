@@ -7,4 +7,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Reference Include="DS.MainUtils">
+      <HintPath>..\..\DS.CommonLib.Utils\DS.MainUtils\bin\Debug\DS.MainUtils.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>

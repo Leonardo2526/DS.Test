@@ -16,6 +16,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\DS.ConsoleApp.TestingObjects\DS.ConsoleApp.TestingObjects.csproj" />
+    <ProjectReference Include="..\DS.ConsoleApp.XYZTest\DS.ConsoleApp.XYZTest.csproj" />
   </ItemGroup>
 
 </Project>
