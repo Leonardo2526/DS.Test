@@ -1,4 +1,8 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using Misc.MessageTest;
+using System.Diagnostics;
 
 namespace Misc
 {
@@ -6,9 +10,7 @@ namespace Misc
     {
         static void Main(string[] args)
         {
-            double d = 2.1287624;
-            double dRoung = Math.Round(d, 1);
-            Console.WriteLine(dRoung);
+            MessagedOutput.Output();
             Console.ReadLine();
         }
 

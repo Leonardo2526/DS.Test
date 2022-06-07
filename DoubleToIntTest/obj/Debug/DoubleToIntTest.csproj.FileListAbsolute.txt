@@ -25,3 +25,13 @@ E:\Repository\DS.WindowsApp.Tests\DoubleToIntTest\bin\Debug\DoubleToIntTest.pdb
 E:\Repository\DS.WindowsApp.Tests\DoubleToIntTest\obj\Debug\DoubleToIntTest.csproj.CoreCompileInputs.cache
 E:\Repository\DS.WindowsApp.Tests\DoubleToIntTest\obj\Debug\DoubleToIntTest.exe
 E:\Repository\DS.WindowsApp.Tests\DoubleToIntTest\obj\Debug\DoubleToIntTest.pdb
+E:\Repository\DS.WindowsApp.Tests\DoubleToIntTest\obj\Debug\DoubleToIntTest.csproj.AssemblyReference.cache
+E:\Repository\DS.WindowsApp.Tests\DoubleToIntTest\obj\Debug\DoubleToIntTest.csproj.SuggestedBindingRedirects.cache
+D:\Reposotory\DS.WindowsApp.Tests\DoubleToIntTest\bin\Debug\DoubleToIntTest.exe.config
+D:\Reposotory\DS.WindowsApp.Tests\DoubleToIntTest\bin\Debug\DoubleToIntTest.exe
+D:\Reposotory\DS.WindowsApp.Tests\DoubleToIntTest\bin\Debug\DoubleToIntTest.pdb
+D:\Reposotory\DS.WindowsApp.Tests\DoubleToIntTest\obj\Debug\DoubleToIntTest.csproj.AssemblyReference.cache
+D:\Reposotory\DS.WindowsApp.Tests\DoubleToIntTest\obj\Debug\DoubleToIntTest.csproj.SuggestedBindingRedirects.cache
+D:\Reposotory\DS.WindowsApp.Tests\DoubleToIntTest\obj\Debug\DoubleToIntTest.csproj.CoreCompileInputs.cache
+D:\Reposotory\DS.WindowsApp.Tests\DoubleToIntTest\obj\Debug\DoubleToIntTest.exe
+D:\Reposotory\DS.WindowsApp.Tests\DoubleToIntTest\obj\Debug\DoubleToIntTest.pdb

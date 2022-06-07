@@ -25,3 +25,13 @@ E:\Repository\DS.WindowsApp.Tests\PropertiesTest\bin\Debug\PropertiesTest.pdb
 E:\Repository\DS.WindowsApp.Tests\PropertiesTest\obj\Debug\PropertiesTest.csproj.CoreCompileInputs.cache
 E:\Repository\DS.WindowsApp.Tests\PropertiesTest\obj\Debug\PropertiesTest.exe
 E:\Repository\DS.WindowsApp.Tests\PropertiesTest\obj\Debug\PropertiesTest.pdb
+E:\Repository\DS.WindowsApp.Tests\PropertiesTest\obj\Debug\PropertiesTest.csproj.AssemblyReference.cache
+E:\Repository\DS.WindowsApp.Tests\PropertiesTest\obj\Debug\PropertiesTest.csproj.SuggestedBindingRedirects.cache
+D:\Reposotory\DS.WindowsApp.Tests\PropertiesTest\bin\Debug\PropertiesTest.exe.config
+D:\Reposotory\DS.WindowsApp.Tests\PropertiesTest\bin\Debug\PropertiesTest.exe
+D:\Reposotory\DS.WindowsApp.Tests\PropertiesTest\bin\Debug\PropertiesTest.pdb
+D:\Reposotory\DS.WindowsApp.Tests\PropertiesTest\obj\Debug\PropertiesTest.csproj.AssemblyReference.cache
+D:\Reposotory\DS.WindowsApp.Tests\PropertiesTest\obj\Debug\PropertiesTest.csproj.SuggestedBindingRedirects.cache
+D:\Reposotory\DS.WindowsApp.Tests\PropertiesTest\obj\Debug\PropertiesTest.csproj.CoreCompileInputs.cache
+D:\Reposotory\DS.WindowsApp.Tests\PropertiesTest\obj\Debug\PropertiesTest.exe
+D:\Reposotory\DS.WindowsApp.Tests\PropertiesTest\obj\Debug\PropertiesTest.pdb

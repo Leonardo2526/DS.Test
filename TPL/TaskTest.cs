@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading;
@@ -86,6 +87,59 @@ namespace ConsoleApp5
             Console.WriteLine("Завершение метода Main");
 
             //Task.WaitAll(tasks); // ожидаем завершения всех задач
+        }
+
+        public static void RunTasksWithDelay()
+        {
+            int timeout = 1000;
+
+            using (Process process = new Process())
+            {
+                //process.Start();
+
+                Console.WriteLine("Task Starts");
+                Thread.Sleep(10000);     // задержка на 1 секунду - имитация долгой работы
+                Console.WriteLine("Task Ends");
+
+                KillProcess(process, timeout);
+            };
+
+        }
+
+
+
+
+        private static void KillProcess(Process process, int timeout)
+        {
+            if (!process.WaitForExit(timeout))
+            {
+                try
+                {
+                    process.Kill();
+                    Console.WriteLine("End with kill.");
+
+                }
+                catch (Exception e)
+                {
+                    //LogError(e, MethodBase.GetCurrentMethod());
+                }
+                finally
+                {
+                    //this.completed = false;
+                }
+            }
+            else
+            {
+                //if (process.HasExited)
+                //{
+                //    this.code = process.ExitCode;
+                //    this.completed = true;
+                //}
+                //else
+                //{
+                //    this.completed = false;
+                //}
+            }
         }
     }
 }

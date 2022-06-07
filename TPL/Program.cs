@@ -27,7 +27,9 @@ namespace ConsoleApp5
 
             //ParallelTest.ParallelForEach();
 
-            ParallelTest.ParallelForEachPremature();
+            //ParallelTest.ParallelForEachPremature();
+
+            TaskTest.RunTasksWithDelay();
 
             //Console.WriteLine();
             Console.ReadLine();

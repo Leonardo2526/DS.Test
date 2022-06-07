@@ -65,13 +65,21 @@ new System.Diagnostics.TraceSwitch("SwitchOne", "The first switch");
         static void TestLib()
         {
 
-            LogBuilder logBuilder = new LogBuilder();
+            DirPathBuilder errorPathBuilder = new DirPathBuilder("ErrorLogFile", "");
+            LogBuilder errorlogBuilder = new LogBuilder(errorPathBuilder, SourceLevels.Error);
 
-            logBuilder.AddMessage("new error message", TraceEventType.Error);
-            logBuilder.AddMessage("new text");
-            logBuilder.AddMessage("new warning message", TraceEventType.Warning);
+            DirPathBuilder infoPathBuilder = new DirPathBuilder("InfoLogFile", "", DirPathBuilder.DirOption.Desktop);
+            LogBuilder infologBuilder = new LogBuilder(infoPathBuilder, SourceLevels.Information);
 
-            //DirPathBuilder pathBuilder = new DirPathBuilder("NewLogFile", "", DirPathBuilder.DirOption.Desktop);
+            errorlogBuilder.AddMessage("new error message", TraceEventType.Error);
+            errorlogBuilder.AddMessage("new info message", TraceEventType.Information);
+            //logBuilder.AddMessage("new text");
+
+
+            infologBuilder.AddMessage("new error message", TraceEventType.Error);
+            infologBuilder.AddMessage("new info message", TraceEventType.Information);
+            //logBuilder.AddMessage("new warning message", TraceEventType.Warning);
+
         }
 
     }

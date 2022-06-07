@@ -1,0 +1,195 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Repository\\DS.WindowsApp.Tests\\TestProject1\\DS.TestProject.VS.csproj": {}
+  },
+  "projects": {
+    "E:\\Repository\\DS.WindowsApp.Tests\\DS.ConsoleApp.TestingObjects\\DS.ConsoleApp.TestingObjects.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Repository\\DS.WindowsApp.Tests\\DS.ConsoleApp.TestingObjects\\DS.ConsoleApp.TestingObjects.csproj",
+        "projectName": "DS.ConsoleApp.TestingObjects",
+        "projectPath": "E:\\Repository\\DS.WindowsApp.Tests\\DS.ConsoleApp.TestingObjects\\DS.ConsoleApp.TestingObjects.csproj",
+        "packagesPath": "C:\\Users\\Сараев Даниил\\.nuget\\packages\\",
+        "outputPath": "E:\\Repository\\DS.WindowsApp.Tests\\DS.ConsoleApp.TestingObjects\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Сараев Даниил\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Repository\\DS.WindowsApp.Tests\\DS.ConsoleApp.XYZTest\\DS.ConsoleApp.XYZTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Repository\\DS.WindowsApp.Tests\\DS.ConsoleApp.XYZTest\\DS.ConsoleApp.XYZTest.csproj",
+        "projectName": "DS.ConsoleApp.XYZTest",
+        "projectPath": "E:\\Repository\\DS.WindowsApp.Tests\\DS.ConsoleApp.XYZTest\\DS.ConsoleApp.XYZTest.csproj",
+        "packagesPath": "C:\\Users\\Сараев Даниил\\.nuget\\packages\\",
+        "outputPath": "E:\\Repository\\DS.WindowsApp.Tests\\DS.ConsoleApp.XYZTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Сараев Даниил\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Repository\\DS.WindowsApp.Tests\\TestProject1\\DS.TestProject.VS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Repository\\DS.WindowsApp.Tests\\TestProject1\\DS.TestProject.VS.csproj",
+        "projectName": "DS.TestProject.VS",
+        "projectPath": "E:\\Repository\\DS.WindowsApp.Tests\\TestProject1\\DS.TestProject.VS.csproj",
+        "packagesPath": "C:\\Users\\Сараев Даниил\\.nuget\\packages\\",
+        "outputPath": "E:\\Repository\\DS.WindowsApp.Tests\\TestProject1\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Сараев Даниил\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\Repository\\DS.WindowsApp.Tests\\DS.ConsoleApp.TestingObjects\\DS.ConsoleApp.TestingObjects.csproj": {
+                "projectPath": "E:\\Repository\\DS.WindowsApp.Tests\\DS.ConsoleApp.TestingObjects\\DS.ConsoleApp.TestingObjects.csproj"
+              },
+              "E:\\Repository\\DS.WindowsApp.Tests\\DS.ConsoleApp.XYZTest\\DS.ConsoleApp.XYZTest.csproj": {
+                "projectPath": "E:\\Repository\\DS.WindowsApp.Tests\\DS.ConsoleApp.XYZTest\\DS.ConsoleApp.XYZTest.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.2.7, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.2.7, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.11.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

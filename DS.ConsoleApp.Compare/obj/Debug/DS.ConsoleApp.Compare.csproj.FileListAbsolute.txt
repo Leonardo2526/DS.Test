@@ -11,3 +11,5 @@ D:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.Compare\obj\Debug\DS.ConsoleApp.
 D:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.Compare\obj\Debug\DS.ConsoleApp.Compare.csproj.CoreCompileInputs.cache
 D:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.Compare\obj\Debug\DS.ConsoleApp.Compare.exe
 D:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.Compare\obj\Debug\DS.ConsoleApp.Compare.pdb
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.Compare\obj\Debug\DS.ConsoleApp.Compare.csproj.AssemblyReference.cache
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.Compare\obj\Debug\DS.ConsoleApp.Compare.csproj.SuggestedBindingRedirects.cache

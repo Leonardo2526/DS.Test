@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
-    <PropertyGroup>
+  <PropertyGroup>
     <LangVersion>latest</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
@@ -36,8 +36,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DS.MainUtils">
-      <HintPath>..\..\DS.Utils\DS.MainUtils\bin\Release\DS.MainUtils.dll</HintPath>
+    <Reference Include="DS.MainUtils, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\DS.CommonLib.Utils\DS.MainUtils\bin\Debug\DS.MainUtils.dll</HintPath>
+    </Reference>
+    <Reference Include="DS.TraceUtils">
+      <HintPath>..\..\DS.CommonLib.Utils\DS.TraceUtils\bin\Debug\DS.TraceUtils.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -49,8 +53,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MessageTest\Creators\MessageStringCreator.cs" />
+    <Compile Include="MessageTest\Creators\MessageCreator.cs" />
+    <Compile Include="MessageTest\Log.cs" />
     <Compile Include="LineIntersectionTest.cs" />
     <Compile Include="LoopBackward.cs" />
+    <Compile Include="MessageTest\ClsnInfo.cs" />
+    <Compile Include="MessageTest\Enums.cs" />
+    <Compile Include="MessageTest\Message.cs" />
+    <Compile Include="MessageTest\MessagedOutput.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

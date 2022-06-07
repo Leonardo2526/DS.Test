@@ -4,3 +4,13 @@ E:\Repository\DS.WindowsApp.Tests\Decorator\bin\Debug\Decorator.pdb
 E:\Repository\DS.WindowsApp.Tests\Decorator\obj\Debug\Decorator.csproj.CoreCompileInputs.cache
 E:\Repository\DS.WindowsApp.Tests\Decorator\obj\Debug\Decorator.exe
 E:\Repository\DS.WindowsApp.Tests\Decorator\obj\Debug\Decorator.pdb
+E:\Repository\DS.WindowsApp.Tests\Decorator\obj\Debug\Decorator.csproj.AssemblyReference.cache
+E:\Repository\DS.WindowsApp.Tests\Decorator\obj\Debug\Decorator.csproj.SuggestedBindingRedirects.cache
+D:\Reposotory\DS.WindowsApp.Tests\Decorator\bin\Debug\Decorator.exe.config
+D:\Reposotory\DS.WindowsApp.Tests\Decorator\bin\Debug\Decorator.exe
+D:\Reposotory\DS.WindowsApp.Tests\Decorator\bin\Debug\Decorator.pdb
+D:\Reposotory\DS.WindowsApp.Tests\Decorator\obj\Debug\Decorator.csproj.AssemblyReference.cache
+D:\Reposotory\DS.WindowsApp.Tests\Decorator\obj\Debug\Decorator.csproj.SuggestedBindingRedirects.cache
+D:\Reposotory\DS.WindowsApp.Tests\Decorator\obj\Debug\Decorator.csproj.CoreCompileInputs.cache
+D:\Reposotory\DS.WindowsApp.Tests\Decorator\obj\Debug\Decorator.exe
+D:\Reposotory\DS.WindowsApp.Tests\Decorator\obj\Debug\Decorator.pdb

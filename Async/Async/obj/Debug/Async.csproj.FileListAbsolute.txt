@@ -25,3 +25,5 @@ E:\Repository\DS.WindowsApp.Tests\Async\Async\bin\Debug\Async.pdb
 E:\Repository\DS.WindowsApp.Tests\Async\Async\obj\Debug\Async.csproj.CoreCompileInputs.cache
 E:\Repository\DS.WindowsApp.Tests\Async\Async\obj\Debug\Async.exe
 E:\Repository\DS.WindowsApp.Tests\Async\Async\obj\Debug\Async.pdb
+E:\Repository\DS.WindowsApp.Tests\Async\Async\obj\Debug\Async.csproj.AssemblyReference.cache
+E:\Repository\DS.WindowsApp.Tests\Async\Async\obj\Debug\Async.csproj.SuggestedBindingRedirects.cache

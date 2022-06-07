@@ -23,3 +23,13 @@ E:\Repository\DS.WindowsApp.Tests\ForCycleTest\bin\Debug\ForCycleTest.pdb
 E:\Repository\DS.WindowsApp.Tests\ForCycleTest\obj\Debug\ForCycleTest.csproj.CoreCompileInputs.cache
 E:\Repository\DS.WindowsApp.Tests\ForCycleTest\obj\Debug\ForCycleTest.exe
 E:\Repository\DS.WindowsApp.Tests\ForCycleTest\obj\Debug\ForCycleTest.pdb
+E:\Repository\DS.WindowsApp.Tests\ForCycleTest\obj\Debug\ForCycleTest.csproj.AssemblyReference.cache
+E:\Repository\DS.WindowsApp.Tests\ForCycleTest\obj\Debug\ForCycleTest.csproj.SuggestedBindingRedirects.cache
+D:\Reposotory\DS.WindowsApp.Tests\ForCycleTest\bin\Debug\ForCycleTest.exe.config
+D:\Reposotory\DS.WindowsApp.Tests\ForCycleTest\bin\Debug\ForCycleTest.exe
+D:\Reposotory\DS.WindowsApp.Tests\ForCycleTest\bin\Debug\ForCycleTest.pdb
+D:\Reposotory\DS.WindowsApp.Tests\ForCycleTest\obj\Debug\ForCycleTest.csproj.AssemblyReference.cache
+D:\Reposotory\DS.WindowsApp.Tests\ForCycleTest\obj\Debug\ForCycleTest.csproj.SuggestedBindingRedirects.cache
+D:\Reposotory\DS.WindowsApp.Tests\ForCycleTest\obj\Debug\ForCycleTest.csproj.CoreCompileInputs.cache
+D:\Reposotory\DS.WindowsApp.Tests\ForCycleTest\obj\Debug\ForCycleTest.exe
+D:\Reposotory\DS.WindowsApp.Tests\ForCycleTest\obj\Debug\ForCycleTest.pdb

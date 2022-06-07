@@ -1,0 +1,10 @@
+﻿TS Error: 1 : 
+
+Error 1: Collision 0 (Id1 = 11, Id2 = 12) - BuildCollision error. New Error message1
+Error 2: Collision 0 (Id1 = 11, Id2 = 12) - General error. New Error message2
+
+
+Total errors count: 2
+   BuildCollision - 1
+   General - 1
+
