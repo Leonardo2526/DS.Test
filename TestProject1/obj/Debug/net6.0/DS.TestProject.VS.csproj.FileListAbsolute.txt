@@ -213,3 +213,10 @@ D:\Reposotory\DS.WindowsApp.Tests\TestProject1\bin\Debug\net6.0\DS.ConsoleApp.XY
 D:\Reposotory\DS.WindowsApp.Tests\TestProject1\bin\Debug\net6.0\DS.MainUtils.dll
 D:\Reposotory\DS.WindowsApp.Tests\TestProject1\bin\Debug\net6.0\DS.ConsoleApp.XYZTest.pdb
 D:\Reposotory\DS.WindowsApp.Tests\TestProject1\bin\Debug\net6.0\DS.MainUtils.pdb
+E:\Repository\DS.WindowsApp.Tests\TestProject1\bin\Debug\net6.0\DS.ConsoleApp.XYZTest.deps.json
+E:\Repository\DS.WindowsApp.Tests\TestProject1\bin\Debug\net6.0\DS.ConsoleApp.XYZTest.runtimeconfig.json
+E:\Repository\DS.WindowsApp.Tests\TestProject1\bin\Debug\net6.0\DS.ConsoleApp.XYZTest.exe
+E:\Repository\DS.WindowsApp.Tests\TestProject1\bin\Debug\net6.0\DS.ConsoleApp.XYZTest.dll
+E:\Repository\DS.WindowsApp.Tests\TestProject1\bin\Debug\net6.0\DS.MainUtils.dll
+E:\Repository\DS.WindowsApp.Tests\TestProject1\bin\Debug\net6.0\DS.ConsoleApp.XYZTest.pdb
+E:\Repository\DS.WindowsApp.Tests\TestProject1\bin\Debug\net6.0\DS.MainUtils.pdb

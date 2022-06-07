@@ -15,7 +15,7 @@ namespace Misc
     {
         public Log()
         {
-            ErrorPathBuilder = new DirPathBuilder(_ErrorsLogName, "");
+            ErrorPathBuilder = new DirPathBuilder(_ErrorsLogName, "Log");
             ErrorLogBuilder = new LogBuilder(ErrorPathBuilder, SourceLevels.Error);
 
             WarningPathBuilder = new DirPathBuilder(_WarningsLogName, "");
@@ -43,7 +43,7 @@ namespace Misc
         public static DirPathBuilder ResumePathBuilder { get; private set; }
 
 
-        private static string _ErrorsLogName = "MEPAC_Errors";
+        private static string _ErrorsLogName = "MEPAC_Errors1";
         private static string _WarningsLogName = "MEPAC_Warnings";
         private static string _InfoLogName = "MEPAC_Info";
         private static string _ResumeLogName = "MEPAC_Resume";

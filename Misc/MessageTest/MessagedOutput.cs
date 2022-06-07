@@ -29,7 +29,7 @@ namespace Misc.MessageTest
 
 
             //Error mes
-            textMessage = "New Error message1";
+            textMessage = "New Error message11";
             MessageCreator.CreateMessage(textMessage, TraceEventType.Error, SubType.BuildCollision, collision);
 
             textMessage = "New Error message2";
