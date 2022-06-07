@@ -2,3 +2,6 @@
 *.vsidx
 *.cache
 .vs/DS.WindowsApp.Tests/v17/.suo
+*.v2
+*.v1
+*.v1
