@@ -10,6 +10,14 @@ namespace ListTest
     {
         static void Main(string[] args)
         {
+           
+            //ListOutput1();
+
+            Console.ReadLine();
+        }
+
+        static void ListOutput1()
+        {
             Test1.EqualLists();
             ListOutput();
 
@@ -18,8 +26,8 @@ namespace ListTest
             Test1.ChangeList();
             ListOutput();
 
-            Console.ReadLine();
         }
+
 
         static void ListOutput()
         {
