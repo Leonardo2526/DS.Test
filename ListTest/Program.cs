@@ -10,7 +10,7 @@ namespace ListTest
     {
         static void Main(string[] args)
         {
-           
+            ListOrder.OrderList();
             //ListOutput1();
 
             Console.ReadLine();
