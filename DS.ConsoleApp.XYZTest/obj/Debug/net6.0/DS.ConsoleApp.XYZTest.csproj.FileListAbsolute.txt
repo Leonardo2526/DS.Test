@@ -13,8 +13,6 @@ E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.XYZTest\obj\Debug\net6.0\refint\
 E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.XYZTest\obj\Debug\net6.0\DS.ConsoleApp.XYZTest.pdb
 E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.XYZTest\obj\Debug\net6.0\DS.ConsoleApp.XYZTest.genruntimeconfig.cache
 E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.XYZTest\obj\Debug\net6.0\ref\DS.ConsoleApp.XYZTest.dll
-E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.XYZTest\bin\Debug\net6.0\DS.MainUtils.dll
-E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.XYZTest\bin\Debug\net6.0\DS.MainUtils.pdb
 E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.XYZTest\obj\Debug\net6.0\DS.ConsoleApp.XYZTest.csproj.CopyComplete
 D:\Reposotory\DS.WindowsApp.Tests\DS.ConsoleApp.XYZTest\bin\Debug\net6.0\DS.ConsoleApp.XYZTest.exe
 D:\Reposotory\DS.WindowsApp.Tests\DS.ConsoleApp.XYZTest\bin\Debug\net6.0\DS.ConsoleApp.XYZTest.deps.json
@@ -34,3 +32,7 @@ D:\Reposotory\DS.WindowsApp.Tests\DS.ConsoleApp.XYZTest\obj\Debug\net6.0\refint\
 D:\Reposotory\DS.WindowsApp.Tests\DS.ConsoleApp.XYZTest\obj\Debug\net6.0\DS.ConsoleApp.XYZTest.pdb
 D:\Reposotory\DS.WindowsApp.Tests\DS.ConsoleApp.XYZTest\obj\Debug\net6.0\DS.ConsoleApp.XYZTest.genruntimeconfig.cache
 D:\Reposotory\DS.WindowsApp.Tests\DS.ConsoleApp.XYZTest\obj\Debug\net6.0\ref\DS.ConsoleApp.XYZTest.dll
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.XYZTest\bin\Debug\net6.0\DS.ClassLib.VarUtils.dll
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.XYZTest\bin\Debug\net6.0\DS.ClassLib.FileSystemUtils.dll
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.XYZTest\bin\Debug\net6.0\DS.ClassLib.VarUtils.pdb
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.XYZTest\bin\Debug\net6.0\DS.ClassLib.FileSystemUtils.pdb

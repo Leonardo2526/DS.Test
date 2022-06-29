@@ -8,8 +8,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Reference Include="DS.MainUtils">
-      <HintPath>..\..\DS.CommonLib.Utils\DS.MainUtils\bin\Debug\DS.MainUtils.dll</HintPath>
+    <Reference Include="DS.ClassLib.VarUtils">
+      <HintPath>..\..\DS.CommonLib.Utils\DS.ClassLib.VarUtils\bin\Debug\DS.ClassLib.VarUtils.dll</HintPath>
     </Reference>
   </ItemGroup>
 
