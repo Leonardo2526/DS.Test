@@ -8,12 +8,21 @@ using System.Threading.Tasks;
 namespace Async
 {
     class Program
-    {
-        async static Task Main(string[] args)
-        {
-            //HTMLLoader.Load();
-            //await NamePrinter.PrintAwait();
-            await NamePrinter.PrintNoAwait();
+    {        //async static Task Main(string[] args)
+        //{
+        //    //HTMLLoader.Load();
+        //    //await NamePrinter.PrintAwait();
+        //    //await NamePrinter.PrintAwait1();
+        //    await NamePrinter.PrintNoAwait();
+        //    //await NamePrinter.PrintNameWithRun();
+
+        //    Console.ReadLine();
+        //}
+
+
+         static void Main(string[] args)
+        {            
+            NamePrinter.PrintSync();
 
             Console.ReadLine();
         }
