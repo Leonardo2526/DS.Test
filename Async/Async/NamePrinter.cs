@@ -23,8 +23,9 @@ namespace Async
 
         public static async Task PrintAwait1()
         {
-            PrintName("Tom");
-            PrintName("Bob");
+            //Task.Run(() => PrintName("Tom"));
+            PrintDelayName("Tom");
+            await Task.Run(() => PrintName("Bob"));
             PrintName("Sam");
         }
 
@@ -39,25 +40,35 @@ namespace Async
             await samTask;
         }
 
-        public static async void PrintNoAwait()
+        public static async Task PrintNoAwait()
         {
-            var tomTask = PrintNameAsync("Tom");
-            var bobTask = PrintNameAsync("Bob");
-            var samTask = PrintNameAsync("Sam");
+            List<Task> tasks = new List<Task>();
 
-            await tomTask;
-            await bobTask;
-            await samTask;
+            tasks.Add(PrintNameAsync("Tom"));
+            tasks.Add(PrintNameAsync("Bob"));
+            tasks.Add(PrintNameAsync("Sam"));
+
+            await Task.WhenAll(tasks);
         }
 
         public static async Task PrintNameWithRun()
         {
             await Task.Run(() =>
                 {
-                    PrintName("name1");
-                    PrintName("name2");
-                    PrintName("name3");
+                    PrintDelayName("name1");
+                    PrintDelayName("name2");
+                    PrintDelayName("name3");
                 });
+        }
+
+        public static async void PrintNameWithRun1()
+        {
+            await Task.Run(() =>
+            {
+                PrintDelayName("name1");
+                PrintDelayName("name2");
+                PrintDelayName("name3");
+            });
         }
 
         // определение асинхронного метода
@@ -68,10 +79,24 @@ namespace Async
         }
 
 
+        static void PrintDelayName(string name)
+        {
+            Task.Delay(3000);     // имитация продолжительной работы
+            Console.WriteLine(name);
+            for (int i = 0; i < 10000000; i++)
+            {
+                string s = i.ToString();
+            }
+            Console.WriteLine(name + "1");
+            Console.WriteLine(name + "2");
+        }
+
         static void PrintName(string name)
         {
             Task.Delay(3000);     // имитация продолжительной работы
             Console.WriteLine(name);
+            Console.WriteLine(name + "1");
+            Console.WriteLine(name + "2");
         }
     }
 }
