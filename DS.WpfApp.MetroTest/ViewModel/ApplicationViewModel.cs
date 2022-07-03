@@ -27,8 +27,7 @@ namespace DS.WpfApp.MetroTest.ViewModel
             }
         }
 
-        private string text;
-
+        private string text="process status";
         public string Text
         {
             get { return text; }
@@ -39,13 +38,15 @@ namespace DS.WpfApp.MetroTest.ViewModel
         public ICommand Start => new RelayCommand(o =>
         {
             ProgresStatus = true;
+            Text = "Process launched";
+
             //MessageBox.Show("RunCommand");
         });
 
         public ICommand Stop => new RelayCommand(o =>
         {
             ProgresStatus = false;
-            //Text = "newText";
+            Text = "Process stoped";
             //MessageBox.Show("StopCommand");
         });
 

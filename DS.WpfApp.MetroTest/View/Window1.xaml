@@ -7,31 +7,29 @@
                  xmlns:viewmodel="clr-namespace:DS.WpfApp.MetroTest.ViewModel" 
                  d:DataContext="{d:DesignInstance Type=viewmodel:ApplicationViewModel}"
                  Title="Window1"
-                 Width="800"
-                 Height="450"
+                 Width="500"
+                 Height="300"
                  WindowStartupLocation="CenterScreen"
                  mc:Ignorable="d">
-    <Grid>
-
+    <Grid HorizontalAlignment="Left" Width="490" Margin="10,0,0,0">
         <mah:ProgressRing x:Name="ProgressR" HorizontalAlignment="Left" 
-                          Margin="442,240,0,0" VerticalAlignment="Top"
-                          IsActive="{Binding Path = ProgresStatus}"
+                          Margin="91,56,0,0" VerticalAlignment="Top"
+                          IsActive="{Binding Path = ProgresStatus}" RenderTransformOrigin="-5.4,0.258"
                           />
         <Button Content="Start" 
                 Command="{Binding Start}"
                 HorizontalAlignment="Left" 
-                Margin="58,36,0,0" 
+                Margin="341,52,0,0" 
                 VerticalAlignment="Top" Height="64" Width="115"/>
         <Button Content="Stop" 
                 Command="{Binding Stop}"
             HorizontalAlignment="Left" 
-            Margin="58,153,0,0" 
+            Margin="341,179,0,0" 
             VerticalAlignment="Top" Height="64" Width="115"/>
-        <TextBox HorizontalAlignment="Left" 
-                 Margin="658,100,0,0" 
+        <TextBox HorizontalAlignment="Left" TextAlignment="Center" FontSize="15"
+                 Margin="10,196,0,0" 
                  TextWrapping="Wrap" 
-                 Text="{Binding Path=Text, UpdateSourceTrigger=PropertyChanged}" 
-                 VerticalAlignment="Top" Width="120"/>
-        <!--  Your content  -->
+                 Text="{Binding Path=Text}" 
+                 VerticalAlignment="Top" Width="253"/>
     </Grid>
 </mah:MetroWindow>
