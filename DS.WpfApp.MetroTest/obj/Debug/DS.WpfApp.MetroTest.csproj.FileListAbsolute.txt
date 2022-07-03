@@ -13,8 +13,6 @@ E:\Repository\DS.WindowsApp.Tests\DS.WpfApp.MetroTest\bin\Debug\Microsoft.Xaml.B
 E:\Repository\DS.WindowsApp.Tests\DS.WpfApp.MetroTest\bin\Debug\de\MahApps.Metro.resources.dll
 E:\Repository\DS.WindowsApp.Tests\DS.WpfApp.MetroTest\obj\Debug\DS.WpfApp.MetroTest.csproj.AssemblyReference.cache
 E:\Repository\DS.WindowsApp.Tests\DS.WpfApp.MetroTest\obj\Debug\DS.WpfApp.MetroTest.csproj.SuggestedBindingRedirects.cache
-E:\Repository\DS.WindowsApp.Tests\DS.WpfApp.MetroTest\obj\Debug\MainWindow.baml
-E:\Repository\DS.WindowsApp.Tests\DS.WpfApp.MetroTest\obj\Debug\MainWindow.g.cs
 E:\Repository\DS.WindowsApp.Tests\DS.WpfApp.MetroTest\obj\Debug\App.g.cs
 E:\Repository\DS.WindowsApp.Tests\DS.WpfApp.MetroTest\obj\Debug\DS.WpfApp.MetroTest_MarkupCompile.cache
 E:\Repository\DS.WindowsApp.Tests\DS.WpfApp.MetroTest\obj\Debug\DS.WpfApp.MetroTest_MarkupCompile.lref
@@ -26,5 +24,7 @@ E:\Repository\DS.WindowsApp.Tests\DS.WpfApp.MetroTest\obj\Debug\DS.WpfApp.MetroT
 E:\Repository\DS.WindowsApp.Tests\DS.WpfApp.MetroTest\obj\Debug\DS.WpfApp.MetroTest.csproj.CopyComplete
 E:\Repository\DS.WindowsApp.Tests\DS.WpfApp.MetroTest\obj\Debug\DS.WpfApp.MetroTest.exe
 E:\Repository\DS.WindowsApp.Tests\DS.WpfApp.MetroTest\obj\Debug\DS.WpfApp.MetroTest.pdb
-E:\Repository\DS.WindowsApp.Tests\DS.WpfApp.MetroTest\obj\Debug\Window1.baml
-E:\Repository\DS.WindowsApp.Tests\DS.WpfApp.MetroTest\obj\Debug\Window1.g.cs
+E:\Repository\DS.WindowsApp.Tests\DS.WpfApp.MetroTest\obj\Debug\View\MainWindow.baml
+E:\Repository\DS.WindowsApp.Tests\DS.WpfApp.MetroTest\obj\Debug\View\Window1.baml
+E:\Repository\DS.WindowsApp.Tests\DS.WpfApp.MetroTest\obj\Debug\View\MainWindow.g.cs
+E:\Repository\DS.WindowsApp.Tests\DS.WpfApp.MetroTest\obj\Debug\View\Window1.g.cs

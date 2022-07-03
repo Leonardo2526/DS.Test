@@ -1,4 +1,5 @@
-﻿using MahApps.Metro.Controls;
+﻿using DS.WpfApp.MetroTest.ViewModel;
+using MahApps.Metro.Controls;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -23,6 +24,7 @@ namespace DS.WpfApp.MetroTest
         public Window1()
         {
             InitializeComponent();
+            DataContext = new ApplicationViewModel();
         }
     }
 }
