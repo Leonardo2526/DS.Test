@@ -1,9 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Diagnostics;
 using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Input;
@@ -12,18 +14,20 @@ namespace DS.WpfApp.MetroTest.ViewModel
 {
     public class ApplicationViewModel : INotifyPropertyChanged
     {
-        private bool progresStatus;
-        public bool ProgresStatus
+        public Thread currentThread;
+
+        private bool processLaunched;
+        public bool ProcessLaunched
         {
             get 
             { 
-                return progresStatus; 
+                return processLaunched; 
             }
             set
             {
-                progresStatus = value;
+                processLaunched = value;
                 //MessageBox.Show("PropChanged");
-                OnPropertyChanged("ProgresStatus");
+                OnPropertyChanged("ProcessLaunched");
             }
         }
 
@@ -35,17 +39,27 @@ namespace DS.WpfApp.MetroTest.ViewModel
         }
 
 
-        public ICommand Start => new RelayCommand(o =>
+        public ICommand Start => new RelayCommand(async o =>
         {
-            ProgresStatus = true;
+            ProcessLaunched = true;
             Text = "Process launched";
 
+            Model model = new Model(this);
+            await model.RunProcessAsync();
+
+
+            //await Model.Task3();
+            //await Task.Run(() => Model.RunProcess(this));
             //MessageBox.Show("RunCommand");
         });
 
+        [Obsolete]
         public ICommand Stop => new RelayCommand(o =>
         {
-            ProgresStatus = false;
+            currentThread.Suspend();
+
+            ProcessLaunched = false;
+            //Environment.Exit(0);
             Text = "Process stoped";
             //MessageBox.Show("StopCommand");
         });

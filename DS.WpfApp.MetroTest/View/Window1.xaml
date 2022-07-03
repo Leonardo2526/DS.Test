@@ -14,7 +14,7 @@
     <Grid HorizontalAlignment="Left" Width="490" Margin="10,0,0,0">
         <mah:ProgressRing x:Name="ProgressR" HorizontalAlignment="Left" 
                           Margin="91,56,0,0" VerticalAlignment="Top"
-                          IsActive="{Binding Path = ProgresStatus}" RenderTransformOrigin="-5.4,0.258"
+                          IsActive="{Binding Path = ProcessLaunched}" RenderTransformOrigin="-5.4,0.258"
                           />
         <Button Content="Start" 
                 Command="{Binding Start}"
