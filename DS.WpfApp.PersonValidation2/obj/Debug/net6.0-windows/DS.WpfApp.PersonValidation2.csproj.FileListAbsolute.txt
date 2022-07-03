@@ -20,6 +20,8 @@ E:\Repository\DS.WindowsApp.Tests\DS.WpfApp.PersonValidation2\obj\Debug\net6.0-w
 E:\Repository\DS.WindowsApp.Tests\DS.WpfApp.PersonValidation2\obj\Debug\net6.0-windows\DS.WpfApp.PersonValidation2.pdb
 E:\Repository\DS.WindowsApp.Tests\DS.WpfApp.PersonValidation2\obj\Debug\net6.0-windows\DS.WpfApp.PersonValidation2.genruntimeconfig.cache
 E:\Repository\DS.WindowsApp.Tests\DS.WpfApp.PersonValidation2\obj\Debug\net6.0-windows\ref\DS.WpfApp.PersonValidation2.dll
-E:\Repository\DS.WindowsApp.Tests\DS.WpfApp.PersonValidation2\bin\Debug\net6.0-windows\DS.MainUtils.dll
-E:\Repository\DS.WindowsApp.Tests\DS.WpfApp.PersonValidation2\bin\Debug\net6.0-windows\DS.MainUtils.pdb
 E:\Repository\DS.WindowsApp.Tests\DS.WpfApp.PersonValidation2\obj\Debug\net6.0-windows\DS.WpfApp.PersonValidation2.csproj.CopyComplete
+E:\Repository\DS.WindowsApp.Tests\DS.WpfApp.PersonValidation2\bin\Debug\net6.0-windows\DS.ClassLib.VarUtils.dll
+E:\Repository\DS.WindowsApp.Tests\DS.WpfApp.PersonValidation2\bin\Debug\net6.0-windows\DS.ClassLib.FileSystemUtils.dll
+E:\Repository\DS.WindowsApp.Tests\DS.WpfApp.PersonValidation2\bin\Debug\net6.0-windows\DS.ClassLib.VarUtils.pdb
+E:\Repository\DS.WindowsApp.Tests\DS.WpfApp.PersonValidation2\bin\Debug\net6.0-windows\DS.ClassLib.FileSystemUtils.pdb

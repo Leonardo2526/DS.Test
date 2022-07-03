@@ -4,8 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Controls;
-using DS.MainUtils.Strings;
-using DS.MainUtils;
+using DS.ClassLib.VarUtils.Strings;
+using DS.ClassLib.VarUtils;
 
 namespace DS.WpfApp.PersonValidation2
 {
