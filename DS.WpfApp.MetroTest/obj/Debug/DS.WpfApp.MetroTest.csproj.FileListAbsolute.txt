@@ -26,3 +26,5 @@ E:\Repository\DS.WindowsApp.Tests\DS.WpfApp.MetroTest\obj\Debug\DS.WpfApp.MetroT
 E:\Repository\DS.WindowsApp.Tests\DS.WpfApp.MetroTest\obj\Debug\DS.WpfApp.MetroTest.csproj.CopyComplete
 E:\Repository\DS.WindowsApp.Tests\DS.WpfApp.MetroTest\obj\Debug\DS.WpfApp.MetroTest.exe
 E:\Repository\DS.WindowsApp.Tests\DS.WpfApp.MetroTest\obj\Debug\DS.WpfApp.MetroTest.pdb
+E:\Repository\DS.WindowsApp.Tests\DS.WpfApp.MetroTest\obj\Debug\Window1.baml
+E:\Repository\DS.WindowsApp.Tests\DS.WpfApp.MetroTest\obj\Debug\Window1.g.cs
