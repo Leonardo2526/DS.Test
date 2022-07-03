@@ -1,0 +1,15 @@
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.DirectoryTest\bin\Debug\net6.0\DS.ConsoleApp.DirectoryTest.exe
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.DirectoryTest\bin\Debug\net6.0\DS.ConsoleApp.DirectoryTest.deps.json
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.DirectoryTest\bin\Debug\net6.0\DS.ConsoleApp.DirectoryTest.runtimeconfig.json
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.DirectoryTest\bin\Debug\net6.0\DS.ConsoleApp.DirectoryTest.dll
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.DirectoryTest\bin\Debug\net6.0\DS.ConsoleApp.DirectoryTest.pdb
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.DirectoryTest\obj\Debug\net6.0\DS.ConsoleApp.DirectoryTest.csproj.AssemblyReference.cache
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.DirectoryTest\obj\Debug\net6.0\DS.ConsoleApp.DirectoryTest.GeneratedMSBuildEditorConfig.editorconfig
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.DirectoryTest\obj\Debug\net6.0\DS.ConsoleApp.DirectoryTest.AssemblyInfoInputs.cache
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.DirectoryTest\obj\Debug\net6.0\DS.ConsoleApp.DirectoryTest.AssemblyInfo.cs
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.DirectoryTest\obj\Debug\net6.0\DS.ConsoleApp.DirectoryTest.csproj.CoreCompileInputs.cache
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.DirectoryTest\obj\Debug\net6.0\DS.ConsoleApp.DirectoryTest.dll
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.DirectoryTest\obj\Debug\net6.0\refint\DS.ConsoleApp.DirectoryTest.dll
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.DirectoryTest\obj\Debug\net6.0\DS.ConsoleApp.DirectoryTest.pdb
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.DirectoryTest\obj\Debug\net6.0\DS.ConsoleApp.DirectoryTest.genruntimeconfig.cache
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.DirectoryTest\obj\Debug\net6.0\ref\DS.ConsoleApp.DirectoryTest.dll

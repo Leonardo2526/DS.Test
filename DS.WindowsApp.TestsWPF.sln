@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DS.WpfApp.Phones.MVVM", "WP
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DS.WpfApp.PersonValidation", "DS.WpfApp.PersonValidation\DS.WpfApp.PersonValidation.csproj", "{FB3D2227-7C0D-4CF2-B623-C52BC3F639CB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DS.WpfApp.PersonValidation2", "DS.WpfApp.PersonValidation2\DS.WpfApp.PersonValidation2.csproj", "{3C970371-4E9D-4B7D-AE15-CEDF8AAF2C61}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DS.WpfApp.PersonValidation2", "DS.WpfApp.PersonValidation2\DS.WpfApp.PersonValidation2.csproj", "{3C970371-4E9D-4B7D-AE15-CEDF8AAF2C61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DS.WpfApp.Misc", "DS.WpfApp.Misc\DS.WpfApp.Misc.csproj", "{C81BB3DC-317B-4359-A3D5-23118FC3CD3C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{3C970371-4E9D-4B7D-AE15-CEDF8AAF2C61}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C970371-4E9D-4B7D-AE15-CEDF8AAF2C61}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C970371-4E9D-4B7D-AE15-CEDF8AAF2C61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C81BB3DC-317B-4359-A3D5-23118FC3CD3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C81BB3DC-317B-4359-A3D5-23118FC3CD3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C81BB3DC-317B-4359-A3D5-23118FC3CD3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C81BB3DC-317B-4359-A3D5-23118FC3CD3C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

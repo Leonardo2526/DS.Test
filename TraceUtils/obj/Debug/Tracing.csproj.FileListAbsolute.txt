@@ -10,9 +10,7 @@ E:\Repository\DS.WindowsApp.Tests\Log\bin\Debug\DS.MainUtils.pdb
 E:\Repository\DS.WindowsApp.Tests\Log\obj\Debug\Tracing.csproj.CopyComplete
 E:\Repository\DS.WindowsApp.Tests\TraceUtils\bin\Debug\Tracing.exe
 E:\Repository\DS.WindowsApp.Tests\TraceUtils\bin\Debug\Tracing.pdb
-E:\Repository\DS.WindowsApp.Tests\TraceUtils\bin\Debug\DS.MainUtils.dll
 E:\Repository\DS.WindowsApp.Tests\TraceUtils\bin\Debug\DS.TraceUtils.dll
-E:\Repository\DS.WindowsApp.Tests\TraceUtils\bin\Debug\DS.MainUtils.pdb
 E:\Repository\DS.WindowsApp.Tests\TraceUtils\bin\Debug\DS.TraceUtils.pdb
 E:\Repository\DS.WindowsApp.Tests\TraceUtils\obj\Debug\Tracing.csproj.CoreCompileInputs.cache
 E:\Repository\DS.WindowsApp.Tests\TraceUtils\obj\Debug\Tracing.csproj.CopyComplete
@@ -34,3 +32,7 @@ D:\Reposotory\DS.WindowsApp.Tests\TraceUtils\obj\Debug\Tracing.csproj.CoreCompil
 D:\Reposotory\DS.WindowsApp.Tests\TraceUtils\obj\Debug\Tracing.csproj.CopyComplete
 D:\Reposotory\DS.WindowsApp.Tests\TraceUtils\obj\Debug\Tracing.exe
 D:\Reposotory\DS.WindowsApp.Tests\TraceUtils\obj\Debug\Tracing.pdb
+E:\Repository\DS.WindowsApp.Tests\TraceUtils\bin\Debug\DS.ClassLib.VarUtils.dll
+E:\Repository\DS.WindowsApp.Tests\TraceUtils\bin\Debug\DS.ClassLib.FileSystemUtils.dll
+E:\Repository\DS.WindowsApp.Tests\TraceUtils\bin\Debug\DS.ClassLib.VarUtils.pdb
+E:\Repository\DS.WindowsApp.Tests\TraceUtils\bin\Debug\DS.ClassLib.FileSystemUtils.pdb

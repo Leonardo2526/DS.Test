@@ -2,7 +2,7 @@
 using System.Diagnostics;
 using System.IO;
 using System.Text;
-using DS.MainUtils;
+using DS.ClassLib.VarUtils;
 
 namespace Tracing
 {
