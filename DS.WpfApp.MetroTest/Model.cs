@@ -144,12 +144,9 @@ namespace DS.WpfApp.MetroTest
             string s = "null";
             for (int i = 0; i <= 50000000; i++)
             {
-                if (applicationViewModel.s_cts.IsCancellationRequested)
-                {
-                    applicationViewModel.Text = "Process stopped manually";
-                    return;
-                }
-                s = i.ToString();
+                applicationViewModel.s_cts.Token.ThrowIfCancellationRequested();
+
+                s = i.ToString();  
             }
             applicationViewModel.Text = "Process completed";
             MessageBox.Show(s);
@@ -192,7 +189,7 @@ namespace DS.WpfApp.MetroTest
 
         public async Task<int> Task4()
         {
-            applicationViewModel.s_cts.Token.ThrowIfCancellationRequested();
+            //applicationViewModel.s_cts.Token.ThrowIfCancellationRequested();
             try
             {
                 await Task.Run(() =>

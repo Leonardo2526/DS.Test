@@ -55,7 +55,7 @@ namespace DS.WpfApp.MetroTest.ViewModel
 
             Model model = new Model(this);
             //await model.RunProcessAsync();
-            await Task.Run(() => model.Task2());
+            await Task.Run(() => model.Task4());
             //await Task.Run(() => model.Task1());
 
             //await Task.Run(() => model.WrapTask(_cancellationTokenSource), _cancellationTokenSource.Token);
@@ -80,10 +80,10 @@ namespace DS.WpfApp.MetroTest.ViewModel
         public ICommand Stop => new RelayCommand(o =>
         {
             //client.Kill();
-           
-                currentThreads.First().Abort();
-          
-            //s_cts.Cancel();
+
+            //currentThreads.First().Abort();
+
+            s_cts.Cancel();
             //foreach (var thread in currentThreads)
             //{
             //    if (thread.ThreadState == System.Threading.ThreadState.Running)
