@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using System.Windows;
 
 namespace DS.WpfApp.MetroTest
 {
@@ -18,7 +19,8 @@ namespace DS.WpfApp.MetroTest
             cancellationToken.Register(() =>
             {
                 // We received a cancellation message, cancel the TaskCompletionSource.Task
-                taskCompletionSource.TrySetCanceled();
+              taskCompletionSource.TrySetCanceled();
+            
             });
 
             var task = LongRunningOperation(loop);
@@ -27,6 +29,37 @@ namespace DS.WpfApp.MetroTest
             var completedTask = await Task.WhenAny(task, taskCompletionSource.Task);
 
             return await completedTask;
+        }
+
+        public static async Task LongRunningOperationWithCancellationTokenAsync1(int loop, CancellationToken cancellationToken)
+        {
+            // We create a TaskCompletionSource of decimal
+            var taskCompletionSource = new TaskCompletionSource<decimal>();
+
+            // Registering a lambda into the cancellationToken
+            cancellationToken.Register(() =>
+            {
+                // We received a cancellation message, cancel the TaskCompletionSource.Task
+               taskCompletionSource.TrySetCanceled();
+            });
+
+            var task = LongRunningOperation(loop);
+
+            try
+            {
+                // Wait for the first task to finish among the two
+                var completedTask = await Task.WhenAny(task, taskCompletionSource.Task);
+                MessageBox.Show("Task is done");
+            }
+            catch (OperationCanceledException)
+            {
+                MessageBox.Show("Process stopped manually");
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show("Error");
+            }
+
         }
 
         /// <summary>

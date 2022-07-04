@@ -97,6 +97,47 @@ namespace DS.WpfApp.MetroTest
             }
         }
 
+        public void Task1Base()
+        {
+            string s = "null";
+            for (int i = 0; i <= 50000000; i++)
+            {
+                s = i.ToString();
+            }
+            MessageBox.Show(s);
+            processCompleted = true;
+        }
+
+        public void Task11()
+        {
+            //applicationViewModel.s_cts.Token.ThrowIfCancellationRequested();
+            string s = "null";
+            for (int i = 0; i <= 50000000; i++)
+            {
+                if (applicationViewModel.s_cts.IsCancellationRequested)
+                {
+                    return;
+                }
+                s = i.ToString();
+            }
+            applicationViewModel.Text = "Process completed";
+            MessageBox.Show(s);
+            processCompleted = true;
+        }
+
+        public void Task12()
+        {
+            try
+            {
+                Thread thread = new Thread(Task1Base);
+                thread.Start();
+            }
+            catch (ThreadAbortException ex)
+            {
+                MessageBox.Show("stop");
+            }
+        }
+
         public void Task1()
         {
 
@@ -105,12 +146,12 @@ namespace DS.WpfApp.MetroTest
             {
                 if (applicationViewModel.s_cts.IsCancellationRequested)
                 {
-                    applicationViewModel.Text ="Process stopped manually";
+                    applicationViewModel.Text = "Process stopped manually";
                     return;
                 }
                 s = i.ToString();
             }
-            applicationViewModel.Text ="Process completed";
+            applicationViewModel.Text = "Process completed";
             MessageBox.Show(s);
             processCompleted = true;
         }
@@ -141,11 +182,83 @@ namespace DS.WpfApp.MetroTest
             applicationViewModel.ProcessLaunched = false;
         }
 
-        public static async Task Task3()
+        public async Task Task3()
         {
-            await Task.Delay(3000);
+            await Task.Delay(3000, applicationViewModel.s_cts.Token);
             processCompleted = true;
             MessageBox.Show("Process completed!");
+        }
+
+
+        public async Task<int> Task4()
+        {
+            applicationViewModel.s_cts.Token.ThrowIfCancellationRequested();
+            try
+            {
+                await Task.Run(() =>
+                {
+                    Task1();
+                    //await Task.Delay(TimeSpan.FromSeconds(5), applicationViewModel.s_cts.Token);
+                    //await Task3();
+                });
+                MessageBox.Show("Task is done");
+            }
+            catch (OperationCanceledException)
+            {
+                applicationViewModel.Text = "Process stopped manually";
+            }
+
+
+            //cancellationToken.ThrowIfCancellationRequested(); /* 2 */
+            //while (true)
+            //{
+            //    // Что-то делаем
+            //    cancellationToken.ThrowIfCancellationRequested();
+            //}
+            return 42;
+        }
+
+        public async Task Task5()
+        {
+            var task = Task.Run(async () => {await Model2.LongRunningOperation(1000); });
+
+            try
+            {
+                await task;
+                MessageBox.Show("Task is done");
+            }
+            catch (OperationCanceledException)
+            {
+                applicationViewModel.Text = "Process stopped manually";
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show("Error");
+            }
+        }
+
+        public async Task Task6()
+        {
+            var task = Task.Run(() => { Task11(); });
+
+            try
+            {
+                await task;
+                MessageBox.Show("Task is done");
+            }
+            catch (AggregateException ae)
+            {
+                try
+                {
+                    ae.Flatten().Handle(e => e is TaskCanceledException);
+                    MessageBox.Show("Cancelled");
+                }
+                catch (AggregateException e)
+                {
+                    MessageBox.Show("Error: {0}", e.Message);
+                }
+            }
+
         }
 
         #endregion

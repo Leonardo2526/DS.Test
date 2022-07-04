@@ -9,25 +9,25 @@ namespace Async
 {
     class Program
     {
-        async static Task Main(string[] args)
-        {
-            //HTMLLoader.Load();
-            await NamePrinter.PrintAwait();
-            //await NamePrinter.PrintAwait1();
-            //await NamePrinter.PrintNoAwait();
-            //await NamePrinter.PrintNameWithRun();
-            //NamePrinter.PrintNameWithRun1();
-
-            Console.ReadLine();
-        }
-
-
-        // static void Main(string[] args)
-        //{            
-        //    NamePrinter.PrintSync();
+        //async static Task Main(string[] args)
+        //{
+        //    //HTMLLoader.Load();
+        //    await NamePrinter.PrintAwait();
+        //    //await NamePrinter.PrintAwait1();
+        //    //await NamePrinter.PrintNoAwait();
+        //    //await NamePrinter.PrintNameWithRun();
+        //    //NamePrinter.PrintNameWithRun1();
 
         //    Console.ReadLine();
         //}
+
+
+        static void Main(string[] args)
+        {
+            ThreadExample.Run();
+
+            Console.ReadLine();
+        }
 
     }
 }
