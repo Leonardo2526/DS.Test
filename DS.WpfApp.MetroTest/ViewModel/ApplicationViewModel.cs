@@ -45,17 +45,20 @@ namespace DS.WpfApp.MetroTest.ViewModel
         {
             ProcessLaunched = true;
             Text = "Process launched";
-            //_cancellationTokenSource = new CancellationTokenSource();
+
+            s_cts = new CancellationTokenSource();
+
+            Model model = new Model(this);
+            await Task.Run(() => model.Task4());
+            //await Task.Run(() => model.Task4Async());
+
             //currentThreads.Add(Thread.CurrentThread);
 
             //client = new Client();
             //await Task.Run(() => client.Run());
 
-            s_cts = new CancellationTokenSource();
 
-            Model model = new Model(this);
             //await model.RunProcessAsync();
-            await Task.Run(() => model.Task4());
             //await Task.Run(() => model.Task1());
 
             //await Task.Run(() => model.WrapTask(_cancellationTokenSource), _cancellationTokenSource.Token);
@@ -69,11 +72,12 @@ namespace DS.WpfApp.MetroTest.ViewModel
             //await Task.Run(() => Model3.SomeWork(s_cts.Token));
 
             //MessageBox.Show("ProcessCompleted");
-            ProcessLaunched = false;
             //Text = "Process completed";
             //await Model.Task3();
             //await model.RunProcessAsync();
             //MessageBox.Show("RunCommand");
+
+            ProcessLaunched = false;
         });
 
         [Obsolete]

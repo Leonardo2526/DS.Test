@@ -21,7 +21,8 @@ namespace DS.WpfApp.MetroTest
         private readonly ApplicationViewModel applicationViewModel;
         ManualResetEvent waitHandle = new ManualResetEvent(false);
 
-        #region Methods
+
+        #region MethodsAsync
 
         public async Task RunProcessAsync()
         {
@@ -63,7 +64,7 @@ namespace DS.WpfApp.MetroTest
                             return;
                         }
                         Task1();
-                    }); 
+                    });
                     //await Task.Delay(300000, token);
                 }
             }
@@ -84,10 +85,83 @@ namespace DS.WpfApp.MetroTest
 
         private async Task StopMethod()
         {
-            var stopwatch = Stopwatch.StartNew();
             await Task.Delay(5000);
-            stopwatch.Stop();
         }
+
+        public async Task DelayTaskAsync()
+        {
+            await Task.Delay(3000, applicationViewModel.s_cts.Token);
+            MessageBox.Show("Process completed!");
+        }
+
+        public async Task Task4Async()
+        {
+            //applicationViewModel.s_cts.Token.ThrowIfCancellationRequested();
+            try
+            {
+                //Task1();
+                //await Task.Delay(TimeSpan.FromSeconds(5), applicationViewModel.s_cts.Token);
+                //await Task3();
+                await DelayTaskAsync();
+
+                MessageBox.Show("Task is done");
+            }
+            catch (OperationCanceledException)
+            {
+                applicationViewModel.Text = "Process stopped manually";
+            }
+
+        }
+
+        public async Task Task5()
+        {
+            var task = Task.Run(async () => { await Model2.LongRunningOperation(1000); });
+
+            try
+            {
+                await task;
+                MessageBox.Show("Task is done");
+            }
+            catch (OperationCanceledException)
+            {
+                applicationViewModel.Text = "Process stopped manually";
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show("Error");
+            }
+        }
+
+        public async Task Task6()
+        {
+            var task = Task.Run(() => { Task11(); });
+
+            try
+            {
+                await task;
+                MessageBox.Show("Task is done");
+            }
+            catch (AggregateException ae)
+            {
+                try
+                {
+                    ae.Flatten().Handle(e => e is TaskCanceledException);
+                    MessageBox.Show("Cancelled");
+                }
+                catch (AggregateException e)
+                {
+                    MessageBox.Show("Error: {0}", e.Message);
+                }
+            }
+
+        }
+
+        #endregion
+
+
+
+
+        #region Methods
 
         public void RunProcess()
         {
@@ -146,19 +220,19 @@ namespace DS.WpfApp.MetroTest
             {
                 applicationViewModel.s_cts.Token.ThrowIfCancellationRequested();
 
-                s = i.ToString();  
+                s = i.ToString();
             }
             applicationViewModel.Text = "Process completed";
             MessageBox.Show(s);
             processCompleted = true;
         }
 
-        public void  WrapTask(CancellationTokenSource _cancellationTokenSource)
+        public void WrapTask(CancellationTokenSource _cancellationTokenSource)
         {
             Task.Run(() => Task2(), _cancellationTokenSource.Token);
             if (_cancellationTokenSource.IsCancellationRequested)
                 return;
-           
+
         }
 
         public void WrapTask1(CancellationTokenSource s_cts)
@@ -179,84 +253,19 @@ namespace DS.WpfApp.MetroTest
             applicationViewModel.ProcessLaunched = false;
         }
 
-        public async Task Task3()
+        public void Task4()
         {
-            await Task.Delay(3000, applicationViewModel.s_cts.Token);
-            processCompleted = true;
-            MessageBox.Show("Process completed!");
-        }
-
-
-        public async Task<int> Task4()
-        {
-            //applicationViewModel.s_cts.Token.ThrowIfCancellationRequested();
             try
             {
-                await Task.Run(() =>
-                {
-                    Task1();
-                    //await Task.Delay(TimeSpan.FromSeconds(5), applicationViewModel.s_cts.Token);
-                    //await Task3();
-                });
+                Task1();
                 MessageBox.Show("Task is done");
             }
             catch (OperationCanceledException)
             {
                 applicationViewModel.Text = "Process stopped manually";
             }
-
-
-            //cancellationToken.ThrowIfCancellationRequested(); /* 2 */
-            //while (true)
-            //{
-            //    // Что-то делаем
-            //    cancellationToken.ThrowIfCancellationRequested();
-            //}
-            return 42;
         }
 
-        public async Task Task5()
-        {
-            var task = Task.Run(async () => {await Model2.LongRunningOperation(1000); });
-
-            try
-            {
-                await task;
-                MessageBox.Show("Task is done");
-            }
-            catch (OperationCanceledException)
-            {
-                applicationViewModel.Text = "Process stopped manually";
-            }
-            catch (Exception e)
-            {
-                MessageBox.Show("Error");
-            }
-        }
-
-        public async Task Task6()
-        {
-            var task = Task.Run(() => { Task11(); });
-
-            try
-            {
-                await task;
-                MessageBox.Show("Task is done");
-            }
-            catch (AggregateException ae)
-            {
-                try
-                {
-                    ae.Flatten().Handle(e => e is TaskCanceledException);
-                    MessageBox.Show("Cancelled");
-                }
-                catch (AggregateException e)
-                {
-                    MessageBox.Show("Error: {0}", e.Message);
-                }
-            }
-
-        }
 
         #endregion
 
