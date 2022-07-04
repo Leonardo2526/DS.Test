@@ -1,6 +1,7 @@
 ﻿using DS.WpfApp.MetroTest.ViewModel;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading;
@@ -11,7 +12,6 @@ namespace DS.WpfApp.MetroTest
 {
     internal class Model
     {
-
         public Model(ApplicationViewModel applicationViewModel)
         {
             this.applicationViewModel = applicationViewModel;
@@ -19,17 +19,77 @@ namespace DS.WpfApp.MetroTest
 
         private static bool processCompleted;
         private readonly ApplicationViewModel applicationViewModel;
-
+        ManualResetEvent waitHandle = new ManualResetEvent(false);
 
         #region Methods
 
         public async Task RunProcessAsync()
         {
-            await Task.Run(() => RunProcess(applicationViewModel));
-            //await Task.Run(()=> Task1());
+            MessageBox.Show("Application started.");
+
+            try
+            {
+                applicationViewModel.s_cts.CancelAfter(1000);
+                await StopMethod();
+                MessageBox.Show("Process completed!");
+            }
+            catch (OperationCanceledException)
+            {
+                MessageBox.Show("\nTasks cancelled: timed out.\n");
+            }
+            finally
+            {
+                applicationViewModel.s_cts.Dispose();
+            }
+
+            //Console.WriteLine("Application ending.");
+            //s_cts.CancelAfter(1000);
+            //await Task.Delay(5000);
+            //MessageBox.Show("Process completed!");
+            //await Task.Run(() => RunProcess());
+            //await Task.Run(()=> Task3());
         }
 
-        public void RunProcess(ApplicationViewModel applicationViewModel)
+        public async Task ListenAsync(CancellationToken token)
+        {
+            try
+            {
+                while (true)
+                {
+                    await Task.Run(() =>
+                    {
+                        if (!token.IsCancellationRequested)
+                        {
+                            return;
+                        }
+                        Task1();
+                    }); 
+                    //await Task.Delay(300000, token);
+                }
+            }
+            catch (OperationCanceledException)
+            {
+                MessageBox.Show("Cancelled");
+            }
+            catch (Exception err)
+            {
+                MessageBox.Show(err.Message);
+            }
+            finally
+            {
+                MessageBox.Show("Terminate");
+                waitHandle.Set();
+            }
+        }
+
+        private async Task StopMethod()
+        {
+            var stopwatch = Stopwatch.StartNew();
+            await Task.Delay(5000);
+            stopwatch.Stop();
+        }
+
+        public void RunProcess()
         {
             while (applicationViewModel.ProcessLaunched && !processCompleted)
             {
@@ -39,19 +99,40 @@ namespace DS.WpfApp.MetroTest
 
         public void Task1()
         {
+
             string s = "null";
-            for (int i = 0; i <= 10000000; i++)
+            for (int i = 0; i <= 50000000; i++)
             {
+                if (applicationViewModel.s_cts.IsCancellationRequested)
+                {
+                    applicationViewModel.Text ="Process stopped manually";
+                    return;
+                }
                 s = i.ToString();
             }
-            MessageBox.Show("Process completed!");
+            applicationViewModel.Text ="Process completed";
             MessageBox.Show(s);
             processCompleted = true;
         }
 
+        public void  WrapTask(CancellationTokenSource _cancellationTokenSource)
+        {
+            Task.Run(() => Task2(), _cancellationTokenSource.Token);
+            if (_cancellationTokenSource.IsCancellationRequested)
+                return;
+           
+        }
+
+        public void WrapTask1(CancellationTokenSource s_cts)
+        {
+            s_cts.CancelAfter(1000);
+
+            Task1();
+        }
+
         public void Task2()
         {
-            applicationViewModel.currentThread = Thread.CurrentThread;
+            applicationViewModel.currentThreads.Add(Thread.CurrentThread);
 
             Thread.Sleep(3000);
 
