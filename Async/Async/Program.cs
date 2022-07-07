@@ -40,6 +40,10 @@ namespace Async
 
             await ClientCancel.RunAsync();
 
+            //Task task2 = Task.Run(() => ClientCancel.RunAsync());
+            //Thread.Sleep(2000);
+            //await task2;
+
             Console.WriteLine($"\nПоток {Thread.CurrentThread.ManagedThreadId} из Main завершен");
 
             Console.ReadLine();
