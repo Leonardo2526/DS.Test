@@ -28,5 +28,71 @@ namespace Async.CancelTests
 
         }
 
+        public static void CreateTaskWithOperationCanceledException(CancellationToken cancelTok)
+        {
+            cancelTok.ThrowIfCancellationRequested();
+
+            Console.WriteLine("MyTask() №{0} запущен", Task.CurrentId);
+
+            for (int count = 0; count < 10; count++)
+            {
+                // Используем опрос
+                cancelTok.ThrowIfCancellationRequested();
+
+                Thread.Sleep(500);
+                Console.WriteLine("В методе MyTask №{0} подсчет равен {1}", Task.CurrentId, count);
+
+            }
+
+        }
+
+        public static async Task CreateTaskAsync(CancellationToken cancelTok)
+        {
+            cancelTok.ThrowIfCancellationRequested();
+
+            Console.WriteLine("MyTask() №{0} запущен", Task.CurrentId);
+
+            for (int count = 0; count < 10; count++)
+            {
+                //Используем опрос
+
+                cancelTok.ThrowIfCancellationRequested();
+
+                await Task.Delay(500);
+                Console.WriteLine("В методе MyTask №{0} подсчет равен {1}", Task.CurrentId, count);
+
+                //if (!cancelTok.IsCancellationRequested)
+                //{
+                //    await Task.Delay(500);
+                //    Console.WriteLine("В методе MyTask №{0} подсчет равен {1}", Task.CurrentId, count);
+                //}
+
+            }
+
+        }
+
+        public static void CreateAgregateException()
+        {
+            var task1 = Task.Run(() => { throw new AggregateException("This exception is expected!"); });
+
+            try
+            {
+                task1.Wait();
+            }
+            catch (AggregateException agEx)
+            {
+                Console.WriteLine("AggregateException" + agEx.InnerException.Message + " " + agEx.Message);
+                agEx.Handle((x) =>
+                {
+                    Console.WriteLine("new");
+                    return false; // Let anything else stop the application.
+                });
+            }
+            catch(Exception ex)
+            {
+
+            }
+        }
+
     }
 }

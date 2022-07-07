@@ -23,10 +23,20 @@ namespace Async
         //}
 
 
-        static void Main(string[] args)
+        static void Main0(string[] args)
         {
-            ClientCancel.Run();
+            //ClientCancel.Run();
+            //ClientCancel.RunWithOperationCanceledException();
+            TestTasks.CreateAgregateException();
             //ThreadExample.Run();
+
+            Console.ReadLine();
+        }
+
+        static async Task Main(string[] args)
+        {
+          
+           await ClientCancel.RunAsync();
 
             Console.ReadLine();
         }
