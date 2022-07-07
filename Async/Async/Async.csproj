@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CancelTests\ClientCancel.cs" />
+    <Compile Include="CancelTests\TestTasks.cs" />
     <Compile Include="ExThread.cs" />
     <Compile Include="HTMLLoader.cs" />
     <Compile Include="NamePrinter.cs" />

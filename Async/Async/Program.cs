@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Async.CancelTests;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
@@ -24,7 +25,8 @@ namespace Async
 
         static void Main(string[] args)
         {
-            ThreadExample.Run();
+            ClientCancel.Run();
+            //ThreadExample.Run();
 
             Console.ReadLine();
         }
