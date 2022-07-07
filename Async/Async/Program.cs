@@ -28,7 +28,7 @@ namespace Async
         {
             //ClientCancel.Run();
             //ClientCancel.RunWithOperationCanceledException();
-            TestTasks.CreateAgregateException();
+            TestTask.CreateAgregateException();
             //ThreadExample.Run();
 
             Console.ReadLine();
@@ -36,13 +36,13 @@ namespace Async
 
         static async Task Main(string[] args)
         {
-           //Console.WriteLine($"Поток {Thread.CurrentThread.ManagedThreadId} запущен\n");
+            Console.WriteLine($"Поток {Thread.CurrentThread.ManagedThreadId} из Main запущен\n");
 
             await ClientCancel.RunAsync();
 
-           //Console.WriteLine($"\nПоток {Thread.CurrentThread.ManagedThreadId} завершен");
+            Console.WriteLine($"\nПоток {Thread.CurrentThread.ManagedThreadId} из Main завершен");
 
-           Console.ReadLine();
+            Console.ReadLine();
         }
 
     }

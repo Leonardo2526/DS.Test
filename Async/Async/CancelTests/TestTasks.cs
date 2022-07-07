@@ -5,15 +5,20 @@ using System.Threading.Tasks;
 namespace Async.CancelTests
 
 {
-    internal class TestTasks
+    internal class TestTask
     {
         public CancellationTokenSource InnerSource { get; private set; }
         public CancellationTokenSource TotalSource { get; private set; }
         public Task Task { get; set; }
 
-        public TestTasks(CancellationTokenSource innerSource, CancellationTokenSource totalSource = null)
+        public TestTask(CancellationTokenSource innerSource, CancellationTokenSource totalSource = null)
         {
             this.InnerSource = innerSource;
+            this.TotalSource = totalSource;
+        }
+
+        public TestTask(CancellationTokenSource totalSource = null)
+        {
             this.TotalSource = totalSource;
         }
 
@@ -83,6 +88,26 @@ namespace Async.CancelTests
 
         public async Task CreateTaskAsync()
         {
+            Console.WriteLine("MyTask() №{0} в потоке {1} запущен", Task.CurrentId, Thread.CurrentThread.ManagedThreadId);
+
+            for (int count = 0; count < 10; count++)
+            {
+                //Используем опрос
+                if (TotalSource is not null)
+                {
+                    TotalSource.Token.ThrowIfCancellationRequested();
+                }
+                InnerSource.Token.ThrowIfCancellationRequested();
+
+                await Task.Delay(500);
+                Console.WriteLine("В методе MyTask №{0} подсчет равен {1}. Поток {2}",
+                    Task.CurrentId, count, Thread.CurrentThread.ManagedThreadId);
+            }
+        }
+
+        public async Task CreateTaskAsync1()
+        {
+            InnerSource = new CancellationTokenSource();
             Console.WriteLine("MyTask() №{0} в потоке {1} запущен", Task.CurrentId, Thread.CurrentThread.ManagedThreadId);
 
             for (int count = 0; count < 10; count++)

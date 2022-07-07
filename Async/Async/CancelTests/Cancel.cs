@@ -9,29 +9,25 @@ namespace Async.CancelTests
 {
     internal static class Cancel
     {
-        public static async Task CancelTask(Task task, CancellationTokenSource cancelTokSSrc)
+        public static async Task CancelTask(Task task, CancellationTokenSource cancelTokSSrc, string tokenDiscription)
         {
             try
             {
-                // отменить задачу
                 cancelTokSSrc.Cancel();
                 await task;
             }
             catch (OperationCanceledException opEx)
             {
-                // Special cancellation handling
-                Console.WriteLine($"OperationCanceledException - {opEx.Message} Task id: {task.Id}. " +
+                Console.WriteLine($"OperationCanceledException: {opEx.Message} Token: {tokenDiscription}. Task id: {task.Id}. " +
                     $"Поток: {Thread.CurrentThread.ManagedThreadId}");
             }
             catch (Exception ex)
             {
-                // Normal error handling; log, etc.
                 Console.WriteLine("Exception - " + ex.Message);
             }
             finally
             {
                 task.Dispose();
-                //cancelTokSSrc.Dispose();
             }
         }
     }

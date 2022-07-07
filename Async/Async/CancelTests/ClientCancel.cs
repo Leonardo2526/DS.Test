@@ -18,7 +18,7 @@ namespace Async.CancelTests
             CancellationTokenSource cancelTokSSrc = new CancellationTokenSource();
 
             // Запустить задачу, передав ей признак отмены
-            Task tsk = Task.Factory.StartNew(p => TestTasks.CreateTask1(cancelTokSSrc.Token), cancelTokSSrc.Token);
+            Task tsk = Task.Factory.StartNew(p => TestTask.CreateTask1(cancelTokSSrc.Token), cancelTokSSrc.Token);
 
             Thread.Sleep(2000);
             try
@@ -53,7 +53,7 @@ namespace Async.CancelTests
 
             // Запустить задачу, передав ей признак отмены
             Task tsk = Task.Factory.StartNew(p =>
-            TestTasks.CreateTaskWithOperationCanceledException(cancelTokSSrc.Token), cancelTokSSrc.Token);
+            TestTask.CreateTaskWithOperationCanceledException(cancelTokSSrc.Token), cancelTokSSrc.Token);
 
             Thread.Sleep(2000);
             try
@@ -90,19 +90,20 @@ namespace Async.CancelTests
 
 
             List<Task> tasks = new List<Task>();
-            List<TestTasks> testTasks = new List<TestTasks>();
+            List<TestTask> testTasks = new List<TestTask>();
             List<CancellationTokenSource> cancellationTokenSources = new List<CancellationTokenSource>();
 
             CancellationTokenSource totalToketSource = new CancellationTokenSource();
+            //CancellationTokenSource totalToketSource = null;
 
-            CancellationTokenSource task1TokenSource = new CancellationTokenSource();
-            TestTasks testTasks1 = new TestTasks(task1TokenSource, totalToketSource);
-            Task task1 = Task.Run(() => testTasks1.CreateTaskAsync());
+            //TestTasks testTasks1 = new TestTasks(task1TokenSource, totalToketSource);
+            TestTask testTasks1 = new TestTask(totalToketSource);
+            Task task1 = Task.Run(() => testTasks1.CreateTaskAsync1());
             testTasks1.Task = task1;
 
-            CancellationTokenSource task2TokenSource = new CancellationTokenSource();
-            TestTasks testTasks2 = new TestTasks(task2TokenSource, totalToketSource);
-            Task task2 = Task.Run(() => testTasks2.CreateTaskAsync());
+            //TestTasks testTasks2 = new TestTasks(task2TokenSource, totalToketSource);
+            TestTask testTasks2 = new TestTask(totalToketSource);
+            Task task2 = Task.Run(() => testTasks2.CreateTaskAsync1());
             testTasks2.Task = task2;
 
             testTasks.Add(testTasks1);
@@ -115,39 +116,55 @@ namespace Async.CancelTests
             //await CancelTest(testTasks1);
             //await CancelTest(testTasks2);
 
-            //await CancelAllTasksOneByOne(testTasks);
-            await CancelAllTasks(tasks, totalToketSource);
+            await CancelAllTestTasks(testTasks);
+            //await CancelAllTestTasksByTotal(testTasks);
+            //await CancelAllTestTasksByInner(testTasks);
+
+            //Task.WaitAll(tasks.ToArray());
+
+            totalToketSource.Dispose();
 
             Console.WriteLine($"\nПоток {Thread.CurrentThread.ManagedThreadId} завершен");
         }
 
 
-        private static async Task CancelAllTasks(List<Task> tasks, CancellationTokenSource totalToketSource)
-        {
-            foreach (var task in tasks)
-            {
-                await Cancel.CancelTask(task, totalToketSource);
-            }
-        }
-
-        private static async Task CancelAllTasksOneByOne(List<TestTasks> testTasks)
+        private static async Task CancelAllTestTasks(List<TestTask> testTasks)
         {
             foreach (var testTask in testTasks)
             {
-                await Cancel.CancelTask(testTask.Task, testTask.InnerSource);
+                await CancelTest(testTask);
+            }
+        }
+
+        private static async Task CancelAllTestTasksByTotal(List<TestTask> testTasks)
+        {
+            foreach (var testTask in testTasks)
+            {
+                    await Cancel.CancelTask(testTask.Task, testTask.TotalSource, "TotalSource");
+             
+            }
+        }
+
+        private static async Task CancelAllTestTasksByInner(List<TestTask> testTasks)
+        {
+            foreach (var testTask in testTasks)
+            {
+                await Cancel.CancelTask(testTask.Task, testTask.InnerSource, "InnerSource");
+                testTask.InnerSource.Dispose();
             }
         }
 
 
-        private static async Task CancelTest(TestTasks testTasks)
+        private static async Task CancelTest(TestTask testTask)
         {
-            if (testTasks.TotalSource is null)
+            if (testTask.TotalSource is null)
             {
-                await Cancel.CancelTask(testTasks.Task, testTasks.InnerSource);
+                await Cancel.CancelTask(testTask.Task, testTask.InnerSource, "InnerSource");
+                testTask.InnerSource.Dispose();
             }
             else
             {
-                await Cancel.CancelTask(testTasks.Task, testTasks.TotalSource);
+                await Cancel.CancelTask(testTask.Task, testTask.TotalSource, "TotalSource");
             }
         }
 
