@@ -116,7 +116,7 @@ namespace Async.CancelTests
             //await CancelTest(testTasks1);
             //await CancelTest(testTasks2);
 
-            await CancelAllTestTasks(testTasks);
+            //await CancelAllTestTasks(testTasks);
             //await CancelAllTestTasksByTotal(testTasks);
             //await CancelAllTestTasksByInner(testTasks);
 
