@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
@@ -10,6 +7,16 @@ namespace Async.CancelTests
 {
     internal class TestTasks
     {
+        public CancellationTokenSource InnerSource { get; private set; }
+        public CancellationTokenSource TotalSource { get; private set; }
+        public Task Task { get; set; }
+
+        public TestTasks(CancellationTokenSource innerSource, CancellationTokenSource totalSource = null)
+        {
+            this.InnerSource = innerSource;
+            this.TotalSource = totalSource;
+        }
+
         public static void CreateTask1(CancellationToken cancelTok)
         {
             cancelTok.ThrowIfCancellationRequested();
@@ -46,17 +53,19 @@ namespace Async.CancelTests
 
         }
 
-        public static async Task CreateTaskAsync(CancellationToken cancelTok)
+        public async Task CreateTaskAsync(CancellationToken cancelTok)
         {
+            //Используем опрос
             cancelTok.ThrowIfCancellationRequested();
+            //InnerCancellationToken.Token.ThrowIfCancellationRequested();
 
             Console.WriteLine("MyTask() №{0} в потоке {1} запущен", Task.CurrentId, Thread.CurrentThread.ManagedThreadId);
 
             for (int count = 0; count < 10; count++)
             {
                 //Используем опрос
-
                 cancelTok.ThrowIfCancellationRequested();
+                //InnerCancellationToken.Token.ThrowIfCancellationRequested();
 
                 await Task.Delay(500);
                 Console.WriteLine("В методе MyTask №{0} подсчет равен {1}. Поток {2}", 
@@ -70,6 +79,25 @@ namespace Async.CancelTests
 
             }
 
+        }
+
+        public async Task CreateTaskAsync()
+        {
+            Console.WriteLine("MyTask() №{0} в потоке {1} запущен", Task.CurrentId, Thread.CurrentThread.ManagedThreadId);
+
+            for (int count = 0; count < 10; count++)
+            {
+                //Используем опрос
+                if (TotalSource is not null)
+                {
+                    TotalSource.Token.ThrowIfCancellationRequested();
+                }
+                InnerSource.Token.ThrowIfCancellationRequested();
+
+                await Task.Delay(500);
+                Console.WriteLine("В методе MyTask №{0} подсчет равен {1}. Поток {2}",
+                    Task.CurrentId, count, Thread.CurrentThread.ManagedThreadId);
+            }
         }
 
         public static void CreateAgregateException()

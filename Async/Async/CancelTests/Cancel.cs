@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace Async.CancelTests
 {
-    internal static class Handler
+    internal static class Cancel
     {
-        public static async Task HandleException(Task task, CancellationTokenSource cancelTokSSrc)
+        public static async Task CancelTask(Task task, CancellationTokenSource cancelTokSSrc)
         {
             try
             {
@@ -31,7 +31,7 @@ namespace Async.CancelTests
             finally
             {
                 task.Dispose();
-                cancelTokSSrc.Dispose();
+                //cancelTokSSrc.Dispose();
             }
         }
     }
