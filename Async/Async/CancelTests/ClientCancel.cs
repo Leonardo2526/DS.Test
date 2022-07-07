@@ -86,33 +86,15 @@ namespace Async.CancelTests
 
         public static async Task RunAsync()
         {
+            Console.WriteLine($"Поток id {Thread.CurrentThread.ManagedThreadId} запущен");
+
             CancellationTokenSource cancelTokSSrc = new CancellationTokenSource();
 
             Task tsk = Task.Run(() => TestTasks.CreateTaskAsync(cancelTokSSrc.Token));
 
             Thread.Sleep(2000);
 
-            try
-            {
-                // отменить задачу
-                cancelTokSSrc.Cancel();
-                await tsk;
-            }
-            catch (OperationCanceledException opEx)
-            {
-                // Special cancellation handling
-                Console.WriteLine($"OperationCanceledException - {opEx.Message}");
-            }
-            catch (Exception ex)
-            {
-                // Normal error handling; log, etc.
-                Console.WriteLine("Exception - " + ex.Message);
-            }
-            finally
-            {
-                tsk.Dispose();
-                cancelTokSSrc.Dispose();
-            }
+            await Handler.HandleException(tsk, cancelTokSSrc);
 
             Console.WriteLine($"Поток {Thread.CurrentThread.ManagedThreadId} завершен");
         }

@@ -50,7 +50,7 @@ namespace Async.CancelTests
         {
             cancelTok.ThrowIfCancellationRequested();
 
-            Console.WriteLine("MyTask() №{0} запущен", Task.CurrentId);
+            Console.WriteLine("MyTask() №{0} в потоке {1} запущен", Task.CurrentId, Thread.CurrentThread.ManagedThreadId);
 
             for (int count = 0; count < 10; count++)
             {
@@ -59,7 +59,8 @@ namespace Async.CancelTests
                 cancelTok.ThrowIfCancellationRequested();
 
                 await Task.Delay(500);
-                Console.WriteLine("В методе MyTask №{0} подсчет равен {1}", Task.CurrentId, count);
+                Console.WriteLine("В методе MyTask №{0} подсчет равен {1}. Поток {2}", 
+                    Task.CurrentId, count, Thread.CurrentThread.ManagedThreadId);
 
                 //if (!cancelTok.IsCancellationRequested)
                 //{

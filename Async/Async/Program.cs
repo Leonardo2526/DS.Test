@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace Async
@@ -35,10 +36,13 @@ namespace Async
 
         static async Task Main(string[] args)
         {
-          
-           await ClientCancel.RunAsync();
+           Console.WriteLine($"Поток {Thread.CurrentThread.ManagedThreadId} запущен\n");
 
-            Console.ReadLine();
+            await ClientCancel.RunAsync();
+
+           Console.WriteLine($"\nПоток {Thread.CurrentThread.ManagedThreadId} завершен");
+
+           Console.ReadLine();
         }
 
     }
