@@ -34,7 +34,14 @@ namespace Async
             Console.ReadLine();
         }
 
-        static async Task Main(string[] args)
+        static void Main(string[] args)
+        {
+            TasksIterator.Run();
+
+            Console.ReadLine();
+        }
+
+        static async Task Main1(string[] args)
         {
             Console.WriteLine($"Поток {Thread.CurrentThread.ManagedThreadId} из Main запущен\n");
 
