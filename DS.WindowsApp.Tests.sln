@@ -13,7 +13,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForCycleTest", "ForCycleTes
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropertiesTest", "PropertiesTest\PropertiesTest.csproj", "{D16F6108-0867-4B89-A7F9-768F68113A92}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutofacTest", "Autofac\AutofacTest.csproj", "{C9DF9A6E-9E7E-4339-888E-CB432C585843}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DS.ConsoleApp.AutofacTest", "Autofac\DS.ConsoleApp.AutofacTest.csproj", "{C9DF9A6E-9E7E-4339-888E-CB432C585843}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionTest", "CollectionTest\CollectionTest.csproj", "{D3C665FA-A685-49EB-827F-A40F73DFFD43}"
 EndProject
@@ -63,7 +63,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DS.ConsoleApp.XYZTest", "DS
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DS.ConsoleApp.DirectoryTest", "DS.ConsoleApp.DirectoryTest\DS.ConsoleApp.DirectoryTest.csproj", "{054749DC-E70E-4A51-A71C-7CFD49A77BC8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DS.ConsoleApp.SingletonTest", "DS.ConsoleApp.SingletonTest\DS.ConsoleApp.SingletonTest.csproj", "{4DA378AA-5369-4CBB-A12C-26F1BF65ABEC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DS.ConsoleApp.SingletonTest", "DS.ConsoleApp.SingletonTest\DS.ConsoleApp.SingletonTest.csproj", "{4DA378AA-5369-4CBB-A12C-26F1BF65ABEC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

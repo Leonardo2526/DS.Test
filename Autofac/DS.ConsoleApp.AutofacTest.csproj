@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{C9DF9A6E-9E7E-4339-888E-CB432C585843}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Autofac</RootNamespace>
-    <AssemblyName>Autofac</AssemblyName>
+    <RootNamespace>DS.ConsoleApp.AutofacTest</RootNamespace>
+    <AssemblyName>DS.ConsoleApp.AutofacTest</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -81,6 +81,10 @@
     <Compile Include="SingletonLifetime\ContainerConfig.cs" />
     <Compile Include="SingletonLifetime\Dependency.cs" />
     <Compile Include="SingletonLifetime\Scope.cs" />
+    <Compile Include="Writer\ConsoleOutput.cs" />
+    <Compile Include="Writer\ContainerConfig.cs" />
+    <Compile Include="Writer\TodayWriter.cs" />
+    <Compile Include="Writer\Scope.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

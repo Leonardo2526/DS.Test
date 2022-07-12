@@ -5,12 +5,21 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using DS.ConsoleApp.AutofacTest.Writer;
+using Scope = Autofac.SingletonLifetime.Scope;
 
 namespace AutofacTest
 {
     class Program 
     {
         static void Main(string[] args)
+        {
+            DS.ConsoleApp.AutofacTest.Writer.Scope.WriteDate();
+
+            Console.ReadLine();
+        }
+
+        static void Main1(string[] args)
         {
             Scope.RunRoot();
             Scope.RunChild1();
