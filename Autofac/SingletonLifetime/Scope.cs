@@ -11,6 +11,7 @@ namespace Autofac.SingletonLifetime
     internal class Scope
     {
         public static IContainer container = ContainerConfig.Configure();
+        public static Component rootComp = container.Resolve<Component>();
 
         public static void RunRoot()
         {
