@@ -16,13 +16,13 @@ namespace AutofacTest.SingletonLifetime
             // A singleton declared at container build
             // time will be owned by the root scope and get
             // all dependencies from the root scope.
-            builder.RegisterType<Component>()
-                   .SingleInstance();
+            builder.RegisterType<Component>().SingleInstance();
 
             // Anything that resolves a Dependency from
             // the root lifetime scope will see the name
             // as 'root'
             builder.Register(ctx => new Dependency("root"));
+            //builder.RegisterInstance(new Dependency("root"));
 
             return builder.Build();
         }

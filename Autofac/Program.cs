@@ -13,7 +13,8 @@ namespace AutofacTest
         static void Main(string[] args)
         {
             Scope.RunRoot();
-            //Scope.Run1();
+            Scope.RunChild1();
+            Scope.RunChild2();
 
             Console.ReadLine();
         }
