@@ -38,7 +38,7 @@ namespace DS.ConsoleApp.AutofacTest.Writer
             using (var scope = container.BeginLifetimeScope())
             {
                 var output = scope.Resolve<IOutput>();
-                output.Write(DateTime.Today.ToShortDateString() +$" {nameof(TodayWriter1)}");
+                output.Write(DateTime.Today.ToShortDateString() +$" {this.GetType().Name}");
             }
 
         }
