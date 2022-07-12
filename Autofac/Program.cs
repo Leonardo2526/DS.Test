@@ -1,4 +1,5 @@
 ﻿using Autofac;
+using Autofac.SingletonLifetime;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,6 +11,14 @@ namespace AutofacTest
     class Program 
     {
         static void Main(string[] args)
+        {
+            Scope.RunRoot();
+            //Scope.Run1();
+
+            Console.ReadLine();
+        }
+
+        static void Main0(string[] args)
         {
             var container = ContainerConfig.Configure();
 
