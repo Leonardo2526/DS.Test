@@ -18,7 +18,7 @@ namespace Misc
         //}
 
 
-        static async Task Main(string[] args)
+        static async Task Main0(string[] args)
         {
             await Output.RunAsync();
             //MessagedOutput.Output();
@@ -31,6 +31,14 @@ namespace Misc
             {
                 Console.WriteLine(line.ToLower());
             }
+        }
+
+        static void Main(string[] args)
+        {
+            string str = null;
+            //string str = "test";
+            Console.WriteLine(str?.Length);
+            Console.ReadKey();
         }
     }
 }

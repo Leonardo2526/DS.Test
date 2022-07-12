@@ -13,7 +13,7 @@ namespace Async
         {
             Console.WriteLine("Thread {0} - Start {1}", Thread.CurrentThread.ManagedThreadId, num);
 
-            await Task.Delay(1000);
+            await Task.Delay(1000).ConfigureAwait(false);
 
             Console.WriteLine("Thread {0} - End {1}", Thread.CurrentThread.ManagedThreadId, num);
         }
