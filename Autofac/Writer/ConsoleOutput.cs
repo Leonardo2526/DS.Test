@@ -35,7 +35,7 @@ namespace DS.ConsoleApp.AutofacTest.Writer
 
         public void Write(string content)
         {
-            Console.WriteLine(content + " S");
+            Console.WriteLine(content + $" {S}");
         }
     }
 }

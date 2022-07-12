@@ -18,7 +18,7 @@ namespace DS.ConsoleApp.AutofacTest.Writer
             using (var scope = container.BeginLifetimeScope())
             {
                 var writer = scope.Resolve<IDateWriter>();
-                writer.WriteDate();
+                writer.WriteDate1();
             }
         }
     }

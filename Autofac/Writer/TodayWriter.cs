@@ -10,6 +10,7 @@ namespace DS.ConsoleApp.AutofacTest.Writer
     public interface IDateWriter
     {
         void WriteDate();
+        void WriteDate1();
     }
 
     public class TodayWriter : IDateWriter
@@ -23,6 +24,11 @@ namespace DS.ConsoleApp.AutofacTest.Writer
         public void WriteDate()
         {
             this._output.Write(DateTime.Today.ToShortDateString());
+        }
+
+        public void WriteDate1()
+        {
+            throw new NotImplementedException();
         }
     }
 
@@ -39,6 +45,20 @@ namespace DS.ConsoleApp.AutofacTest.Writer
             {
                 var output = scope.Resolve<IOutput>();
                 output.Write(DateTime.Today.ToShortDateString() +$" {this.GetType().Name}");
+            }
+
+        }
+
+        public void WriteDate1()
+        {
+            var builder = new ContainerBuilder();
+            builder.RegisterType<ConsoleOutput1>();
+            var container = builder.Build();
+
+            using (var scope = container.BeginLifetimeScope())
+            {
+                var output = scope.Resolve<ConsoleOutput1>(new NamedParameter("s", "000"));
+                output.Write(DateTime.Today.ToShortDateString() + $" {this.GetType().Name}");
             }
 
         }
