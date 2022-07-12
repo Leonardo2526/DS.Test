@@ -9,7 +9,8 @@ namespace DS.ConsoleApp.AutofacTest.Writer
 {
     internal class Scope
     {
-        public static IContainer container = ContainerConfig.Configure();
+        public static IContainer container = ContainerConfig.Configure1();
+        //public static IContainer container = ContainerConfig.Configure();
         public static void WriteDate()
         {
             // Create the scope, resolve your IDateWriter,

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Autofac;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,13 +12,6 @@ namespace DS.ConsoleApp.AutofacTest.Writer
         void WriteDate();
     }
 
-    // This TodayWriter is where it all comes together.
-    // Notice it takes a constructor parameter of type
-    // IOutput - that lets the writer write to anywhere
-    // based on the implementation. Further, it implements
-    // WriteDate such that today's date is written out;
-    // you could have one that writes in a different format
-    // or a different date.
     public class TodayWriter : IDateWriter
     {
         private IOutput _output;
@@ -29,6 +23,24 @@ namespace DS.ConsoleApp.AutofacTest.Writer
         public void WriteDate()
         {
             this._output.Write(DateTime.Today.ToShortDateString());
+        }
+    }
+
+    public class TodayWriter1 : IDateWriter
+    {
+
+        public void WriteDate()
+        {
+            var builder = new ContainerBuilder();
+            builder.RegisterInstance(new ConsoleOutput1("123")).As<IOutput>();
+            var container = builder.Build();  
+
+            using (var scope = container.BeginLifetimeScope())
+            {
+                var output = scope.Resolve<IOutput>();
+                output.Write(DateTime.Today.ToShortDateString() +$" {nameof(TodayWriter1)}");
+            }
+
         }
     }
 }

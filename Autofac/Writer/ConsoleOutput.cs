@@ -22,4 +22,20 @@ namespace DS.ConsoleApp.AutofacTest.Writer
             Console.WriteLine(content);
         }
     }
+
+    public class ConsoleOutput1 : IOutput
+    {
+
+        public ConsoleOutput1(string s)
+        {
+            S = s;
+        }
+
+        public string S { get; }
+
+        public void Write(string content)
+        {
+            Console.WriteLine(content + " S");
+        }
+    }
 }
