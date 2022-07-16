@@ -72,6 +72,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Application.cs" />
+    <Compile Include="CastTest\AbstractClass.cs" />
+    <Compile Include="CastTest\Client.cs" />
+    <Compile Include="CastTest\ConcreteClass.cs" />
+    <Compile Include="CastTest\ConreteClass2.cs" />
     <Compile Include="Collections\IntArrayCollection.cs" />
     <Compile Include="Collections\ListRemover.cs" />
     <Compile Include="Collections\QueueCollection.cs" />
