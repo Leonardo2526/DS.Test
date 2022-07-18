@@ -10,4 +10,9 @@ namespace CollectionTest.Generics
     {
         public T Age { get; set; }
     }
+
+    internal interface IProperty
+    {
+        public object Age { get; set; }
+    }
 }

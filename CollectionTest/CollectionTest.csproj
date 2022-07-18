@@ -85,9 +85,11 @@
     <Compile Include="Generics\AbstractClass.cs" />
     <Compile Include="Generics\ConcreteClass2.cs" />
     <Compile Include="Generics\ConcreteClass1.cs" />
+    <Compile Include="Generics\GenericClass.cs" />
     <Compile Include="Generics\GenericClient.cs" />
+    <Compile Include="Generics\MetaData.cs" />
     <Compile Include="Generics\MetaDataCollection.cs" />
-    <Compile Include="Generics\IName.cs" />
+    <Compile Include="Generics\IProperty.cs" />
     <Compile Include="Print.cs" />
     <Compile Include="Collections\StringListCollection.cs" />
     <Compile Include="ContainerConfig.cs" />

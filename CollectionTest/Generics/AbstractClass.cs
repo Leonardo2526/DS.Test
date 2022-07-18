@@ -6,19 +6,9 @@ using System.Threading.Tasks;
 
 namespace CollectionTest.Generics
 {
-    //internal abstract class AbstractClass
-    //{
-    //    public abstract string Name { get; set; }
-    //    public abstract dynamic Age { get; set; }
-    //}
-
-    internal abstract class AbstractClass
+    internal abstract class AbstractClass : IProperty
     {
         public abstract string Name { get; set; }
+        public object Age { get; set; }
     }
-
-    //internal abstract class AbstractClass<T>
-    //{
-    //    public abstract T Name { get; set; }
-    //}
 }

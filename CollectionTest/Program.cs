@@ -1,6 +1,7 @@
 ﻿using Autofac;
 using CollectionTest.CastTest;
 using CollectionTest.Generics;
+using CollectionTest.Generics.Meta;
 using System;
 using System.Collections.Generic;
 
@@ -22,9 +23,11 @@ namespace CollectionTest
 
         static void Main(string[] args)
         {
-            MetaDataCollection.DoSomeThing();
+            //    MetaDataRunner.DoSomeThing();
 
-            //GenericClient.Run();
+            //MetaDataCollection.DoSomeThing();
+
+            GenericClient.RunGeneric();
 
             //ClientCast.RunTest();
 

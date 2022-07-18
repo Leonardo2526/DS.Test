@@ -30,5 +30,71 @@ namespace CollectionTest.Generics
                 //Console.WriteLine(itemProp.Age);
             }
         }
+
+        public static void RunGeneric()
+        {
+            List<AbstractClass> list = new List<AbstractClass>();
+
+            var gint = new GenericClass1<int>() { Name = "int", Age=1};
+            list.Add(gint);
+            gint = new GenericClass1<int>() { Name = "int", Age=2};
+            list.Add(gint);
+
+            var gbyte = new GenericClass1<double>() { Name = "double", Age = 3.123 };
+            list.Add(gbyte);
+            gbyte = new GenericClass1<double>() { Name = "double", Age = 4.123 };
+            list.Add(gbyte);
+
+            var gint2 = new GenericClass2<int>() { Name = "int", Age = 5, SecondName = "class2" };
+            list.Add(gint2);
+            gint2 = new GenericClass2<int>() { Name = "int", Age = 6, SecondName = "class2" };
+            list.Add(gint2);
+
+
+            var conrete= new ConreteGenericClass() { Name = "int", Age = 7, SecondName = "conrete", ThirdName = "some" };
+            list.Add(conrete);
+            conrete = new ConreteGenericClass() { Name = "int", Age = 8, SecondName = "conrete", ThirdName = "some" };
+            list.Add(conrete);
+
+
+            foreach (var item in list)
+            {
+                Console.WriteLine(item.Name + " - " + item.Age);
+            }
+
+            Console.WriteLine("\nInt types:");
+            var intTypes = list.OfType<GenericClass1<int>>();
+            foreach (var item in intTypes)
+            {
+                var age = (int)item.Age;
+                Console.WriteLine(item.Name + " - " + age);
+            }
+
+            Console.WriteLine("\nDouble types:");
+            var doubleTypes = list.OfType<GenericClass1<double>>();
+            foreach (var item in doubleTypes)
+            {
+                var age = (double)item.Age;
+                Console.WriteLine(item.Name + " - " + age);
+            }
+
+            Console.WriteLine("\nGenericClass2 types:");
+            var class2 = list.OfType<GenericClass2<int>>();
+            foreach (var item in class2)
+            {
+                var age = (int)item.Age;
+                string sname = item.SecondName;
+                Console.WriteLine(item.Name + " - " + age + " - " + sname);
+            }
+
+            Console.WriteLine("\nConcreteGeneric types:");
+            var conreteClass = list.OfType<ConreteGenericClass>();
+            foreach (var item in conreteClass)
+            {
+                var age = (int)item.Age;
+                string sname = item.SecondName;
+                Console.WriteLine(item.Name + " - " + age + " - " + sname + " - " + item.ThirdName);
+            }
+        }
     }
 }
