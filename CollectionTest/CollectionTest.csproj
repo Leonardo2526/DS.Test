@@ -79,6 +79,9 @@
     <Compile Include="Collections\IntArrayCollection.cs" />
     <Compile Include="Collections\ListRemover.cs" />
     <Compile Include="Collections\QueueCollection.cs" />
+    <Compile Include="Generics\AbstractClass.cs" />
+    <Compile Include="Generics\ConcreteClass1.cs" />
+    <Compile Include="Generics\GenericClient.cs" />
     <Compile Include="Print.cs" />
     <Compile Include="Collections\StringListCollection.cs" />
     <Compile Include="ContainerConfig.cs" />
