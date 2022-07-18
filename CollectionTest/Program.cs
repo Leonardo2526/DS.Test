@@ -22,7 +22,9 @@ namespace CollectionTest
 
         static void Main(string[] args)
         {
-            GenericClient.Run();
+            MetaDataCollection.DoSomeThing();
+
+            //GenericClient.Run();
 
             //ClientCast.RunTest();
 

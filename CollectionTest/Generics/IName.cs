@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CollectionTest.Generics
 {
-    internal interface IName<T>
+    internal interface IProperty<T>
     {
         public T Age { get; set; }
     }

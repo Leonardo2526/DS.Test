@@ -11,10 +11,12 @@ namespace CollectionTest.Generics
         public static void Run()
         {
             var cl1 = new ConcreteClass1();
-            cl1.Age = (int)1;
+            cl1.Age = 1;
+            //cl1.Age = (int)1;
 
             var cl2 = new ConcreteClass2();
-            cl2.Age = (byte)2;
+            cl2.Age = 2;
+            //cl2.Age = (byte)2;
 
             List<AbstractClass> list = new List<AbstractClass>();
             list.Add(cl1);
@@ -23,7 +25,9 @@ namespace CollectionTest.Generics
 
             foreach (var item in list)
             {
-                Console.WriteLine(item.Age);
+                //var itemProp = (IProperty)item;
+                
+                //Console.WriteLine(itemProp.Age);
             }
         }
     }
