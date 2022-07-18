@@ -1,5 +1,6 @@
 ﻿using Autofac;
 using CollectionTest.CastTest;
+using CollectionTest.Generics;
 using System;
 using System.Collections.Generic;
 
@@ -21,7 +22,9 @@ namespace CollectionTest
 
         static void Main(string[] args)
         {
-            ClientCast.RunTest();
+            GenericClient.Run();
+
+            //ClientCast.RunTest();
 
             //List<int> outlist = Run();
 
