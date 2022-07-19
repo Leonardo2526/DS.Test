@@ -51,9 +51,9 @@ namespace CollectionTest.Generics
             list.Add(gint2);
 
 
-            var conrete= new ConreteGenericClass() { Name = "int", Age = 7, SecondName = "conrete", ThirdName = "some" };
+            var conrete= new ConreteClass() { Name = "int", Age = 7, SecondName = "conrete", ThirdName = "some" };
             list.Add(conrete);
-            conrete = new ConreteGenericClass() { Name = "int", Age = 8, SecondName = "conrete", ThirdName = "some" };
+            conrete = new ConreteClass() { Name = "int", Age = 8, SecondName = "conrete", ThirdName = "some" };
             list.Add(conrete);
 
 
@@ -87,11 +87,12 @@ namespace CollectionTest.Generics
                 Console.WriteLine(item.Name + " - " + age + " - " + sname);
             }
 
-            Console.WriteLine("\nConcreteGeneric types:");
-            var conreteClass = list.OfType<ConreteGenericClass>();
+            Console.WriteLine("\nConcrete types:");
+            var conreteClass = list.OfType<ConreteClass>();
             foreach (var item in conreteClass)
             {
-                var age = (int)item.Age;
+                //var age = item.Age;
+                var age = item.Age;
                 string sname = item.SecondName;
                 Console.WriteLine(item.Name + " - " + age + " - " + sname + " - " + item.ThirdName);
             }

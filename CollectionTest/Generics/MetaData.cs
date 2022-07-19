@@ -22,22 +22,25 @@ namespace CollectionTest.Generics.Meta
     }
 
     //implement the generic and non-generic interface
-    public class Metadata<T> : AbstractMetadata, IMetadata<T>, IMetadata
+    public class Metadata<T> : AbstractMetadata, IMetadata<T>
     {
         //hide the non-generic interface member MyCollection
-        object IMetadata.MyProp
-        {
-            get { return (object)MyProp; }
-            set { this.MyProp = (T)value; }
-        }
+        //object IMetadata.MyProp
+        //{
+        //    get { return (object)MyProp; }
+        //    set { this.MyProp = (T)value; }
+        //}
 
-        T IMetadata<T>.MyProp { get; set; }
+        public new T MyProp { get; set; }
     }
 
     public static class MetaDataRunner
     {
         public static void DoSomeThing()
         {
+
+            var w = new Metadata<int>() { MyProp = 1, MyProp2 = "int" };
+            w.MyProp = 2;
             //make a list of IMetadata
             List<AbstractMetadata> metadataObjects = new List<AbstractMetadata>
         {
