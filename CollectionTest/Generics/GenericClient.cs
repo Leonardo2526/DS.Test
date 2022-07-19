@@ -74,7 +74,7 @@ namespace CollectionTest.Generics
             var doubleTypes = list.OfType<GenericClass1<double>>();
             foreach (var item in doubleTypes)
             {
-                var age = (double)item.Age;
+                double age = item.Age;
                 Console.WriteLine(item.Name + " - " + age);
             }
 

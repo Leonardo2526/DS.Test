@@ -16,7 +16,7 @@ namespace CollectionTest.Generics
             set { this.Age = (T)value; }
         }
 
-        T IProperty<T>.Age { get; set; }
+        public new T Age { get; set; }
     }
 
     internal class GenericClass2<T> : AbstractClass, IProperty<T>
@@ -24,7 +24,7 @@ namespace CollectionTest.Generics
         public string SecondName { get; set; }
         public override string Name { get; set; }
 
-        T IProperty<T>.Age { get; set; }
+        public new T Age { get; set; }
     }
 
     internal class ConreteClass : AbstractClass, IProperty<int>
