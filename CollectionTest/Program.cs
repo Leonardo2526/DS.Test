@@ -2,6 +2,7 @@
 using CollectionTest.CastTest;
 using CollectionTest.Generics;
 using CollectionTest.Generics.Meta;
+using CollectionTest.Generics1;
 using System;
 using System.Collections.Generic;
 
@@ -23,11 +24,13 @@ namespace CollectionTest
 
         static void Main(string[] args)
         {
+            ClientGeneric1.Run();
+
             //    MetaDataRunner.DoSomeThing();
 
             //MetaDataCollection.DoSomeThing();
 
-            GenericClient.RunGeneric();
+            //GenericClient.RunGeneric();
 
             //ClientCast.RunTest();
 
