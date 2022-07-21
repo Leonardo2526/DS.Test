@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AbstractClassTest.CheckTypes;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,12 +11,14 @@ namespace AbstractClassTest
     {
         static void Main(string[] args)
         {
-            ChildClass1 childClass = new ChildClass1(10 ,20);
+            ClientTest1.Run();
 
-            foreach (var item in childClass.ModelGroup)
-            {
-                Console.WriteLine(item);
-            }
+            //ChildClass1 childClass = new ChildClass1(10 ,20);
+
+            //foreach (var item in childClass.ModelGroup)
+            //{
+            //    Console.WriteLine(item);
+            //}
             Console.ReadLine();
         }
     }
