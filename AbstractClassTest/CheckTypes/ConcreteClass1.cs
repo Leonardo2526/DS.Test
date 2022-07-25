@@ -8,5 +8,6 @@ namespace AbstractClassTest.CheckTypes
 {
     internal class ConcreteClass1 : BaseClass
     {
+        public string Name { get; set; }
     }
 }

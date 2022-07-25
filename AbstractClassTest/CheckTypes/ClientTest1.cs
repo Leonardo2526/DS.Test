@@ -11,8 +11,10 @@ namespace AbstractClassTest.CheckTypes
         public static void Run()
         {
             List<BaseClass> baseClasses = new List<BaseClass>();
-            var class1 = new ConcreteClass1();
+            BaseClass class1 = new ConcreteClass1() { Name = "MyName"};
             var class2 = new ConcreteClass2();
+
+            Test(class1);
 
             baseClasses.Add(class1);
             baseClasses.Add(class2);
@@ -28,6 +30,11 @@ namespace AbstractClassTest.CheckTypes
                 }
                 Console.WriteLine(item.GetType());
             }
+        }
+
+        private static void Test(BaseClass baseClass)
+        {
+            var cl = baseClass as ConcreteClass1;
         }
     }
 }
