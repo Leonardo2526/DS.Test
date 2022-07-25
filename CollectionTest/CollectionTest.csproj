@@ -82,6 +82,9 @@
     <Compile Include="Collections\IntArrayCollection.cs" />
     <Compile Include="Collections\ListRemover.cs" />
     <Compile Include="Collections\QueueCollection.cs" />
+    <Compile Include="Generics2\AbstractClass.cs" />
+    <Compile Include="Generics2\ConcreteClass1.cs" />
+    <Compile Include="Generics2\ConcreteClass2.cs" />
     <Compile Include="Generics1\BaseClass.cs" />
     <Compile Include="Generics1\BaseElement.cs" />
     <Compile Include="Generics1\Class2.cs" />
@@ -90,6 +93,8 @@
     <Compile Include="Generics1\Element.cs" />
     <Compile Include="Generics1\IProperty.cs" />
     <Compile Include="Generics1\MEPCurve.cs" />
+    <Compile Include="Generics2\GenericClient2.cs" />
+    <Compile Include="Generics2\IClass.cs" />
     <Compile Include="Generics\AbstractClass.cs" />
     <Compile Include="Generics\ConcreteClass2.cs" />
     <Compile Include="Generics\ConcreteClass1.cs" />
