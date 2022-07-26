@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace CollectionTest.Generics1
 {
-    internal interface IProperty<T>
-    {
-        public T MyElement { get; set; }
-    }
+    //internal interface IProperty<T>
+    //{
+    //    public T MyElement { get; set; }
+    //}
 
     internal interface IProperty
     {
-        public BaseElement MyElement { get; set; }
+        //public BaseElement MyElement { get; set; }
     }
 }

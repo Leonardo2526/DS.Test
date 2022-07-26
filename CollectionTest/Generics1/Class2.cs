@@ -19,13 +19,10 @@ namespace CollectionTest.Generics1
     //    T IProperty<T>.MyElement { get; set; }
     //}
 
-    internal class Class2 : BaseClass
+    internal class Class2 : BaseClass<MEPCurve>, IProperty
     {
-        public Element MyElementType
-        {
-            get { return (Element)MyElement; }
-            set { this.MyElementType = (Element)value; }
-        }
+        public override string Name { get; set; }
+        public string Name1 { get; set; }
     }
 }
 

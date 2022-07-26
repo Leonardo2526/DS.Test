@@ -25,7 +25,9 @@ namespace CollectionTest
 
         static void Main(string[] args)
         {
-            GenericClient2.Run();
+            ClientGeneric1.Run();
+
+            //GenericClient2.Run();
 
             //    MetaDataRunner.DoSomeThing();
 
