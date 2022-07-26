@@ -82,6 +82,7 @@
     <Compile Include="Collections\IntArrayCollection.cs" />
     <Compile Include="Collections\ListRemover.cs" />
     <Compile Include="Collections\QueueCollection.cs" />
+    <Compile Include="Generics1\ReflectiveEnumerator.cs" />
     <Compile Include="Generics2\AbstractClass.cs" />
     <Compile Include="Generics2\ConcreteClass1.cs" />
     <Compile Include="Generics2\ConcreteClass2.cs" />

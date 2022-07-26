@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Repository\\DS.WindowsApp.Tests\\DS.ConsoleApp.Regex\\DS.ConsoleApp.Regex.csproj": {}
+    "D:\\Reposotory\\DS.WindowsApp.Tests\\DS.ConsoleApp.Regex\\DS.ConsoleApp.Regex.csproj": {}
   },
   "projects": {
-    "E:\\Repository\\DS.WindowsApp.Tests\\DS.ConsoleApp.Regex\\DS.ConsoleApp.Regex.csproj": {
+    "D:\\Reposotory\\DS.WindowsApp.Tests\\DS.ConsoleApp.Regex\\DS.ConsoleApp.Regex.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Repository\\DS.WindowsApp.Tests\\DS.ConsoleApp.Regex\\DS.ConsoleApp.Regex.csproj",
+        "projectUniqueName": "D:\\Reposotory\\DS.WindowsApp.Tests\\DS.ConsoleApp.Regex\\DS.ConsoleApp.Regex.csproj",
         "projectName": "DS.ConsoleApp.Regex",
-        "projectPath": "E:\\Repository\\DS.WindowsApp.Tests\\DS.ConsoleApp.Regex\\DS.ConsoleApp.Regex.csproj",
-        "packagesPath": "C:\\Users\\Сараев Даниил\\.nuget\\packages\\",
-        "outputPath": "E:\\Repository\\DS.WindowsApp.Tests\\DS.ConsoleApp.Regex\\obj\\",
+        "projectPath": "D:\\Reposotory\\DS.WindowsApp.Tests\\DS.ConsoleApp.Regex\\DS.ConsoleApp.Regex.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "D:\\Reposotory\\DS.WindowsApp.Tests\\DS.ConsoleApp.Regex\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Сараев Даниил\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -54,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
