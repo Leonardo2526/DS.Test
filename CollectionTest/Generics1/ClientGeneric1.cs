@@ -104,19 +104,8 @@ namespace CollectionTest.Generics1
         {
             List<BaseElement> baseElements = new List<BaseElement>();
 
-            //var elems = GetElements(class1Types);
-
-            var class1Types = list.OfType<Class1>();
-            foreach (var item in class1Types)
-            {
-                baseElements.Add(item.MyElement);
-            }
-
-            var class2Types = list.OfType<Class2>();
-            foreach (var item in class2Types)
-            {
-                baseElements.Add(item.MyElement);
-            }
+            baseElements.AddRange(list.OfType<Class1>().Select(x => x.MyElement).ToList());
+            baseElements.AddRange(list.OfType<Class2>().Select(x => x.MyElement).ToList());            
 
             foreach (var item in baseElements)
             {
