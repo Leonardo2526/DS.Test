@@ -35,9 +35,14 @@ namespace Misc
 
         static void Main(string[] args)
         {
-            string str = null;
+            var s = "sdgh 56 ijkj";
+            var text = "a";
+
+            Console.WriteLine(StringTest.IsStringContains(s, text));
+
+            //string str = null;
             //string str = "test";
-            Console.WriteLine(str?.Length);
+            //Console.WriteLine(str?.Length);
             Console.ReadKey();
         }
     }

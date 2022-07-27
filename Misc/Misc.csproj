@@ -69,6 +69,7 @@
     <Compile Include="StaticClassTest\Class1.cs" />
     <Compile Include="StaticClassTest\Output.cs" />
     <Compile Include="StaticClassTest\StaticClass.cs" />
+    <Compile Include="StringTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

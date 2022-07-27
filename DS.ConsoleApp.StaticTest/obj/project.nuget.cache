@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+ugf9AOKw6JXi9/s//SlmhGthugmcZoKZPPvPr4S4u5hWks7CuvS/V4wYZDeWVQe1e6ySHb6d0LRuyiqVGw0JA==",
+  "dgSpecHash": "OIwVjkwCUPma+1ebsDIu7T71xoplboMgdojDKnLq/hsID1qEiJQd4eldard84hpiFEiSCoplCPCuIR8a2LYKgA==",
   "success": true,
-  "projectFilePath": "D:\\Reposotory\\DS.WindowsApp.Tests\\DS.ConsoleApp.StaticTest\\DS.ConsoleApp.StaticTest.csproj",
+  "projectFilePath": "E:\\Repository\\DS.WindowsApp.Tests\\DS.ConsoleApp.StaticTest\\DS.ConsoleApp.StaticTest.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
