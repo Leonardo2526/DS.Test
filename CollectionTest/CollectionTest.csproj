@@ -82,6 +82,14 @@
     <Compile Include="Collections\IntArrayCollection.cs" />
     <Compile Include="Collections\ListRemover.cs" />
     <Compile Include="Collections\QueueCollection.cs" />
+    <Compile Include="Generics3\Classes\BaseClass.cs" />
+    <Compile Include="Generics3\Elements\BaseElement.cs" />
+    <Compile Include="Generics3\Classes\Class1.cs" />
+    <Compile Include="Generics3\Classes\Class2.cs" />
+    <Compile Include="Generics3\ClientGeneric1.cs" />
+    <Compile Include="Generics3\Elements\Element.cs" />
+    <Compile Include="Generics3\IProperty.cs" />
+    <Compile Include="Generics3\Elements\MEPCurve.cs" />
     <Compile Include="Generics1\ReflectiveEnumerator.cs" />
     <Compile Include="Generics2\AbstractClass.cs" />
     <Compile Include="Generics2\ConcreteClass1.cs" />
