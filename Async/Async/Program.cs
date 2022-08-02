@@ -36,7 +36,9 @@ namespace Async
 
         static void Main(string[] args)
         {
-            TasksIterator.Run();
+            LongOperationTest.Run();
+
+            //TasksIterator.Run();
 
             Console.ReadLine();
         }
