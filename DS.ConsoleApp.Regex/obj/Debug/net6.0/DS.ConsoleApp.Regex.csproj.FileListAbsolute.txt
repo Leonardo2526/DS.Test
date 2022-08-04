@@ -13,9 +13,6 @@ E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.Regex\obj\Debug\net6.0\refint\DS
 E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.Regex\obj\Debug\net6.0\DS.ConsoleApp.Regex.pdb
 E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.Regex\obj\Debug\net6.0\DS.ConsoleApp.Regex.genruntimeconfig.cache
 E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.Regex\obj\Debug\net6.0\ref\DS.ConsoleApp.Regex.dll
-E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.Regex\bin\Debug\net6.0\DS.MainUtils.dll
-E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.Regex\bin\Debug\net6.0\DS.MainUtils.pdb
-E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.Regex\obj\Debug\net6.0\DS.ConsoleApp.Regex.csproj.CopyComplete
 D:\Reposotory\DS.WindowsApp.Tests\DS.ConsoleApp.Regex\obj\Debug\net6.0\DS.ConsoleApp.Regex.csproj.AssemblyReference.cache
 D:\Reposotory\DS.WindowsApp.Tests\DS.ConsoleApp.Regex\obj\Debug\net6.0\DS.ConsoleApp.Regex.GeneratedMSBuildEditorConfig.editorconfig
 D:\Reposotory\DS.WindowsApp.Tests\DS.ConsoleApp.Regex\obj\Debug\net6.0\DS.ConsoleApp.Regex.AssemblyInfoInputs.cache
