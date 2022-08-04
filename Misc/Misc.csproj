@@ -70,6 +70,7 @@
     <Compile Include="StaticClassTest\Output.cs" />
     <Compile Include="StaticClassTest\StaticClass.cs" />
     <Compile Include="StringTest.cs" />
+    <Compile Include="TryCatchFinallyTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

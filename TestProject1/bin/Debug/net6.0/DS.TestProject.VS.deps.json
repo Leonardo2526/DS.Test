@@ -1088,9 +1088,17 @@
           "DS.ConsoleApp.XYZTest.dll": {}
         }
       },
-      "DS.MainUtils/1.0.0.0": {
+      "DS.ClassLib.VarUtils/1.0.0.0": {
         "runtime": {
-          "DS.MainUtils.dll": {
+          "DS.ClassLib.VarUtils.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "DS.ClassLib.FileSystemUtils/1.0.0.0": {
+        "runtime": {
+          "DS.ClassLib.FileSystemUtils.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -1730,7 +1738,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "DS.MainUtils/1.0.0.0": {
+    "DS.ClassLib.VarUtils/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DS.ClassLib.FileSystemUtils/1.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
