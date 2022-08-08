@@ -66,6 +66,7 @@
     <Compile Include="MessageTest\MessagedOutput.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QueueTest.cs" />
     <Compile Include="StaticClassTest\Class1.cs" />
     <Compile Include="StaticClassTest\Output.cs" />
     <Compile Include="StaticClassTest\StaticClass.cs" />
