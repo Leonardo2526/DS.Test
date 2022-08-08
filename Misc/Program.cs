@@ -35,7 +35,8 @@ namespace Misc
 
         static void Main(string[] args)
         {
-            QueueTest.Run();
+            OperandTest.Run();
+            //QueueTest.Run();
             Console.ReadKey();
         }
 
