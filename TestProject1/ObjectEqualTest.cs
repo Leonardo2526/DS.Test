@@ -3,6 +3,7 @@ using DS.ConsoleApp.TestingObjects;
 using System.Collections.Generic;
 using System.Linq;
 using DS.ConsoleApp.XYZTest;
+using System;
 
 namespace DS.TestProject.VS
 {
@@ -32,6 +33,19 @@ namespace DS.TestProject.VS
             Assert.IsTrue(eq);
         }
 
-      
+
+        [DataTestMethod]
+        [DataRow(1, 1, true)]
+        [DataRow(1, 1.1, false)]
+        [DataRow(1.1, 1.123, true)]
+
+        public void DoubleEqualsTest(double d1, double d2, bool eq)
+        {
+            bool res = d1.Equals(Math.Round(d2,1));
+
+            Assert.AreEqual(eq, res);
+        }
+
+
     }
 }
