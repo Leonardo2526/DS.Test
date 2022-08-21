@@ -1,5 +1,8 @@
 ﻿using DS.ConsoleApp.Net6Test;
+using static DS.ConsoleApp.Net6Test.NullClassTest;
 
-NullClassTest.Run();
+
+//NullClassTest.TestReferenceType();
+TestValueType2();
 
 Console.ReadLine();
