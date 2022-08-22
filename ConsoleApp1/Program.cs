@@ -3,6 +3,8 @@ using static DS.ConsoleApp.Net6Test.NullClassTest;
 
 
 //NullClassTest.TestReferenceType();
-TestValueType2();
+//TestValueType2();
+
+LinqTest.Foreach();
 
 Console.ReadLine();
