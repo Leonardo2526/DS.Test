@@ -8,8 +8,8 @@ namespace DS.ConsoleApp.XYZTest
 {
     public struct XYZ
     {
-        public int X, Y, Z;
-        public XYZ(int x, int y, int z)
+        public double X, Y, Z;
+        public XYZ(double x, double y, double z)
         {
             this.X = x;
             this.Y = y;

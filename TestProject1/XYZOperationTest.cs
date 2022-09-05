@@ -2,6 +2,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Collections.Generic;
 using System.Linq;
+using System.Numerics;
 
 namespace DS.TestProject.VS
 {
@@ -27,8 +28,8 @@ namespace DS.TestProject.VS
 
         public static IEnumerable<object[]> GetBasis()
         {
-            yield return new object[] { new XYZ(1, 0, 0), new XYZ(0, 1, 0), new XYZ(0, 0, 1) };
-            yield return new object[] { new XYZ(10, 0, 0), new XYZ(0, 1, 0), new XYZ(0, 0, 1) };            
+            yield return new object[] { new XYZ(1, 1, 0), new XYZ(0, 1, 0), new XYZ(0, 0, 1) };
+            yield return new object[] { new XYZ(1, 0, 0), new XYZ(0, -1, 0), new XYZ(0, 0, 1) };            
         }
 
         public static IEnumerable<object[]> GetBasisForFail()
@@ -36,7 +37,6 @@ namespace DS.TestProject.VS
             yield return new object[] { new XYZ(-1, 0, 0), new XYZ(0, 1, 0), new XYZ(0, 0, 1) };
             yield return new object[] { new XYZ(1, 0, 0), new XYZ(0, -1, 0), new XYZ(0, 0, 1) };
         }
-
 
     }
 }
