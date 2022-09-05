@@ -49,7 +49,7 @@ namespace DS.ConsoleApp.XYZTest
         /// <param name="vector2"></param>
         /// <param name="vector3"></param>
         /// <returns>Return 3D matrix.</returns>
-        private static double[,] CreateMatrix3D(XYZ vector1, XYZ vector2, XYZ vector3)
+        public static double[,] CreateMatrix3D(XYZ vector1, XYZ vector2, XYZ vector3)
         {
             List<XYZ> result = new List<XYZ>()
             {

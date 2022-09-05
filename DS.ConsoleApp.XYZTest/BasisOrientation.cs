@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace DS.ConsoleApp.XYZTest
 {
-    public static class Extensions
+    public enum BasisOrientation
     {
-      
+        Left, Right
     }
 }
