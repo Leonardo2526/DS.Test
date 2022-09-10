@@ -1,0 +1,15 @@
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.ValidateTest\bin\Debug\net6.0\DS.ConsoleApp.ValidateTest.exe
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.ValidateTest\bin\Debug\net6.0\DS.ConsoleApp.ValidateTest.deps.json
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.ValidateTest\bin\Debug\net6.0\DS.ConsoleApp.ValidateTest.runtimeconfig.json
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.ValidateTest\bin\Debug\net6.0\DS.ConsoleApp.ValidateTest.dll
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.ValidateTest\bin\Debug\net6.0\DS.ConsoleApp.ValidateTest.pdb
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.ValidateTest\obj\Debug\net6.0\DS.ConsoleApp.ValidateTest.csproj.AssemblyReference.cache
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.ValidateTest\obj\Debug\net6.0\DS.ConsoleApp.ValidateTest.GeneratedMSBuildEditorConfig.editorconfig
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.ValidateTest\obj\Debug\net6.0\DS.ConsoleApp.ValidateTest.AssemblyInfoInputs.cache
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.ValidateTest\obj\Debug\net6.0\DS.ConsoleApp.ValidateTest.AssemblyInfo.cs
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.ValidateTest\obj\Debug\net6.0\DS.ConsoleApp.ValidateTest.csproj.CoreCompileInputs.cache
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.ValidateTest\obj\Debug\net6.0\DS.ConsoleApp.ValidateTest.dll
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.ValidateTest\obj\Debug\net6.0\refint\DS.ConsoleApp.ValidateTest.dll
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.ValidateTest\obj\Debug\net6.0\DS.ConsoleApp.ValidateTest.pdb
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.ValidateTest\obj\Debug\net6.0\DS.ConsoleApp.ValidateTest.genruntimeconfig.cache
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.ValidateTest\obj\Debug\net6.0\ref\DS.ConsoleApp.ValidateTest.dll

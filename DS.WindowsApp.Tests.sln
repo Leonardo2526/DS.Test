@@ -65,7 +65,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DS.ConsoleApp.DirectoryTest
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DS.ConsoleApp.SingletonTest", "DS.ConsoleApp.SingletonTest\DS.ConsoleApp.SingletonTest.csproj", "{4DA378AA-5369-4CBB-A12C-26F1BF65ABEC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DS.ConsoleApp.Net6Test", "ConsoleApp1\DS.ConsoleApp.Net6Test.csproj", "{567BF54A-3430-4743-92B0-E3E3BFB81786}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DS.ConsoleApp.Net6Test", "ConsoleApp1\DS.ConsoleApp.Net6Test.csproj", "{567BF54A-3430-4743-92B0-E3E3BFB81786}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DS.ConsoleApp.ValidateTest", "DS.ConsoleApp.ValidateTest\DS.ConsoleApp.ValidateTest.csproj", "{9CFF1FC4-6FD8-450E-9FD9-87586B2CB12E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -193,6 +195,10 @@ Global
 		{567BF54A-3430-4743-92B0-E3E3BFB81786}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{567BF54A-3430-4743-92B0-E3E3BFB81786}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{567BF54A-3430-4743-92B0-E3E3BFB81786}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CFF1FC4-6FD8-450E-9FD9-87586B2CB12E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CFF1FC4-6FD8-450E-9FD9-87586B2CB12E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CFF1FC4-6FD8-450E-9FD9-87586B2CB12E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CFF1FC4-6FD8-450E-9FD9-87586B2CB12E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
