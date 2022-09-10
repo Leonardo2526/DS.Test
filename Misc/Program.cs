@@ -3,14 +3,25 @@ using System.Collections.Generic;
 using System.Linq;
 using Misc.MessageTest;
 using System.Diagnostics;
+using Misc.StaticClassTest;
+using System.Threading.Tasks;
 
 namespace Misc
 {
-    class Program
+    class Program    
     {
-        static void Main(string[] args)
+        //static void Main(string[] args)
+        //{
+        //    Output.Run();
+        //    //MessagedOutput.Output();
+        //    Console.ReadLine();
+        //}
+
+
+        static async Task Main0(string[] args)
         {
-            MessagedOutput.Output();
+            await Output.RunAsync();
+            //MessagedOutput.Output();
             Console.ReadLine();
         }
 
@@ -21,5 +32,13 @@ namespace Misc
                 Console.WriteLine(line.ToLower());
             }
         }
+
+        static void Main(string[] args)
+        {
+            OperandTest.Run();
+            //QueueTest.Run();
+            Console.ReadKey();
+        }
+
     }
 }

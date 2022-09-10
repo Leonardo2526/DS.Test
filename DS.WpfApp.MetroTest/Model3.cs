@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using System.Windows;
 
 namespace DS.WpfApp.MetroTest
 {
@@ -31,6 +32,32 @@ namespace DS.WpfApp.MetroTest
             {
                 throw new TimeoutException($"Task timed out after {timeout}");
             }
+        }
+
+        public static async Task<int> SomeWork(CancellationToken cancellationToken)
+        {
+            cancellationToken.ThrowIfCancellationRequested(); /* 1 */
+            try
+            {
+                await Task.Run(async () =>
+                {
+                    await Task.Delay(TimeSpan.FromSeconds(5), cancellationToken);
+                });
+                MessageBox.Show("Task is done");
+            }
+            catch(OperationCanceledException)
+            {
+                //MessageBox.Show("Handled");
+            }
+
+
+            //cancellationToken.ThrowIfCancellationRequested(); /* 2 */
+            //while (true)
+            //{
+            //    // Что-то делаем
+            //    cancellationToken.ThrowIfCancellationRequested();
+            //}
+            return 42;
         }
     }
 }

@@ -45,38 +45,48 @@ namespace DS.WpfApp.MetroTest.ViewModel
         {
             ProcessLaunched = true;
             Text = "Process launched";
-            //_cancellationTokenSource = new CancellationTokenSource();
+
+            s_cts = new CancellationTokenSource();
+
+            Model model = new Model(this);
+            await Task.Run(() => model.Task4());
+            //await Task.Run(() => model.Task4Async());
+
             //currentThreads.Add(Thread.CurrentThread);
 
             //client = new Client();
             //await Task.Run(() => client.Run());
 
-            s_cts = new CancellationTokenSource();
 
-            Model model = new Model(this);
-            await Task.Run(() => model.Task1());
+            //await model.RunProcessAsync();
+            //await Task.Run(() => model.Task1());
 
             //await Task.Run(() => model.WrapTask(_cancellationTokenSource), _cancellationTokenSource.Token);
             //await Task.Run(() => model.WrapTask1(s_cts));
-            //await model.RunProcessAsync();
             //await Task.Run(() => Model.Task3().TimeoutAfter(3000));
 
             //await model.ListenAsync(s_cts.Token);
-            //await Task.Run(() => Model2.LongRunningOperationWithCancellationTokenAsync(1000, s_cts.Token));
+            //await Task.Run(() => Model2.LongRunningOperationWithCancellationTokenAsync1(500, s_cts.Token));
             //await Task.Run(() => Model2.LongRunningOperation(1000), s_cts.Token);
+
+            //await Task.Run(() => Model3.SomeWork(s_cts.Token));
+
             //MessageBox.Show("ProcessCompleted");
-            ProcessLaunched = false;
             //Text = "Process completed";
             //await Model.Task3();
             //await model.RunProcessAsync();
             //MessageBox.Show("RunCommand");
+
+            ProcessLaunched = false;
         });
 
         [Obsolete]
         public ICommand Stop => new RelayCommand(o =>
         {
             //client.Kill();
-            //currentThreads.First().Suspend();
+
+            //currentThreads.First().Abort();
+
             s_cts.Cancel();
             //foreach (var thread in currentThreads)
             //{

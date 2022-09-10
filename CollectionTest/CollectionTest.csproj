@@ -2,6 +2,9 @@
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{D3C665FA-A685-49EB-827F-A40F73DFFD43}</ProjectGuid>
@@ -72,9 +75,43 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Application.cs" />
+    <Compile Include="CastTest\AbstractClass.cs" />
+    <Compile Include="CastTest\Client.cs" />
+    <Compile Include="CastTest\ConcreteClass.cs" />
+    <Compile Include="CastTest\ConreteClass2.cs" />
     <Compile Include="Collections\IntArrayCollection.cs" />
     <Compile Include="Collections\ListRemover.cs" />
     <Compile Include="Collections\QueueCollection.cs" />
+    <Compile Include="Generics3\Classes\BaseClass.cs" />
+    <Compile Include="Generics3\Elements\BaseElement.cs" />
+    <Compile Include="Generics3\Classes\Class1.cs" />
+    <Compile Include="Generics3\Classes\Class2.cs" />
+    <Compile Include="Generics3\ClientGeneric1.cs" />
+    <Compile Include="Generics3\Elements\Element.cs" />
+    <Compile Include="Generics3\IProperty.cs" />
+    <Compile Include="Generics3\Elements\MEPCurve.cs" />
+    <Compile Include="Generics1\ReflectiveEnumerator.cs" />
+    <Compile Include="Generics2\AbstractClass.cs" />
+    <Compile Include="Generics2\ConcreteClass1.cs" />
+    <Compile Include="Generics2\ConcreteClass2.cs" />
+    <Compile Include="Generics1\BaseClass.cs" />
+    <Compile Include="Generics1\BaseElement.cs" />
+    <Compile Include="Generics1\Class2.cs" />
+    <Compile Include="Generics1\Class1.cs" />
+    <Compile Include="Generics1\ClientGeneric1.cs" />
+    <Compile Include="Generics1\Element.cs" />
+    <Compile Include="Generics1\IProperty.cs" />
+    <Compile Include="Generics1\MEPCurve.cs" />
+    <Compile Include="Generics2\GenericClient2.cs" />
+    <Compile Include="Generics2\IClass.cs" />
+    <Compile Include="Generics\AbstractClass.cs" />
+    <Compile Include="Generics\ConcreteClass2.cs" />
+    <Compile Include="Generics\ConcreteClass1.cs" />
+    <Compile Include="Generics\GenericClass.cs" />
+    <Compile Include="Generics\GenericClient.cs" />
+    <Compile Include="Generics\MetaData.cs" />
+    <Compile Include="Generics\MetaDataCollection.cs" />
+    <Compile Include="Generics\IProperty.cs" />
     <Compile Include="Print.cs" />
     <Compile Include="Collections\StringListCollection.cs" />
     <Compile Include="ContainerConfig.cs" />

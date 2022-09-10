@@ -1,0 +1,15 @@
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.SingletonTest\bin\Debug\net6.0\DS.ConsoleApp.SingletonTest.exe
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.SingletonTest\bin\Debug\net6.0\DS.ConsoleApp.SingletonTest.deps.json
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.SingletonTest\bin\Debug\net6.0\DS.ConsoleApp.SingletonTest.runtimeconfig.json
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.SingletonTest\bin\Debug\net6.0\DS.ConsoleApp.SingletonTest.dll
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.SingletonTest\bin\Debug\net6.0\DS.ConsoleApp.SingletonTest.pdb
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.SingletonTest\obj\Debug\net6.0\DS.ConsoleApp.SingletonTest.csproj.AssemblyReference.cache
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.SingletonTest\obj\Debug\net6.0\DS.ConsoleApp.SingletonTest.GeneratedMSBuildEditorConfig.editorconfig
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.SingletonTest\obj\Debug\net6.0\DS.ConsoleApp.SingletonTest.AssemblyInfoInputs.cache
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.SingletonTest\obj\Debug\net6.0\DS.ConsoleApp.SingletonTest.AssemblyInfo.cs
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.SingletonTest\obj\Debug\net6.0\DS.ConsoleApp.SingletonTest.csproj.CoreCompileInputs.cache
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.SingletonTest\obj\Debug\net6.0\DS.ConsoleApp.SingletonTest.dll
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.SingletonTest\obj\Debug\net6.0\refint\DS.ConsoleApp.SingletonTest.dll
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.SingletonTest\obj\Debug\net6.0\DS.ConsoleApp.SingletonTest.pdb
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.SingletonTest\obj\Debug\net6.0\DS.ConsoleApp.SingletonTest.genruntimeconfig.cache
+E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.SingletonTest\obj\Debug\net6.0\ref\DS.ConsoleApp.SingletonTest.dll
