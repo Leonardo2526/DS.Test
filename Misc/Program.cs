@@ -5,6 +5,8 @@ using Misc.MessageTest;
 using System.Diagnostics;
 using Misc.StaticClassTest;
 using System.Threading.Tasks;
+using DS.ClassLib.VarUtils;
+using DS.ClassLib.VarUtils.Points;
 
 namespace Misc
 {
@@ -35,8 +37,8 @@ namespace Misc
 
         static void Main(string[] args)
         {
-            OperandTest.Run();
-            //QueueTest.Run();
+            PointsOrderTest.Run();
+
             Console.ReadKey();
         }
 
