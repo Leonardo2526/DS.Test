@@ -1,0 +1,141 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DS.ClassLib.VarUtils</name>
+    </assembly>
+    <members>
+        <member name="T:DS.ClassLib.VarUtils.RelayCommand">
+            <summary>
+            Class for WPF interaction with commands
+            </summary>
+        </member>
+        <member name="M:DS.ClassLib.VarUtils.Points.MaxDistanceClient.GetMaxDistance">
+            <summary>
+            Get points pair with max distance between them.
+            </summary>
+            <returns>Returns max distance between points.</returns>
+        </member>
+        <member name="M:DS.ClassLib.VarUtils.Matrix.GetMatrixDeterminant(System.Double[0:,0:])">
+            <summary>
+            Get 3D matrix determinant
+            </summary>
+            <param name="matrix"></param>
+            <returns>Return determinant value.</returns>
+        </member>
+        <member name="M:DS.ClassLib.VarUtils.NumberExtensions.Normalize(System.Double)">
+            <summary>
+            Get normalize number.
+            </summary>
+            <param name="number"></param>
+            <returns>Return absolute and round to integer number</returns>
+        </member>
+        <member name="M:DS.ClassLib.VarUtils.NumberExtensions.RadToDeg(System.Double)">
+            <summary>
+            Convert radians to degrees
+            </summary>
+            <param name="angleRad"></param>
+            <returns>Return angle in degress.</returns>
+        </member>
+        <member name="M:DS.ClassLib.VarUtils.NumberExtensions.RadToDeg(System.Int32)">
+            <summary>
+            Convert radians to degrees
+            </summary>
+            <param name="angleRad"></param>
+            <returns>Return angle in degress.</returns>
+        </member>
+        <member name="M:DS.ClassLib.VarUtils.NumberExtensions.DegToRad(System.Double)">
+            <summary>
+            Convert degrees to radians
+            </summary>
+            <param name="angleDeg"></param>
+            <returns>Return angle in radians.</returns>
+        </member>
+        <member name="M:DS.ClassLib.VarUtils.NumberExtensions.DegToRad(System.Int32)">
+            <summary>
+            Convert degrees to radians
+            </summary>
+            <param name="angleDeg"></param>
+            <returns>Return angle in radians.</returns>
+        </member>
+        <member name="M:DS.ClassLib.VarUtils.NumberExtensions.IsDevisible(System.Int32,System.Int32)">
+            <summary>
+            Check if number and can be divided to devisibleNumber.
+            </summary>
+            <param name="input"></param>
+            <param name="devisibleNumber"></param>
+            <returns>Return true if number can be divided to devisibleNumber without rest. Return false if it isn't.</returns>
+        </member>
+        <member name="M:DS.ClassLib.VarUtils.DirPathBuilder.GetPath">
+            <summary>
+            Get directory path and file name. If current directory name is absent it'll be created. 
+            </summary>
+            <param name="fileName"></param>
+            <param name="dirName"></param>
+            <param name="dirOption"></param>
+            <param name="type"></param>
+            <returns>Return directory name.</returns>
+        </member>
+        <member name="M:DS.ClassLib.VarUtils.DirPathBuilder.UpdateDefaults(DS.ClassLib.VarUtils.DirPathBuilder.DirOption,DS.ClassLib.VarUtils.DirPathBuilder.LogNameOption,System.String,System.String)">
+            <summary>
+            Update default names of output directory and log file.
+            </summary>
+            <param name="fileName"></param>
+            <param name="dirName"></param>
+            <param name="dirOption"></param>
+            <param name="type"></param>
+        </member>
+        <member name="F:DS.ClassLib.VarUtils.DirPathBuilder.DirOption.Default">
+            <summary>
+            Save log file to application folder
+            </summary>
+        </member>
+        <member name="F:DS.ClassLib.VarUtils.DirPathBuilder.DirOption.Desktop">
+            <summary>
+            Save log file to desktop
+            </summary>
+        </member>
+        <member name="F:DS.ClassLib.VarUtils.DirPathBuilder.LogNameOption.Default">
+            <summary>
+            No option
+            </summary>
+        </member>
+        <member name="F:DS.ClassLib.VarUtils.DirPathBuilder.LogNameOption.CurDate">
+            <summary>
+            Add to log name current date
+            </summary>
+        </member>
+        <member name="F:DS.ClassLib.VarUtils.DirPathBuilder.LogNameOption.CurDateTime">
+            <summary>
+            Add to log name current date and time
+            </summary>
+        </member>
+        <member name="M:DS.ClassLib.VarUtils.Strings.StringExtensions.IsNoSpecialSymbol(System.String)">
+            <summary>
+            Check if string contains special characters.
+            </summary>
+            <param name="input"></param>
+            <returns>Return true if string contains only numbers or letters. Return false if it isn't.</returns>
+        </member>
+        <member name="M:DS.ClassLib.VarUtils.Strings.StringExtensions.IsNumber(System.String)">
+            <summary>
+            Check if string is a number.
+            </summary>
+            <param name="input"></param>
+            <returns>Return true if string contains only numbers. Return false if it isn't.</returns>
+        </member>
+        <member name="M:DS.ClassLib.VarUtils.Strings.StringExtensions.IsNaturalNumber(System.String)">
+            <summary>
+            Check if string is a natural number.
+            </summary>
+            <param name="input"></param>
+            <returns>Return true if string contains only natural numbers. Return false if it isn't.</returns>
+        </member>
+        <member name="M:DS.ClassLib.VarUtils.Strings.StringExtensions.IsInt(System.String)">
+            <summary>
+            Check if string is a integer number.
+            </summary>
+            <param name="input"></param>
+            <returns>Return true if string a integer number. Return false if it isn't.</returns>
+        </member>
+    </members>
+</doc>

@@ -37,10 +37,10 @@ namespace Misc
 
         static void Main(string[] args)
         {
-            PointsOrderTest.Run();
-
+            DataChangeTest.Run();
             Console.ReadKey();
         }
 
     }
+
 }

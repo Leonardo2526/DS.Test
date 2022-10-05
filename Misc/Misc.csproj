@@ -55,6 +55,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataChangeClient.cs" />
     <Compile Include="MessageTest\Creators\MessageStringCreator.cs" />
     <Compile Include="MessageTest\Creators\MessageCreator.cs" />
     <Compile Include="MessageTest\Log.cs" />
