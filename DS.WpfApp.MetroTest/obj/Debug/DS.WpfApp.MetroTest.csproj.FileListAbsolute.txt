@@ -28,3 +28,5 @@ E:\Repository\DS.WindowsApp.Tests\DS.WpfApp.MetroTest\obj\Debug\View\MainWindow.
 E:\Repository\DS.WindowsApp.Tests\DS.WpfApp.MetroTest\obj\Debug\View\Window1.baml
 E:\Repository\DS.WindowsApp.Tests\DS.WpfApp.MetroTest\obj\Debug\View\MainWindow.g.cs
 E:\Repository\DS.WindowsApp.Tests\DS.WpfApp.MetroTest\obj\Debug\View\Window1.g.cs
+E:\Repository\DS.WindowsApp.Tests\DS.WpfApp.MetroTest\obj\Debug\View\CheckerView.g.cs
+E:\Repository\DS.WindowsApp.Tests\DS.WpfApp.MetroTest\obj\Debug\View\CheckerView.baml

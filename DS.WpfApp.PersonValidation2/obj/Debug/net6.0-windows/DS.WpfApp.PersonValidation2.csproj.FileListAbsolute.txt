@@ -25,3 +25,4 @@ E:\Repository\DS.WindowsApp.Tests\DS.WpfApp.PersonValidation2\bin\Debug\net6.0-w
 E:\Repository\DS.WindowsApp.Tests\DS.WpfApp.PersonValidation2\bin\Debug\net6.0-windows\DS.ClassLib.FileSystemUtils.dll
 E:\Repository\DS.WindowsApp.Tests\DS.WpfApp.PersonValidation2\bin\Debug\net6.0-windows\DS.ClassLib.VarUtils.pdb
 E:\Repository\DS.WindowsApp.Tests\DS.WpfApp.PersonValidation2\bin\Debug\net6.0-windows\DS.ClassLib.FileSystemUtils.pdb
+E:\Repository\DS.WindowsApp.Tests\DS.WpfApp.PersonValidation2\bin\Debug\net6.0-windows\DS.ClassLib.VarUtils.xml
