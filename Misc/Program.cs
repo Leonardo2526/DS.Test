@@ -7,40 +7,28 @@ using Misc.StaticClassTest;
 using System.Threading.Tasks;
 using DS.ClassLib.VarUtils;
 using DS.ClassLib.VarUtils.Points;
+using System.Collections;
+using System.Runtime.Remoting.Messaging;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace Misc
 {
-    class Program    
+    class Program
     {
-        //static void Main(string[] args)
-        //{
-        //    Output.Run();
-        //    //MessagedOutput.Output();
-        //    Console.ReadLine();
-        //}
-
-
-        static async Task Main0(string[] args)
-        {
-            await Output.RunAsync();
-            //MessagedOutput.Output();
-            Console.ReadLine();
-        }
-
-        private static void GetString(string? line)
-        {
-            if (line is not null)
-            {
-                Console.WriteLine(line.ToLower());
-            }
-        }
 
         static void Main(string[] args)
         {
-            DataChangeTest.Run();
-            Console.ReadKey();
+            PointTest.Run();
+            Console.ReadLine();
         }
 
+        static int GetIndex(string line)
+        {
+            string symb = "|";
+            int charLocation = line.IndexOf(symb, StringComparison.Ordinal);
+
+            return charLocation;
+        }
     }
 
 }

@@ -67,6 +67,7 @@
     <Compile Include="MessageTest\MessagedOutput.cs" />
     <Compile Include="OperandTest.cs" />
     <Compile Include="PointsOrderTest.cs" />
+    <Compile Include="PointTest.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="QueueTest.cs" />
