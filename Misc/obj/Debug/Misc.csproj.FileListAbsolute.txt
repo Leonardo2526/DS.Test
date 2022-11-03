@@ -54,4 +54,3 @@ E:\Repository\DS.WindowsApp.Tests\Misc\bin\Debug\DS.ClassLib.FileSystemUtils.dll
 E:\Repository\DS.WindowsApp.Tests\Misc\bin\Debug\DS.ClassLib.VarUtils.dll
 E:\Repository\DS.WindowsApp.Tests\Misc\bin\Debug\DS.ClassLib.FileSystemUtils.pdb
 E:\Repository\DS.WindowsApp.Tests\Misc\bin\Debug\DS.ClassLib.VarUtils.pdb
-E:\Repository\DS.WindowsApp.Tests\Misc\bin\Debug\DS.ClassLib.VarUtils.xml

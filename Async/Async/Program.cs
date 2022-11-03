@@ -24,21 +24,13 @@ namespace Async
         //}
 
 
-        static void Main0(string[] args)
-        {
-            //ClientCancel.Run();
-            //ClientCancel.RunWithOperationCanceledException();
-            TestTask.CreateAgregateException();
-            //ThreadExample.Run();
-
-            Console.ReadLine();
-        }
-
         static void Main(string[] args)
         {
-            LongOperationTest.Run();
+            //TaskTest.RunAndWait1Task();
+            //TaskTest.RunAndWaitMultipleTasks_InterLocked();
+            //ThreadsPrinter.RunTask();
 
-            //TasksIterator.Run();
+            DeadLockTest.Run();
 
             Console.ReadLine();
         }

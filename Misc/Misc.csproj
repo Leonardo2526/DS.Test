@@ -75,6 +75,7 @@
     <Compile Include="StaticClassTest\Output.cs" />
     <Compile Include="StaticClassTest\StaticClass.cs" />
     <Compile Include="StringTest.cs" />
+    <Compile Include="TaskComplisionTest.cs" />
     <Compile Include="TryCatchFinallyTest.cs" />
   </ItemGroup>
   <ItemGroup>
