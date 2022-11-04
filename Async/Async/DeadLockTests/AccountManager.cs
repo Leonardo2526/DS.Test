@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Async.DeadLockTests
+namespace DS.ConsoleApp.MultithreadTest.DeadLockTests
 {
     internal class AccountManager
     {

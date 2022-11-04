@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Async", "Async\Async\Async.csproj", "{BFDAD8FE-4130-4D5D-82AC-AAAC0D497D69}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DS.ConsoleApp.MultithreadTest", "Async\Async\DS.ConsoleApp.MultithreadTest.csproj", "{BFDAD8FE-4130-4D5D-82AC-AAAC0D497D69}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TPL", "TPL\TPL.csproj", "{AA1C6637-45A4-44BF-B37F-86BF7DFA2C36}"
 EndProject
@@ -67,7 +67,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DS.ConsoleApp.SingletonTest
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DS.ConsoleApp.Net6Test", "ConsoleApp1\DS.ConsoleApp.Net6Test.csproj", "{567BF54A-3430-4743-92B0-E3E3BFB81786}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DS.ConsoleApp.ValidateTest", "DS.ConsoleApp.ValidateTest\DS.ConsoleApp.ValidateTest.csproj", "{9CFF1FC4-6FD8-450E-9FD9-87586B2CB12E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DS.ConsoleApp.ValidateTest", "DS.ConsoleApp.ValidateTest\DS.ConsoleApp.ValidateTest.csproj", "{9CFF1FC4-6FD8-450E-9FD9-87586B2CB12E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

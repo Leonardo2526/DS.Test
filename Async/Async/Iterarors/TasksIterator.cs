@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Async
+namespace DS.ConsoleApp.MultithreadTest
 {
     internal class TasksIterator
     {

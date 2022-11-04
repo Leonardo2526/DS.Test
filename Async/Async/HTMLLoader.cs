@@ -5,7 +5,7 @@ using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Async
+namespace DS.ConsoleApp.MultithreadTest
 {
     internal static class HTMLLoader
     {
@@ -14,7 +14,7 @@ namespace Async
             string url = "https://www.dotnetfoundation.org";
             int count = 500;
 
-            //Console.WriteLine(GetHtmlAsync(url).Result);
+            //Console.WriteLine(GetHtmlDS.ConsoleApp.MultithreadTest(url).Result);
             Console.WriteLine(GetFirstCharactersCountAsync(url, count).Result);
         }
 
@@ -31,11 +31,11 @@ namespace Async
             // Execution is synchronous here
             var client = new HttpClient();
 
-            // Execution of GetFirstCharactersCountAsync() is yielded to the caller here
-            // GetStringAsync returns a Task<string>, which is *awaited*
+            // Execution of GetFirstCharactersCountDS.ConsoleApp.MultithreadTest() is yielded to the caller here
+            // GetStringDS.ConsoleApp.MultithreadTest returns a Task<string>, which is *awaited*
             var page = await client.GetStringAsync("https://www.dotnetfoundation.org");
 
-            // Execution resumes when the client.GetStringAsync task completes,
+            // Execution resumes when the client.GetStringDS.ConsoleApp.MultithreadTest task completes,
             // becoming synchronous again.
 
             if (count > page.Length)

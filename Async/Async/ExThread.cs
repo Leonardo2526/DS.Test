@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Async
+namespace DS.ConsoleApp.MultithreadTest
 {
     // C# program to illustrate the
     // concept of Abort() method

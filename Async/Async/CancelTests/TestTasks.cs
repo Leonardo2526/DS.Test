@@ -2,7 +2,7 @@
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Async.CancelTests
+namespace DS.ConsoleApp.MultithreadTest.CancelTests
 
 {
     internal class TestTask

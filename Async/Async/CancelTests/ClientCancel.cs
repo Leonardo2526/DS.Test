@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Async.CancelTests
+namespace DS.ConsoleApp.MultithreadTest.CancelTests
 {
     internal static class ClientCancel
     {

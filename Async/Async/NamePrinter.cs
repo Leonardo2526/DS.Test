@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Async
+namespace DS.ConsoleApp.MultithreadTest
 {
     internal static class NamePrinter
     {
@@ -14,7 +14,7 @@ namespace Async
             Console.WriteLine("");
         }
 
-        public static async Task PrintAwait()
+        public static async  Task PrintAwait()
         {
             await PrintNameAsync("Tom");
             await PrintNameAsync("Bob");

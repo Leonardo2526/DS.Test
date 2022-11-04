@@ -1,0 +1,13 @@
+E:\Repository\DS.WindowsApp.Tests\Async\Async\bin\Debug\Async.exe.config
+E:\Repository\DS.WindowsApp.Tests\Async\Async\bin\Debug\Async.exe
+E:\Repository\DS.WindowsApp.Tests\Async\Async\bin\Debug\Async.pdb
+E:\Repository\DS.WindowsApp.Tests\Async\Async\bin\Debug\DS.ClassLib.VarUtils.dll
+E:\Repository\DS.WindowsApp.Tests\Async\Async\bin\Debug\DS.ClassLib.FileSystemUtils.dll
+E:\Repository\DS.WindowsApp.Tests\Async\Async\bin\Debug\DS.ClassLib.VarUtils.pdb
+E:\Repository\DS.WindowsApp.Tests\Async\Async\bin\Debug\DS.ClassLib.FileSystemUtils.pdb
+E:\Repository\DS.WindowsApp.Tests\Async\Async\obj\Debug\DS.ConsoleApp.MultithreadTest.csproj.AssemblyReference.cache
+E:\Repository\DS.WindowsApp.Tests\Async\Async\obj\Debug\DS.ConsoleApp.MultithreadTest.csproj.SuggestedBindingRedirects.cache
+E:\Repository\DS.WindowsApp.Tests\Async\Async\obj\Debug\DS.ConsoleApp.MultithreadTest.csproj.CoreCompileInputs.cache
+E:\Repository\DS.WindowsApp.Tests\Async\Async\obj\Debug\DS.ConsoleApp.MultithreadTest.csproj.CopyComplete
+E:\Repository\DS.WindowsApp.Tests\Async\Async\obj\Debug\Async.exe
+E:\Repository\DS.WindowsApp.Tests\Async\Async\obj\Debug\Async.pdb

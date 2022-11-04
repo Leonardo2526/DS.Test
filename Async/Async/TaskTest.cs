@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Async
+namespace DS.ConsoleApp.MultithreadTest
 {
     internal static class TaskTest
     {
@@ -49,6 +49,8 @@ namespace Async
             task1.Wait();   // ожидаем завершения задачи task1
             task2.Wait();   // ожидаем завершения задачи task2
             task3.Wait();   // ожидаем завершения задачи task3
+
+            Console.WriteLine("All tasks are executed!");
         }
 
         public static void RunAndWaitMultipleTasks()
