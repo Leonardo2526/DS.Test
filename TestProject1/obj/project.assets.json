@@ -6364,19 +6364,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Сараев Даниил\\.nuget\\packages\\": {}
+    "C:\\Users\\User\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Repository\\DS.WindowsApp.Tests\\TestProject1\\DS.TestProject.VS.csproj",
+      "projectUniqueName": "D:\\Reposotory\\DS.WindowsApp.Tests\\TestProject1\\DS.TestProject.VS.csproj",
       "projectName": "DS.TestProject.VS",
-      "projectPath": "E:\\Repository\\DS.WindowsApp.Tests\\TestProject1\\DS.TestProject.VS.csproj",
-      "packagesPath": "C:\\Users\\Сараев Даниил\\.nuget\\packages\\",
-      "outputPath": "E:\\Repository\\DS.WindowsApp.Tests\\TestProject1\\obj\\",
+      "projectPath": "D:\\Reposotory\\DS.WindowsApp.Tests\\TestProject1\\DS.TestProject.VS.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "D:\\Reposotory\\DS.WindowsApp.Tests\\TestProject1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Сараев Даниил\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6390,11 +6390,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "E:\\Repository\\DS.WindowsApp.Tests\\DS.ConsoleApp.TestingObjects\\DS.ConsoleApp.TestingObjects.csproj": {
-              "projectPath": "E:\\Repository\\DS.WindowsApp.Tests\\DS.ConsoleApp.TestingObjects\\DS.ConsoleApp.TestingObjects.csproj"
+            "D:\\Reposotory\\DS.WindowsApp.Tests\\DS.ConsoleApp.TestingObjects\\DS.ConsoleApp.TestingObjects.csproj": {
+              "projectPath": "D:\\Reposotory\\DS.WindowsApp.Tests\\DS.ConsoleApp.TestingObjects\\DS.ConsoleApp.TestingObjects.csproj"
             },
-            "E:\\Repository\\DS.WindowsApp.Tests\\DS.ConsoleApp.XYZTest\\DS.ConsoleApp.XYZTest.csproj": {
-              "projectPath": "E:\\Repository\\DS.WindowsApp.Tests\\DS.ConsoleApp.XYZTest\\DS.ConsoleApp.XYZTest.csproj"
+            "D:\\Reposotory\\DS.WindowsApp.Tests\\DS.ConsoleApp.XYZTest\\DS.ConsoleApp.XYZTest.csproj": {
+              "projectPath": "D:\\Reposotory\\DS.WindowsApp.Tests\\DS.ConsoleApp.XYZTest\\DS.ConsoleApp.XYZTest.csproj"
             }
           }
         }
@@ -6442,7 +6442,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -31,3 +31,4 @@ D:\Reposotory\DS.WindowsApp.Tests\DS.ConsoleApp.Regex\bin\Debug\net6.0\DS.MainUt
 D:\Reposotory\DS.WindowsApp.Tests\DS.ConsoleApp.Regex\obj\Debug\net6.0\DS.ConsoleApp.Regex.csproj.CopyComplete
 D:\Reposotory\DS.WindowsApp.Tests\DS.ConsoleApp.Regex\obj\Debug\net6.0\DS.ConsoleApp.Regex.genruntimeconfig.cache
 D:\Reposotory\DS.WindowsApp.Tests\DS.ConsoleApp.Regex\obj\Debug\net6.0\ref\DS.ConsoleApp.Regex.dll
+D:\Reposotory\DS.WindowsApp.Tests\DS.ConsoleApp.Regex\bin\Debug\net6.0\DS.MainUtils.xml

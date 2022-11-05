@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Async;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -118,6 +119,48 @@ namespace DS.ConsoleApp.MultithreadTest
             Task.WaitAll(tasks);
 
             Console.WriteLine("All tasks are executed!");
+        }
+
+
+        public static void RunPrintNumbers()
+        {
+            Task[] tasks = new Task[3];
+            //Task task1 = Task.Run(() => new Printer().PrintNumbers());
+            //Task task2 = Task.Run(() => new Printer().PrintNumbers());
+            //Task task3 = Task.Run(() => new Printer().PrintNumbers());
+            Task task1 = Task.Run(() => PrintNumbers());
+            Task task2 = Task.Run(() => PrintNumbers());
+            Task task3 = Task.Run(() => PrintNumbers());
+            //Task task2 = task1.ContinueWith(t => PrintNumbers());
+            //Task task3 = task2.ContinueWith(t => PrintNumbers());
+            tasks[0] = task1;
+            tasks[1] = task2;
+            tasks[2] = task3;
+
+            // получаем информацию о задаче
+            Console.WriteLine($"Start tasks executing.");
+
+            //task1.Wait();
+            //task2.Wait();
+            //task3.Wait();
+
+            // ожидаем завершения задачи
+            Task.WaitAll(tasks);
+
+            Console.WriteLine($"All tasks executed!");
+
+        }
+        private static object lockObject = new object();
+        public static void PrintNumbers()
+        {
+            lock (lockObject)
+            {
+                for (int i = 1; i <= 10; i++)
+                {
+                    Thread.Sleep(100);
+                    Console.WriteLine($"Thread: {Thread.CurrentThread.ManagedThreadId}, Task: {Task.CurrentId}. i = {i}");
+                }
+            }
         }
     }
 }

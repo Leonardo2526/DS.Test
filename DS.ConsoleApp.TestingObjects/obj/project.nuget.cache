@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2xPwiaqAwiqBDBov2yRq6C9Y9y9oP2RoPFtIjqhHP41rdsP3VysjGAsxlEPLA9S8Ldjj5+jWS9L2uMgZzAoOJA==",
+  "dgSpecHash": "jYctF5AQ17hOLVNP+/mMsRdUUzELAQ2DP4iLYLHo14GHi951vY7GqeZ068KNvi/FX0KbTWZr+kcF0nWFi7MeKg==",
   "success": true,
-  "projectFilePath": "E:\\Repository\\DS.WindowsApp.Tests\\DS.ConsoleApp.TestingObjects\\DS.ConsoleApp.TestingObjects.csproj",
+  "projectFilePath": "D:\\Reposotory\\DS.WindowsApp.Tests\\DS.ConsoleApp.TestingObjects\\DS.ConsoleApp.TestingObjects.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

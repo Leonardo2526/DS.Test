@@ -13,3 +13,11 @@ E:\Repository\DS.WindowsApp.Tests\Builder\obj\Debug\Builder.exe
 E:\Repository\DS.WindowsApp.Tests\Builder\obj\Debug\Builder.pdb
 E:\Repository\DS.WindowsApp.Tests\Builder\obj\Debug\Builder.csproj.AssemblyReference.cache
 E:\Repository\DS.WindowsApp.Tests\Builder\obj\Debug\Builder.csproj.SuggestedBindingRedirects.cache
+D:\Reposotory\DS.WindowsApp.Tests\Builder\bin\Debug\Builder.exe.config
+D:\Reposotory\DS.WindowsApp.Tests\Builder\bin\Debug\Builder.exe
+D:\Reposotory\DS.WindowsApp.Tests\Builder\bin\Debug\Builder.pdb
+D:\Reposotory\DS.WindowsApp.Tests\Builder\obj\Debug\Builder.csproj.AssemblyReference.cache
+D:\Reposotory\DS.WindowsApp.Tests\Builder\obj\Debug\Builder.csproj.SuggestedBindingRedirects.cache
+D:\Reposotory\DS.WindowsApp.Tests\Builder\obj\Debug\Builder.csproj.CoreCompileInputs.cache
+D:\Reposotory\DS.WindowsApp.Tests\Builder\obj\Debug\Builder.exe
+D:\Reposotory\DS.WindowsApp.Tests\Builder\obj\Debug\Builder.pdb

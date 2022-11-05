@@ -20,3 +20,11 @@ E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.BypassType\obj\Debug\DS.ConsoleA
 E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.BypassType\obj\Debug\DS.ConsoleApp.BypassType.pdb
 E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.BypassType\obj\Debug\DS.ConsoleApp.BypassType.csproj.AssemblyReference.cache
 E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.BypassType\obj\Debug\DS.ConsoleApp.BypassType.csproj.SuggestedBindingRedirects.cache
+D:\Reposotory\DS.WindowsApp.Tests\DS.ConsoleApp.BypassType\bin\Debug\DS.ConsoleApp.BypassType.exe.config
+D:\Reposotory\DS.WindowsApp.Tests\DS.ConsoleApp.BypassType\bin\Debug\DS.ConsoleApp.BypassType.exe
+D:\Reposotory\DS.WindowsApp.Tests\DS.ConsoleApp.BypassType\bin\Debug\DS.ConsoleApp.BypassType.pdb
+D:\Reposotory\DS.WindowsApp.Tests\DS.ConsoleApp.BypassType\obj\Debug\DS.ConsoleApp.BypassType.csproj.AssemblyReference.cache
+D:\Reposotory\DS.WindowsApp.Tests\DS.ConsoleApp.BypassType\obj\Debug\DS.ConsoleApp.BypassType.csproj.SuggestedBindingRedirects.cache
+D:\Reposotory\DS.WindowsApp.Tests\DS.ConsoleApp.BypassType\obj\Debug\DS.ConsoleApp.BypassType.csproj.CoreCompileInputs.cache
+D:\Reposotory\DS.WindowsApp.Tests\DS.ConsoleApp.BypassType\obj\Debug\DS.ConsoleApp.BypassType.exe
+D:\Reposotory\DS.WindowsApp.Tests\DS.ConsoleApp.BypassType\obj\Debug\DS.ConsoleApp.BypassType.pdb

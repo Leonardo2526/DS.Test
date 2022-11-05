@@ -1,0 +1,158 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DS.MainUtils</name>
+    </assembly>
+    <members>
+        <member name="M:DS.MainUtils.Files.IsFileEmpty(System.String)">
+            <summary>
+            Check if file is empty;
+            </summary>
+            <param name="fullPath"></param>
+            <returns>Return true if file by fullPath is empty. Return null if it isn't.</returns>
+        </member>
+        <member name="M:DS.MainUtils.Files.ClearFile(System.String)">
+            <summary>
+            Clear txt file by path.
+            </summary>
+            <param name="fullPath"></param>
+            <returns>Return true if clerance was successful. Return false if it wasn't.</returns>
+        </member>
+        <member name="M:DS.MainUtils.Files.IsDirExistAndWritable(System.String)">
+            <summary>
+            Check if directory exist and has write permissions.
+            </summary>
+            <param name="fullPath"></param>
+            <returns>Return true if directory exist and has write permissions. Return false if it isn't.</returns>
+        </member>
+        <member name="M:DS.MainUtils.Files.HasWritePermissionOnDir(System.String)">
+            <summary>
+            Check if current directory has write permissions.
+            </summary>
+            <param name="directory"></param>
+            <returns>Return true if directory is available for write. Return false if it isn't. </returns>
+        </member>
+        <member name="M:DS.MainUtils.Matrix.GetMatrixDeterminant(System.Double[0:,0:])">
+            <summary>
+            Get 3D matrix determinant
+            </summary>
+            <param name="matrix"></param>
+            <returns>Return determinant value.</returns>
+        </member>
+        <member name="M:DS.MainUtils.NumberExtensions.Normalize(System.Double)">
+            <summary>
+            Get normalize number.
+            </summary>
+            <param name="number"></param>
+            <returns>Return absolute and round to integer number</returns>
+        </member>
+        <member name="M:DS.MainUtils.NumberExtensions.RadToDeg(System.Double)">
+            <summary>
+            Convert radians to degrees
+            </summary>
+            <param name="angleRad"></param>
+            <returns>Return angle in degress.</returns>
+        </member>
+        <member name="M:DS.MainUtils.NumberExtensions.RadToDeg(System.Int32)">
+            <summary>
+            Convert radians to degrees
+            </summary>
+            <param name="angleRad"></param>
+            <returns>Return angle in degress.</returns>
+        </member>
+        <member name="M:DS.MainUtils.NumberExtensions.DegToRad(System.Double)">
+            <summary>
+            Convert degrees to radians
+            </summary>
+            <param name="angleDeg"></param>
+            <returns>Return angle in radians.</returns>
+        </member>
+        <member name="M:DS.MainUtils.NumberExtensions.DegToRad(System.Int32)">
+            <summary>
+            Convert degrees to radians
+            </summary>
+            <param name="angleDeg"></param>
+            <returns>Return angle in radians.</returns>
+        </member>
+        <member name="M:DS.MainUtils.NumberExtensions.IsDevisible(System.Int32,System.Int32)">
+            <summary>
+            Check if number and can be divided to devisibleNumber.
+            </summary>
+            <param name="input"></param>
+            <param name="devisibleNumber"></param>
+            <returns>Return true if number can be divided to devisibleNumber without rest. Return false if it isn't.</returns>
+        </member>
+        <member name="M:DS.MainUtils.DirPathBuilder.GetPath">
+            <summary>
+            Get directory path and file name. If current directory name is absent it'll be created. 
+            </summary>
+            <param name="fileName"></param>
+            <param name="dirName"></param>
+            <param name="dirOption"></param>
+            <param name="type"></param>
+            <returns>Return directory name.</returns>
+        </member>
+        <member name="M:DS.MainUtils.DirPathBuilder.UpdateDefaults(DS.MainUtils.DirPathBuilder.DirOption,DS.MainUtils.DirPathBuilder.LogNameOption,System.String,System.String)">
+            <summary>
+            Update default names of output directory and log file.
+            </summary>
+            <param name="fileName"></param>
+            <param name="dirName"></param>
+            <param name="dirOption"></param>
+            <param name="type"></param>
+        </member>
+        <member name="F:DS.MainUtils.DirPathBuilder.DirOption.Default">
+            <summary>
+            Save log file to application folder
+            </summary>
+        </member>
+        <member name="F:DS.MainUtils.DirPathBuilder.DirOption.Desktop">
+            <summary>
+            Save log file to desktop
+            </summary>
+        </member>
+        <member name="F:DS.MainUtils.DirPathBuilder.LogNameOption.Default">
+            <summary>
+            No option
+            </summary>
+        </member>
+        <member name="F:DS.MainUtils.DirPathBuilder.LogNameOption.CurDate">
+            <summary>
+            Add to log name current date
+            </summary>
+        </member>
+        <member name="F:DS.MainUtils.DirPathBuilder.LogNameOption.CurDateTime">
+            <summary>
+            Add to log name current date and time
+            </summary>
+        </member>
+        <member name="M:DS.MainUtils.Strings.StringExtensions.IsNoSpecialSymbol(System.String)">
+            <summary>
+            Check if string contains special characters.
+            </summary>
+            <param name="input"></param>
+            <returns>Return true if string contains only numbers or letters. Return false if it isn't.</returns>
+        </member>
+        <member name="M:DS.MainUtils.Strings.StringExtensions.IsNumber(System.String)">
+            <summary>
+            Check if string is a number.
+            </summary>
+            <param name="input"></param>
+            <returns>Return true if string contains only numbers. Return false if it isn't.</returns>
+        </member>
+        <member name="M:DS.MainUtils.Strings.StringExtensions.IsNaturalNumber(System.String)">
+            <summary>
+            Check if string is a natural number.
+            </summary>
+            <param name="input"></param>
+            <returns>Return true if string contains only natural numbers. Return false if it isn't.</returns>
+        </member>
+        <member name="M:DS.MainUtils.Strings.StringExtensions.IsInt(System.String)">
+            <summary>
+            Check if string is a integer number.
+            </summary>
+            <param name="input"></param>
+            <returns>Return true if string a integer number. Return false if it isn't.</returns>
+        </member>
+    </members>
+</doc>

@@ -24,22 +24,25 @@ namespace DS.ConsoleApp.MultithreadTest
         //}
 
 
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
-            //TaskTest.RunAndWait3Tasks();
+            TaskTest.RunPrintNumbers();
             //TaskTest.RunAndWaitMultipleTasks_InterLocked();
             //ThreadsPrinter.RunTask();
             //DeadLockTest.Run();
-            CounterTest.Run();
+            //CounterTest.Run();
 
             Console.ReadLine();
         }
 
-        static async Task Main1(string[] args)
+        static async Task Main(string[] args)
         {
             Console.WriteLine($"Поток {Thread.CurrentThread.ManagedThreadId} из Main запущен\n");
 
-            await ClientCancel.RunAsync();
+           Task task1 = new TestTask().CreateTaskAsync();
+           Task task2 = new TestTask().CreateTaskAsync();
+           Task task3 = new TestTask().CreateTaskAsync();
+           await Task.WhenAll(task1, task2, task3);
 
             //Task task2 = Task.Run(() => ClientCancel.RunDS.ConsoleApp.MultithreadTest());
             //Thread.Sleep(2000);

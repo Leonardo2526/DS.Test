@@ -40,9 +40,7 @@ E:\Repository\DS.WindowsApp.Tests\Misc\bin\Debug\DS.TraceUtils.pdb
 D:\Reposotory\DS.WindowsApp.Tests\Misc\bin\Debug\Misc.exe.config
 D:\Reposotory\DS.WindowsApp.Tests\Misc\bin\Debug\Misc.exe
 D:\Reposotory\DS.WindowsApp.Tests\Misc\bin\Debug\Misc.pdb
-D:\Reposotory\DS.WindowsApp.Tests\Misc\bin\Debug\DS.MainUtils.dll
 D:\Reposotory\DS.WindowsApp.Tests\Misc\bin\Debug\DS.TraceUtils.dll
-D:\Reposotory\DS.WindowsApp.Tests\Misc\bin\Debug\DS.MainUtils.pdb
 D:\Reposotory\DS.WindowsApp.Tests\Misc\bin\Debug\DS.TraceUtils.pdb
 D:\Reposotory\DS.WindowsApp.Tests\Misc\obj\Debug\Misc.csproj.AssemblyReference.cache
 D:\Reposotory\DS.WindowsApp.Tests\Misc\obj\Debug\Misc.csproj.SuggestedBindingRedirects.cache
@@ -54,3 +52,7 @@ E:\Repository\DS.WindowsApp.Tests\Misc\bin\Debug\DS.ClassLib.FileSystemUtils.dll
 E:\Repository\DS.WindowsApp.Tests\Misc\bin\Debug\DS.ClassLib.VarUtils.dll
 E:\Repository\DS.WindowsApp.Tests\Misc\bin\Debug\DS.ClassLib.FileSystemUtils.pdb
 E:\Repository\DS.WindowsApp.Tests\Misc\bin\Debug\DS.ClassLib.VarUtils.pdb
+D:\Reposotory\DS.WindowsApp.Tests\Misc\bin\Debug\DS.ClassLib.FileSystemUtils.dll
+D:\Reposotory\DS.WindowsApp.Tests\Misc\bin\Debug\DS.ClassLib.VarUtils.dll
+D:\Reposotory\DS.WindowsApp.Tests\Misc\bin\Debug\DS.ClassLib.FileSystemUtils.pdb
+D:\Reposotory\DS.WindowsApp.Tests\Misc\bin\Debug\DS.ClassLib.VarUtils.pdb

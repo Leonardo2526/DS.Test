@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "r1HoJQ4iAuzj8pUlAultEZhbwXKkBZL2NxYvyNrKMLybgGJuIDYmpFdWZM01fP2qy52mZNpOiDqTR/NAzZd6uQ==",
+  "dgSpecHash": "V+jQcX6sA5iyDAPhxarfcSqCb2c37+yEDFJZmJgyYONRL1tV9TZ8gAmLUw1ca+h8hF7ZK0Ni/Yu9nRUj62qipA==",
   "success": true,
-  "projectFilePath": "E:\\Repository\\DS.WindowsApp.Tests\\DS.ConsoleApp.NotifyTest\\DS.ConsoleApp.NotifyTest.csproj",
+  "projectFilePath": "D:\\Reposotory\\DS.WindowsApp.Tests\\DS.ConsoleApp.NotifyTest\\DS.ConsoleApp.NotifyTest.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

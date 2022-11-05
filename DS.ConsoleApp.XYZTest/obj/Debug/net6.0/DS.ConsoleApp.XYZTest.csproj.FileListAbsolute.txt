@@ -19,8 +19,6 @@ D:\Reposotory\DS.WindowsApp.Tests\DS.ConsoleApp.XYZTest\bin\Debug\net6.0\DS.Cons
 D:\Reposotory\DS.WindowsApp.Tests\DS.ConsoleApp.XYZTest\bin\Debug\net6.0\DS.ConsoleApp.XYZTest.runtimeconfig.json
 D:\Reposotory\DS.WindowsApp.Tests\DS.ConsoleApp.XYZTest\bin\Debug\net6.0\DS.ConsoleApp.XYZTest.dll
 D:\Reposotory\DS.WindowsApp.Tests\DS.ConsoleApp.XYZTest\bin\Debug\net6.0\DS.ConsoleApp.XYZTest.pdb
-D:\Reposotory\DS.WindowsApp.Tests\DS.ConsoleApp.XYZTest\bin\Debug\net6.0\DS.MainUtils.dll
-D:\Reposotory\DS.WindowsApp.Tests\DS.ConsoleApp.XYZTest\bin\Debug\net6.0\DS.MainUtils.pdb
 D:\Reposotory\DS.WindowsApp.Tests\DS.ConsoleApp.XYZTest\obj\Debug\net6.0\DS.ConsoleApp.XYZTest.csproj.AssemblyReference.cache
 D:\Reposotory\DS.WindowsApp.Tests\DS.ConsoleApp.XYZTest\obj\Debug\net6.0\DS.ConsoleApp.XYZTest.GeneratedMSBuildEditorConfig.editorconfig
 D:\Reposotory\DS.WindowsApp.Tests\DS.ConsoleApp.XYZTest\obj\Debug\net6.0\DS.ConsoleApp.XYZTest.AssemblyInfoInputs.cache
@@ -36,3 +34,7 @@ E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.XYZTest\bin\Debug\net6.0\DS.Clas
 E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.XYZTest\bin\Debug\net6.0\DS.ClassLib.FileSystemUtils.dll
 E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.XYZTest\bin\Debug\net6.0\DS.ClassLib.VarUtils.pdb
 E:\Repository\DS.WindowsApp.Tests\DS.ConsoleApp.XYZTest\bin\Debug\net6.0\DS.ClassLib.FileSystemUtils.pdb
+D:\Reposotory\DS.WindowsApp.Tests\DS.ConsoleApp.XYZTest\bin\Debug\net6.0\DS.ClassLib.VarUtils.dll
+D:\Reposotory\DS.WindowsApp.Tests\DS.ConsoleApp.XYZTest\bin\Debug\net6.0\DS.ClassLib.FileSystemUtils.dll
+D:\Reposotory\DS.WindowsApp.Tests\DS.ConsoleApp.XYZTest\bin\Debug\net6.0\DS.ClassLib.VarUtils.pdb
+D:\Reposotory\DS.WindowsApp.Tests\DS.ConsoleApp.XYZTest\bin\Debug\net6.0\DS.ClassLib.FileSystemUtils.pdb

@@ -60,6 +60,7 @@
     <Compile Include="HTMLLoader.cs" />
     <Compile Include="LongOperationTest.cs" />
     <Compile Include="NamePrinter.cs" />
+    <Compile Include="Printer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Iterarors\TasksIterator.cs" />

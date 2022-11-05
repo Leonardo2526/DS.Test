@@ -22,37 +22,53 @@
           "System.ValueTuple": "4.5.0"
         },
         "compile": {
-          "lib/netstandard2.0/BenchmarkDotNet.dll": {}
+          "lib/netstandard2.0/BenchmarkDotNet.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/BenchmarkDotNet.dll": {}
+          "lib/netstandard2.0/BenchmarkDotNet.dll": {
+            "related": ".xml"
+          }
         }
       },
       "BenchmarkDotNet.Annotations/0.13.1": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/BenchmarkDotNet.Annotations.dll": {}
+          "lib/netstandard2.0/BenchmarkDotNet.Annotations.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/BenchmarkDotNet.Annotations.dll": {}
+          "lib/netstandard2.0/BenchmarkDotNet.Annotations.dll": {
+            "related": ".xml"
+          }
         }
       },
       "CommandLineParser/2.4.3": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/CommandLine.dll": {}
+          "lib/netstandard2.0/CommandLine.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/CommandLine.dll": {}
+          "lib/netstandard2.0/CommandLine.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Iced/1.8.0": {
         "type": "package",
         "compile": {
-          "lib/net45/Iced.dll": {}
+          "lib/net45/Iced.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net45/Iced.dll": {}
+          "lib/net45/Iced.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Microsoft.CodeAnalysis.Analyzers/2.6.1": {
@@ -103,10 +119,14 @@
           "System.Xml.XmlDocument": "4.3.0"
         },
         "compile": {
-          "lib/netstandard1.3/Microsoft.CodeAnalysis.dll": {}
+          "lib/netstandard1.3/Microsoft.CodeAnalysis.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/netstandard1.3/Microsoft.CodeAnalysis.dll": {}
+          "lib/netstandard1.3/Microsoft.CodeAnalysis.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "resource": {
           "lib/netstandard1.3/cs/Microsoft.CodeAnalysis.resources.dll": {
@@ -156,10 +176,14 @@
           "Microsoft.CodeAnalysis.Common": "[2.10.0]"
         },
         "compile": {
-          "lib/netstandard1.3/Microsoft.CodeAnalysis.CSharp.dll": {}
+          "lib/netstandard1.3/Microsoft.CodeAnalysis.CSharp.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/netstandard1.3/Microsoft.CodeAnalysis.CSharp.dll": {}
+          "lib/netstandard1.3/Microsoft.CodeAnalysis.CSharp.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "resource": {
           "lib/netstandard1.3/cs/Microsoft.CodeAnalysis.CSharp.resources.dll": {
@@ -206,19 +230,27 @@
       "Microsoft.Diagnostics.NETCore.Client/0.2.61701": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/Microsoft.Diagnostics.NETCore.Client.dll": {}
+          "lib/netstandard2.0/Microsoft.Diagnostics.NETCore.Client.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.Diagnostics.NETCore.Client.dll": {}
+          "lib/netstandard2.0/Microsoft.Diagnostics.NETCore.Client.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Microsoft.Diagnostics.Runtime/1.1.126102": {
         "type": "package",
         "compile": {
-          "lib/net45/Microsoft.Diagnostics.Runtime.dll": {}
+          "lib/net45/Microsoft.Diagnostics.Runtime.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/net45/Microsoft.Diagnostics.Runtime.dll": {}
+          "lib/net45/Microsoft.Diagnostics.Runtime.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "Microsoft.Diagnostics.Tracing.TraceEvent/2.0.61": {
@@ -228,15 +260,23 @@
         },
         "compile": {
           "lib/net45/Dia2Lib.dll": {},
-          "lib/net45/Microsoft.Diagnostics.FastSerialization.dll": {},
-          "lib/net45/Microsoft.Diagnostics.Tracing.TraceEvent.dll": {},
+          "lib/net45/Microsoft.Diagnostics.FastSerialization.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/Microsoft.Diagnostics.Tracing.TraceEvent.dll": {
+            "related": ".xml"
+          },
           "lib/net45/OSExtensions.dll": {},
           "lib/net45/TraceReloggerLib.dll": {}
         },
         "runtime": {
           "lib/net45/Dia2Lib.dll": {},
-          "lib/net45/Microsoft.Diagnostics.FastSerialization.dll": {},
-          "lib/net45/Microsoft.Diagnostics.Tracing.TraceEvent.dll": {},
+          "lib/net45/Microsoft.Diagnostics.FastSerialization.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/Microsoft.Diagnostics.Tracing.TraceEvent.dll": {
+            "related": ".xml"
+          },
           "lib/net45/OSExtensions.dll": {},
           "lib/net45/TraceReloggerLib.dll": {}
         },
@@ -270,7 +310,9 @@
           "mscorlib"
         ],
         "compile": {
-          "ref/net461/Microsoft.Win32.Registry.dll": {}
+          "ref/net461/Microsoft.Win32.Registry.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
           "lib/net461/Microsoft.Win32.Registry.dll": {}
@@ -313,10 +355,14 @@
       "System.Buffers/4.4.0": {
         "type": "package",
         "compile": {
-          "ref/netstandard2.0/System.Buffers.dll": {}
+          "ref/netstandard2.0/System.Buffers.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/System.Buffers.dll": {}
+          "lib/netstandard2.0/System.Buffers.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Collections/4.3.0": {
@@ -347,10 +393,14 @@
       "System.Collections.Immutable/1.5.0": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/System.Collections.Immutable.dll": {}
+          "lib/netstandard2.0/System.Collections.Immutable.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/System.Collections.Immutable.dll": {}
+          "lib/netstandard2.0/System.Collections.Immutable.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Console/4.3.0": {
@@ -560,10 +610,14 @@
           "System.Runtime.CompilerServices.Unsafe": "4.5.2"
         },
         "compile": {
-          "lib/netstandard2.0/System.Memory.dll": {}
+          "lib/netstandard2.0/System.Memory.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/System.Memory.dll": {}
+          "lib/netstandard2.0/System.Memory.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Numerics.Vectors/4.4.0": {
@@ -573,10 +627,14 @@
           "mscorlib"
         ],
         "compile": {
-          "ref/net46/System.Numerics.Vectors.dll": {}
+          "ref/net46/System.Numerics.Vectors.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net46/System.Numerics.Vectors.dll": {}
+          "lib/net46/System.Numerics.Vectors.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Reflection/4.3.0": {
@@ -615,10 +673,14 @@
           "System.Collections.Immutable": "1.5.0"
         },
         "compile": {
-          "lib/netstandard2.0/System.Reflection.Metadata.dll": {}
+          "lib/netstandard2.0/System.Reflection.Metadata.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/System.Reflection.Metadata.dll": {}
+          "lib/netstandard2.0/System.Reflection.Metadata.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Resources.ResourceManager/4.3.0": {
@@ -648,10 +710,14 @@
       "System.Runtime.CompilerServices.Unsafe/4.5.2": {
         "type": "package",
         "compile": {
-          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Runtime.Extensions/4.3.0": {
@@ -724,7 +790,9 @@
           "mscorlib"
         ],
         "compile": {
-          "ref/net461/System.Security.AccessControl.dll": {}
+          "ref/net461/System.Security.AccessControl.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
           "lib/net461/System.Security.AccessControl.dll": {}
@@ -839,7 +907,9 @@
           "mscorlib"
         ],
         "compile": {
-          "ref/net461/System.Security.Principal.Windows.dll": {}
+          "ref/net461/System.Security.Principal.Windows.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
           "lib/net461/System.Security.Principal.Windows.dll": {}
@@ -863,7 +933,9 @@
       "System.Text.Encoding.CodePages/4.3.0": {
         "type": "package",
         "compile": {
-          "ref/netstandard1.3/_._": {}
+          "ref/netstandard1.3/_._": {
+            "related": ".xml"
+          }
         },
         "runtime": {
           "lib/net46/System.Text.Encoding.CodePages.dll": {}
@@ -919,10 +991,14 @@
           "System.Runtime.CompilerServices.Unsafe": "4.5.2"
         },
         "compile": {
-          "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
+          "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
+          "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Threading.Tasks.Parallel/4.3.0": {
@@ -955,7 +1031,9 @@
           "ref/net47/System.ValueTuple.dll": {}
         },
         "runtime": {
-          "lib/net47/System.ValueTuple.dll": {}
+          "lib/net47/System.ValueTuple.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Xml.ReaderWriter/4.3.0": {
@@ -1057,37 +1135,53 @@
           "System.ValueTuple": "4.5.0"
         },
         "compile": {
-          "lib/netstandard2.0/BenchmarkDotNet.dll": {}
+          "lib/netstandard2.0/BenchmarkDotNet.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/BenchmarkDotNet.dll": {}
+          "lib/netstandard2.0/BenchmarkDotNet.dll": {
+            "related": ".xml"
+          }
         }
       },
       "BenchmarkDotNet.Annotations/0.13.1": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/BenchmarkDotNet.Annotations.dll": {}
+          "lib/netstandard2.0/BenchmarkDotNet.Annotations.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/BenchmarkDotNet.Annotations.dll": {}
+          "lib/netstandard2.0/BenchmarkDotNet.Annotations.dll": {
+            "related": ".xml"
+          }
         }
       },
       "CommandLineParser/2.4.3": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/CommandLine.dll": {}
+          "lib/netstandard2.0/CommandLine.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/CommandLine.dll": {}
+          "lib/netstandard2.0/CommandLine.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Iced/1.8.0": {
         "type": "package",
         "compile": {
-          "lib/net45/Iced.dll": {}
+          "lib/net45/Iced.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net45/Iced.dll": {}
+          "lib/net45/Iced.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Microsoft.CodeAnalysis.Analyzers/2.6.1": {
@@ -1138,10 +1232,14 @@
           "System.Xml.XmlDocument": "4.3.0"
         },
         "compile": {
-          "lib/netstandard1.3/Microsoft.CodeAnalysis.dll": {}
+          "lib/netstandard1.3/Microsoft.CodeAnalysis.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/netstandard1.3/Microsoft.CodeAnalysis.dll": {}
+          "lib/netstandard1.3/Microsoft.CodeAnalysis.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "resource": {
           "lib/netstandard1.3/cs/Microsoft.CodeAnalysis.resources.dll": {
@@ -1191,10 +1289,14 @@
           "Microsoft.CodeAnalysis.Common": "[2.10.0]"
         },
         "compile": {
-          "lib/netstandard1.3/Microsoft.CodeAnalysis.CSharp.dll": {}
+          "lib/netstandard1.3/Microsoft.CodeAnalysis.CSharp.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/netstandard1.3/Microsoft.CodeAnalysis.CSharp.dll": {}
+          "lib/netstandard1.3/Microsoft.CodeAnalysis.CSharp.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "resource": {
           "lib/netstandard1.3/cs/Microsoft.CodeAnalysis.CSharp.resources.dll": {
@@ -1241,19 +1343,27 @@
       "Microsoft.Diagnostics.NETCore.Client/0.2.61701": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/Microsoft.Diagnostics.NETCore.Client.dll": {}
+          "lib/netstandard2.0/Microsoft.Diagnostics.NETCore.Client.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.Diagnostics.NETCore.Client.dll": {}
+          "lib/netstandard2.0/Microsoft.Diagnostics.NETCore.Client.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Microsoft.Diagnostics.Runtime/1.1.126102": {
         "type": "package",
         "compile": {
-          "lib/net45/Microsoft.Diagnostics.Runtime.dll": {}
+          "lib/net45/Microsoft.Diagnostics.Runtime.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/net45/Microsoft.Diagnostics.Runtime.dll": {}
+          "lib/net45/Microsoft.Diagnostics.Runtime.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "Microsoft.Diagnostics.Tracing.TraceEvent/2.0.61": {
@@ -1263,15 +1373,23 @@
         },
         "compile": {
           "lib/net45/Dia2Lib.dll": {},
-          "lib/net45/Microsoft.Diagnostics.FastSerialization.dll": {},
-          "lib/net45/Microsoft.Diagnostics.Tracing.TraceEvent.dll": {},
+          "lib/net45/Microsoft.Diagnostics.FastSerialization.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/Microsoft.Diagnostics.Tracing.TraceEvent.dll": {
+            "related": ".xml"
+          },
           "lib/net45/OSExtensions.dll": {},
           "lib/net45/TraceReloggerLib.dll": {}
         },
         "runtime": {
           "lib/net45/Dia2Lib.dll": {},
-          "lib/net45/Microsoft.Diagnostics.FastSerialization.dll": {},
-          "lib/net45/Microsoft.Diagnostics.Tracing.TraceEvent.dll": {},
+          "lib/net45/Microsoft.Diagnostics.FastSerialization.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/Microsoft.Diagnostics.Tracing.TraceEvent.dll": {
+            "related": ".xml"
+          },
           "lib/net45/OSExtensions.dll": {},
           "lib/net45/TraceReloggerLib.dll": {}
         },
@@ -1305,7 +1423,9 @@
           "mscorlib"
         ],
         "compile": {
-          "ref/net461/Microsoft.Win32.Registry.dll": {}
+          "ref/net461/Microsoft.Win32.Registry.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
           "runtimes/win/lib/net461/Microsoft.Win32.Registry.dll": {}
@@ -1338,10 +1458,14 @@
       "System.Buffers/4.4.0": {
         "type": "package",
         "compile": {
-          "ref/netstandard2.0/System.Buffers.dll": {}
+          "ref/netstandard2.0/System.Buffers.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/System.Buffers.dll": {}
+          "lib/netstandard2.0/System.Buffers.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Collections/4.3.0": {
@@ -1372,10 +1496,14 @@
       "System.Collections.Immutable/1.5.0": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/System.Collections.Immutable.dll": {}
+          "lib/netstandard2.0/System.Collections.Immutable.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/System.Collections.Immutable.dll": {}
+          "lib/netstandard2.0/System.Collections.Immutable.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Console/4.3.0": {
@@ -1559,10 +1687,14 @@
           "System.Runtime.CompilerServices.Unsafe": "4.5.2"
         },
         "compile": {
-          "lib/netstandard2.0/System.Memory.dll": {}
+          "lib/netstandard2.0/System.Memory.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/System.Memory.dll": {}
+          "lib/netstandard2.0/System.Memory.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Numerics.Vectors/4.4.0": {
@@ -1572,10 +1704,14 @@
           "mscorlib"
         ],
         "compile": {
-          "ref/net46/System.Numerics.Vectors.dll": {}
+          "ref/net46/System.Numerics.Vectors.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net46/System.Numerics.Vectors.dll": {}
+          "lib/net46/System.Numerics.Vectors.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Reflection/4.3.0": {
@@ -1614,10 +1750,14 @@
           "System.Collections.Immutable": "1.5.0"
         },
         "compile": {
-          "lib/netstandard2.0/System.Reflection.Metadata.dll": {}
+          "lib/netstandard2.0/System.Reflection.Metadata.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/System.Reflection.Metadata.dll": {}
+          "lib/netstandard2.0/System.Reflection.Metadata.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Resources.ResourceManager/4.3.0": {
@@ -1647,10 +1787,14 @@
       "System.Runtime.CompilerServices.Unsafe/4.5.2": {
         "type": "package",
         "compile": {
-          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Runtime.Extensions/4.3.0": {
@@ -1713,7 +1857,9 @@
           "mscorlib"
         ],
         "compile": {
-          "ref/net461/System.Security.AccessControl.dll": {}
+          "ref/net461/System.Security.AccessControl.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
           "runtimes/win/lib/net461/System.Security.AccessControl.dll": {}
@@ -1788,7 +1934,9 @@
           "mscorlib"
         ],
         "compile": {
-          "ref/net461/System.Security.Principal.Windows.dll": {}
+          "ref/net461/System.Security.Principal.Windows.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
           "runtimes/win/lib/net461/System.Security.Principal.Windows.dll": {}
@@ -1806,7 +1954,9 @@
       "System.Text.Encoding.CodePages/4.3.0": {
         "type": "package",
         "compile": {
-          "ref/netstandard1.3/_._": {}
+          "ref/netstandard1.3/_._": {
+            "related": ".xml"
+          }
         },
         "runtime": {
           "runtimes/win/lib/netstandard1.3/System.Text.Encoding.CodePages.dll": {}
@@ -1852,10 +2002,14 @@
           "System.Runtime.CompilerServices.Unsafe": "4.5.2"
         },
         "compile": {
-          "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
+          "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
+          "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Threading.Tasks.Parallel/4.3.0": {
@@ -1888,7 +2042,9 @@
           "ref/net47/System.ValueTuple.dll": {}
         },
         "runtime": {
-          "lib/net47/System.ValueTuple.dll": {}
+          "lib/net47/System.ValueTuple.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Xml.ReaderWriter/4.3.0": {
@@ -1990,37 +2146,53 @@
           "System.ValueTuple": "4.5.0"
         },
         "compile": {
-          "lib/netstandard2.0/BenchmarkDotNet.dll": {}
+          "lib/netstandard2.0/BenchmarkDotNet.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/BenchmarkDotNet.dll": {}
+          "lib/netstandard2.0/BenchmarkDotNet.dll": {
+            "related": ".xml"
+          }
         }
       },
       "BenchmarkDotNet.Annotations/0.13.1": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/BenchmarkDotNet.Annotations.dll": {}
+          "lib/netstandard2.0/BenchmarkDotNet.Annotations.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/BenchmarkDotNet.Annotations.dll": {}
+          "lib/netstandard2.0/BenchmarkDotNet.Annotations.dll": {
+            "related": ".xml"
+          }
         }
       },
       "CommandLineParser/2.4.3": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/CommandLine.dll": {}
+          "lib/netstandard2.0/CommandLine.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/CommandLine.dll": {}
+          "lib/netstandard2.0/CommandLine.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Iced/1.8.0": {
         "type": "package",
         "compile": {
-          "lib/net45/Iced.dll": {}
+          "lib/net45/Iced.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net45/Iced.dll": {}
+          "lib/net45/Iced.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Microsoft.CodeAnalysis.Analyzers/2.6.1": {
@@ -2071,10 +2243,14 @@
           "System.Xml.XmlDocument": "4.3.0"
         },
         "compile": {
-          "lib/netstandard1.3/Microsoft.CodeAnalysis.dll": {}
+          "lib/netstandard1.3/Microsoft.CodeAnalysis.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/netstandard1.3/Microsoft.CodeAnalysis.dll": {}
+          "lib/netstandard1.3/Microsoft.CodeAnalysis.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "resource": {
           "lib/netstandard1.3/cs/Microsoft.CodeAnalysis.resources.dll": {
@@ -2124,10 +2300,14 @@
           "Microsoft.CodeAnalysis.Common": "[2.10.0]"
         },
         "compile": {
-          "lib/netstandard1.3/Microsoft.CodeAnalysis.CSharp.dll": {}
+          "lib/netstandard1.3/Microsoft.CodeAnalysis.CSharp.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/netstandard1.3/Microsoft.CodeAnalysis.CSharp.dll": {}
+          "lib/netstandard1.3/Microsoft.CodeAnalysis.CSharp.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "resource": {
           "lib/netstandard1.3/cs/Microsoft.CodeAnalysis.CSharp.resources.dll": {
@@ -2174,19 +2354,27 @@
       "Microsoft.Diagnostics.NETCore.Client/0.2.61701": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/Microsoft.Diagnostics.NETCore.Client.dll": {}
+          "lib/netstandard2.0/Microsoft.Diagnostics.NETCore.Client.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.Diagnostics.NETCore.Client.dll": {}
+          "lib/netstandard2.0/Microsoft.Diagnostics.NETCore.Client.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Microsoft.Diagnostics.Runtime/1.1.126102": {
         "type": "package",
         "compile": {
-          "lib/net45/Microsoft.Diagnostics.Runtime.dll": {}
+          "lib/net45/Microsoft.Diagnostics.Runtime.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/net45/Microsoft.Diagnostics.Runtime.dll": {}
+          "lib/net45/Microsoft.Diagnostics.Runtime.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "Microsoft.Diagnostics.Tracing.TraceEvent/2.0.61": {
@@ -2196,15 +2384,23 @@
         },
         "compile": {
           "lib/net45/Dia2Lib.dll": {},
-          "lib/net45/Microsoft.Diagnostics.FastSerialization.dll": {},
-          "lib/net45/Microsoft.Diagnostics.Tracing.TraceEvent.dll": {},
+          "lib/net45/Microsoft.Diagnostics.FastSerialization.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/Microsoft.Diagnostics.Tracing.TraceEvent.dll": {
+            "related": ".xml"
+          },
           "lib/net45/OSExtensions.dll": {},
           "lib/net45/TraceReloggerLib.dll": {}
         },
         "runtime": {
           "lib/net45/Dia2Lib.dll": {},
-          "lib/net45/Microsoft.Diagnostics.FastSerialization.dll": {},
-          "lib/net45/Microsoft.Diagnostics.Tracing.TraceEvent.dll": {},
+          "lib/net45/Microsoft.Diagnostics.FastSerialization.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/Microsoft.Diagnostics.Tracing.TraceEvent.dll": {
+            "related": ".xml"
+          },
           "lib/net45/OSExtensions.dll": {},
           "lib/net45/TraceReloggerLib.dll": {}
         },
@@ -2238,7 +2434,9 @@
           "mscorlib"
         ],
         "compile": {
-          "ref/net461/Microsoft.Win32.Registry.dll": {}
+          "ref/net461/Microsoft.Win32.Registry.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
           "lib/net461/Microsoft.Win32.Registry.dll": {}
@@ -2271,10 +2469,14 @@
       "System.Buffers/4.4.0": {
         "type": "package",
         "compile": {
-          "ref/netstandard2.0/System.Buffers.dll": {}
+          "ref/netstandard2.0/System.Buffers.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/System.Buffers.dll": {}
+          "lib/netstandard2.0/System.Buffers.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Collections/4.3.0": {
@@ -2305,10 +2507,14 @@
       "System.Collections.Immutable/1.5.0": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/System.Collections.Immutable.dll": {}
+          "lib/netstandard2.0/System.Collections.Immutable.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/System.Collections.Immutable.dll": {}
+          "lib/netstandard2.0/System.Collections.Immutable.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Console/4.3.0": {
@@ -2492,10 +2698,14 @@
           "System.Runtime.CompilerServices.Unsafe": "4.5.2"
         },
         "compile": {
-          "lib/netstandard2.0/System.Memory.dll": {}
+          "lib/netstandard2.0/System.Memory.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/System.Memory.dll": {}
+          "lib/netstandard2.0/System.Memory.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Numerics.Vectors/4.4.0": {
@@ -2505,10 +2715,14 @@
           "mscorlib"
         ],
         "compile": {
-          "ref/net46/System.Numerics.Vectors.dll": {}
+          "ref/net46/System.Numerics.Vectors.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net46/System.Numerics.Vectors.dll": {}
+          "lib/net46/System.Numerics.Vectors.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Reflection/4.3.0": {
@@ -2547,10 +2761,14 @@
           "System.Collections.Immutable": "1.5.0"
         },
         "compile": {
-          "lib/netstandard2.0/System.Reflection.Metadata.dll": {}
+          "lib/netstandard2.0/System.Reflection.Metadata.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/System.Reflection.Metadata.dll": {}
+          "lib/netstandard2.0/System.Reflection.Metadata.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Resources.ResourceManager/4.3.0": {
@@ -2580,10 +2798,14 @@
       "System.Runtime.CompilerServices.Unsafe/4.5.2": {
         "type": "package",
         "compile": {
-          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Runtime.Extensions/4.3.0": {
@@ -2646,7 +2868,9 @@
           "mscorlib"
         ],
         "compile": {
-          "ref/net461/System.Security.AccessControl.dll": {}
+          "ref/net461/System.Security.AccessControl.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
           "lib/net461/System.Security.AccessControl.dll": {}
@@ -2721,7 +2945,9 @@
           "mscorlib"
         ],
         "compile": {
-          "ref/net461/System.Security.Principal.Windows.dll": {}
+          "ref/net461/System.Security.Principal.Windows.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
           "lib/net461/System.Security.Principal.Windows.dll": {}
@@ -2739,7 +2965,9 @@
       "System.Text.Encoding.CodePages/4.3.0": {
         "type": "package",
         "compile": {
-          "ref/netstandard1.3/_._": {}
+          "ref/netstandard1.3/_._": {
+            "related": ".xml"
+          }
         },
         "runtime": {
           "lib/net46/System.Text.Encoding.CodePages.dll": {}
@@ -2785,10 +3013,14 @@
           "System.Runtime.CompilerServices.Unsafe": "4.5.2"
         },
         "compile": {
-          "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
+          "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
+          "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Threading.Tasks.Parallel/4.3.0": {
@@ -2821,7 +3053,9 @@
           "ref/net47/System.ValueTuple.dll": {}
         },
         "runtime": {
-          "lib/net47/System.ValueTuple.dll": {}
+          "lib/net47/System.ValueTuple.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Xml.ReaderWriter/4.3.0": {
@@ -2923,37 +3157,53 @@
           "System.ValueTuple": "4.5.0"
         },
         "compile": {
-          "lib/netstandard2.0/BenchmarkDotNet.dll": {}
+          "lib/netstandard2.0/BenchmarkDotNet.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/BenchmarkDotNet.dll": {}
+          "lib/netstandard2.0/BenchmarkDotNet.dll": {
+            "related": ".xml"
+          }
         }
       },
       "BenchmarkDotNet.Annotations/0.13.1": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/BenchmarkDotNet.Annotations.dll": {}
+          "lib/netstandard2.0/BenchmarkDotNet.Annotations.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/BenchmarkDotNet.Annotations.dll": {}
+          "lib/netstandard2.0/BenchmarkDotNet.Annotations.dll": {
+            "related": ".xml"
+          }
         }
       },
       "CommandLineParser/2.4.3": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/CommandLine.dll": {}
+          "lib/netstandard2.0/CommandLine.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/CommandLine.dll": {}
+          "lib/netstandard2.0/CommandLine.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Iced/1.8.0": {
         "type": "package",
         "compile": {
-          "lib/net45/Iced.dll": {}
+          "lib/net45/Iced.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net45/Iced.dll": {}
+          "lib/net45/Iced.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Microsoft.CodeAnalysis.Analyzers/2.6.1": {
@@ -3004,10 +3254,14 @@
           "System.Xml.XmlDocument": "4.3.0"
         },
         "compile": {
-          "lib/netstandard1.3/Microsoft.CodeAnalysis.dll": {}
+          "lib/netstandard1.3/Microsoft.CodeAnalysis.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/netstandard1.3/Microsoft.CodeAnalysis.dll": {}
+          "lib/netstandard1.3/Microsoft.CodeAnalysis.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "resource": {
           "lib/netstandard1.3/cs/Microsoft.CodeAnalysis.resources.dll": {
@@ -3057,10 +3311,14 @@
           "Microsoft.CodeAnalysis.Common": "[2.10.0]"
         },
         "compile": {
-          "lib/netstandard1.3/Microsoft.CodeAnalysis.CSharp.dll": {}
+          "lib/netstandard1.3/Microsoft.CodeAnalysis.CSharp.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/netstandard1.3/Microsoft.CodeAnalysis.CSharp.dll": {}
+          "lib/netstandard1.3/Microsoft.CodeAnalysis.CSharp.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "resource": {
           "lib/netstandard1.3/cs/Microsoft.CodeAnalysis.CSharp.resources.dll": {
@@ -3107,19 +3365,27 @@
       "Microsoft.Diagnostics.NETCore.Client/0.2.61701": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/Microsoft.Diagnostics.NETCore.Client.dll": {}
+          "lib/netstandard2.0/Microsoft.Diagnostics.NETCore.Client.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.Diagnostics.NETCore.Client.dll": {}
+          "lib/netstandard2.0/Microsoft.Diagnostics.NETCore.Client.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Microsoft.Diagnostics.Runtime/1.1.126102": {
         "type": "package",
         "compile": {
-          "lib/net45/Microsoft.Diagnostics.Runtime.dll": {}
+          "lib/net45/Microsoft.Diagnostics.Runtime.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/net45/Microsoft.Diagnostics.Runtime.dll": {}
+          "lib/net45/Microsoft.Diagnostics.Runtime.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "Microsoft.Diagnostics.Tracing.TraceEvent/2.0.61": {
@@ -3129,15 +3395,23 @@
         },
         "compile": {
           "lib/net45/Dia2Lib.dll": {},
-          "lib/net45/Microsoft.Diagnostics.FastSerialization.dll": {},
-          "lib/net45/Microsoft.Diagnostics.Tracing.TraceEvent.dll": {},
+          "lib/net45/Microsoft.Diagnostics.FastSerialization.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/Microsoft.Diagnostics.Tracing.TraceEvent.dll": {
+            "related": ".xml"
+          },
           "lib/net45/OSExtensions.dll": {},
           "lib/net45/TraceReloggerLib.dll": {}
         },
         "runtime": {
           "lib/net45/Dia2Lib.dll": {},
-          "lib/net45/Microsoft.Diagnostics.FastSerialization.dll": {},
-          "lib/net45/Microsoft.Diagnostics.Tracing.TraceEvent.dll": {},
+          "lib/net45/Microsoft.Diagnostics.FastSerialization.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/Microsoft.Diagnostics.Tracing.TraceEvent.dll": {
+            "related": ".xml"
+          },
           "lib/net45/OSExtensions.dll": {},
           "lib/net45/TraceReloggerLib.dll": {}
         },
@@ -3171,7 +3445,9 @@
           "mscorlib"
         ],
         "compile": {
-          "ref/net461/Microsoft.Win32.Registry.dll": {}
+          "ref/net461/Microsoft.Win32.Registry.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
           "lib/net461/Microsoft.Win32.Registry.dll": {}
@@ -3204,10 +3480,14 @@
       "System.Buffers/4.4.0": {
         "type": "package",
         "compile": {
-          "ref/netstandard2.0/System.Buffers.dll": {}
+          "ref/netstandard2.0/System.Buffers.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/System.Buffers.dll": {}
+          "lib/netstandard2.0/System.Buffers.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Collections/4.3.0": {
@@ -3238,10 +3518,14 @@
       "System.Collections.Immutable/1.5.0": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/System.Collections.Immutable.dll": {}
+          "lib/netstandard2.0/System.Collections.Immutable.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/System.Collections.Immutable.dll": {}
+          "lib/netstandard2.0/System.Collections.Immutable.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Console/4.3.0": {
@@ -3425,10 +3709,14 @@
           "System.Runtime.CompilerServices.Unsafe": "4.5.2"
         },
         "compile": {
-          "lib/netstandard2.0/System.Memory.dll": {}
+          "lib/netstandard2.0/System.Memory.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/System.Memory.dll": {}
+          "lib/netstandard2.0/System.Memory.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Numerics.Vectors/4.4.0": {
@@ -3438,10 +3726,14 @@
           "mscorlib"
         ],
         "compile": {
-          "ref/net46/System.Numerics.Vectors.dll": {}
+          "ref/net46/System.Numerics.Vectors.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net46/System.Numerics.Vectors.dll": {}
+          "lib/net46/System.Numerics.Vectors.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Reflection/4.3.0": {
@@ -3480,10 +3772,14 @@
           "System.Collections.Immutable": "1.5.0"
         },
         "compile": {
-          "lib/netstandard2.0/System.Reflection.Metadata.dll": {}
+          "lib/netstandard2.0/System.Reflection.Metadata.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/System.Reflection.Metadata.dll": {}
+          "lib/netstandard2.0/System.Reflection.Metadata.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Resources.ResourceManager/4.3.0": {
@@ -3513,10 +3809,14 @@
       "System.Runtime.CompilerServices.Unsafe/4.5.2": {
         "type": "package",
         "compile": {
-          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Runtime.Extensions/4.3.0": {
@@ -3579,7 +3879,9 @@
           "mscorlib"
         ],
         "compile": {
-          "ref/net461/System.Security.AccessControl.dll": {}
+          "ref/net461/System.Security.AccessControl.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
           "lib/net461/System.Security.AccessControl.dll": {}
@@ -3654,7 +3956,9 @@
           "mscorlib"
         ],
         "compile": {
-          "ref/net461/System.Security.Principal.Windows.dll": {}
+          "ref/net461/System.Security.Principal.Windows.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
           "lib/net461/System.Security.Principal.Windows.dll": {}
@@ -3672,7 +3976,9 @@
       "System.Text.Encoding.CodePages/4.3.0": {
         "type": "package",
         "compile": {
-          "ref/netstandard1.3/_._": {}
+          "ref/netstandard1.3/_._": {
+            "related": ".xml"
+          }
         },
         "runtime": {
           "lib/net46/System.Text.Encoding.CodePages.dll": {}
@@ -3718,10 +4024,14 @@
           "System.Runtime.CompilerServices.Unsafe": "4.5.2"
         },
         "compile": {
-          "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
+          "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
+          "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Threading.Tasks.Parallel/4.3.0": {
@@ -3754,7 +4064,9 @@
           "ref/net47/System.ValueTuple.dll": {}
         },
         "runtime": {
-          "lib/net47/System.ValueTuple.dll": {}
+          "lib/net47/System.ValueTuple.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Xml.ReaderWriter/4.3.0": {
@@ -6844,20 +7156,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Сараев Даниил\\.nuget\\packages\\": {}
+    "C:\\Users\\User\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Repository\\DS.WindowsApp.Tests\\Benchmark\\Benchmark.csproj",
+      "projectUniqueName": "D:\\Reposotory\\DS.WindowsApp.Tests\\Benchmark\\Benchmark.csproj",
       "projectName": "Benchmark",
-      "projectPath": "E:\\Repository\\DS.WindowsApp.Tests\\Benchmark\\Benchmark.csproj",
-      "packagesPath": "C:\\Users\\Сараев Даниил\\.nuget\\packages\\",
-      "outputPath": "E:\\Repository\\DS.WindowsApp.Tests\\Benchmark\\obj\\",
+      "projectPath": "D:\\Reposotory\\DS.WindowsApp.Tests\\Benchmark\\Benchmark.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "D:\\Reposotory\\DS.WindowsApp.Tests\\Benchmark\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\Сараев Даниил\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6870,8 +7182,8 @@
       "frameworks": {
         "net48": {
           "projectReferences": {
-            "E:\\Repository\\DS.WindowsApp.Tests\\CollectionTest\\CollectionTest.csproj": {
-              "projectPath": "E:\\Repository\\DS.WindowsApp.Tests\\CollectionTest\\CollectionTest.csproj"
+            "D:\\Reposotory\\DS.WindowsApp.Tests\\CollectionTest\\CollectionTest.csproj": {
+              "projectPath": "D:\\Reposotory\\DS.WindowsApp.Tests\\CollectionTest\\CollectionTest.csproj"
             }
           }
         }

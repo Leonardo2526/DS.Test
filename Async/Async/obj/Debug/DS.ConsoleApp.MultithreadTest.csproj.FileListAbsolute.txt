@@ -11,3 +11,16 @@ E:\Repository\DS.WindowsApp.Tests\Async\Async\obj\Debug\DS.ConsoleApp.Multithrea
 E:\Repository\DS.WindowsApp.Tests\Async\Async\obj\Debug\DS.ConsoleApp.MultithreadTest.csproj.CopyComplete
 E:\Repository\DS.WindowsApp.Tests\Async\Async\obj\Debug\Async.exe
 E:\Repository\DS.WindowsApp.Tests\Async\Async\obj\Debug\Async.pdb
+D:\Reposotory\DS.WindowsApp.Tests\Async\Async\obj\Debug\DS.ConsoleApp.MultithreadTest.csproj.AssemblyReference.cache
+D:\Reposotory\DS.WindowsApp.Tests\Async\Async\obj\Debug\DS.ConsoleApp.MultithreadTest.csproj.SuggestedBindingRedirects.cache
+D:\Reposotory\DS.WindowsApp.Tests\Async\Async\obj\Debug\DS.ConsoleApp.MultithreadTest.csproj.CoreCompileInputs.cache
+D:\Reposotory\DS.WindowsApp.Tests\Async\Async\obj\Debug\Async.exe
+D:\Reposotory\DS.WindowsApp.Tests\Async\Async\obj\Debug\Async.pdb
+D:\Reposotory\DS.WindowsApp.Tests\Async\Async\bin\Debug\Async.exe.config
+D:\Reposotory\DS.WindowsApp.Tests\Async\Async\bin\Debug\Async.exe
+D:\Reposotory\DS.WindowsApp.Tests\Async\Async\bin\Debug\Async.pdb
+D:\Reposotory\DS.WindowsApp.Tests\Async\Async\bin\Debug\DS.ClassLib.VarUtils.dll
+D:\Reposotory\DS.WindowsApp.Tests\Async\Async\bin\Debug\DS.ClassLib.FileSystemUtils.dll
+D:\Reposotory\DS.WindowsApp.Tests\Async\Async\bin\Debug\DS.ClassLib.VarUtils.pdb
+D:\Reposotory\DS.WindowsApp.Tests\Async\Async\bin\Debug\DS.ClassLib.FileSystemUtils.pdb
+D:\Reposotory\DS.WindowsApp.Tests\Async\Async\obj\Debug\DS.ConsoleApp.MultithreadTest.csproj.CopyComplete

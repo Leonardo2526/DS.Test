@@ -86,23 +86,36 @@ namespace DS.ConsoleApp.MultithreadTest.CancelTests
 
         }
 
+        private static object lockObject = new object();
+
         public async Task CreateTaskAsync()
         {
-            Console.WriteLine("MyTask() №{0} в потоке {1} запущен", Task.CurrentId, Thread.CurrentThread.ManagedThreadId);
+            Console.WriteLine($"MyTask №{Task.CurrentId} в потоке {Thread.CurrentThread.ManagedThreadId} запущен");
 
-            for (int count = 0; count < 10; count++)
+            Task task = Task.Run(() =>
             {
-                //Используем опрос
-                if (TotalSource is not null)
-                {
-                    TotalSource.Token.ThrowIfCancellationRequested();
-                }
-                InnerSource.Token.ThrowIfCancellationRequested();
 
-                await Task.Delay(500);
-                Console.WriteLine("В методе MyTask №{0} подсчет равен {1}. Поток {2}",
-                    Task.CurrentId, count, Thread.CurrentThread.ManagedThreadId);
-            }
+                lock (lockObject)
+                {
+                    for (int count = 0; count < 10; count++)
+                    {
+                        //Используем опрос
+                        if (TotalSource is not null)
+                        {
+                            TotalSource.Token.ThrowIfCancellationRequested();
+                        }
+                        InnerSource?.Token.ThrowIfCancellationRequested();
+
+                        Task.Delay(100).Wait();
+                        //lock (lockObject)
+                        {
+                            Console.WriteLine($"В методе MyTask №{Task.CurrentId} подсчет равен {count}. Поток {Thread.CurrentThread.ManagedThreadId}");
+
+                        }
+                    }
+                }
+            });
+            await task;
         }
 
         public async Task CreateTaskAsync1()
