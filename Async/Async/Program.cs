@@ -24,7 +24,7 @@ namespace DS.ConsoleApp.MultithreadTest
         //}
 
 
-        static void Main1(string[] args)
+        static void Main0(string[] args)
         {
             TaskTest.RunPrintNumbers();
             //TaskTest.RunAndWaitMultipleTasks_InterLocked();
@@ -39,9 +39,9 @@ namespace DS.ConsoleApp.MultithreadTest
         {
             Console.WriteLine($"Поток {Thread.CurrentThread.ManagedThreadId} из Main запущен\n");
 
-           Task task1 = new TestTask().CreateTaskAsync();
-           Task task2 = new TestTask().CreateTaskAsync();
-           Task task3 = new TestTask().CreateTaskAsync();
+           Task task1 = new TestTask().CreateTaskAsync1();
+           Task task2 = new TestTask().CreateTaskAsync1();
+           Task task3 = new TestTask().CreateTaskAsync1();
            await Task.WhenAll(task1, task2, task3);
 
             //Task task2 = Task.Run(() => ClientCancel.RunDS.ConsoleApp.MultithreadTest());

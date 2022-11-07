@@ -73,7 +73,7 @@ namespace DS.ConsoleApp.MultithreadTest.CancelTests
                 //InnerCancellationToken.Token.ThrowIfCancellationRequested();
 
                 await Task.Delay(500);
-                Console.WriteLine("В методе MyTask №{0} подсчет равен {1}. Поток {2}", 
+                Console.WriteLine("В методе MyTask №{0} подсчет равен {1}. Поток {2}",
                     Task.CurrentId, count, Thread.CurrentThread.ManagedThreadId);
 
                 //if (!cancelTok.IsCancellationRequested)
@@ -125,18 +125,17 @@ namespace DS.ConsoleApp.MultithreadTest.CancelTests
 
             for (int count = 0; count < 10; count++)
             {
-                //Используем опрос
-                if (TotalSource is not null)
-                {
-                    TotalSource.Token.ThrowIfCancellationRequested();
-                }
-                InnerSource.Token.ThrowIfCancellationRequested();
-
-                await Task.Delay(500);
-                Console.WriteLine("В методе MyTask №{0} подсчет равен {1}. Поток {2}",
-                    Task.CurrentId, count, Thread.CurrentThread.ManagedThreadId);
+                await GetTask(count);
             }
         }
+
+        private async Task GetTask(int count)
+        {
+            await Task.Delay(100);
+            Console.WriteLine($"В методе MyTask №{Task.CurrentId} подсчет равен {count}. " +
+                $"Поток {Thread.CurrentThread.ManagedThreadId}");
+        }
+
 
         public static void CreateAgregateException()
         {
@@ -155,7 +154,7 @@ namespace DS.ConsoleApp.MultithreadTest.CancelTests
                     return false; // Let anything else stop the application.
                 });
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
 
             }

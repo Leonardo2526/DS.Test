@@ -6332,19 +6332,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {}
+    "C:\\Users\\Сараев Даниил\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Reposotory\\DS.WindowsApp.Tests\\Singleton\\SingletonPattern.csproj",
+      "projectUniqueName": "E:\\Repository\\DS.WindowsApp.Tests\\Singleton\\SingletonPattern.csproj",
       "projectName": "SingletonPattern",
-      "projectPath": "D:\\Reposotory\\DS.WindowsApp.Tests\\Singleton\\SingletonPattern.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "D:\\Reposotory\\DS.WindowsApp.Tests\\Singleton\\obj\\",
+      "projectPath": "E:\\Repository\\DS.WindowsApp.Tests\\Singleton\\SingletonPattern.csproj",
+      "packagesPath": "C:\\Users\\Сараев Даниил\\.nuget\\packages\\",
+      "outputPath": "E:\\Repository\\DS.WindowsApp.Tests\\Singleton\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Сараев Даниил\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6403,7 +6403,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

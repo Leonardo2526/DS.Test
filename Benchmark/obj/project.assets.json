@@ -7156,20 +7156,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {}
+    "C:\\Users\\Сараев Даниил\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Reposotory\\DS.WindowsApp.Tests\\Benchmark\\Benchmark.csproj",
+      "projectUniqueName": "E:\\Repository\\DS.WindowsApp.Tests\\Benchmark\\Benchmark.csproj",
       "projectName": "Benchmark",
-      "projectPath": "D:\\Reposotory\\DS.WindowsApp.Tests\\Benchmark\\Benchmark.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "D:\\Reposotory\\DS.WindowsApp.Tests\\Benchmark\\obj\\",
+      "projectPath": "E:\\Repository\\DS.WindowsApp.Tests\\Benchmark\\Benchmark.csproj",
+      "packagesPath": "C:\\Users\\Сараев Даниил\\.nuget\\packages\\",
+      "outputPath": "E:\\Repository\\DS.WindowsApp.Tests\\Benchmark\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Сараев Даниил\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7182,8 +7182,8 @@
       "frameworks": {
         "net48": {
           "projectReferences": {
-            "D:\\Reposotory\\DS.WindowsApp.Tests\\CollectionTest\\CollectionTest.csproj": {
-              "projectPath": "D:\\Reposotory\\DS.WindowsApp.Tests\\CollectionTest\\CollectionTest.csproj"
+            "E:\\Repository\\DS.WindowsApp.Tests\\CollectionTest\\CollectionTest.csproj": {
+              "projectPath": "E:\\Repository\\DS.WindowsApp.Tests\\CollectionTest\\CollectionTest.csproj"
             }
           }
         }
