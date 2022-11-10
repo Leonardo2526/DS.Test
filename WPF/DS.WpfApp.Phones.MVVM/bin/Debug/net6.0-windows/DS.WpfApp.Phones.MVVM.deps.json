@@ -7,8 +7,33 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "DS.WpfApp.Phones.MVVM/1.0.0": {
+        "dependencies": {
+          "DS.ClassLib.Models": "1.0.0",
+          "DS.ClassLib.VarUtils": "1.0.0.0"
+        },
         "runtime": {
           "DS.WpfApp.Phones.MVVM.dll": {}
+        }
+      },
+      "DS.ClassLib.Models/1.0.0": {
+        "runtime": {
+          "DS.ClassLib.Models.dll": {}
+        }
+      },
+      "DS.ClassLib.VarUtils/1.0.0.0": {
+        "runtime": {
+          "DS.ClassLib.VarUtils.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "DS.ClassLib.FileSystemUtils/1.0.0.0": {
+        "runtime": {
+          "DS.ClassLib.FileSystemUtils.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
@@ -16,6 +41,21 @@
   "libraries": {
     "DS.WpfApp.Phones.MVVM/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DS.ClassLib.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DS.ClassLib.VarUtils/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DS.ClassLib.FileSystemUtils/1.0.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }

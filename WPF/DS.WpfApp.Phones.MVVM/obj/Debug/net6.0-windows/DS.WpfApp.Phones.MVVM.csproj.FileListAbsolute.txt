@@ -42,3 +42,10 @@ E:\Repository\DS.WindowsApp.Tests\WPF\DS.WpfApp.Phones.MVVM\obj\Debug\net6.0-win
 E:\Repository\DS.WindowsApp.Tests\WPF\DS.WpfApp.Phones.MVVM\obj\Debug\net6.0-windows\DS.WpfApp.Phones.MVVM.pdb
 E:\Repository\DS.WindowsApp.Tests\WPF\DS.WpfApp.Phones.MVVM\obj\Debug\net6.0-windows\DS.WpfApp.Phones.MVVM.genruntimeconfig.cache
 E:\Repository\DS.WindowsApp.Tests\WPF\DS.WpfApp.Phones.MVVM\obj\Debug\net6.0-windows\ref\DS.WpfApp.Phones.MVVM.dll
+E:\Repository\DS.WindowsApp.Tests\WPF\DS.WpfApp.Phones.MVVM\bin\Debug\net6.0-windows\DS.ClassLib.VarUtils.dll
+E:\Repository\DS.WindowsApp.Tests\WPF\DS.WpfApp.Phones.MVVM\bin\Debug\net6.0-windows\DS.ClassLib.FileSystemUtils.dll
+E:\Repository\DS.WindowsApp.Tests\WPF\DS.WpfApp.Phones.MVVM\bin\Debug\net6.0-windows\DS.ClassLib.VarUtils.pdb
+E:\Repository\DS.WindowsApp.Tests\WPF\DS.WpfApp.Phones.MVVM\bin\Debug\net6.0-windows\DS.ClassLib.FileSystemUtils.pdb
+E:\Repository\DS.WindowsApp.Tests\WPF\DS.WpfApp.Phones.MVVM\obj\Debug\net6.0-windows\DS.WpfApp.Phones.MVVM.csproj.CopyComplete
+E:\Repository\DS.WindowsApp.Tests\WPF\DS.WpfApp.Phones.MVVM\bin\Debug\net6.0-windows\DS.ClassLib.Models.dll
+E:\Repository\DS.WindowsApp.Tests\WPF\DS.WpfApp.Phones.MVVM\bin\Debug\net6.0-windows\DS.ClassLib.Models.pdb

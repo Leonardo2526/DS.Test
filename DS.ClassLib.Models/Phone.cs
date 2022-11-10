@@ -6,8 +6,9 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DS.WpfApp.Phones.MVVM.Model
+namespace DS.ClassLib.Models
 {
+
     public class Phone : INotifyPropertyChanged
     {
         private string title;
@@ -20,7 +21,7 @@ namespace DS.WpfApp.Phones.MVVM.Model
             set
             {
                 title = value;
-                OnPropertyChanged("Title");
+                OnPropertyChanged("Title1");
             }
         }
         public string Company
@@ -50,3 +51,4 @@ namespace DS.WpfApp.Phones.MVVM.Model
         }
     }
 }
+

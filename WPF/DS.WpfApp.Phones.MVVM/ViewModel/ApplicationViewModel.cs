@@ -1,4 +1,5 @@
-﻿using DS.WpfApp.Phones.MVVM.Model;
+﻿using DS.ClassLib.VarUtils;
+using DS.WpfApp.Phones.MVVM.Model;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -7,15 +8,16 @@ using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Input;
 
 namespace DS.WpfApp.Phones.MVVM.ViewModel
 {
     public class ApplicationViewModel : INotifyPropertyChanged
     {
-        private Phone selectedPhone;
+        private PhoneModel selectedPhone;
 
-        public ObservableCollection<Phone> Phones { get; set; }
-        public Phone SelectedPhone
+        public ObservableCollection<PhoneModel> Phones { get; set; }
+        public PhoneModel SelectedPhone
         {
             get { return selectedPhone; }
             set
@@ -27,14 +29,14 @@ namespace DS.WpfApp.Phones.MVVM.ViewModel
 
         public ApplicationViewModel()
         {
-            Phones = new ObservableCollection<Phone>
+            Phones = new ObservableCollection<PhoneModel>
             {
-                new Phone { Title="iPhone 7", Company="Apple", Price=56000 },
-                new Phone {Title="Galaxy S7 Edge", Company="Samsung", Price =60000 },
-                new Phone {Title="Elite x3", Company="HP", Price=56000 },
-                new Phone {Title="Mi5S", Company="Xiaomi", Price=35000 }
+                new PhoneModel { Title="iPhone 7", Company="Apple", Price=56000 },
+                new PhoneModel {Title="Galaxy S7 Edge", Company="Samsung", Price =60000 },
+                new PhoneModel {Title="Elite x3", Company="HP", Price=56000 },
+                new PhoneModel {Title="Mi5S", Company="Xiaomi", Price=35000 }
             };
-        }
+        }      
 
         public event PropertyChangedEventHandler PropertyChanged;
         public void OnPropertyChanged([CallerMemberName] string prop = "")

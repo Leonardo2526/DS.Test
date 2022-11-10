@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0-windows7.0": {}
+    "net6.0-windows7.0": {
+      "DS.ClassLib.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/DS.ClassLib.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DS.ClassLib.Models.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "DS.ClassLib.Models/1.0.0": {
+      "type": "project",
+      "path": "../../DS.ClassLib.Models/DS.ClassLib.Models.csproj",
+      "msbuildProject": "../../DS.ClassLib.Models/DS.ClassLib.Models.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0-windows7.0": []
+    "net6.0-windows7.0": [
+      "DS.ClassLib.Models >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Сараев Даниил\\.nuget\\packages\\": {}
@@ -33,7 +52,11 @@
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
-          "projectReferences": {}
+          "projectReferences": {
+            "E:\\Repository\\DS.WindowsApp.Tests\\DS.ClassLib.Models\\DS.ClassLib.Models.csproj": {
+              "projectPath": "E:\\Repository\\DS.WindowsApp.Tests\\DS.ClassLib.Models\\DS.ClassLib.Models.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
