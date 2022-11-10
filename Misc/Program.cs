@@ -18,7 +18,10 @@ namespace Misc
 
         static void Main(string[] args)
         {
-            PointTest.Run();
+            string s = "s";
+            new TestClass(s).Change();
+
+            Console.WriteLine(s);
             Console.ReadLine();
         }
 
@@ -28,6 +31,21 @@ namespace Misc
             int charLocation = line.IndexOf(symb, StringComparison.Ordinal);
 
             return charLocation;
+        }
+    }
+
+    public class TestClass
+    {
+        private string _s;
+
+        public TestClass(string s)
+        {
+            _s = s;
+        }
+
+        public void Change()
+        {
+            _s = "new s";
         }
     }
 
