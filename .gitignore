@@ -16,3 +16,6 @@
 /.vs/DS.WindowsApp.Tests/DesignTimeBuild/.dtbcache.v2
 /.vs/DS.WindowsApp.TestsWPF/DesignTimeBuild/.dtbcache.v2
 /WPF/DS.WpfApp.Phones.MVVM/obj/Debug/net6.0-windows/DS.WpfApp.Phones.MVVM_MarkupCompile.i.cache
+*.editorconfig
+*.v2
+*.cache

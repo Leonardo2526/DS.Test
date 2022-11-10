@@ -27,11 +27,9 @@ E:\Repository\DS.WindowsApp.Tests\WPF\DS.WpfApp.Phones.MVVM\bin\Debug\net6.0-win
 E:\Repository\DS.WindowsApp.Tests\WPF\DS.WpfApp.Phones.MVVM\bin\Debug\net6.0-windows\DS.WpfApp.Phones.MVVM.dll
 E:\Repository\DS.WindowsApp.Tests\WPF\DS.WpfApp.Phones.MVVM\bin\Debug\net6.0-windows\DS.WpfApp.Phones.MVVM.pdb
 E:\Repository\DS.WindowsApp.Tests\WPF\DS.WpfApp.Phones.MVVM\obj\Debug\net6.0-windows\DS.WpfApp.Phones.MVVM.csproj.AssemblyReference.cache
-E:\Repository\DS.WindowsApp.Tests\WPF\DS.WpfApp.Phones.MVVM\obj\Debug\net6.0-windows\View\UserControl2.g.cs
 E:\Repository\DS.WindowsApp.Tests\WPF\DS.WpfApp.Phones.MVVM\obj\Debug\net6.0-windows\App.g.cs
 E:\Repository\DS.WindowsApp.Tests\WPF\DS.WpfApp.Phones.MVVM\obj\Debug\net6.0-windows\DS.WpfApp.Phones.MVVM_MarkupCompile.cache
 E:\Repository\DS.WindowsApp.Tests\WPF\DS.WpfApp.Phones.MVVM\obj\Debug\net6.0-windows\DS.WpfApp.Phones.MVVM_MarkupCompile.lref
-E:\Repository\DS.WindowsApp.Tests\WPF\DS.WpfApp.Phones.MVVM\obj\Debug\net6.0-windows\View\UserControl2.baml
 E:\Repository\DS.WindowsApp.Tests\WPF\DS.WpfApp.Phones.MVVM\obj\Debug\net6.0-windows\DS.WpfApp.Phones.MVVM.g.resources
 E:\Repository\DS.WindowsApp.Tests\WPF\DS.WpfApp.Phones.MVVM\obj\Debug\net6.0-windows\DS.WpfApp.Phones.MVVM.GeneratedMSBuildEditorConfig.editorconfig
 E:\Repository\DS.WindowsApp.Tests\WPF\DS.WpfApp.Phones.MVVM\obj\Debug\net6.0-windows\DS.WpfApp.Phones.MVVM.AssemblyInfoInputs.cache
@@ -49,3 +47,8 @@ E:\Repository\DS.WindowsApp.Tests\WPF\DS.WpfApp.Phones.MVVM\bin\Debug\net6.0-win
 E:\Repository\DS.WindowsApp.Tests\WPF\DS.WpfApp.Phones.MVVM\obj\Debug\net6.0-windows\DS.WpfApp.Phones.MVVM.csproj.CopyComplete
 E:\Repository\DS.WindowsApp.Tests\WPF\DS.WpfApp.Phones.MVVM\bin\Debug\net6.0-windows\DS.ClassLib.Models.dll
 E:\Repository\DS.WindowsApp.Tests\WPF\DS.WpfApp.Phones.MVVM\bin\Debug\net6.0-windows\DS.ClassLib.Models.pdb
+E:\Repository\DS.WindowsApp.Tests\WPF\DS.WpfApp.Phones.MVVM\obj\Debug\net6.0-windows\View\PhoneView.g.cs
+E:\Repository\DS.WindowsApp.Tests\WPF\DS.WpfApp.Phones.MVVM\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+E:\Repository\DS.WindowsApp.Tests\WPF\DS.WpfApp.Phones.MVVM\obj\Debug\net6.0-windows\View\PhoneView.baml
+E:\Repository\DS.WindowsApp.Tests\WPF\DS.WpfApp.Phones.MVVM\obj\Debug\net6.0-windows\View\MainView.g.cs
+E:\Repository\DS.WindowsApp.Tests\WPF\DS.WpfApp.Phones.MVVM\obj\Debug\net6.0-windows\View\MainView.baml

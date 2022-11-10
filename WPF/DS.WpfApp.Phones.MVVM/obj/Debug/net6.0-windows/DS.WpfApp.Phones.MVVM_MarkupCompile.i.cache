@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 E:\Repository\DS.WindowsApp.Tests\WPF\DS.WpfApp.Phones.MVVM\App.xaml
-1-72318935
+2409262169
 
-7-1558835577
+91378932899
 196-1716830365
-View\UserControl2.xaml;
+View\MainView.xaml;View\PhoneView.xaml;
 
 False
 

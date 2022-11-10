@@ -6,7 +6,7 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DS.ClassLib.Models
+namespace DS.WpfApp.Phones.MVVM.Model
 {
 
     public class Phone : INotifyPropertyChanged

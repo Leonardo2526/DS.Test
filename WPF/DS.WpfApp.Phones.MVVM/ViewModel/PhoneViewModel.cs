@@ -1,16 +1,17 @@
 ﻿using DS.ClassLib.Models;
 using DS.ClassLib.VarUtils;
 using DS.ClassLib.VarUtils.Events;
+using DS.WpfApp.Phones.MVVM.Model;
 using System;
 using System.Windows;
 using System.Windows.Input;
 
-namespace DS.WpfApp.Phones.MVVM.Model
+namespace DS.WpfApp.Phones.MVVM.ViewModel
 {
-    public class PhoneModel : Phone, IEvent<EventType>
+    public class PhoneViewModel : Phone, IEvent<EventType>
     {
 
-        public PhoneModel()
+        public PhoneViewModel()
         {
             Event += Handler;
         }
@@ -19,12 +20,12 @@ namespace DS.WpfApp.Phones.MVVM.Model
         public ICommand Command1 => new RelayCommand(c =>
         {
             Event?.Invoke(this, EventType.Apply);
-            //MessageBox.Show(Title);
         });
 
         void Handler(object s, EventType eventType)
         {
-            MessageBox.Show(eventType.ToString());
+            MessageBox.Show($"Title: {Title}\n" +
+                $"EventType: {eventType}");
         }
     }
 }

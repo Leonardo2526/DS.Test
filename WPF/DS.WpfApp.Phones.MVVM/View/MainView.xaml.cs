@@ -6,9 +6,9 @@ namespace DS.WpfApp.Phones.MVVM.View
     /// <summary>
     /// Interaction logic for UserControl2.xaml
     /// </summary>
-    public partial class UserControl2 : Window
+    public partial class MainView : Window
     {
-        public UserControl2()
+        public MainView()
         {
             InitializeComponent();
             DataContext = new ApplicationViewModel();
