@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "vM4vhzScZ5e7VFDEdZ4qQzzwF3oqp+wcMHBsCg5jlBVMgzBLk4r5ZUqjXTb/U9K4bIs58YRTiUGCzi9jjs8okA==",
+  "dgSpecHash": "k/i5nnwu41xE9ZMVrEM+QN4KWc7z5+Lg5Oe6Msa+fiRL3mlC/yGk63HqTgLWSeIboSNEcCu0mb4hDPLRW8DMsQ==",
   "success": true,
   "projectFilePath": "E:\\Repository\\DS.WindowsApp.Tests\\Singleton\\SingletonPattern.csproj",
   "expectedPackageFiles": [
