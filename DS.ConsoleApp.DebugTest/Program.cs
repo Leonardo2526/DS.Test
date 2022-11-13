@@ -1,21 +1,23 @@
 ﻿using System.Collections.Specialized;
 using System.Configuration;
 using System.Diagnostics;
+using static DS.ConsoleApp.DebugTest.TestClass;
 
-NameValueCollection sAll;
-sAll = ConfigurationManager.AppSettings;
-foreach (string s in sAll.AllKeys)
-    Console.WriteLine("Key: " + s + " Value: " + sAll.Get(s));
+Debug.WriteLine("Start Main");
 
-Debug.AutoFlush = true;
+//Debug.AutoFlush = true;
 //Debug.IndentSize= 50;
 Debug.IndentLevel= 0;
 Debug.Indent();
-Debug.WriteLine("Entering Main");
-Console.WriteLine("Hello World.");
-Debug.WriteLine("Exiting Main");
+//Debugger.Break();
+//Debugger.Launch();
+
+//FailTest();
+WriteTest("test message");
+//Console.WriteLine("Hello World.");
+
+Trace.WriteLine("Executed");
+
 Debug.Unindent();
-
-Debug.WriteLine("Unindent");
-
 Console.ReadLine();
+
