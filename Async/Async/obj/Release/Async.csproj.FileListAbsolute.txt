@@ -1,6 +1,0 @@
-E:\Repository\DS.Test\Async\Async\bin\Release\Async.exe.config
-E:\Repository\DS.Test\Async\Async\bin\Release\Async.exe
-E:\Repository\DS.Test\Async\Async\bin\Release\Async.pdb
-E:\Repository\DS.Test\Async\Async\obj\Release\Async.csproj.CoreCompileInputs.cache
-E:\Repository\DS.Test\Async\Async\obj\Release\Async.exe
-E:\Repository\DS.Test\Async\Async\obj\Release\Async.pdb
