@@ -6,5 +6,9 @@
 *.editorconfig
 *.2
 *.json
+*.suo
+*.dll
+*.exe
+*.pdb
 bin/
 obj/
