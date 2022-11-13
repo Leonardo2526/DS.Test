@@ -1,7 +1,0 @@
-E:\Repository\DS.WindowsApp.Tests\Log\bin\Debug\Log.exe
-E:\Repository\DS.WindowsApp.Tests\Log\bin\Debug\Log.pdb
-E:\Repository\DS.WindowsApp.Tests\Log\obj\Debug\Log.csproj.AssemblyReference.cache
-E:\Repository\DS.WindowsApp.Tests\Log\obj\Debug\Log.csproj.CoreCompileInputs.cache
-E:\Repository\DS.WindowsApp.Tests\Log\obj\Debug\Log.exe
-E:\Repository\DS.WindowsApp.Tests\Log\obj\Debug\Log.pdb
-E:\Repository\DS.WindowsApp.Tests\Log\bin\Debug\Log.exe.config

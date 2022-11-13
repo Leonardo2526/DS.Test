@@ -1,7 +1,0 @@
-E:\Repository\DS.Test\DoubleToIntTest\bin\Release\DoubleToIntTest.exe.config
-E:\Repository\DS.Test\DoubleToIntTest\bin\Release\DoubleToIntTest.exe
-E:\Repository\DS.Test\DoubleToIntTest\bin\Release\DoubleToIntTest.pdb
-E:\Repository\DS.Test\DoubleToIntTest\obj\Release\DoubleToIntTest.csproj.AssemblyReference.cache
-E:\Repository\DS.Test\DoubleToIntTest\obj\Release\DoubleToIntTest.csproj.CoreCompileInputs.cache
-E:\Repository\DS.Test\DoubleToIntTest\obj\Release\DoubleToIntTest.exe
-E:\Repository\DS.Test\DoubleToIntTest\obj\Release\DoubleToIntTest.pdb
