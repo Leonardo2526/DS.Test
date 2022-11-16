@@ -8,10 +8,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\DS.ClassLib.Models\DS.ClassLib.Models.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Reference Include="DS.ClassLib.VarUtils">
       <HintPath>..\..\..\DS.CommonLib.Utils\DS.ClassLib.VarUtils\bin\Debug\DS.ClassLib.VarUtils.dll</HintPath>
     </Reference>
