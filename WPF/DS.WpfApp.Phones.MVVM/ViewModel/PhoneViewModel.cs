@@ -1,5 +1,4 @@
-﻿using DS.ClassLib.Models;
-using DS.ClassLib.VarUtils;
+﻿using DS.ClassLib.VarUtils;
 using DS.ClassLib.VarUtils.Events;
 using DS.WpfApp.Phones.MVVM.Model;
 using System;

@@ -30,6 +30,9 @@
             <Button Style="{StaticResource DS_Button}" Command="{Binding AddItem}">
                 <TextBlock TextWrapping="Wrap" TextAlignment="Center">Add new item</TextBlock>
             </Button>
+            <Button Style="{StaticResource DS_Button}" Command="{Binding ChangeList}">
+                <TextBlock TextWrapping="Wrap" TextAlignment="Center">ChangeList</TextBlock>
+            </Button>
             <ListBox x:Name="CollectionsListBox" ItemsSource="{Binding Objects}"                     
                      MinHeight="100" Height="Auto">
                 <ListBox.ItemTemplate>

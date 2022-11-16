@@ -7,6 +7,7 @@ using System.ComponentModel;
 using System.Diagnostics;
 using System.Linq;
 using System.Runtime.CompilerServices;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
@@ -17,15 +18,6 @@ namespace DS.WpfApp.CollectionTest.ViewModel
 {
     public class MainWindowViewModel : INotifyPropertyChanged
     {
-        //private MyCollection1 _objects;
-
-        //public MyCollection1 Objects
-        //{
-        //    get { return _objects; }
-        //    set { _objects = value; OnPropertyChanged(nameof(ObjectModel1)); }
-        //}
-
-
         public MyCollection1 Objects { get; } = Class1.ObjectModels;
         public MyCollection1 Objects1 { get; } = Class1.ObjectModels1;
 
@@ -34,8 +26,7 @@ namespace DS.WpfApp.CollectionTest.ViewModel
 
         public MainWindowViewModel()
         {
-            //Objects = Class1.ObjectModels;
-            //Objects = new MyCollection1();
+         
         }
 
         public string Text
@@ -52,15 +43,30 @@ namespace DS.WpfApp.CollectionTest.ViewModel
 
         public ICommand AddItem => new RelayCommand(o =>
         {
-            var items = new List<string>() { "1", "2", "3" };
+            var items = new List<string>() { "3", "2", "1" };
             foreach (var item in items)
             {
                 Class1.ObjectModels.AddItem(item);
                 if (item == "1")
                 {
-                    Class1.ObjectModels1.AddItem(item);
+                    //Class1.ObjectModels1.AddItem(item);
                 }
             }
+            Class1.Refresh(Class1.ObjectModels);
+        });
+
+        public ICommand ChangeList => new RelayCommand(o =>
+        {
+            foreach (var item in Class1.ObjectModels)
+            {
+                if (item.Name == "1")
+                {
+                    item.Name = "0";
+                    break;
+                }
+            }
+            //Class1.ObjectModels.Last().Name= "0";
+            Class1.Refresh(Class1.ObjectModels);
         });
 
         public event PropertyChangedEventHandler PropertyChanged;
