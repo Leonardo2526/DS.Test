@@ -25,7 +25,9 @@ namespace CollectionTest
 
         static void Main(string[] args)
         {
-            ClientGeneric1.Run();
+
+
+            SortDictionaryTest.Run();
 
             //GenericClient2.Run();
 

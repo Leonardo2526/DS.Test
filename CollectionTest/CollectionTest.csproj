@@ -121,6 +121,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Collections\StringNuberListCollection.cs" />
+    <Compile Include="SortDictionaryTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
