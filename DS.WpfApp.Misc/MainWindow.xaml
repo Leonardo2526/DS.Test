@@ -6,14 +6,11 @@
         xmlns:local="clr-namespace:DS.WpfApp.Misc"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800"
-        WindowStartupLocation="Manual" 
-        WindowStyle="SingleBorderWindow" Left="0">
+        WindowStartupLocation="Manual"
+        WindowStyle="SingleBorderWindow"
+        Initialized="Window_Initialized"
+        >
         <!--Loaded="Window_Loaded"--> 
     <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="317*"/>
-            <ColumnDefinition Width="483*"/>
-        </Grid.ColumnDefinitions>
-
     </Grid>
 </Window>
