@@ -6,6 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
+using System.Net.NetworkInformation;
 using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
@@ -14,22 +15,28 @@ namespace ConsoleApp2
 {
     internal static  class VerificationKey
     {
-            static string licenseKey = "HIZUI-TMURZ-DHVYE-WVPWB";
-            static string RSAPubKey = "<RSAKeyValue><Modulus>x8ylENxp18Nk5IOJL9D439AZifcdmVMjKcHPZJwOOhliSjX72KJBsl+EkwuKi6Dxe4jC3bNGi2qjA6nNvjhfTrYVsS8ULwxQMUPXkxmDhIizP6H7P3l7FYtxCZU5fslu1kYfqAYzWXh42lOYrrSRnspBylFIp7Dwut7OWaNlYkec3faqEVZZTyE9Qsefs/M7NqPihzTGVZkZ8ACWg4jbIPf1yRd6LRwEP23N52HCQSMV3VTU9ftZBtQ77tIl/KBNoiRD5wrTrNF3uNlbJGO8cyBR0nMdBgsOxky8LZBXqMj7K1u0WbZO5O1GMz+RXAJcAFv+UyqpJVr3Fcfb9xArpQ==</Modulus><Exponent>AQAB</Exponent></RSAKeyValue>";
+            //static string licenseKey = "ESDUT-GGBXN-XHNSL-DTMRQ";
+            //static string licenseKey = "HIZUI-TMURZ-DHVYE-WVPWB";
+        static string RSAPubKey = "<RSAKeyValue><Modulus>x8ylENxp18Nk5IOJL9D439AZifcdmVMjKcHPZJwOOhliSjX72KJBsl+EkwuKi6Dxe4jC3bNGi2qjA6nNvjhfTrYVsS8ULwxQMUPXkxmDhIizP6H7P3l7FYtxCZU5fslu1kYfqAYzWXh42lOYrrSRnspBylFIp7Dwut7OWaNlYkec3faqEVZZTyE9Qsefs/M7NqPihzTGVZkZ8ACWg4jbIPf1yRd6LRwEP23N52HCQSMV3VTU9ftZBtQ77tIl/KBNoiRD5wrTrNF3uNlbJGO8cyBR0nMdBgsOxky8LZBXqMj7K1u0WbZO5O1GMz+RXAJcAFv+UyqpJVr3Fcfb9xArpQ==</Modulus><Exponent>AQAB</Exponent></RSAKeyValue>";
             static string auth = "WyIzNjUxODExOCIsIlVSU1lrTks0anBjTVpJWDdGekJ1ZXNoSHBxS013bkw5UENkMi9qTGgiXQ==";
         static int productId = 18607;
 
-        public static void AcitvateKey1()
+        public static void AcitvateKey1(string licenseKey)
         {
             var result = Key.Activate(token: auth, parameters: new ActivateModel()
             {
                 Key = licenseKey,
                 ProductId = productId,  // <--  remember to change this to your Product Id
                 Sign = true,
-                MachineCode = Helpers.GetMachineCodePI(v: 2)
+                MachineCode = Helpers.GetMachineCodePI(v: 2),
+                
             });
 
-            if (result == null || result.Result == ResultType.Error ||
+            var machineCode = Helpers.GetMachineCodePI(v: 2);
+
+           
+
+                if (result == null || result.Result == ResultType.Error ||
                 !result.LicenseKey.HasValidSignature(RSAPubKey).IsValid())
             {
                 // an error occurred or the key is invalid or it cannot be activated
@@ -43,6 +50,13 @@ namespace ConsoleApp2
                 result.LicenseKey.SaveToFile();
             }
 
+        }
+
+        public static void GetPing()
+        {
+            Ping myPing = new Ping();
+            PingReply reply = myPing.Send("192.168.7.5", 10000);
+            Console.WriteLine("Status :  " + reply.Status + " \n Time : " + reply.RoundtripTime.ToString() + " \n Address : " + reply.Address);
         }
 
         public static void GetKeys()
@@ -69,7 +83,7 @@ namespace ConsoleApp2
             Console.ReadLine();
         }
 
-        public static void ActivateKey2()
+        public static void ActivateKey2(string licenseKey)
         {
             var result = Key.Activate(token: auth, parameters: new ActivateModel()
             {
@@ -115,10 +129,20 @@ namespace ConsoleApp2
         public static void OffLineVerification1()
         {
             var licensefile = new LicenseKey();
+            var machineCode = Helpers.GetMachineCodePI(v: 2);
+
+            //if (!Helpers.IsOnRightMachine(licensefile.LoadFromFile(), machineCode))
+            //{ Console.WriteLine("The license does not work."); }
+
+            //if (!licensefile.HasValidSignature(RSAPubKey).IsValid())
+            //{ Console.WriteLine("The license does not work."); }
 
             if (licensefile.LoadFromFile()
                           .HasValidSignature(RSAPubKey)
-                          .IsValid())
+                          .IsValid() && 
+                          Helpers.
+                          IsOnRightMachine(licensefile.
+                          LoadFromFile(), machineCode))
             {
                 Console.WriteLine("The license is valid!");
             }
@@ -150,7 +174,7 @@ namespace ConsoleApp2
             }
         }
 
-        public static void SaveLicense()
+        public static void SaveLicense(string licenseKey)
         {
 
             var license = new LicenseKey { ProductId = productId, Key = licenseKey };
