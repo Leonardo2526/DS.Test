@@ -11,6 +11,21 @@
                  Height="300"
                  WindowStartupLocation="CenterScreen"
                  mc:Ignorable="d">
+    <mah:MetroWindow.Resources>
+        <ResourceDictionary >
+            <FontFamily x:Key="Awesome">/OLMP.MEPAC.UI;component/Fonts/FontAwesome.ttf#FontAwesome</FontFamily>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Controls.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Fonts.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Colors.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Accents/Blue.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Accents/BaseLight.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Controls.AnimatedTabControl.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/DS.WpfApp.MetroTest;component/Button.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </mah:MetroWindow.Resources>
+    
     <Grid HorizontalAlignment="Left" Width="490" Margin="10,0,0,0">
         <mah:ProgressRing x:Name="ProgressR" HorizontalAlignment="Left" 
                           Margin="91,56,0,0" VerticalAlignment="Top"
@@ -31,5 +46,13 @@
                  TextWrapping="Wrap" 
                  Text="{Binding Path=Text}" 
                  VerticalAlignment="Top" Width="253"/>
+        <Button  Content="&#xf06e;"  
+                        Margin="2 0"
+                        Padding="3"
+                        FontFamily="{StaticResource Awesome}"
+                        Style="{StaticResource IconGrowButton}" 
+                        ToolTip="Начать исправление коллизии с автоматическим поиском точек."
+                        Height="100"
+                        />
     </Grid>
 </mah:MetroWindow>
