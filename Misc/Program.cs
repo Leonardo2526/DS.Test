@@ -10,6 +10,7 @@ using DS.ClassLib.VarUtils.Points;
 using System.Collections;
 using System.Runtime.Remoting.Messaging;
 using static System.Net.Mime.MediaTypeNames;
+using Misc.ReflectonsTest;
 
 namespace Misc
 {
@@ -18,10 +19,7 @@ namespace Misc
 
         static void Main(string[] args)
         {
-            string s = "s";
-            new TestClass(s).Change();
-
-            Console.WriteLine(s);
+            Reflections.GetAllTypes();
             Console.ReadLine();
         }
 
