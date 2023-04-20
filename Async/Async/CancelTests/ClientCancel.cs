@@ -140,7 +140,7 @@ namespace DS.ConsoleApp.MultithreadTest.CancelTests
         {
             foreach (var testTask in testTasks)
             {
-                    await Cancel.CancelTask(testTask.Task, testTask.TotalSource, "TotalSource");
+                    await TokenCatcher.CancelTask(testTask.Task, testTask.TotalSource, "TotalSource");
              
             }
         }
@@ -149,7 +149,7 @@ namespace DS.ConsoleApp.MultithreadTest.CancelTests
         {
             foreach (var testTask in testTasks)
             {
-                await Cancel.CancelTask(testTask.Task, testTask.InnerSource, "InnerSource");
+                await TokenCatcher.CancelTask(testTask.Task, testTask.InnerSource, "InnerSource");
                 testTask.InnerSource.Dispose();
             }
         }
@@ -159,12 +159,12 @@ namespace DS.ConsoleApp.MultithreadTest.CancelTests
         {
             if (testTask.TotalSource is null)
             {
-                await Cancel.CancelTask(testTask.Task, testTask.InnerSource, "InnerSource");
+                await TokenCatcher.CancelTask(testTask.Task, testTask.InnerSource, "InnerSource");
                 testTask.InnerSource.Dispose();
             }
             else
             {
-                await Cancel.CancelTask(testTask.Task, testTask.TotalSource, "TotalSource");
+                await TokenCatcher.CancelTask(testTask.Task, testTask.TotalSource, "TotalSource");
             }
         }
 

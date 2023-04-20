@@ -160,5 +160,22 @@ namespace DS.ConsoleApp.MultithreadTest.CancelTests
             }
         }
 
+        public async Task<int> CreateTaskAsync2()
+        {
+            InnerSource = new CancellationTokenSource();
+            Console.WriteLine("MyTask() №{0} в потоке {1} запущен", Task.CurrentId, Thread.CurrentThread.ManagedThreadId);
+            int count = 0;
+            for (count = 0; count < 10; count++)
+            {
+                if(count == 5) 
+                { InnerSource.Cancel(); }
+                InnerSource.Token.ThrowIfCancellationRequested();
+                await Task.Delay(300);
+                Console.WriteLine($"В методе MyTask №{Task.CurrentId} подсчет равен {count}. Поток {Thread.CurrentThread.ManagedThreadId}");
+            }
+
+            return count;
+        }
+
     }
 }

@@ -1,4 +1,5 @@
-﻿using DS.ClassLib.VarUtils;
+﻿using DS.ClassLib.FileSystemUtils;
+using DS.ClassLib.VarUtils;
 using DS.TraceUtils;
 using System;
 using System.Collections.Generic;
@@ -17,8 +18,8 @@ namespace Tracing
 
         static void Main(string[] args)
         {
-
-            TestLib();
+            new SerilogTest();
+            //TestLib();
 
             //TestInternal();
 

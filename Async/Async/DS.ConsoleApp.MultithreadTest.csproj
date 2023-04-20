@@ -51,7 +51,7 @@
   <ItemGroup>
     <Compile Include="AsyncTests.cs" />
     <Compile Include="CancelTests\ClientCancel.cs" />
-    <Compile Include="CancelTests\Cancel.cs" />
+    <Compile Include="CancelTests\TokenCatcher.cs" />
     <Compile Include="CancelTests\TestTasks.cs" />
     <Compile Include="CounterTest.cs" />
     <Compile Include="DeadLockTests\Account.cs" />
