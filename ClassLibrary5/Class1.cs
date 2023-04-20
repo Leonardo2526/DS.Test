@@ -67,5 +67,7 @@ namespace ClassLibrary5
 
             Log.Logger.Information("test");
         }
+
+
     }
 }
