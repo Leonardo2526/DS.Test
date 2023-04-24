@@ -19,7 +19,8 @@ namespace Misc
 
         static void Main(string[] args)
         {
-            Reflections.GetAllTypes();
+            new MongoTest();
+            //Reflections.GetAllTypes();
             Console.ReadLine();
         }
 

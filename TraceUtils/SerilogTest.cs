@@ -12,6 +12,7 @@ using System.Runtime.Remoting.Messaging;
 using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
+using System.Web.Script.Serialization;
 
 namespace Tracing
 {
@@ -22,13 +23,13 @@ namespace Tracing
 
         public SerilogTest()
         {
-            _person = new Person() { Name = "Danil", Age = 25 };
+            _person = new Person() { Name = "Bob", Age = 20 };
             _fruit = new[] { "Apple", "Pear", "Orange" };
 
             CreateLogger();
 
             //JsonLog();
-            DebugLog2();
+            DebugLog3();
             //LoadJson();
 
             Log.CloseAndFlush();
@@ -56,10 +57,14 @@ namespace Tracing
         }
 
         private void DebugLog2()
-        {            
+        {
             Log.Information("You are {@Name} of {@Age} age", _person.Name, _person.Age);
         }
 
+        private void DebugLog3()
+        {
+            Log.Information("You are {Person}", _person);
+        }
 
         private void JsonLog()
         {
@@ -81,7 +86,7 @@ namespace Tracing
 
         public void LoadJson()
         {
-            using (StreamReader reader = new StreamReader("./logs/app-20230420.json"))
+            using (StreamReader reader = new StreamReader("./logs/app-20230420_1.json"))
             {
                 string json = reader.ReadToEnd();
 
@@ -103,6 +108,43 @@ namespace Tracing
                 //foreach (Person item in items)
                 //{
                 //}
+            }
+        }
+
+        public static void JsonParser()
+        {
+            using (StreamReader reader = new StreamReader("./logs/app-20230420_many.json"))
+            {
+                string json = reader.ReadToEnd();
+                dynamic array = JsonConvert.DeserializeObject(json, typeof(object));
+                foreach (var item in array.collisions)
+                {
+                    Console.WriteLine("{0} {1}", item.el1Id, item.elName);
+                    //Console.WriteLine("{0} {1}", item.Name, item.Age);
+                }
+            }
+        }
+
+        public static void JsonParser1()
+        {
+            using (StreamReader reader = new StreamReader("./logs/app-20230424.json"))
+            {
+                string json = reader.ReadLine();
+                while(json != null)
+                {                 
+                    dynamic array = JObject.Parse(json);
+                    foreach (var item in array)
+                    {                 
+                        if(item.Name == "Person")
+                        {
+                            string j = JsonConvert.SerializeObject(item.Value);
+                            JObject result = JObject.Parse(j);
+                            Person person = result.ToObject<Person>();
+                            Console.WriteLine($"Name: {person.Name}, Age: {person.Age}");
+                        }
+                    }
+                    json = reader.ReadLine();
+                }
             }
         }
     }
