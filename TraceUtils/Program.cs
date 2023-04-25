@@ -18,8 +18,8 @@ namespace Tracing
 
         static void Main(string[] args)
         {
-            SerilogTest.JsonParser1();
-            //new SerilogTest();
+            //SerilogTest.JsonParser1();
+            new SerilogTest();
             //TestLib();
 
             //TestInternal();

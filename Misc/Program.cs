@@ -11,6 +11,7 @@ using System.Collections;
 using System.Runtime.Remoting.Messaging;
 using static System.Net.Mime.MediaTypeNames;
 using Misc.ReflectonsTest;
+using Unidecode.NET;
 
 namespace Misc
 {
@@ -19,7 +20,9 @@ namespace Misc
 
         static void Main(string[] args)
         {
-            new MongoTest();
+            //string s = "Привет ёжик Йогурт".Unidecode();
+            //Console.WriteLine(s);
+            //new MongoTest();
             //Reflections.GetAllTypes();
             Console.ReadLine();
         }

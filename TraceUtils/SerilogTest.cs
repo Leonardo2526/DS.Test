@@ -8,11 +8,13 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Net.Http;
 using System.Runtime.Remoting.Messaging;
 using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
 using System.Web.Script.Serialization;
+using System.Windows.Shapes;
 
 namespace Tracing
 {
@@ -23,7 +25,7 @@ namespace Tracing
 
         public SerilogTest()
         {
-            _person = new Person() { Name = "Bob", Age = 20 };
+            _person = new Person() { name = "Bob", age = 20 };
             _fruit = new[] { "Apple", "Pear", "Orange" };
 
             CreateLogger();
@@ -33,16 +35,18 @@ namespace Tracing
             //LoadJson();
 
             Log.CloseAndFlush();
+            //JsonParser1();
         }
 
         private void CreateLogger()
-        {
+        {         
             Log.Logger = new LoggerConfiguration()
-         .MinimumLevel.Debug()
-         .WriteTo.Console()
+           .MinimumLevel.Verbose()
+            .WriteTo.Console()
          .WriteTo.Debug()
          .WriteTo.File("logs\\my_log.log", rollingInterval: RollingInterval.Day)
-          .WriteTo.RollingFile(new CompactJsonFormatter(), "./logs/app-{Date}.json", Serilog.Events.LogEventLevel.Information)
+          //.WriteTo.RollingFile(new CompactJsonFormatter(), "./logs/app-{Date}.json", Serilog.Events.LogEventLevel.Information)      
+          //.WriteTo.Http(uri, null)
          .CreateLogger();
         }
 
@@ -58,12 +62,13 @@ namespace Tracing
 
         private void DebugLog2()
         {
-            Log.Information("You are {@Name} of {@Age} age", _person.Name, _person.Age);
+            Log.Information("You are {@Name} of {@Age} age", _person.name, _person.age);
         }
 
         private void DebugLog3()
         {
-            Log.Information("You are {Person}", _person);
+            Log.Verbose("You are {@Person}", _person);
+            Log.Logger.PostRequest(new HttpClient(), "addq", _person);
         }
 
         private void JsonLog()
@@ -76,7 +81,7 @@ namespace Tracing
 
             //Log.Information("Hello, {Name}", Environment.UserName);
 
-            Log.Information("Processing {@Person}", _person.Name);
+            Log.Information("Processing {@Person}", _person.name);
 
             //var fruit = new[] { "Apple", "Pear", "Orange" };
             //Log.Information("In my bowl I have {Fruit}", fruit);
@@ -104,7 +109,7 @@ namespace Tracing
                 //}
 
                 Person item = JsonConvert.DeserializeObject<Person>(json);
-                Console.WriteLine(item.Name + " - " + item.Age);
+                Console.WriteLine(item.name + " - " + item.age);
                 //foreach (Person item in items)
                 //{
                 //}
@@ -140,7 +145,8 @@ namespace Tracing
                             string j = JsonConvert.SerializeObject(item.Value);
                             JObject result = JObject.Parse(j);
                             Person person = result.ToObject<Person>();
-                            Console.WriteLine($"Name: {person.Name}, Age: {person.Age}");
+                            Console.WriteLine($"Name: {person.name}, Age: {person.age}");
+                            //LogExt.HTTPClient(new HttpClient(), "addq", person);
                         }
                     }
                     json = reader.ReadLine();
