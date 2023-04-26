@@ -150,6 +150,7 @@
     <Compile Include="ActivitiesRunner.cs" />
     <Compile Include="Activity1.cs" />
     <Compile Include="Activity2.cs" />
+    <Compile Include="CustomHttpClient.cs" />
     <Compile Include="LoggerSinkConfigurationExt.cs" />
     <Compile Include="ListenersTests.cs" />
     <Compile Include="Person.cs" />

@@ -25,8 +25,8 @@ namespace Tracing
 
         public SerilogTest()
         {
-            _person = new Person() { name = "Bob", age = 20 };
-            _fruit = new[] { "Apple", "Pear", "Orange" };
+            _person = new Person() { name = "Bob", age = 200 };
+            //_fruit = new[] { "Apple", "Pear", "Orange" };
 
             CreateLogger();
 
@@ -39,14 +39,25 @@ namespace Tracing
         }
 
         private void CreateLogger()
-        {         
+        {
+            var configuration = new ConfigurationBuilder()
+               .AddInMemoryCollection(new[]
+               {
+                    new KeyValuePair<string, string>("apiKey", "secret-api-key")
+               })
+               .Build();
+
             Log.Logger = new LoggerConfiguration()
            .MinimumLevel.Verbose()
             .WriteTo.Console()
          .WriteTo.Debug()
          .WriteTo.File("logs\\my_log.log", rollingInterval: RollingInterval.Day)
           //.WriteTo.RollingFile(new CompactJsonFormatter(), "./logs/app-{Date}.json", Serilog.Events.LogEventLevel.Information)      
-          //.WriteTo.Http(uri, null)
+          .WriteTo.Http(
+                    requestUri: "http://localhost:3000/addStream",
+                    queueLimitBytes: null,
+                    httpClient: new CustomHttpClient())
+                    //configuration: configuration)
          .CreateLogger();
         }
 
@@ -68,7 +79,7 @@ namespace Tracing
         private void DebugLog3()
         {
             Log.Verbose("You are {@Person}", _person);
-            Log.Logger.PostRequest(new HttpClient(), "addq", _person);
+            //Log.Logger.PostRequest(new HttpClient(), "addq", _person);
         }
 
         private void JsonLog()

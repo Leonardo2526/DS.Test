@@ -20,6 +20,15 @@ namespace Misc
 
         static void Main(string[] args)
         {
+            //PrincipalContext context = new PrincipalContext(ContextType.Domain, Environment.UserDomainName);
+            //string loginName = System.Security.Principal.WindowsIdentity.GetCurrent().Name;
+            //UserPrincipal user = UserPrincipal.FindByIdentity(context, loginName);
+            //var u = UserPrincipal.Current;
+            //string userName = u.Name; //=user.GivenName + " " + user.Surname;
+
+            //string userName = System.Security.Principal.WindowsIdentity.GetCurrent().Name;
+            string userName = Environment.UserName;
+            Console.WriteLine(userName);
             //string s = "Привет ёжик Йогурт".Unidecode();
             //Console.WriteLine(s);
             //new MongoTest();
