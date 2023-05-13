@@ -144,8 +144,12 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
+    <Reference Include="Unidecode.NET, Version=2.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Unidecode.NET.2.1.0\lib\netstandard2.0\Unidecode.NET.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AccountDoc.cs" />
     <Compile Include="ActivityBuilder.cs" />
     <Compile Include="ActivitiesRunner.cs" />
     <Compile Include="Activity1.cs" />

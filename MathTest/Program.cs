@@ -10,9 +10,10 @@ namespace MathTest
     {
         static void Main(string[] args)
         {
+            ConverationToSByteTest();
+            ConverationToIntTest();
 
-
-            Console.WriteLine(CompareTest());
+            //Console.WriteLine(CompareTest());
             Console.ReadLine();
         }
 
@@ -37,6 +38,24 @@ namespace MathTest
 
                 return d.CompareTo(c);
            
+        }
+
+        static void ConverationToSByteTest()
+        {
+            sbyte a = 1;
+            double b = Math.PI;
+            Console.WriteLine("a=" + a);
+            Console.WriteLine("b=" + b);
+            Console.WriteLine("Converted b= " + Convert.ToSByte(b));
+        }
+
+        static void ConverationToIntTest()
+        {
+            int a = 1;
+            double b = Math.PI;
+            Console.WriteLine("a=" + a);
+            Console.WriteLine("b=" + b);
+            Console.WriteLine("Converted b= " + Convert.ToSByte(b));
         }
     }
 }

@@ -21,11 +21,13 @@ namespace Tracing
     internal class SerilogTest
     {
         private readonly Person _person;
+        private readonly AccountDoc _accountDoc;
         private readonly string[] _fruit;
 
         public SerilogTest()
         {
             _person = new Person() { name = "Bob", age = 200 };
+            _accountDoc = new AccountDoc(123, 456, "Resolved", "RevitModel", "LinkModel");
             //_fruit = new[] { "Apple", "Pear", "Orange" };
 
             CreateLogger();
@@ -40,24 +42,24 @@ namespace Tracing
 
         private void CreateLogger()
         {
-            var configuration = new ConfigurationBuilder()
-               .AddInMemoryCollection(new[]
-               {
-                    new KeyValuePair<string, string>("apiKey", "secret-api-key")
-               })
-               .Build();
+            //var configuration = new ConfigurationBuilder()
+            //   .AddInMemoryCollection(new[]
+            //   {
+            //        new KeyValuePair<string, string>("apiKey", "secret-api-key")
+            //   })
+            //   .Build();
 
             Log.Logger = new LoggerConfiguration()
            .MinimumLevel.Verbose()
             .WriteTo.Console()
          .WriteTo.Debug()
          .WriteTo.File("logs\\my_log.log", rollingInterval: RollingInterval.Day)
-          //.WriteTo.RollingFile(new CompactJsonFormatter(), "./logs/app-{Date}.json", Serilog.Events.LogEventLevel.Information)      
           .WriteTo.Http(
-                    requestUri: "http://localhost:3000/addStream",
+                    requestUri: "http://localhost:3000/accountItem",
                     queueLimitBytes: null,
                     httpClient: new CustomHttpClient())
                     //configuration: configuration)
+          //.WriteTo.RollingFile(new CompactJsonFormatter(), "./logs/app-{Date}.json", Serilog.Events.LogEventLevel.Information)      
          .CreateLogger();
         }
 
@@ -78,7 +80,8 @@ namespace Tracing
 
         private void DebugLog3()
         {
-            Log.Verbose("You are {@Person}", _person);
+            Log.Verbose("{@AccountDoc} logged.", _accountDoc);
+            //Log.Verbose("You are {@Person}", _person);
             //Log.Logger.PostRequest(new HttpClient(), "addq", _person);
         }
 
