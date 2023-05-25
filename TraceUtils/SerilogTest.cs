@@ -23,6 +23,7 @@ namespace Tracing
         private readonly Person _person;
         private readonly AccountDoc _accountDoc;
         private readonly string[] _fruit;
+        private DateTime _dateTime = new DateTime();
 
         public SerilogTest()
         {
@@ -42,6 +43,8 @@ namespace Tracing
 
         private void CreateLogger()
         {
+            string timestamp = DateTime.Now.ToString("yyyyMMdd_HHmm");
+
             //var configuration = new ConfigurationBuilder()
             //   .AddInMemoryCollection(new[]
             //   {
@@ -53,13 +56,13 @@ namespace Tracing
            .MinimumLevel.Verbose()
             .WriteTo.Console()
          .WriteTo.Debug()
-         .WriteTo.File("logs\\my_log.log", rollingInterval: RollingInterval.Day)
-          .WriteTo.Http(
-                    requestUri: "http://localhost:3000/accountItem",
-                    queueLimitBytes: null,
-                    httpClient: new CustomHttpClient())
-                    //configuration: configuration)
-          //.WriteTo.RollingFile(new CompactJsonFormatter(), "./logs/app-{Date}.json", Serilog.Events.LogEventLevel.Information)      
+         .WriteTo.File("logs\\my_log.log", Serilog.Events.LogEventLevel.Information, rollingInterval: RollingInterval.Minute)
+         //.WriteTo.Http(
+         //          requestUri: "http://localhost:3000/accountItem",
+         //          queueLimitBytes: null,
+         //          httpClient: new CustomHttpClient())
+         //configuration: configuration)
+         //.WriteTo.RollingFile(new CompactJsonFormatter(), "./logs/app-{Date}.json", Serilog.Events.LogEventLevel.Verbose)
          .CreateLogger();
         }
 
@@ -80,7 +83,10 @@ namespace Tracing
 
         private void DebugLog3()
         {
-            Log.Verbose("{@AccountDoc} logged.", _accountDoc);
+            string timestamp = DateTime.Now.ToString("yyyyMMdd_HHmm");
+
+            Log.Information("{@statud} logged.", _accountDoc.Status);
+            //Log.Verbose("{@AccountDoc} logged.", _accountDoc);
             //Log.Verbose("You are {@Person}", _person);
             //Log.Logger.PostRequest(new HttpClient(), "addq", _person);
         }

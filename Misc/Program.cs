@@ -20,19 +20,10 @@ namespace Misc
 
         static void Main(string[] args)
         {
-            //PrincipalContext context = new PrincipalContext(ContextType.Domain, Environment.UserDomainName);
-            //string loginName = System.Security.Principal.WindowsIdentity.GetCurrent().Name;
-            //UserPrincipal user = UserPrincipal.FindByIdentity(context, loginName);
-            //var u = UserPrincipal.Current;
-            //string userName = u.Name; //=user.GivenName + " " + user.Surname;
+            var number = Math.PI;
+            var xs1 = (number / (number == 0 ? 1 : Math.Abs(number)));
 
-            //string userName = System.Security.Principal.WindowsIdentity.GetCurrent().Name;
-            string userName = Environment.UserName;
-            Console.WriteLine(userName);
-            //string s = "Привет ёжик Йогурт".Unidecode();
-            //Console.WriteLine(s);
-            //new MongoTest();
-            //Reflections.GetAllTypes();
+            Console.WriteLine(xs1);
             Console.ReadLine();
         }
 
@@ -52,6 +43,16 @@ namespace Misc
         public TestClass(string s)
         {
             _s = s;
+        }
+
+        public string Prop1 => GetString();
+
+        private string GetString()
+        {
+            var s = "GetString";
+            Console.WriteLine(s);
+
+            return s;
         }
 
         public void Change()

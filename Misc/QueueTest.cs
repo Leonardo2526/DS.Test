@@ -1,5 +1,8 @@
-﻿using System;
+﻿using DS.ClassLib.DataStructure;
+using System;
 using System.Collections.Generic;
+using System.Collections.Specialized;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -28,5 +31,25 @@ namespace Misc
             foreach (string item in queue)
                 Console.WriteLine(item);
         }
+
+        public static void ObservableQueueTest()
+        {
+            var queue = new ObservableQueue<int>();
+            queue.Enqueue(1);
+            queue.Enqueue(2);
+            queue.Enqueue(3);
+            queue.Enqueue(4);
+
+            Console.WriteLine("Queue count: " + queue.Count);
+
+            Console.WriteLine(queue.Dequeue());
+            Console.WriteLine(queue.Dequeue());
+            Console.WriteLine(queue.Dequeue());
+            Console.WriteLine(queue.Dequeue());
+
+            Console.WriteLine("Queue count: " + queue.Count);
+
+        }
+
     }
 }

@@ -36,6 +36,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="DS.ClassLib.DataStructure">
+      <HintPath>..\..\DS.CommonLib.Utils\DS.ClassLib.DataStructure\bin\Debug\DS.ClassLib.DataStructure.dll</HintPath>
+    </Reference>
     <Reference Include="DS.ClassLib.FileSystemUtils">
       <HintPath>..\..\DS.CommonLib.Utils\DS.ClassLib.FileSystemUtils\bin\Debug\DS.ClassLib.FileSystemUtils.dll</HintPath>
     </Reference>
@@ -45,6 +48,7 @@
     <Reference Include="DS.TraceUtils">
       <HintPath>..\..\DS.CommonLib.Utils\DS.TraceUtils\bin\Debug\DS.TraceUtils.dll</HintPath>
     </Reference>
+    <Reference Include="PresentationCore" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.DirectoryServices.AccountManagement" />
@@ -60,6 +64,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DataChangeClient.cs" />
+    <Compile Include="ListTest.cs" />
     <Compile Include="MessageTest\Creators\MessageStringCreator.cs" />
     <Compile Include="MessageTest\Creators\MessageCreator.cs" />
     <Compile Include="MessageTest\Log.cs" />

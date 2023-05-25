@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -8,10 +9,16 @@ namespace MathTest
 {
     class Program
     {
+        TestClass _test = new TestClass();
+
         static void Main(string[] args)
         {
-            ConverationToSByteTest();
-            ConverationToIntTest();
+            var t = new TestClass1();
+            t.Run2();
+
+          
+            //ConverationToSByteTest();
+            //ConverationToIntTest();
 
             //Console.WriteLine(CompareTest());
             Console.ReadLine();
@@ -56,6 +63,38 @@ namespace MathTest
             Console.WriteLine("a=" + a);
             Console.WriteLine("b=" + b);
             Console.WriteLine("Converted b= " + Convert.ToSByte(b));
+        }
+    }
+
+
+
+
+
+    class TestClass
+    {
+        public TestClass()
+        {
+            Console.WriteLine("TestClass ctor called!");
+        }
+    }
+
+    class TestClass1
+    {
+        //TestClass _test = new TestClass();
+        TestClass _testProp => new TestClass();
+
+        public void Run()
+        {
+            //Console.WriteLine(_test.ToString());
+            //Console.WriteLine(_test.ToString());
+            //Console.WriteLine(_test.ToString());
+        }
+
+        public void Run2()
+        {
+            var p= _testProp;
+            p = _testProp;
+            p = _testProp;
         }
     }
 }
