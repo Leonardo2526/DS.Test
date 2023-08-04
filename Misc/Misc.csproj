@@ -17,7 +17,7 @@
     <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
+    <PlatformTarget>x64</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -48,6 +48,9 @@
     <Reference Include="DS.TraceUtils">
       <HintPath>..\..\DS.CommonLib.Utils\DS.TraceUtils\bin\Debug\DS.TraceUtils.dll</HintPath>
     </Reference>
+    <Reference Include="MoreLinq, Version=4.1.0.0, Culture=neutral, PublicKeyToken=384d532d7e88985d, processorArchitecture=MSIL">
+      <HintPath>..\packages\morelinq.4.1.0\lib\netstandard2.0\MoreLinq.dll</HintPath>
+    </Reference>
     <Reference Include="PresentationCore" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -63,17 +66,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="TestBase.cs" />
     <Compile Include="DataChangeClient.cs" />
+    <Compile Include="DateTimeTest.cs" />
     <Compile Include="ListTest.cs" />
     <Compile Include="MessageTest\Creators\MessageStringCreator.cs" />
     <Compile Include="MessageTest\Creators\MessageCreator.cs" />
-    <Compile Include="MessageTest\Log.cs" />
     <Compile Include="LineIntersectionTest.cs" />
     <Compile Include="LoopBackward.cs" />
     <Compile Include="MessageTest\ClsnInfo.cs" />
     <Compile Include="MessageTest\Enums.cs" />
     <Compile Include="MessageTest\Message.cs" />
-    <Compile Include="MessageTest\MessagedOutput.cs" />
     <Compile Include="OperandTest.cs" />
     <Compile Include="PointsOrderTest.cs" />
     <Compile Include="PointTest.cs" />

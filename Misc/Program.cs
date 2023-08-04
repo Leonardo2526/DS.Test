@@ -1,17 +1,6 @@
-﻿using System;
+﻿using MoreLinq;
+using System;
 using System.Collections.Generic;
-using System.Linq;
-using Misc.MessageTest;
-using System.Diagnostics;
-using Misc.StaticClassTest;
-using System.Threading.Tasks;
-using DS.ClassLib.VarUtils;
-using DS.ClassLib.VarUtils.Points;
-using System.Collections;
-using System.Runtime.Remoting.Messaging;
-using static System.Net.Mime.MediaTypeNames;
-using Misc.ReflectonsTest;
-using Unidecode.NET;
 
 namespace Misc
 {
@@ -20,10 +9,18 @@ namespace Misc
 
         static void Main(string[] args)
         {
-            var number = Math.PI;
-            var xs1 = (number / (number == 0 ? 1 : Math.Abs(number)));
 
-            Console.WriteLine(xs1);
+            var classTest1 = ClassTest1.GetInstance();
+            classTest1.Name = "Test1";
+            classTest1.TestEnum = new List<string>() { "1",  "2" };
+            Console.WriteLine(classTest1.Name);
+
+            var classTest2 = ClassTest2.GetInstance();
+            classTest2.TestEnum.ForEach(x => Console.WriteLine("id " +x));
+            Console.WriteLine("classTest2: " + classTest2.Name);
+            classTest2.Name = "Test2";
+            Console.WriteLine("classTest2: " + classTest2.Name);
+
             Console.ReadLine();
         }
 
