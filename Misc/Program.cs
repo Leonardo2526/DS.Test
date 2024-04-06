@@ -10,16 +10,7 @@ namespace Misc
         static void Main(string[] args)
         {
 
-            var classTest1 = ClassTest1.GetInstance();
-            classTest1.Name = "Test1";
-            classTest1.TestEnum = new List<string>() { "1",  "2" };
-            Console.WriteLine(classTest1.Name);
-
-            var classTest2 = ClassTest2.GetInstance();
-            classTest2.TestEnum.ForEach(x => Console.WriteLine("id " +x));
-            Console.WriteLine("classTest2: " + classTest2.Name);
-            classTest2.Name = "Test2";
-            Console.WriteLine("classTest2: " + classTest2.Name);
+            ListTest.Run();
 
             Console.ReadLine();
         }

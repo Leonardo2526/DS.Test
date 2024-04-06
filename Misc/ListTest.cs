@@ -7,37 +7,27 @@ using System.Threading.Tasks;
 
 namespace Misc
 {
-    internal class ListTest
+    internal static class ListTest
     {
-        public ListTest(List<int> myList)
+        public static void Run()
         {
-            MyList = myList;
-            ListTest1 = new ListTest1(myList);
-        }
+            var l1 = new ListTest1(); 
+            l1.MyList = new List<int> { 1, 2 };
 
-        public List<int> MyList { get; set; }
-        public ListTest1 ListTest1 { get; }
+            var l2 = new ListTest1();
+            l2.MyList = l1.MyList;
+
+            l1.MyList.Add(3);
+        }
     }
 
     class ListTest1
     {
-        public ListTest1(List<int> myList)
-        {
-            MyList = myList;
-            ListTest11 = new ListTest11(myList);
-        }
-
-        public List<int> MyList { get; }
-        public ListTest11 ListTest11 { get; }
+        public List<int> MyList { get; set; }
     }
 
-    class ListTest11
-    {
-        public ListTest11(List<int> myList)
-        {
-            MyList = myList;
-        }
-
-        public List<int> MyList { get; }
+    class ListTest2
+    { 
+        public List<int> MyList { get; set; }
     }
 }

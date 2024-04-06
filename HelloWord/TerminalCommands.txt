@@ -1,0 +1,21 @@
+//build application
+csc.exe /out:Program.exe /t:exe Program.cs
+
+//build application with parameter file
+csc.exe $MyProject.rsp Program.cs
+
+//Create module
+csc.exe /t:module Program.cs
+
+//Build assembly
+csc /t:module RUT.cs
+csc /out:MultiFileLibrary.dll /t:library /addmodule:RUT.netmodule Program.cs
+csc /out:MultiFileApplication.exe /t:exe /addmodule:RUT.netmodule Program.cs
+
+
+//Build assembly with AL
+csc /t:module FUT.cs 
+csc /t:module RUT.cs 
+al /out:FUT_RUT_Library.dll /t:library FUT.netmodule RUT.netmodule 
+csc /t:module /r:FUT_RUT_Library.dll Program.cs
+al /out:Program.exe /t:exe /main:HelloWord.Program.Main Program.netmodule
