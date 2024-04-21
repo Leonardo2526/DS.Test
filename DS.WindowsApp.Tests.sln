@@ -89,6 +89,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DS.ConsoleApp.SimpleInjecto
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWord", "HelloWord\HelloWord.csproj", "{C9855363-7A77-43FD-93CB-C921A8C20EFE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DS.UnitsConvertTest", "DS.UnitsConvertTest\DS.UnitsConvertTest.csproj", "{66DE07A9-6846-4035-9E1E-73DB4ACF0E72}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -259,6 +261,10 @@ Global
 		{C9855363-7A77-43FD-93CB-C921A8C20EFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C9855363-7A77-43FD-93CB-C921A8C20EFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C9855363-7A77-43FD-93CB-C921A8C20EFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66DE07A9-6846-4035-9E1E-73DB4ACF0E72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66DE07A9-6846-4035-9E1E-73DB4ACF0E72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66DE07A9-6846-4035-9E1E-73DB4ACF0E72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66DE07A9-6846-4035-9E1E-73DB4ACF0E72}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

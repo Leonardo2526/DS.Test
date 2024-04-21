@@ -19,4 +19,5 @@ string s;
 
 //Console.WriteLine(XYZOperation.Collinears(a, b));
 Console.WriteLine(XYZOperation.Coplanarity(a, b, c));
+Console.ReadLine();
 

@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Diagnostics;
 
-[assembly: AssemblyFileVersion("1.1.0.0")]
+//[assembly: AssemblyFileVersion("1.1.0.0")]
 
 namespace HelloWord
 {

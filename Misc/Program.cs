@@ -10,7 +10,7 @@ namespace Misc
         static void Main(string[] args)
         {
 
-            ListTest.Run();
+          var p1 = new Point()
 
             Console.ReadLine();
         }
