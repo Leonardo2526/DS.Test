@@ -9,9 +9,6 @@ namespace Misc
 
         static void Main(string[] args)
         {
-
-          var p1 = new Point()
-
             Console.ReadLine();
         }
 

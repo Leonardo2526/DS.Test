@@ -35,6 +35,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Misc.OperatorOverloadTest</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="DS.ClassLib.DataStructure">
       <HintPath>..\..\DS.CommonLib.Utils\DS.ClassLib.DataStructure\bin\Debug\DS.ClassLib.DataStructure.dll</HintPath>
@@ -66,6 +69,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="OperatorOverloadTest.cs" />
+    <Compile Include="GlobalUsings.cs" />
     <Compile Include="TestBase.cs" />
     <Compile Include="DataChangeClient.cs" />
     <Compile Include="DateTimeTest.cs" />
