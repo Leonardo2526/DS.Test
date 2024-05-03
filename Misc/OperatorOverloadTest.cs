@@ -20,7 +20,7 @@ namespace Misc
             //Console.WriteLine(A.Item);
 
             var items2 = new List<OpIntRec>() { B, C };
-            var result = A + items2;
+            var result = A + B;
             Console.WriteLine(result);
 
             int resultInt = (int)result;
